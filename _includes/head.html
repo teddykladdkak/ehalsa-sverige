@@ -1,0 +1,57 @@
+<head>
+    {%- if page.description -%}
+        {%- assign description = page.description -%}
+    {%- else -%}
+        {%- assign description = site.description -%}
+    {%- endif -%}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}: {{ page.title }}</title>
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="alternate" type="application/atom+xml" title="RSS Feed för {{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
+    
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+    {%- if site.demo -%}
+        <!-- Verify website ownership -->
+        <meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
+        <meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
+        <meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
+        <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
+        <meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
+        <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+    {%- endif -%}
+
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="subject" content="{{ page.title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta name="description" content="{{ description }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta property="og:locale" content="{{ page.lang | default: site.lang | default: "sv" }}">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+
+    <meta property="og:type" content="website">
+    {%- if page.tags -%}
+        <meta name="keywords" content="{% for tag in page.tags %}{{ tag }}, {% endfor %}">
+    {%- endif -%}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#330033">
+
+    <!--<meta property="og:image" content="img/ico/icon.jpg">
+    <meta name="twitter:image" content="https://example.com/image.jpg">-->
+    <!--<link rel="shortcut icon" href="img/ico/icon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/ico/icon.ico">
+    <link rel="icon" type="image/png" href="img/ico/icon196x196.png">
+    <link rel="apple-touch-icon-precomposed" href="img/ico/icon180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/ico/icon76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/icon120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/icon152x152.png">-->
+</head>

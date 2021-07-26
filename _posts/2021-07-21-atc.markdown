@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Standarder att ha koll på: Anatomical Therapeutic Chemical Classification System (ATC)"
+description: "Koder för gruppering av läkemedel"
+date:   2021-07-21 11:42:49 +0200
+tags: standarder atc
+image: lkm
+---
+**Användning:** Koder för gruppering av läkemedel
+
+**Förvaltare:** Världshälsoorganisationen (WHO)
+
+ATC-systemet ger varje läkemedel en alfanumerisk kod baserat på organsystemet som det verkar på, dess terapeutiska syfte och dess aktiva substans. Koderna är hierarkiskt organiserade inom 14 huvudgrupper, där varje kod har en enda överordnad kod. Exempel:
+
+C: hjärta och kretslopp
+* C09: medel som påverkar renin-angiotensinsystemet
+* C09A: ACE-hämmare
+* C09AA: ACE-hämmare
+* C09AA02: enalapril

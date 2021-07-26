@@ -1,0 +1,19 @@
+title: eHälsa Sverige
+email: kontakt@example.com
+description: "eHälsa Sverige är ett privat initiativ med visionen att vara en samlingsplats för alla som påverkas av eHälsa: patienter, vårdpersonal, beslutsfattare, leverantörer och alla som är nyfikna på att lära sig om eller börja arbeta inom området."
+lang: sv
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ehälsa-sverige
+#github_username:  jekyll
+
+#Colours!
+colorprimary: "#330033"
+colordark: "#17153d"
+colorlight: "#e7e6ff"
+colorshade: "rgba(0, 0, 0, 0.827),rgba(0, 0, 0, 0.8)"
+
+# Build settings
+#theme: no-style-please
+plugins:
+  - jekyll-feed

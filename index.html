@@ -1,0 +1,57 @@
+---
+layout: default
+title: Start
+tags: eHälsa eHealth telemedicin
+---
+<div class="change-order-mobile">
+  {%- if site.posts.size > 0 -%}
+  <section class="post-card">
+    {%- for post in site.posts limit:4 -%}
+    <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.colorshade }}) , url(/media/{{ post.image }}-min.jpg);">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <p>
+              {{ post.title | escape }}
+          </p>
+          <p>
+          {{ post.date | date: date_format }}
+          </p>
+      </a>
+    {%- endfor -%}
+  </section>
+
+    <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+  {%- endif -%}
+
+  <section class="col-2 max">
+    <div class="col-2-in">
+      <p>
+        {{ site.description }}
+      </p>
+    </div>
+    <div class="col-img col-2-in">
+      <img src="/media/illustration/start.svg" alt="Bild som visar två personer som lägger upp information på en tavla">
+    </div>
+  </section>
+</div>
+<section class="col-2 col-str">
+  <div class="kontakt col-2-in">
+    <h3>
+      Kontakt
+    </h3>
+    <p class="mobile-min">
+      Denna plattform är under utveckling, har du några idéer eller vet information som fattas, berätta det för oss!
+    </p>
+    <div id="contact-form">
+      <textarea id="form-message" onkeydown="checkEnter(event, 'contact-button')"></textarea>
+      <input type="button" value="Skicka" id="contact-button" onclick="post(this, 'form-message', 'https://hooks.slack.com/services/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');">
+    </div>
+  </div>
+  <div class="event col-2-in">
+    <h3>
+      Kommande event
+    </h3>
+    <div id="event-wrapper"></div>
+  </div>
+  </section>
+  <script src="script/event.js"></script>
+  <script src="script/post.js"></script>

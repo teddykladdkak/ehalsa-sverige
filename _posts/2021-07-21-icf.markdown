@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF)"
+description: "Koder som beskriver individers funktionsförmåga"
+date:   2021-07-21 14:42:49 +0200
+tags: standarder
+image: funktion
+---
+**Användning:** Koder som beskriver individers funktionsförmåga
+
+**Förvaltare:** Världshälsoorganisationen (WHO)
+
+ICF innefattar hierarkiska koder i två delar, som i sin tur är delade i två komponenter:
+1. funktionstillstånd och funktionshinder, omfattande
+  * kroppsfunktioner och kroppsstrukturer
+  * aktiviteter och delaktighet
+2. kontextuella faktorer, omfattande
+  * omgivningsfaktorer
+  * personfaktorer (för närvarande inte klassificerade i ICF).
