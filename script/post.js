@@ -27,7 +27,7 @@ function post(el, textID, url){
     el.setAttribute('disabled', 'disabled');
     window['windowTextID'] = textID;
     var text = document.getElementById(textID).value;
-    xhr.open('POST', url, true);
+    xhr.open('POST', 'https://hooks.slack.com/services/' + url, true);
     xhr.send(JSON.stringify({"text": text}));
 };
 
