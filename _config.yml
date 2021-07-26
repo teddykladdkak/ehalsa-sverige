@@ -17,3 +17,4 @@ colorshade: "rgba(0, 0, 0, 0.827),rgba(0, 0, 0, 0.8)"
 #theme: no-style-please
 plugins:
   - jekyll-feed
+theme: jekyll-theme-minimal
