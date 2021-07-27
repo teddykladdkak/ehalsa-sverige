@@ -5,6 +5,10 @@ description: "Överföring av klinisk och administrativ data"
 date:   2021-07-21 12:42:49 +0200
 tags: Standarder
 image: data
+sitemap:
+  lastmod: 2021-07-21
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 **Användning:** Överföring av klinisk och administrativ data
 

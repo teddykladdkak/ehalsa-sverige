@@ -12,6 +12,7 @@
     
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
     {%- if site.demo -%}
         <!-- Verify website ownership -->
@@ -24,12 +25,12 @@
     {%- endif -%}
 
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ site.title }}: {{ page.title }}">
+    <meta name="twitter:title" content="{{ site.title }}: {{ page.title }}">
     <meta name="subject" content="{{ page.title }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta name="description" content="{{ description }}">
-    <meta name="twitter:description" content="{{ description }}">
+    <meta property="og:description" content="{{ description | truncate: 200, '...' }}">
+    <meta name="description" content="{{ description | truncate: 155, '...'}}">
+    <meta name="twitter:description" content="{{ description | truncate: 280, '...' }}">
     <meta property="og:locale" content="{{ page.lang | default: site.lang | default: "sv" }}">
 
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -43,7 +44,7 @@
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="yes" name="mobile-web-app-capable">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="theme-color" content="#330033">
+    <meta name="theme-color" content="{{ site.colorprimary }}">
 
     <!--<meta property="og:image" content="img/ico/icon.jpg">
     <meta name="twitter:image" content="https://example.com/image.jpg">-->

@@ -5,6 +5,10 @@ description: "Koder för gruppering av läkemedel"
 date:   2021-07-21 11:42:49 +0200
 tags: Standarder ATC
 image: lkm
+sitemap:
+  lastmod: 2021-07-21
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 **Användning:** Koder för gruppering av läkemedel
 

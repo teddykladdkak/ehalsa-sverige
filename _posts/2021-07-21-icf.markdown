@@ -5,6 +5,10 @@ description: "Koder som beskriver individers funktionsförmåga"
 date:   2021-07-21 14:42:49 +0200
 tags: Standarder
 image: funktion
+sitemap:
+  lastmod: 2021-07-21
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 **Användning:** Koder som beskriver individers funktionsförmåga
 

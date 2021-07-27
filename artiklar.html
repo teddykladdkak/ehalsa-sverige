@@ -1,8 +1,12 @@
 ---
 layout: default
 title: Artiklar
+sitemap:
+  lastmod: 2021-07-27
+  priority: 0.8
+  changefreq: 'weekly'
 ---
-
+<h1>Artiklar</h1>
 {%- if site.posts.size > 0 -%}
 <div class="post-list">
   {%- for post in site.posts -%}
@@ -18,7 +22,7 @@ title: Artiklar
                 </p>
             </header>
             <p class="post-content mobile-min">
-                {{ post.content | strip_html }}
+                {{ post.content | strip_html | truncate: 250, '...'}}
             </p>
         </article>
     </a>

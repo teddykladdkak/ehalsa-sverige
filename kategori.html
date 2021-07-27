@@ -1,9 +1,13 @@
 ---
 layout: default
-title: Artiklar
+title: "Artiklar: Kategorier"
+sitemap:
+  lastmod: 2021-07-27
+  priority: 0.6
+  changefreq: 'weekly'
 ---
 
-
+<h1>Artiklar: Kategorier</h1>
 {% for tag in site.tags %}
     <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
     <div class="post-list">
