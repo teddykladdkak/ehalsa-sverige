@@ -20,14 +20,10 @@
               {{ content }}
               <div class="tagwrapper">
                 {% for tag in page.tags %}
-                  <p class="min tag">{{ tag }}</p>
+                  <p class="min tag">
+                    <a href="/kategori.html#{{ tag }}">{{ tag }}</a>
+                  </p>
                   {%- if site.demo -%}
-                    <!--Hämtar andra artiklar med samma taggar.-->
-                    <!--<ul>
-                      {% for post in tag[1] %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                      {% endfor %}
-                    </ul>-->
                   {%- endif -%}
                 {% endfor %}
               </div>

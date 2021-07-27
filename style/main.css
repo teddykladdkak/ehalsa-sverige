@@ -43,6 +43,27 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom: solid 2px #FFF;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    padding-top: 20px;
+    margin-top: 2px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: {{ site.colorprimary }};
+}
+.dropdown-content a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
 .change-order-mobile {
     display: flex;
     flex-direction: column;
@@ -225,9 +246,21 @@ a.cal-ev .cal-ev-col {
 .postbody .tagwrapper .tag {
     display: inline-block;
     margin: 5px;
-    padding: 5px;
+    padding: 0px;
     border-radius: 5px;
     background-color: {{ site.colorlight }};
+}
+.postbody .tagwrapper .tag a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.postbody .tagwrapper .tag:hover {
+    background-color: {{ site.colorprimary }};
+}
+.postbody .tagwrapper .tag:hover a {
+    color: #FFF;
 }
 .post-card, .post-list {
     display: flex;

@@ -3,7 +3,7 @@ layout: post
 title:  "International Statistical Classification of Diseases and Related Health Problems (ICD)"
 description: "Diagnoskoder"
 date:   2021-07-21 13:42:49 +0200
-tags: standarder
+tags: Standarder
 image: diagnose
 ---
 **Användning:** Diagnoskoder

@@ -3,7 +3,7 @@ layout: post
 title:  "Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF)"
 description: "Koder som beskriver individers funktionsförmåga"
 date:   2021-07-21 14:42:49 +0200
-tags: standarder
+tags: Standarder
 image: funktion
 ---
 **Användning:** Koder som beskriver individers funktionsförmåga

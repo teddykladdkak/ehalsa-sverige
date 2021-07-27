@@ -3,7 +3,7 @@ layout: post
 title:  "Standarder att ha koll på: Fast Healthcare Interoperability Resources (FHIR)"
 description: "Överföring av klinisk och administrativ data"
 date:   2021-07-21 12:42:49 +0200
-tags: standarder
+tags: Standarder
 image: data
 ---
 **Användning:** Överföring av klinisk och administrativ data

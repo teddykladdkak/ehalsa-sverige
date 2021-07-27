@@ -3,7 +3,7 @@ layout: post
 title:  "Standarder att ha koll på: Anatomical Therapeutic Chemical Classification System (ATC)"
 description: "Koder för gruppering av läkemedel"
 date:   2021-07-21 11:42:49 +0200
-tags: standarder atc
+tags: Standarder ATC
 image: lkm
 ---
 **Användning:** Koder för gruppering av läkemedel
