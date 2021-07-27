@@ -12,7 +12,7 @@ image: lkm
 
 ATC-systemet ger varje läkemedel en alfanumerisk kod baserat på organsystemet som det verkar på, dess terapeutiska syfte och dess aktiva substans. Koderna är hierarkiskt organiserade inom 14 huvudgrupper, där varje kod har en enda överordnad kod. Exempel:
 
-C: hjärta och kretslopp
+* C: hjärta och kretslopp
 * C09: medel som påverkar renin-angiotensinsystemet
 * C09A: ACE-hämmare
 * C09AA: ACE-hämmare
