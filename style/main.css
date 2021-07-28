@@ -33,7 +33,7 @@ nav ul{
     padding: 0;
 }
 nav ul li {
-    display: inline-block;
+    display: block;
     list-style-type: none;
     padding: 0.5rem;
 }
