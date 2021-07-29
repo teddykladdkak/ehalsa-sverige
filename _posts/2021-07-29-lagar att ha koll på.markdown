@@ -3,7 +3,7 @@ layout: post
 title:  "Lagar att ha koll på"
 description: "Lagar som kan påverka e-hälsoprodukter"
 date:   2021-07-29 08:00:00 +0200
-tags: Lagar, Medicinteknik
+tags: Lagar Medicinteknik
 image: lag
 sitemap:
   lastmod: 2021-07-29
@@ -85,4 +85,4 @@ Patientlagen ger patienter ytterligare inflytande över sin vård. Detta innebä
 * barns rätt att vara delaktiga i sin vård
 * rätt att begära en ny medicinsk bedömning
 
-Hittat fel i artikeln eller har vi missat någon lag? Kontakta oss!
+*Hittat fel i artikeln eller har vi missat någon lag? Kontakta oss!*
