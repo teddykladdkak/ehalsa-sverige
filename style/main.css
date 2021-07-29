@@ -313,6 +313,9 @@ a.cal-ev .cal-ev-col {
     .post-card {
         flex-direction: column;
     }
+    .post-card .post-link {
+        width: 100%;
+    }
     .change-order-mobile {
         display: flex;
         flex-direction: column-reverse;
