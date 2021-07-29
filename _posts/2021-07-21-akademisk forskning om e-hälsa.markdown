@@ -2,15 +2,15 @@
 layout: post
 title:  "Akademisk forskning om e-hälsa"
 description: "Här samlar vi forskning om e-hälsa vid svenska lärosäten"
-date:   2021-07-21 14:42:49 +0200
+date:   2021-07-29 08:00:00 +0200
 tags: Forskning
 image: research
 sitemap:
-  lastmod: 2021-07-21
-  priority: 0.5
+  lastmod: 2021-07-29
+  priority: 0.7
   changefreq: 'weekly'
 ---
-# Akademisk forskning om e-hälsa
+
 Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? Här samlar vi forskning vid svenska lärosäten.
 Lärosäten och forskargrupper
 ## Högskolan i Skövde
@@ -50,8 +50,8 @@ Lärosäten och forskargrupper
 ## Örebro universitet
 **Grupp:** [Centre for empirical research on information systems (CERIS)](https://www.oru.se/forskning/forskningsmiljoer/ent/ceris/)\
 **Beskrivning:** “Centre for Empirical Research on Information Systems (CERIS) utvecklar kunskap om informationssystems möjligheter och begränsningar när det gäller att stödja hur människor arbetar i, styr och utvecklar verksamheter.”\
-# Samarbeten
-## Development of Online Medical records and E-health services (DOME)
+## Samarbeten
+### Development of Online Medical records and E-health services (DOME)
 **Hemsida:** [https://domeconsortium.org/](https://domeconsortium.org/)\
 **Deltagare:** Högskolan i Skövde, Karlstads universitet, Uppsala universitet, Örebro universitet\
 **Beskrivning:** Samarbetet syftar till att bygga kunskap om implementation och användning av e-hälsotjänster.\
@@ -62,7 +62,7 @@ Lärosäten och forskargrupper
 * NordWit
 * Patient-centred assessment of patients’ online access to electronic health records (PACESS)
 
-## Human, Technology & Organisation
+### Human, Technology & Organisation
 **Hemsida:** [https://www.htogroup.org/](https://www.htogroup.org/)\
 **Deltagare:** Reykjaviks universitet och Uppsala universitet\
 **Beskrivning:** Forskningsgruppen studerar samband och dynamik mellan människor, teknik och organisation för att skapa kunskap som underlättar hållbar utveckling och användning av IT-system.\
@@ -74,7 +74,7 @@ Lärosäten och forskargrupper
 * Motivation, attitude, learning and competencies (Marconi)
 * NordWit
 
-## Medtech Science & Innovation centre
+### Medtech Science & Innovation centre
 **Hemsida:** [https://medtech.uu.se/](https://medtech.uu.se/)\
 **Beskrivning:** Samarbete mellan Uppsala universitet och Akademiska sjukhuset.\
 **Projekt:**
