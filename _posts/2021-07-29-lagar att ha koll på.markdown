@@ -27,7 +27,7 @@ EU-förordning som blev obligatorisk 2021 för medicintekniska produkter. Ersät
 * klinisk utvärdering och kliniska prövningar
 * produktövervakning efter frisläppning på marknaden.
 
-Förordningen beskriver även krav på anmälda organ (organisationer som säkerställer att tillverkare följer EU:s regelverk).\\
+Förordningen beskriver även krav på anmälda organ (organisationer som säkerställer att tillverkare följer EU:s regelverk).
 
 **Läs mer:** Är min mjukvara en medicinteknisk produkt?\
 **Läs mer:** Vad innebär CE-märkning?
@@ -85,4 +85,4 @@ Patientlagen ger patienter ytterligare inflytande över sin vård. Detta innebä
 * barns rätt att vara delaktiga i sin vård
 * rätt att begära en ny medicinsk bedömning
 
-*Hittat fel i artikeln eller har vi missat någon lag? Kontakta oss!*
+*Hittat fel i artikeln eller har vi missat någon lag? [Kontakta oss!](/index.html#form-message)*
