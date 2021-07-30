@@ -21,7 +21,12 @@
               <div class="tagwrapper">
                 {% for tag in page.tags %}
                   <p class="min tag">
-                    <a href="/kategori.html#{{ tag }}">{{ tag }}</a>
+                    <a href="/kategori.html#{{ tag }}">
+
+{{ tag | replace: "_"," " }}
+
+
+</a>
                   </p>
                   {%- if site.demo -%}
                   {%- endif -%}
