@@ -4,7 +4,7 @@ title:  "Journalsystem i Sverige"
 description: "Förteckning över journalsystem i primär- och sjukhusvård"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital vård Journalsystem
-image: digital vård
+image: ssk med journalsystem
 sitemap:
   lastmod: 2021-07-30
   priority: 0.7
@@ -37,16 +37,16 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Region Östergötland|Cosmic|Cosmic|-|
 |Västra Götalandsregionen|AsynjaVisph|Melior|Millenium|
 
-![Karta över journalsystem](media/journalsystem.png "Karta över journalsystem")
+![Karta över journalsystem](journalsystem.png "Karta över journalsystem")
 
 ## Så ritas kartan om
 Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millenium. Stockholm och Gotland har ännu inte beslutat sig.\
 
-![Karta över planerade journalsystem](media/planerade_journalsystem.png "Karta över planerade journalsystem")
+![Karta över planerade journalsystem](planerade_journalsystem.png "Karta över planerade journalsystem")
 
-##Om journalsystemen
+## Om journalsystemen
 
-###AsynjaVisph
+### AsynjaVisph
 Se TakeCare.
 
 ### Cosmic
