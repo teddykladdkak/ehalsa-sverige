@@ -4,7 +4,7 @@ title:  "Journalsystem i Sverige"
 description: "Förteckning över journalsystem i primär- och sjukhusvård"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital vård Journalsystem
-image: ssk med journalsystem
+image: ssk_med_journalsystem
 sitemap:
   lastmod: 2021-07-30
   priority: 0.7
