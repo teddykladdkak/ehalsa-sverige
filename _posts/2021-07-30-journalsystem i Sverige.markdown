@@ -3,7 +3,7 @@ layout: post
 title:  "Journalsystem i Sverige"
 description: "Förteckning över journalsystem i primär- och sjukhusvård"
 date:   2021-07-30 08:00:00 +0200
-tags: Digital vård Journalsystem
+tags: Digital_vård Journalsystem
 image: ssk_med_journalsystem
 sitemap:
   lastmod: 2021-07-30
@@ -37,12 +37,12 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Region Östergötland|Cosmic|Cosmic|-|
 |Västra Götalandsregionen|AsynjaVisph|Melior|Millenium|
 
-![Karta över journalsystem](journalsystem.png "Karta över journalsystem")
+![Karta över journalsystem](/media/journalsystem.png "Karta över journalsystem")
 
 ## Så ritas kartan om
-Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millenium. Stockholm och Gotland har ännu inte beslutat sig.\
+Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millenium. Stockholm och Gotland har ännu inte beslutat sig.
 
-![Karta över planerade journalsystem](planerade_journalsystem.png "Karta över planerade journalsystem")
+![Karta över planerade journalsystem](/media/planerade_journalsystem.png "Karta över planerade journalsystem")
 
 ## Om journalsystemen
 
@@ -52,25 +52,25 @@ Se TakeCare.
 ### Cosmic
 **Leverantör:** Cambio\
 **Vårdnivå:** Primärvård/sjukhus\
-**Används i:** Jämtland Härjedalen, Jönköpings län, Kalmar län, Kronoberg, Uppsala, Värmland, Västmanland, Östergötland\
+**Används i:** Jämtland Härjedalen, Jönköpings län, Kalmar län, Kronoberg, Uppsala, Värmland, Västmanland, Östergötland
 
 Modulbaserat journalsystem, där de olika modulerna kan installeras oberoende av varandra. Kommer att införas i ytterligare nio regioner.
 ### Melior
 **Leverantör:** Cerner\
 **Vårdnivå:** Sjukhus\
-**Används i:** Gävleborg, Skåne, Västra Götaland\
+**Används i:** Gävleborg, Skåne, Västra Götaland
 
 Infördes på 90-talet med Siemens som leverantör. 2015 köptes Siemens Health Services upp av Cerner, som har fortsatt att förvalta lösningen.
 ### Millenium
 **Leverantör:** Cerner\
 **Vårdnivå:** Primärvård/sjukhus\
-**Används i:** Planerat att införas i Skåne och Västra Götalandsregionen\
+**Används i:** Planerat att införas i Skåne och Västra Götalandsregionen
 
 Amerikanska Millenium introducerades 1997. Det är planerat att systemet ska bli en gemensam lösning för primär- och sjukhusvård i Region Skåne och Västra Götalandsregionen.
 ### NCS Cross
 **Leverantör:** Evry\
 **Vårdnivå:** Primärvård/sjukhus\
-**Används i:** Blekinge, Sörmland, Västerbotten, Västernorrland, Örebro län\
+**Används i:** Blekinge, Sörmland, Västerbotten, Västernorrland, Örebro län
 
 NCS Cross (tidigare SysTeamCross) utvecklades ursprungligen av IBM och Landstinget Sörmland. Sussa samverkan (strategisk utveckling av sjukvårdsstödjande applikationer) är ett samarbete mellan fem regioner som började 1990-talet, bland annat för att förvalta NCS Cross.
 ### Profdoc Medical Office (PMO)
@@ -83,11 +83,11 @@ NCS Cross (tidigare SysTeamCross) utvecklades ursprungligen av IBM och Landsting
 **Används i:** Dalarna, Gotland, Stockholm, Västra Götaland
 ### VårdAdministrativt System (VAS)
 **Leverantör:** Region Norrbotten och Region Halland\
-**Används i:** Halland, Norrbotten\
+**Används i:** Halland, Norrbotten
 
-VAS utvecklades under 80-talet av Norrbottens Läns Landsting.\
+VAS utvecklades under 80-talet av Norrbottens Läns Landsting.
 
 
-Kartor ritade utifrån [https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg](https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg).\\
+Kartor ritade utifrån [https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg](https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg).
 
-*Hittat fel i artikeln? Kontakta oss!*
+*Hittat fel i artikeln? [Kontakta oss!](/index.html#form-message)*
