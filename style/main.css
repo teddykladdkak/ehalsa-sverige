@@ -258,6 +258,8 @@ a.cal-ev .cal-ev-col {
 .postbody table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #FFF;
+    word-wrap: break-word;
 }
 .postbody table td, .postbody table th {
     border-collapse: collapse;
