@@ -3,7 +3,7 @@ layout: post
 title:  "Privat digital tandvård"
 description: "Förteckning över tandläkare online"
 date:   2021-07-29 08:00:00 +0200
-tags: Digital vård
+tags: Digital_vård
 image: tandläkare
 sitemap:
   lastmod: 2021-07-29
