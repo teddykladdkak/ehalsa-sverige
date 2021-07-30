@@ -33,4 +33,4 @@ Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
 **Kontakttyp:** Video\
 **Teknisk lösning:** App (Android och iOS)
 
-*Hittat fel i artikeln eller har vi missat någon aktör? Kontakta oss!*
+*Hittat fel i artikeln eller har vi missat någon aktör? [Kontakta oss!](/index.html#form-message)*
