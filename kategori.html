@@ -9,7 +9,11 @@ sitemap:
 
 <h1>Artiklar: Kategorier</h1>
 {% for tag in site.tags %}
-    <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+    <h3 id="{{ tag[0] }}">
+
+{{ tag[0] | replace: "_"," " }}
+
+</h3>
     <div class="post-list">
         {% for post in tag[1] %}
             <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.colorshade }}) , url(/media/{{ post.image }}.jpg);">
