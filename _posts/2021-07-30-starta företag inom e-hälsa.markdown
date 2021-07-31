@@ -15,7 +15,7 @@ Har du en idé inom e-hälsa som du vill kommersialisera? Här tipsar vi om vikt
 ## Se till att ni kan regelverket
 E-hälsa kan vara en hårt reglerad bransch, så det är viktigt att ni känner till vilka regler som gäller för er produkt och verksamhet. Detta gäller särskilt om din produkt betraktas som en medicinteknisk produkt. Att av okunskap bryta mot reglerna kan bli väldigt dyrt i längden, både finansiellt och genom förlorat anseende.
 
-**Läs mer:** [Lagar att ha koll på](/lagar-att-ha-koll-på.html)
+**Läs mer:** [Lagar att ha koll på](/2021/07/29/lagar-att-ha-koll-på.html)
 ## Ha en affärsplan
 Det räcker inte med att ha en häftig produkt – exakt hur kommer ni att tjäna pengar på ert erbjudande? Sälja direkt till konsumenter, upphandlas av offentliga vårdgivare eller något annat? Vilka köpvolymer behöver ni komma upp i innan ni blir lönsamma? Vilka funktioner kommer ni att behöva ha i företaget i takt med att det växer? Vill ni nå ut internationellt, och vad kommer krävas tekniskt, organisatoriskt och i form av kapital för att ni ska lyckas med det? Dessa frågor och många fler därtill behöver ni kunna besvara för att föra organisationen i rätt riktning och att få investerare att vilja investera i er.
 
