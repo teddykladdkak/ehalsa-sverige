@@ -13,9 +13,19 @@ sitemap:
 
 Som tillverkare, leverantör, inköpare eller användare av e-hälsoprodukter är det viktigt att förstå vilka regelverk man måste förhålla sig till. Vissa lagar gäller särskilt för e-hälsotjänster som betraktas som medicintekniska produkter. Här följer i bokstavsordning några lagar som kan gälla ditt område.
 
-## CLOUD Act
+[CLOUD Act](#cloud)\
+[EU-förordning 2017/745 om medicintekniska produkter (Medical Device Regulation, MDR)](#mdr)\
+[Dataskyddsförordningen (GDPR)](#gdpr)\
+[Förordning (2021:631) med kompletterande bestämmelser till EU:s förordning om  medicintekniska produkter](#komplettering)\
+[Hälso- och sjukvårdslagen (HSL)](#hsl)\
+[Lag om offentlig upphandling (LOU)](#lou)\
+[Offentlighets- och sekretesslagen (OSL)](#osl)\
+[Patientdatalagen (PDL)](#pdl)\
+[Patientlagen](#pl)
+
+## CLOUD Act {#cloud}
 Amerikansk lag som antogs 2018. Lagen innebär att amerikanska myndigheter under vissa omständigheter kan kräva att få se data från kunder till molntjänstleverantörer inom amerikansk jurisdiktion. CLOUD Act har gett upphov till stora diskussioner i Europa, och dess kompatibilitet med GDPR har ifrågasatts.
-## EU-förordning 2017/745 om medicintekniska produkter (Medical Device Regulation, MDR)
+## EU-förordning 2017/745 om medicintekniska produkter (Medical Device Regulation, MDR) {#mdr}
 EU-förordning som blev obligatorisk 2021 för medicintekniska produkter. Ersätter det betydligt mindre stringenta medicintekniska direktivet 93/42/EEC. Förordningen tar bland annat upp
 
 * definition av medicintekniska produkter
@@ -31,7 +41,7 @@ Förordningen beskriver även krav på anmälda organ (organisationer som säker
 
 **Läs mer:** Är min mjukvara en medicinteknisk produkt?\
 **Läs mer:** Vad innebär CE-märkning?
-## Dataskyddsförordningen (GDPR)
+## Dataskyddsförordningen (GDPR) {#gdpr}
 GDPR reglerar hur organisationer får hantera personuppgifter i EU. Personuppgifter kan innebära sådant som direkt identifierar en fysisk person (t.ex. namn och adress) men även information som indirekt kan härledas till en person, exempelvis ip-adresser.
 
 Vissa så-kallade känsliga personuppgifter ges särskild starkt skydd. Känsliga personuppgifter innefattar information om ras eller etnisk tillhörighet, politiska åsikter, religiösa övertygelser, medlemskap i fackföreningar, genetik, biometri, hälsa och sexualliv. Vissa data i e-hälsolösningar faller in under denna kategori, eftersom de vanligen hanterar hälsodata.
@@ -48,7 +58,7 @@ GDPR är omfattande och tar bland annat upp
 * roller såsom personuppgiftsombud, personuppgiftsbiträde och personuppgiftsansvarig
 * krav på utbildning av medarbetare.
 
-## Förordning (2021:631) med kompletterande bestämmelser till EU:s förordning om medicintekniska produkter
+## Förordning (2021:631) med kompletterande bestämmelser till EU:s förordning om  medicintekniska produkter{#komplettering}
 Denna förordning beskriver nationella bestämmelser för medicintekniska produkter utöver dem som gäller i hela EU enligt MDR. Kompletteringen tar bland annat upp
 
 * behöriga myndigheter
@@ -56,9 +66,9 @@ Denna förordning beskriver nationella bestämmelser för medicintekniska produk
 * kliniska prövningar
 * tillsyn.
 
-## Hälso- och sjukvårdslagen (HSL)
+## Hälso- och sjukvårdslagen (HSL) {#hsl}
 HSL är en ramlag med övergripande bestämmelser och mål för alla vårdgivare samt regioner och kommuner som huvudmän.
-## Lag om offentlig upphandling (LOU)
+## Lag om offentlig upphandling (LOU) {#lou}
 LOU reglerar hur myndigheter får göra inköp. Fem grundläggande principer genomsyrar upphandlingslagstiftningen:
 
 * icke-diskriminering: leverantörer får inte ges företräde på grund av exempelvis nationalitet eller lokal anknytning
@@ -67,9 +77,9 @@ LOU reglerar hur myndigheter får göra inköp. Fem grundläggande principer gen
 * öppenhet: upphandlingar ska vara offentliga och innehålla alla krav som ställs
 * ömsesidigt erkännande: intyg och certifikat som har utfärdats av en EU- eller EES-stat ska gälla i övriga medlemsländer.
 
-## Offentlighets- och sekretesslagen (OSL)
+## Offentlighets- och sekretesslagen (OSL) {#osl}
 OSL innehåller bestämmelser om hur myndigheter hanterar och lämnar ut allmänna handlingar. Huvudregeln är att allmänna handlingar är offentliga och kan begäras ut av medborgare, men det finns undantag, inte minst inom sjukvården, där sekretess och tystnadsplikt råder.
-## Patientdatalagen (PDL)
+## Patientdatalagen (PDL) {#pdl}
 PDL kompletterar GDPR med bestämmelser för hur personuppgifter får behandlas i vården. Fyra centrala bestämmelser är
 
 * att patienter ska kunna få tillgång till sina journaluppgifter samt loggar över vilka som har läst uppgifterna
@@ -77,7 +87,7 @@ PDL kompletterar GDPR med bestämmelser för hur personuppgifter får behandlas 
 * inre sekretess, vilket innebär att bara den som deltar i en patients vård får ta del av patientens uppgifter
 * patientens rätt att spärra journaluppgifter.
 
-## Patientlagen
+## Patientlagen {#pl}
 Patientlagen ger patienter ytterligare inflytande över sin vård. Detta innebär bland annat
 
 * rätt till information om sin vård
