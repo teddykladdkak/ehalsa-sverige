@@ -42,4 +42,4 @@ Det kan vara lockande att lägga all sin tid på att skapa sin produkt och att f
 ## Låt andra validera er lösning
 Om ni vill sälja till vården kan det vara en stor fördel att ha bevis på att er lösning faktiskt ger utlovade resultat. Genom att utomstående experter validerar ert erbjudande kan ni mer trovärdigt förklara fördelarna med det. Det kan exempelvis gälla hälsoekonomi, upplevelser hos användare eller medicinska utfall. Utomstående experter kan exemplevis vara universitetsanknutna forskare.
 
-**Läs mer:** Akademiska forskning om e-hälsa
+**Läs mer:** [Akademisk forskning om e-hälsa](/2021/07/29/akademisk-forskning-om-e-hälsa.html)
