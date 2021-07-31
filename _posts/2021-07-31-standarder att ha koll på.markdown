@@ -12,7 +12,7 @@ sitemap:
 ---
 Som utvecklare, inköpare eller användare av e-hälsotjänster lönar det sig att ha koll på vilka standarder som används inom branschen. Här förklarar vi några av de vanligaste och viktigaste standarderna.
 
-Anatomical Therapeutic Chemical Classification System (ATC)
+[Anatomical Therapeutic Chemical Classification System (ATC)](#atc)
 Fast Healthcare Interoperability Resources (FHIR)
 International Statistical Classification of Diseases and Related Health Problems (ICD)
 Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF)
@@ -43,13 +43,13 @@ ATC-systemet ger varje läkemedel en alfanumerisk kod baserat på organsystemet 
 * C09AA: ACE-hämmare
 * C09AA02: enalapril
 
-## Fast Healthcare Interoperability Resources (FHIR){#fhir}
+## Fast Healthcare Interoperability Resources (FHIR) {#fhir}
 **Användning:** Överföring av klinisk och administrativ data\
 **Förvaltare:** Health Level Seven International (HL7)
 
 FHIR (uttalas som engelska “fire”) är den av HL7:s åtskilliga standarder som har fått bäst fäste i Sverige. FHIR används för utbyte av hälsodata. Det utgör ett ramverk som innehåller definierade informationsobjekt i form av ca 150 resurser, möjlighet till anpassning (“profilering”), dokumentation och referensimplementationer. eHälsomyndigheten har valt FHIR som standard för Nationella läkemedelslistan.
 
-## International Statistical Classification of Diseases and Related Health Problems (ICD){#}
+## International Statistical Classification of Diseases and Related Health Problems (ICD) {#}
 **Användning:** Diagnoskoder\
 **Förvaltare:** Världshälsoorganisationen (WHO)
 
@@ -58,7 +58,7 @@ ICD är en förteckning av medicinska diagnoser. ICD är uppbyggt enligt en trä
 ICD-11 antogs av WHO 2019 och Socialstyrelsen uppskattar att en svensk version kommer att finnas 2024. Det är dock inte fastställt när ICD-11 kommer att införas i Sverige. Nyheter i ICD-11 är bland annat kapitel om sömnproblem, sexuell hälsa och traditionell asiatisk medicin. ICD-11 är ett heldigitalt klassifikationssystem, till skillnad från tidigare versioner, som i grunden varit utformade för att publiceras och användas i bokform. ICD-11 innehåller länkar till ICF och ICHI.
 
 En förkortad version av ICD-10 avsedd för primärvården är Klassifikation av sjukdomar och hälsoproblem 1997 (KSH97-P). Socialstyrelsen har dock minskat prioriteringen av att uppdatera KSH97-P, och den senaste versionen publicerades 2015.
-## Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF){#icf}
+## Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF) {#icf}
 **Användning:** Koder som beskriver individers funktionsförmåga\
 **Förvaltare:** Världshälsoorganisationen (WHO)
 
@@ -72,7 +72,7 @@ ICF innefattar hierarkiska koder i två delar, som i sin tur är delade i två k
 	* personfaktorer (för närvarande inte klassificerade i ICF).
 
 ICF är tänkt att kunna användas både kliniskt för att beskriva funktionstillstånd och som ett statistiskt verktyg.
-## IEC 62304 – Elektrisk utrustning för medicinskt bruk –  Livscykelprocesser för programvara{#}
+## IEC 62304 – Elektrisk utrustning för medicinskt bruk –  Livscykelprocesser för programvara {#}
 **Användning:** Utveckling och underhåll av medicinteknisk mjukvara\
 **Förvaltare:** International Electrotechnical Commission (IEC)
 
@@ -84,12 +84,12 @@ Standarden beskriver krav för olika steg i livscykeln för medicinteknisk mjukv
 * konfigurering
 * problemlösning.
 
-## IEC 62366-1 – Medicintekniska produkter – Del 1: Tillämpning av metoder för att säkerställa medicintekniska produkters användarvänlighet{#}
+## IEC 62366-1 – Medicintekniska produkter – Del 1: Tillämpning av metoder för att säkerställa medicintekniska produkters användarvänlighet {#}
 **Användning:** Medicintekniska produkter användarvänlighet\
 **Förvaltare:** International Electrotechnical Commission (IEC)
 
 Standarden beskriver en metod för att utveckla och utvärdera användarvänligheten för en medicinteknik produkts slutanvändare, vilket även kan appliceras på medicinteknisk mjukvara.
-## ISO 9001 – Ledningssystem för kvalitet{#}
+## ISO 9001 – Ledningssystem för kvalitet {#}
 **Användning:** Företagsledning och kvalitet\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO)
 
@@ -103,7 +103,7 @@ ISO 9001 är en allmän standard för kvalitetssystem, som används världen öv
 * förbättring av verksamheten.
 
 Det är vanligt att upphandlingar ställer krav på certifiering eller dokumenterat arbete enligt ISO 9001.
-## ISO 13485 – Medicintekniska produkter – Ledningssystem för kvalitet – Krav för regulatoriska  ändamål{#}
+## ISO 13485 – Medicintekniska produkter – Ledningssystem för kvalitet – Krav för regulatoriska  ändamål {#}
 **Användning:** Företagsledning och kvalitet för medicinteknik\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO)
 
@@ -115,7 +115,7 @@ ISO 13485 bygger på ISO 9001 men är anpassad för medicinteknik. Viktiga skill
 * Hantering av produktklagomål, incidenter och olycks- och tillbudsrapportering
 * ISO 13485 ställer tydligare krav på validering, verifiering och design av produkter.
 
-## ISO 14971 – Medicintekniska produkter – Tillämpning av ett system för riskhantering för medicintekniska produkter{#}
+## ISO 14971 – Medicintekniska produkter – Tillämpning av ett system för riskhantering för medicintekniska produkter {#}
 **Användning:** Riskhantering för medicinteknik\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO)
 
@@ -128,51 +128,51 @@ ISO 14971 fastställer krav för och beskriver en process för hur tillverkare a
 * utvärdering av kvarvarande risker och risk-nyttaförhållande
 * rapportering av riskhantering.
 
-## ISO/IEC 27001 – Informationssäkerhet{#}
+## ISO/IEC 27001 – Informationssäkerhet {#}
 **Användning:** Informationssäkerhet, innefattande både digital och fysisk datasäkerhet\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO) och International Electrotechnical Commission (IEC)
 
 ISO 27001 beskriver en riskbaserad metod för att strukturerat hantera informationssäkerhetsfrågor. ISO 27002 till ISO 27005 utgör stödstandarder för att underlätta tolkning och implementation av ISO 27001. Det är vanligt att verksamheter integrerar ISO 27001 med ISO 9001.
 
-## ISO/IEC 27017 – Säkerhetstekniker – Riktlinjer för säkerhetsåtgärder för molntjänster baserade på SS-ISO/IEC 27002{#}
+## ISO/IEC 27017 – Säkerhetstekniker – Riktlinjer för säkerhetsåtgärder för molntjänster baserade på SS-ISO/IEC 27002 {#}
 **Användning:** Informationssäkerhet särskilt för molntjänster\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO) och International Electrotechnical Commission (IEC)
 
 ISO 27017 utgår från ISO 27002, men lägger till ytterligare kontrollmekanismer för säkerhet för molntjänster.
 
-## ISO/IEC 27018 Informationsteknik – Säkerhetstekniker – Riktlinjer för skydd av personuppgifter i publika molntjänster som hanterar personuppgifter{#}
+## ISO/IEC 27018 Informationsteknik – Säkerhetstekniker – Riktlinjer för skydd av personuppgifter i publika molntjänster som hanterar personuppgifter {#}
 **Användning:** Informationssäkerhet särskilt för hantering av personuppgifter i molntjänster\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO) och International Electrotechnical Commission (IEC)
 
 ISO 27018 utgår från ISO 27002, men lägger till ytterligare kontrollmekanismer för säkerhet för hantering av personuppgifter i molntjänster utifrån regulatoriska krav.
-## Klassifikation av sjukdomar och hälsoproblem 1997, Primärvård (KSH97-P){#}
+## Klassifikation av sjukdomar och hälsoproblem 1997, Primärvård (KSH97-P) {#}
 Se International Statistical Classification of Diseases and Related Health Problems (ICD).
 
-## Klassifikation av vårdåtgärder (KVÅ){#}
+## Klassifikation av vårdåtgärder (KVÅ) {#}
 **Användning:** Åtgärdskoder\
 **Förvaltare:** Socialstyrelsen
 
 KVÅ-koder rapporteras till Socialstyrelsens hälsodataregister. KVÅ-koder är hierarkiskt uppbyggda och beskriver patientinriktade utredande, behandlande eller förebyggande insatser.
 
-## Medical Subject Headings (MeSH){#}
+## Medical Subject Headings (MeSH) {#}
 **Användning:** Synonymer för söktermer\
 **Förvaltare:** National Library of Medicine (USA)
 
 MeSH fungerar som en synonymordbok för att söka bland medicinska begrepp. 
 Svenska versionen av MeSH förvaltas av Karolinska institutet.
 
-## Nomenclature of Properties and Units (NPU){#}
+## Nomenclature of Properties and Units (NPU) {#}
 **Användning:** Laboratorievärden\
 **Förvaltare:** International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) och International Union of Pure and Applied Chemistry (IUPAC)
 
 NPU-koder används för att identifiera labbvärden. Exempelvis har provet P-bilirubin koden NPU01370.
-## openEHR{#}
+## openEHR {#}
 **Användning:** Informationsöverföring i elektroniska journalsystem\
 **Förvaltare:** openEHR Foundation
 
 openEHR är en öppen standard för hantering och utbyte av data i elektroniska journalsystem.
 
-## Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT){#}
+## Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) {#}
 **Användning:** Informationsöverföring i elektroniska journalsystem\
 **Förvaltare:** SNOMED International
 
