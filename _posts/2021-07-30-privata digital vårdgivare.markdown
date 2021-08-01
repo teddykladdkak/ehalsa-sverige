@@ -16,18 +16,18 @@ Utöver de privata vårdgivarna erbjuder vissa regioner sina egna digitala vård
 
 ## Innehåll
 
-[Accumbo (Blodtrycksdoktorn)](#learning]()\
-[Agilokliniken](#accumbo)\
-[Capio Go](#agilo)\
-[Din psykolog](#capio-go)\
-[Doktor.se](#din-psykolog)\
-[Doktor24](#doktorse)\
-[Fysioterapeut onlin](#doktor24)\
-[Hej! Samtal Online](#fysioterapeut-online)\
+[Accumbo (Blodtrycksdoktorn)](#accumbo)\
+[Agilokliniken](#agilo)\
+[Capio Go](#capio-go)\
+[Din psykolog](#din-psykolog)\
+[Doktor.se](#doktorse)\
+[Doktor24](#doktor24)\
+[Fysioterapeut onlin](#fysioterapeut-online)\
+[Hej! Samtal Online](#hej)
 [Joint Academy](#joint-academy)\
 [Knodd](#knodd)\
 [Kry](#kry)\
-[Learning to Sleep{#learning](#learning-to-sleep)\
+[Learning to Sleep](#learning-to-sleep)\
 [MediCheck](#medicheck)\
 [Mendly](#mendly)\
 [Min Doktor](#min-doktor)\
@@ -80,14 +80,14 @@ Utöver de privata vårdgivarna erbjuder vissa regioner sina egna digitala vård
 **Kontakttyp:** Chatt eller video\
 **Teknisk lösning:** Webbläsare eller app (Android och iOS)
 
-### Fysioterapeut online{#}
+### Fysioterapeut online{#fysioterapeut-online}
 **Hemsida:** [https://www.fysioterapeutonline.com/](https://www.fysioterapeutonline.com/)\
 **Tjänster:** Fysioterapeut\
 **Har fysiska mottagningar:** Ja\
 **Kontakttyp:** Video\
 **Teknisk lösning:** Webbläsare
 
-### Hej! Samtal Online{#fysioterapeut-online}
+### Hej! Samtal Online{#hej}
 **Hemsida:** [https://www.hejsamtalonline.se/](https://www.hejsamtalonline.se/)\
 **Tjänster:** Psykolog\
 **Har fysiska mottagningar:** Nej\
