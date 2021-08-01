@@ -13,6 +13,7 @@ sitemap:
 
 Som tillverkare, leverantör, inköpare eller användare av e-hälsoprodukter är det viktigt att förstå vilka regelverk man måste förhålla sig till. Vissa lagar gäller särskilt för e-hälsotjänster som betraktas som medicintekniska produkter. Här följer i bokstavsordning några lagar som kan gälla ditt område.
 
+## Innehåll
 [CLOUD Act](#cloud)\
 [EU-förordning 2017/745 om medicintekniska produkter (Medical Device Regulation, MDR)](#mdr)\
 [Dataskyddsförordningen (GDPR)](#gdpr)\
@@ -25,6 +26,7 @@ Som tillverkare, leverantör, inköpare eller användare av e-hälsoprodukter ä
 
 ## CLOUD Act {#cloud}
 Amerikansk lag som antogs 2018. Lagen innebär att amerikanska myndigheter under vissa omständigheter kan kräva att få se data från kunder till molntjänstleverantörer inom amerikansk jurisdiktion. CLOUD Act har gett upphov till stora diskussioner i Europa, och dess kompatibilitet med GDPR har ifrågasatts.
+
 ## EU-förordning 2017/745 om medicintekniska produkter (Medical Device Regulation, MDR) {#mdr}
 EU-förordning som blev obligatorisk 2021 för medicintekniska produkter. Ersätter det betydligt mindre stringenta medicintekniska direktivet 93/42/EEC. Förordningen tar bland annat upp
 
