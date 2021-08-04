@@ -101,3 +101,9 @@ Riktad mot personer som arbetar inom socialtjänsten.
 
 #### [Etik och integritet vid införande av välfärdsteknik](https://utbildning.socialstyrelsen.se/learn/course/external/view/elearning/76/Etikochintegritetvidinf%C3%B6randeavv%C3%A4lf%C3%A4rdsteknik)
 Syftar till att stödja kommuner och utförare i diskussioner om etik och integritet vid införande av ny teknik.
+
+#### [Förhandling och dialog vid upphandling av välfärdsteknik](https://skr.se/skr/tjanster/evenemang/hittaevenemang/kalenderhandelser/forhandlingochdialogvidupphandlingavvalfardsteknik.52370.html)
+Utbildningsserie riktad mot kommuner om fördelar med förhandlat förfarande och konkurrenspräglad dialog i upphandling av välfärdsteknik.
+
+#### [Samverkansregler – trygg samverkan med life science-branschen](https://samverkansregler.utb.skr.se/)
+Regelverk för hur samverkan kan ske mellan offentligt finansierad vård och företag inom life science.
