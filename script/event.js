@@ -46,6 +46,9 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
             };
         };
         for (var a = 0; a < array.length; a++){
+
+if (a === 6) { break; };
+
             var link = document.createElement('a');
                 link.setAttribute('href', array[a].link);
                 link.setAttribute('class', 'cal-ev');
