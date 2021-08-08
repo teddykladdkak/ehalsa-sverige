@@ -318,7 +318,6 @@ a.cal-ev .cal-ev-col {
     position: relative;
     max-height: 60px;
     max-width: 600px;
-    width: 100%;
     overflow: hidden;
 }
 @media only screen and (max-width: 800px) {

@@ -13,6 +13,9 @@ var getJSON = function(url, callback) {
         };
         xhr.send();
 };
+function monthText(month){
+    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('9', 'sep').replace('8', 'aug').replace('7', 'jul').replace('6', 'jun').replace('5', 'maj').replace('4', 'apr').replace('3', 'mar').replace('2', 'feb').replace('1', 'jan');
+};
 getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/values?alt=json',  function(err, rawdata) {
     if (err != null) {
         console.error(err);
@@ -45,10 +48,15 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
                 };
             };
         };
+        for (var b = 0; b < array.length; b++){
+            var d = new Date(array[b].year, array[b].month.split('-')[0], array[b].day.split('-')[0], 8, 0, 0, 0);
+            var today = new Date();
+            array[b].millisec = d.getTime();
+            if(d.getTime() <= today.getTime()){ array.splice(b, 1); };
+        };
+        array.sort(function(a , b) { return a.millisec - b.millisec; });
         for (var a = 0; a < array.length; a++){
-
-if (a === 6) { break; };
-
+            if (a === 5) { break; };
             var link = document.createElement('a');
                 link.setAttribute('href', array[a].link);
                 link.setAttribute('class', 'cal-ev');
@@ -63,7 +71,7 @@ if (a === 6) { break; };
                     linkDate.appendChild(linkDateDay);
                     var linkDateMonth = document.createElement('div');
                         linkDateMonth.setAttribute('class', 'min');
-                        var linkDateMonthText = document.createTextNode(array[a].month);
+                        var linkDateMonthText = document.createTextNode(monthText(array[a].month));
                         linkDateMonth.appendChild(linkDateMonthText);
                     linkDate.appendChild(linkDateMonth);
                 link.appendChild(linkDate);
