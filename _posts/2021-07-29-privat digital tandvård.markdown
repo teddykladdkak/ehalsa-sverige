@@ -4,7 +4,7 @@ title:  "Privat digital tandvård"
 description: "Förteckning över tandläkare online"
 date:   2021-07-29 08:00:00 +0200
 tags: Digital_vård
-image: tandläkare
+image: tandlakare
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7
