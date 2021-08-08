@@ -148,7 +148,7 @@ footer svg {
     background-position: bottom right;
 }
 .kontakt {
-    background-image: url(/media/illustration/contact.svg);
+    background-image: url(/assets/images/illustration/contact.svg);
     color: #FFF;
     background-color: {{ site.colordark }};
 }
@@ -170,11 +170,11 @@ footer svg {
     min-height: 200px;
 }
 textarea.send-approved {
-    background-image: url(/media/illustration/mail.svg);
+    background-image: url(/assets/images/illustration/mail.svg);
     background-color: #FFF;
 }
 textarea.send-error {
-    background-image: url(/media/illustration/error.svg);
+    background-image: url(/assets/images/illustration/error.svg);
     background-color: rgb(255, 144, 144);
 }
 textarea.send-approved, textarea.send-error {
@@ -184,7 +184,7 @@ textarea.send-approved, textarea.send-error {
     opacity: 1;
 }
 .event {
-    background-image: url(/media/illustration/cal.svg);
+    background-image: url(/assets/images/illustration/cal.svg);
     background-color: {{ site.colorlight }};
     padding-bottom: 20px;
 }

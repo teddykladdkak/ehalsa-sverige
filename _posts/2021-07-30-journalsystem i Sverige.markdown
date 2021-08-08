@@ -14,7 +14,7 @@ Eletroniska journalsystemen är centrala för Sveriges vård och något som de f
 
 ## Innehåll
 [Karta över Sveriges journalsystem](#karta)\
-[Så ritas kartan om]#ny-karta}\
+[Så ritas kartan om](#ny-karta)\
 [Om journalsystemen](#om)\
 	[AsynjaVisph](#av)\
 	[Cosmic](#cosmic)\
@@ -53,12 +53,12 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Region Östergötland|Cosmic|Cosmic|-|
 |Västra Götalandsregionen|AsynjaVisph|Melior|Millenium|
 
-![Karta över journalsystem](/media/journalsystem.png "Karta över journalsystem")
+![Karta över journalsystem](/assets/images/post-assets/journalsystem.png "Karta över journalsystem")
 
 ## Så ritas kartan om {#ny-karta}
 Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millenium. Stockholm och Gotland har ännu inte beslutat sig.
 
-![Karta över planerade journalsystem](/media/planerade_journalsystem.png "Karta över planerade journalsystem")
+![Karta över planerade journalsystem](/assets/images/post-assets/planerade_journalsystem.png "Karta över planerade journalsystem")
 
 ## Om journalsystemen {#om}
 

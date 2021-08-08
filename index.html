@@ -9,21 +9,19 @@ sitemap:
 ---
 <div class="change-order-mobile">
   {%- if site.posts.size > 0 -%}
-  <section class="post-card">
-    {%- for post in site.posts limit:4 -%}
-    <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.colorshade }}) , url(/media/{{ post.image }}-min.jpg);">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <p>
-              {{ post.title | escape }}
-          </p>
-          <p>
-          {{ post.date | date: date_format }}
-          </p>
-      </a>
-    {%- endfor -%}
-  </section>
-
-    <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+    <section class="post-card">
+      {%- for post in site.posts limit:4 -%}
+      <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.colorshade }}) , url(/assets/images/post-head/{{ post.image }}-min.jpg);">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <p>
+                {{ post.title | escape }}
+            </p>
+            <p>
+            {{ post.date | date: date_format }}
+            </p>
+        </a>
+      {%- endfor -%}
+    </section>
   {%- endif -%}
 
   <section class="col-2 max">
@@ -34,7 +32,7 @@ sitemap:
       </p>
     </div>
     <div class="col-img col-2-in">
-      <img src="/media/illustration/start.svg" alt="Bild som visar två personer som lägger upp information på en tavla">
+      <img src="/assets/images/illustration/start.svg" alt="Bild som visar två personer som lägger upp information på en tavla">
     </div>
   </section>
 </div>
@@ -58,5 +56,5 @@ sitemap:
     <div id="event-wrapper"></div>
   </div>
   </section>
-  <script src="script/event.js"></script>
-  <script src="script/post.js"></script>
+  <script src="assets/js/event.js"></script>
+  <script src="assets/js/post.js"></script>
