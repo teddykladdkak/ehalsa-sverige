@@ -11,7 +11,7 @@ twitter_username: ehälsa-sverige
 colorprimary: "#330033"
 colordark: "#17153d"
 colorlight: "#e7e6ff"
-colorshade: "rgba(0, 0, 0, 0.827),rgba(0, 0, 0, 0.8)"
+colorshade: "rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.7)"
 
 # Build settings
 #theme: no-style-please
