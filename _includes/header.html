@@ -9,7 +9,7 @@
                 <ul class="dropdown-content">
                     {% for tag in site.tags %}
                         <li>
-                            <a href="/kategori.html#{{ tag[0] }}">{{ tag[0] | replace: "_"," " }}</a>
+                            <a href="{{ site.url }}/kategori.html#{{ tag[0] }}" class="meny-kategorier">{{ tag[0] | replace: "_"," " }}</a>
                         </li>
                     {% endfor %}
                 </ul>

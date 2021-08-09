@@ -9,26 +9,25 @@ sitemap:
 
 <h1>Artiklar: Kategorier</h1>
 {% for tag in site.tags %}
-    <h3 id="{{ tag[0] }}">
-
-{{ tag[0] | replace: "_"," " }}
-
-</h3>
-    <div class="post-list">
-        {% for post in tag[1] %}
-            <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url({{ post.image.path }});">
-                <article>
-                    <header>
-                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                        <p>
-                            <strong>{{ post.title | escape }}</strong>
-                        </p>
-                        <p>
-                            {{ post.date | date: date_format }}
-                        </p>
-                    </header>
-                </article>
-            </a>
-        {% endfor %}
+    <div id="{{ tag[0] }}" class="kategori">
+        <h3>{{ tag[0] | replace: "_"," " }}</h3>
+        <div class="post-list">
+            {% for post in tag[1] %}
+                <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url({{ post.image.path }});">
+                    <article>
+                        <header>
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            <p>
+                                <strong>{{ post.title | escape }}</strong>
+                            </p>
+                            <p>
+                                {{ post.date | date: date_format }}
+                            </p>
+                        </header>
+                    </article>
+                </a>
+            {% endfor %}
+        </div>
     </div>
 {% endfor %}
+<script src="/assets/js/kategori.js"></script>

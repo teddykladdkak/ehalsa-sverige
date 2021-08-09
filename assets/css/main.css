@@ -320,6 +320,9 @@ a.cal-ev .cal-ev-col {
     max-width: 600px;
     overflow: hidden;
 }
+.kategori {
+    display: none;
+}
 @media only screen and (max-width: 800px) {
     .mobile-min {
         font-size: .8rem;
