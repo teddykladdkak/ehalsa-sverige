@@ -9,7 +9,7 @@
     <main>
       <section>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-          <header class="posthead" style="background-image: linear-gradient({{ site.colorshade }}) , url(/assets/images/post-head/1920/{{ page.image }}.jpg);">
+          <header class="posthead" style="background-image: linear-gradient({{ site.color.shade }}) , url(/assets/images/post-head/1920/{{ page.image }}.jpg);">
               <h1>{{ page.title }}</h1>
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

@@ -8,10 +8,12 @@ twitter_username: ehälsa-sverige
 #github_username:  jekyll
 
 #Colours!
-colorprimary: "#330033"
-colordark: "#17153d"
-colorlight: "#e7e6ff"
-colorshade: "rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.7)"
+color:
+  primary: "CF6766"
+  dark: "031424"
+  light: "8EAEBD"
+  medium: "30415D"
+  shade: "rgba(207, 103, 102, 0.727),rgba(207, 103, 102, 0.7)"
 
 # Build settings
 #theme: no-style-please
