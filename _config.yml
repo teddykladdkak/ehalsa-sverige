@@ -1,6 +1,7 @@
 title: eHälsa Sverige
 email: kontakt@example.com
 description: "eHälsa Sverige är ett privat initiativ med visionen att vara en samlingsplats för alla som påverkas av eHälsa: patienter, vårdpersonal, beslutsfattare, leverantörer och alla som är nyfikna på att lära sig om eller börja arbeta inom området."
+descriptionHTML: "<b>eHälsa Sverige</b> är ett privat initiativ med visionen att vara en samlingsplats för alla som påverkas av eHälsa: patienter, vårdpersonal, beslutsfattare, leverantörer och alla som är nyfikna på att lära sig om eller börja arbeta inom området."
 lang: sv
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ehalsa.tk" # the base hostname & protocol for your site, e.g. http://example.com
@@ -13,7 +14,10 @@ color:
   dark: "031424"
   light: "8EAEBD"
   medium: "30415D"
-  shade: "rgba(207, 103, 102, 0.727),rgba(207, 103, 102, 0.7)"
+  shade:
+    opacity: "0.7"
+    primary: "207, 103, 102"
+    dark: "3, 20, 36"
 
 # Build settings
 #theme: no-style-please
