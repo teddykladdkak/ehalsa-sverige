@@ -11,7 +11,7 @@ sitemap:
   {%- if site.posts.size > 0 -%}
     <section class="post-card">
       {%- for post in site.posts limit:4 -%}
-      <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url(/assets/images/post-head/500/{{ post.image }}.jpg);">
+      <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url({{ post.image.path }});">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <p>
                 {{ post.title | escape }}

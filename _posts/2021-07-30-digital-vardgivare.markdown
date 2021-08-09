@@ -4,7 +4,9 @@ title:  "Privata digitala vårdgivare i Sverige"
 description: "Förteckning över vårdgivare online"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital_vård
-image: digital_vard
+image:
+  path: "/assets/images/post-head/500/digital_vard.jpg"
+  head: "/assets/images/post-head/1920/digital_vard.jpg"
 sitemap:
   lastmod: 2021-07-30
   priority: 0.7

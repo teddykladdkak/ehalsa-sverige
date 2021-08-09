@@ -4,7 +4,9 @@ title:  "Akademisk forskning om e-hälsa"
 description: "Här samlar vi forskning om e-hälsa vid svenska lärosäten"
 date:   2021-07-29 08:00:00 +0200
 tags: Forskning
-image: research
+image:
+  path: "/assets/images/post-head/500/research.jpg"
+  head: "/assets/images/post-head/1920/research.jpg"
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7

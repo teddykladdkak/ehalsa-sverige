@@ -4,7 +4,9 @@ title:  "Lagar att ha koll på"
 description: "Lagar som kan påverka e-hälsoprodukter"
 date:   2021-07-29 08:00:00 +0200
 tags: Lagar Medicinteknik
-image: lag
+image:
+  path: "/assets/images/post-head/500/lag.jpg"
+  head: "/assets/images/post-head/1920/lag.jpg"
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7

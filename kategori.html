@@ -16,7 +16,7 @@ sitemap:
 </h3>
     <div class="post-list">
         {% for post in tag[1] %}
-            <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url(/assets/images/post-head/500/{{ post.image }}.jpg);">
+            <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient({{ site.color.shade }}) , url({{ post.image.path }});">
                 <article>
                     <header>
                         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
