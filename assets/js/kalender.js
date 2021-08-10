@@ -13,13 +13,10 @@ var getJSON = function(url, callback) {
         };
         xhr.send();
 };
-function monthText(month){
-    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('09', 'sep').replace('08', 'aug').replace('07', 'jul').replace('06', 'jun').replace('05', 'maj').replace('04', 'apr').replace('03', 'mar').replace('02', 'feb').replace('01', 'jan');
-};
 getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/values?alt=json',  function(err, rawdata) {
     if (err != null) {
-        var wrapper = document.getElementById('event-wrapper');
-            wrapper.setAttribute('style', 'text-align: center;');
+        var wrapper = document.getElementById('calendar');
+            wrapper.setAttribute('style', 'text-align: center;padding-bottom: 20px;');
             var errmessage = document.createElement('p');
                 var errmessagetext = document.createTextNode('Kunde inte ladda event, testa att ladda om sidan.');
                 errmessage.appendChild(errmessagetext);
@@ -32,7 +29,6 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
         console.error(err);
     }else{
         if(!rawdata.feed){ var data = JSON.parse(rawdata); }else{ var data = rawdata; };
-        var wrapper = document.getElementById('event-wrapper');
         var array = [];
         for (var i = 0; i < data.feed.entry.length; i++){
             if(data.feed.entry[i].gs$cell['row'] == '1'){}else{
@@ -57,39 +53,26 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
                 };
             };
         };
-        for (var b = 0; b < array.length; b++){
-            var d = new Date(array[b].start, 8, 0, 0, 0);
-            var today = new Date();
-            array[b].millisec = d.getTime();
-            if(d.getTime() <= today.getTime()){ array.splice(b, 1); };
-        };
         array.sort(function(a , b) { return a.millisec - b.millisec; });
+        var events = [];
         for (var a = 0; a < array.length; a++){
-            if (a === 5) { break; };
-            var link = document.createElement('a');
-                link.setAttribute('href', array[a].link);
-                link.setAttribute('class', 'cal-ev');
-                link.setAttribute('title', array[a].title);
-                link.setAttribute('target', '_blank');
-                var linkDate = document.createElement('div');
-                    linkDate.setAttribute('class', 'cal-ev-col');
-                    var linkDateDay = document.createElement('div');
-                        linkDateDay.setAttribute('class', 'oneline');
-                        var linkDateDayText = document.createTextNode(parseInt(array[a].start.split('-')[2]));
-                        linkDateDay.appendChild(linkDateDayText);
-                    linkDate.appendChild(linkDateDay);
-                    var linkDateMonth = document.createElement('div');
-                        linkDateMonth.setAttribute('class', 'min');
-                        var linkDateMonthText = document.createTextNode(monthText(array[a].start.split('-')[1]));
-                        linkDateMonth.appendChild(linkDateMonthText);
-                    linkDate.appendChild(linkDateMonth);
-                link.appendChild(linkDate);
-                var linkTitle = document.createElement('div');
-                    linkTitle.setAttribute('class', 'cal-ev-col min');
-                    var linkTitleText = document.createTextNode(array[a].title);
-                    linkTitle.appendChild(linkTitleText);
-                link.appendChild(linkTitle);
-            wrapper.appendChild(link);
+            var eventtopush = {title: array[a].title, start: array[a].start, url: array[a].link};
+            if(!array[a].end || array[a].end == ''){}else{
+                var datea = new Date(array[a].end);
+                var dateb = datea.getTime() + (((1000 * 60) * 60) * 24);
+                var datec = new Date(dateb);
+                eventtopush.end = datec.getFullYear() + '-' + (datec.getMonth() + 1).toString().padStart(2, 0) + '-' + datec.getDate().toString().padStart(2, 0);
+            };
+            events.push(eventtopush);
         };
+        addKalender(events);
     };
 });
+function addKalender(ev){
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        events: ev
+    });
+    calendar.render();
+};
