@@ -26,6 +26,7 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 	[Örebro universitet](#örebro)\
 [Samarbeten](#samarbeten)\
 	[Development of Online Medical records and E-health services (DOME)](#dome)\
+	[Digital förvaltning](#digital-förvaltning)\
 	[Human, Technology & Organisation](#hto)\
 	[Medtech Science & Innovation centre](#msic)
 
@@ -78,6 +79,11 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 * The Effects of Digitalisation on the Work Environment of Nurses (DISA)
 * NordWit
 * Patient-centred assessment of patients’ online access to electronic health records (PACESS)
+
+### Digital förvaltning {#digital-förvaltning}
+**Hemsida:** [https://www.digitalforvaltning.se/](https://www.digitalforvaltning.se/)\
+**Deltagare:** Göteborgs universitet, Stockholms universitet och Umeå universitet\
+**Beskrivning:** Forskningskonsortium inom ramen för Swedish Center for Digital Innovation. Arbetar med en modell för att mäta och följa upp digital mognad i offentlig sektor.
 
 ### Human, Technology & Organisation {#hto}
 **Hemsida:** [https://www.htogroup.org/](https://www.htogroup.org/)\
