@@ -15,7 +15,7 @@ color:
   light: "8EAEBD"
   medium: "30415D"
   shade:
-    opacity: "0.7"
+    opacity: "0.5"
     primary: "207, 103, 102"
     dark: "3, 20, 36"
 
