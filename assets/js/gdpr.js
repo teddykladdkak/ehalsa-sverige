@@ -1,0 +1,1 @@
+function visaGDPR(){if(!localStorage.getItem('gdpr')){document.getElementById('gdpr').setAttribute('style', 'display: block;');};};function accepteraGDPR(){document.getElementById('gdpr').removeAttribute('style');localStorage.setItem('gdpr', true);};visaGDPR();
