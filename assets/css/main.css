@@ -298,6 +298,9 @@ a.cal-ev .cal-ev-col {
 .posthead h1, .posthead time, .post-link {
     text-shadow: 2px 0 0 #{{ site.color.dark }}, -2px 0 0 #{{ site.color.dark }}, 0 2px 0 #{{ site.color.dark }}, 0 -2px 0 #{{ site.color.dark }}, 1px 1px #{{ site.color.dark }}, -1px -1px 0 #{{ site.color.dark }}, 1px -1px 0 #{{ site.color.dark }}, -1px 1px 0 #{{ site.color.dark }};
 }
+.calendarbody {
+    padding-top: 10px;
+}
 .postbody, .calendarbody {
     max-width: 700px;
     width: 100%;

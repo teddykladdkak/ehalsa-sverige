@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kalender
+description: "Här samlar vi alla event som berör eHälsa i sverige"
 sitemap:
   lastmod: 2021-08-10
   priority: 0.8
@@ -10,6 +11,7 @@ sitemap:
     <div class="calendarbody">
         <div id="calendar"></div>
     </div>
+    <p style="text-align: center;"><i>Har vi missat något event? <a href="http://localhost:4000/index.html#form-message">Kontakta oss!</a></i></p>
 </section>
 <link href='/assets/css/fullcalendar.min.css' rel='stylesheet' />
 <style>
@@ -55,15 +57,6 @@ var getJSON = function(url, callback) {
         };
         xhr.send();
 };
-function monthText(month){
-    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('9', 'sep').replace('8', 'aug').replace('7', 'jul').replace('6', 'jun').replace('5', 'maj').replace('4', 'apr').replace('3', 'mar').replace('2', 'feb').replace('1', 'jan');
-};
-function addZero(num){
-    if(num <= 9){
-        var num = 0 + num;
-    };
-    return num;
-};
 getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/values?alt=json',  function(err, rawdata) {
     if (err != null) {
         console.error(err);
@@ -74,38 +67,39 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
         for (var i = 0; i < data.feed.entry.length; i++){
             if(data.feed.entry[i].gs$cell['row'] == '1'){}else{
                 var arrnum = data.feed.entry[i].gs$cell['row'] - 2;
-                if(!array[arrnum]){ array.push({year: '', month: '', day: '', title: '', link: '', organizer: '', theme: ''}); };
+                if(!array[arrnum]){ array.push({start: '', end: '', title: '', link: '', organizer: '', theme: ''}); };
                 var colnum = data.feed.entry[i].gs$cell['col'];
                 var content = data.feed.entry[i].content['$t'];
                 if(colnum == 1) {
-                    array[arrnum].year = content;
+                    array[arrnum].start = content;
                 }else if(colnum == 2) {
-                    array[arrnum].month = content;
+                    array[arrnum].end = content;
                 }else if(colnum == 3) {
-                    array[arrnum].day = content;
-                }else if(colnum == 4) {
                     array[arrnum].title = content;
-                }else if(colnum == 5) {
+                }else if(colnum == 4) {
                     array[arrnum].link = content;
-                }else if(colnum == 6) {
+                }else if(colnum == 5) {
                     array[arrnum].organizer = content;
-                }else if(colnum == 7) {
+                }else if(colnum == 6) {
                     array[arrnum].theme = content;
                 }else{
                     console.log('Något är fel med kalender kalkylen.');
                 };
             };
         };
-        for (var b = 0; b < array.length; b++){
-            var d = new Date(array[b].year, array[b].month.split('-')[0], array[b].day.split('-')[0], 8, 0, 0, 0);
-            var today = new Date();
-            array[b].millisec = d.getTime();
-            if(d.getTime() <= today.getTime()){ array.splice(b, 1); };
-        };
         array.sort(function(a , b) { return a.millisec - b.millisec; });
         var events = [];
         for (var a = 0; a < array.length; a++){
-            events.push({title: array[a].title, start: array[a].year + '-' + addZero(array[a].month) + '-' + addZero(array[a].day), url: array[a].link});
+            var eventtopush = {title: array[a].title, start: array[a].start, url: array[a].link};
+            if(!array[a].end || array[a].end == ''){}else{
+                var datea = new Date(array[a].end);
+                var dateb = datea.getTime() + (((1000 * 60) * 60) * 24);
+                var datec = new Date(dateb);
+                eventtopush.end = datec.getFullYear() + '-' + (datec.getMonth() + 1).toString().padStart(2, 0) + '-' + datec.getDate().toString().padStart(2, 0);
+                console.log(eventtopush.end);
+            };
+            console.log(eventtopush)
+            events.push(eventtopush);
         };
         addKalender(events);
     };

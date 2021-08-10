@@ -14,7 +14,7 @@ var getJSON = function(url, callback) {
         xhr.send();
 };
 function monthText(month){
-    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('9', 'sep').replace('8', 'aug').replace('7', 'jul').replace('6', 'jun').replace('5', 'maj').replace('4', 'apr').replace('3', 'mar').replace('2', 'feb').replace('1', 'jan');
+    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('09', 'sep').replace('08', 'aug').replace('07', 'jul').replace('06', 'jun').replace('05', 'maj').replace('04', 'apr').replace('03', 'mar').replace('02', 'feb').replace('01', 'jan');
 };
 getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/values?alt=json',  function(err, rawdata) {
     if (err != null) {
@@ -26,22 +26,20 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
         for (var i = 0; i < data.feed.entry.length; i++){
             if(data.feed.entry[i].gs$cell['row'] == '1'){}else{
                 var arrnum = data.feed.entry[i].gs$cell['row'] - 2;
-                if(!array[arrnum]){ array.push({year: '', month: '', day: '', title: '', link: '', organizer: '', theme: ''}); };
+                if(!array[arrnum]){ array.push({start: '', end: '', title: '', link: '', organizer: '', theme: ''}); };
                 var colnum = data.feed.entry[i].gs$cell['col'];
                 var content = data.feed.entry[i].content['$t'];
                 if(colnum == 1) {
-                    array[arrnum].year = content;
+                    array[arrnum].start = content;
                 }else if(colnum == 2) {
-                    array[arrnum].month = content;
+                    array[arrnum].end = content;
                 }else if(colnum == 3) {
-                    array[arrnum].day = content;
-                }else if(colnum == 4) {
                     array[arrnum].title = content;
-                }else if(colnum == 5) {
+                }else if(colnum == 4) {
                     array[arrnum].link = content;
-                }else if(colnum == 6) {
+                }else if(colnum == 5) {
                     array[arrnum].organizer = content;
-                }else if(colnum == 7) {
+                }else if(colnum == 6) {
                     array[arrnum].theme = content;
                 }else{
                     console.log('Något är fel med kalender kalkylen.');
@@ -49,7 +47,7 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
             };
         };
         for (var b = 0; b < array.length; b++){
-            var d = new Date(array[b].year, array[b].month.split('-')[0], array[b].day.split('-')[0], 8, 0, 0, 0);
+            var d = new Date(array[b].start, 8, 0, 0, 0);
             var today = new Date();
             array[b].millisec = d.getTime();
             if(d.getTime() <= today.getTime()){ array.splice(b, 1); };
@@ -66,12 +64,12 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
                     linkDate.setAttribute('class', 'cal-ev-col');
                     var linkDateDay = document.createElement('div');
                         linkDateDay.setAttribute('class', 'oneline');
-                        var linkDateDayText = document.createTextNode(array[a].day);
+                        var linkDateDayText = document.createTextNode(array[a].start.split('-')[2]);
                         linkDateDay.appendChild(linkDateDayText);
                     linkDate.appendChild(linkDateDay);
                     var linkDateMonth = document.createElement('div');
                         linkDateMonth.setAttribute('class', 'min');
-                        var linkDateMonthText = document.createTextNode(monthText(array[a].month));
+                        var linkDateMonthText = document.createTextNode(monthText(array[a].start.split('-')[1]));
                         linkDateMonth.appendChild(linkDateMonthText);
                     linkDate.appendChild(linkDateMonth);
                 link.appendChild(linkDate);
