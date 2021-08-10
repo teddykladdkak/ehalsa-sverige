@@ -64,7 +64,7 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
                     linkDate.setAttribute('class', 'cal-ev-col');
                     var linkDateDay = document.createElement('div');
                         linkDateDay.setAttribute('class', 'oneline');
-                        var linkDateDayText = document.createTextNode(array[a].start.split('-')[2]);
+                        var linkDateDayText = document.createTextNode(parseInt(array[a].start.split('-')[2]));
                         linkDateDay.appendChild(linkDateDayText);
                     linkDate.appendChild(linkDateDay);
                     var linkDateMonth = document.createElement('div');
