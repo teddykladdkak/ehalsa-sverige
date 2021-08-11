@@ -45,9 +45,10 @@
     <meta content="yes" name="mobile-web-app-capable">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="theme-color" content="{{ site.color.primary }}">
-
-    <!--<meta property="og:image" content="img/ico/icon.jpg">
-    <meta name="twitter:image" content="https://example.com/image.jpg">-->
+    {%- if page.image.path -%}
+        <meta property="og:image" content="{{ site.url }}{{ page.image.path }}">
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image.path }}">
+    {%- endif -%}
     <!--<link rel="shortcut icon" href="img/ico/icon.ico">
     <link rel="icon" type="image/vnd.microsoft.icon" href="img/ico/icon.ico">
     <link rel="icon" type="image/png" href="img/ico/icon196x196.png">
