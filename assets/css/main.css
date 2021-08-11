@@ -160,6 +160,8 @@ footer svg {
 }
 #gdpr {
     display: none;
+    flex-direction: row;
+    align-items: center;
     position: fixed;
     bottom: 0px;
     right: 0px;
@@ -168,6 +170,7 @@ footer svg {
     background-color: #{{ site.color.dark }};
 }
 #gdpr p {
+    width: 100%;
     font-weight: 100;
     margin: 3px 5px;
     font-size: 0.8rem;
@@ -175,7 +178,11 @@ footer svg {
 #gdpr p, #gdpr p a {
     color: #FFF;
 }
-#gdpr p input[type=button] {
+#gdpr .gdpr-button {
+    white-space: nowrap;
+    padding: 5px;
+}
+#gdpr .gdpr-button input[type=button] {
     margin-right: 5px;
     padding: 3px 5px;
 }
@@ -185,6 +192,10 @@ input[type=button] {
     border-radius: 10px;
     -webkit-appearance: none;
     background-color: #{{ site.color.primary }};
+}
+#gdpr .gdpr-neka {
+    background-color: #{{ site.color.medium }};
+    color: #FFF;
 }
 input[type=button]:hover {
     color: #FFF;
