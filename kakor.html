@@ -9,10 +9,26 @@ sitemap:
 <section class="col-2 max">
     <div class="col-2-in">
         <h1>Kakorpolicy</h1>
-        <p>Denna hemsida använder <a href="https://eu.mixpanel.com/" alt="Länk till Mixpanels hemsida">"Mixpanel"</a> som analystjänst för att mäta besökarantal och vilka artilkar och information som drar besökare. Mixpanel sparar data på servrar i EU. När du besöker vår hemsida, sparas kakor olika länge, vilka berättar för Mixpanel om du besökt sidan innan och hur länge sedan. Denna information används för att se hur många nybesök som sker och vilka sidor våra besökare är intresserade av. Vi får även besökares lokalisation i form av stad, denna information kan inte kopplas till dig som enskild individ.</p>
+        <p>Denna hemsida använder <a href="https://eu.mixpanel.com/" alt="Länk till Mixpanels hemsida">"Mixpanel"</a> som analystjänst för att mäta besökarantal och vilka artilkar och information som drar besökare.</p>
+        <p>Mixpanel sparar data på servrar i EU och lyder därav under GDPR riktlinjer. Du som besökare har även möjlighet att neka att kakor används från Mixpanel första gången du besöker denna hemsidan.</p>
+        <div style="text-align: center;">
+          <input type="button" value="Rensa kakor" onclick="deleteCookies();">
+        </div>
+        <p>När du besöker vår hemsida, sparas kakor olika länge, vilka berättar för Mixpanel om du besökt sidan innan och hur länge sedan. Denna information används för att se hur många nybesök som sker och vilka sidor våra besökare är intresserade av. Vi får även besökares lokalisation i form av stad, denna information kan inte kopplas till dig som enskild individ.</p>
+        <p>Vi använder Google Sheet som databas, vilket tilldelar din webbläsare kakor i syfte att inte överladda Googles servrar, detta är tyvärr inte möjlight att förhindra från vår sida.</p>
         <p>Vill du inte bli spårad finns det tillägg till webbläsaren som blockerar kakor, eller att du använder webbläsarens incognito läge.</p>
     </div>
     <div class="col-img col-2-in">
       <img src="/assets/images/illustration/cookie.svg" alt="Bild som visar två personer som lägger upp information på en tavla">
     </div>
   </section>
+  <script>
+    function deleteCookies() {
+      var allCookies = document.cookie.split(';');
+      for (var i = 0; i < allCookies.length; i++){
+        document.cookie = allCookies[i] + "=;expires=" + new Date(0).toUTCString();
+      };
+      localStorage.clear();
+      location.reload();
+    };
+  </script>
