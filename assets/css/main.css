@@ -122,7 +122,7 @@ nav p .mobile-icon:hover {
     display: flex;
     flex-direction: column;
 }
-h1, h2, h3, h4, p, time {
+h1, h2, h3, h4, p {
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -336,10 +336,11 @@ a.cal-ev .cal-ev-col {
     color: #FFF;
     margin-bottom: 0px;
 }
-.posthead time {
+.posthead p {
     display: block;
     color: #FFF;
     padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 .posthead h1, .posthead time, .post-link {
     text-shadow: 2px 0 0 #{{ site.color.dark }}, -2px 0 0 #{{ site.color.dark }}, 0 2px 0 #{{ site.color.dark }}, 0 -2px 0 #{{ site.color.dark }}, 1px 1px #{{ site.color.dark }}, -1px -1px 0 #{{ site.color.dark }}, 1px -1px 0 #{{ site.color.dark }}, -1px 1px 0 #{{ site.color.dark }};
@@ -356,7 +357,6 @@ a.cal-ev .cal-ev-col {
 }
 .postbody {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 .postbody img {
     display: block;
@@ -397,6 +397,11 @@ a.cal-ev .cal-ev-col {
 }
 .postbody .tagwrapper .tag:hover a {
     color: #FFF;
+}
+.postbody .post-footer {
+    background-color: #{{ site.color.light }};
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .post-card, .post-list {
     display: flex;

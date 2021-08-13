@@ -4,6 +4,9 @@ title:  "Standarder att ha koll på"
 description: "Standarder som kan vara bra att följa ino e-hälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Standarder Medicinteknik
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som aretar med denna webplatsen."
 image:
   path: "/assets/images/post-head/500/pil.jpg"
   head: "/assets/images/post-head/1920/pil.jpg"

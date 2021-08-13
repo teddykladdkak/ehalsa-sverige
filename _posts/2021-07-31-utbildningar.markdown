@@ -4,6 +4,9 @@ title:  "Utbildningar i e-hälsa"
 description: "Möjligheter för dig att utbilda dig i e-hälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Utbildning Medicinteknik
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som aretar med denna webplatsen."
 image:
   path: "/assets/images/post-head/500/utbildning.jpg"
   head: "/assets/images/post-head/1920/utbildning.jpg"

@@ -33,6 +33,10 @@
     <meta name="twitter:description" content="{{ description | truncate: 280, '...' }}">
     <meta property="og:locale" content="{{ page.lang | default: site.lang | default: "sv" }}">
 
+    {%- if page.author.name -%}
+        <meta name="author" content="{{ page.author.name }}">
+    {%- endif -%}
+
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 
