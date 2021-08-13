@@ -11,13 +11,17 @@ twitter_username: ehälsa-sverige
 #Colours!
 color:
   primary: "5472C5"
-  dark: "0F172D"
-  light: "C2CDEA"
-  medium: "293E77"
+  dark: "1E2845"
+  light: "96A5CE"
+  medium: "3F5591"
+  highlight: "C4A554"
   shade:
     opacity: "0.5"
     primary: "84, 114, 197"
-    dark: "15, 23, 45"
+    dark: "30, 40, 69"
+#https://color.adobe.com/sv/create/color-wheel
+#Monokrom
+#Komplementär
 
 # Build settings
 #theme: no-style-please

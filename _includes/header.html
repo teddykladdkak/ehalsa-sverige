@@ -1,11 +1,14 @@
 <header>
     <nav>
-        <p><a href="/index.html" class="title oneline">
-            <img src="/favicon.svg" alt="Loggan till webbsidan" class="icon">
-            {{ site.title }}
-        </a></p>
+        <p>
+            <svg aria-hidden="true" role="img" class="icon mobile-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" onclick="showHideMenu(this);"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            <a href="/index.html" class="title oneline">
+                <img src="/favicon.svg" alt="Loggan till webbsidan" class="icon">
+                {{ site.title }}
+            </a>
+        </p>
         <div class="nav-spacer"></div>
-        <ul>
+        <ul id="mainMenu" class="mobile-hidden">
             <li><a href="/index.html">Start</a></li>
             <li><a href="/kalender.html">Kalender</a></li>
             <li><a href="/artiklar.html">Artiklar</a></li>
@@ -19,6 +22,7 @@
                     {% endfor %}
                 </ul>
             </li>
+            <li class="call-to-action oneline mobile-hidden"><a href="/2021/08/13/introduktion-till-ehalsa.html">Börja här</a></li>
             {%- if site.demo -%}
                 <!--<li><a href="/karta.html">Karta</a></li>-->
                 <!--<li><a href="/event.html">Event</a></li>-->

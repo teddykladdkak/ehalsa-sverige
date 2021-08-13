@@ -18,6 +18,7 @@ getJSON('https://spreadsheets.google.com/feeds/cells/' + sheetID + '/1/public/va
         var wrapper = document.getElementById('calendar');
             wrapper.setAttribute('style', 'text-align: center;padding-bottom: 20px;');
             var errmessage = document.createElement('p');
+                errmessage.setAttribute('class', 'err-message');
                 var errmessagetext = document.createTextNode('Kunde inte ladda event, testa att ladda om sidan.');
                 errmessage.appendChild(errmessagetext);
             wrapper.appendChild(errmessage);
