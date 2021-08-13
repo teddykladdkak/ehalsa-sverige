@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Starta företag inom e-hälsa"
-description: "Viktiga aspekter att tänka på när du startar företag inom e-hälsa"
+title:  "Starta företag inom eHälsa"
+description: "Viktiga aspekter att tänka på när du startar företag inom eHälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Medicinteknik Företag
 image:
@@ -13,7 +13,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-Har du en idé inom e-hälsa som du vill kommersialisera? Här tipsar vi om viktiga aspekter att ha i åtanke när du startar företag.
+Har du en idé inom eHälsa som du vill kommersialisera? Här tipsar vi om viktiga aspekter att ha i åtanke när du startar företag.
 ## Se till att ni kan regelverket
 E-hälsa kan vara en hårt reglerad bransch, så det är viktigt att ni känner till vilka regler som gäller för er produkt och verksamhet. Detta gäller särskilt om din produkt betraktas som en medicinteknisk produkt. Att av okunskap bryta mot reglerna kan bli väldigt dyrt i längden, både finansiellt och genom förlorat anseende.
 
@@ -31,17 +31,17 @@ För att förverkliga de flesta visioner krävs ett team. Genom ta initiativ och
 ## Säkerställ finansiering
 De flesta företag behöver någon form av investering innan de blir lönsamma. Det finns flera sätt att skaffa finansiering, från banklån till riskkapital. De har olika för- och nackdelar, och vilket som passar ditt företag bäst kan därför skilja sig åt.
 
-**Läs mer:** Finansiering för startup-företag i e-hälsa
+**Läs mer:** Finansiering för startup-företag i eHälsa
 ## Följ etablerade standarder
 Genom att från början arbeta enligt etablerade standarder underlättar ni framtida interoperabilitet, vilket kan vara av stort värde för er och era kunder. Dessutom kan lagar eller kunder ställa krav på er att arbeta utifrån standarder för exempelvis kvalitet eller informationssäkerhet.
 
 Att låta er certifieras enligt en standard ger er, men framför allt era kunder, tryggheten att veta att ni faktiskt uppfyller standardkraven. Tänk på att certifieringsorgan tar ut en avgift för certifiering och att certifieringsprocessen ofta är tidskrävande och görs i flera steg. Beroende på vilken standard ni vill certifiera er enligt kan certifieringsorganen även ha en väntetid. När företaget väl är certifierat görs vanligen regelbundna inspektioner för att företaget ska få ha kvar sin certifiering.
 
 **Läs mer:** Standarder att ha koll på\
-**Läs mer:** Utbildningar inom e-hälsa
+**Läs mer:** Utbildningar inom eHälsa
 ## Sköt om företagets formalia
 Det kan vara lockande att lägga all sin tid på att skapa sin produkt och att få ut den på marknaden, men företagets juridiska administration ska inte förglömmas. Se till att ha avtal på plats mellan delägare och att ni har kompetens att sköta bokföring och skatt. Detta kan spara er tärande konflikter på sikt.
 ## Låt andra validera er lösning
 Om ni vill sälja till vården kan det vara en stor fördel att ha bevis på att er lösning faktiskt ger utlovade resultat. Genom att utomstående experter validerar ert erbjudande kan ni mer trovärdigt förklara fördelarna med det. Det kan exempelvis gälla hälsoekonomi, upplevelser hos användare eller medicinska utfall. Utomstående experter kan exemplevis vara universitetsanknutna forskare.
 
-**Läs mer:** [Akademisk forskning om e-hälsa](/2021/07/29/akademisk-forskning-om-e-hälsa.html)
+**Läs mer:** [Akademisk forskning om eHälsa](/2021/07/29/akademisk-forskning-om-eHälsa.html)
