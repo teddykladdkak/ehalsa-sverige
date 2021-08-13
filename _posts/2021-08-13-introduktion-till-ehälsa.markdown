@@ -25,9 +25,9 @@ Viktiga områden inom eHälsa är
 * telemedicin
 * effektivisering och automatisering.
 
-**Läs mer:** [Lagar att ha koll på](/2021/07/29/lagar-att-ha-koll-på.html)
-**Läs mer:** [Standarder att ha koll på](/2021/07/31/standarder.html)
-**Läs mer:** [Journalsystem i Sverige](/2021/07/30/journalsystem.html)
+**Läs mer:** [Lagar att ha koll på](/2021/07/29/lagar.html)\
+**Läs mer:** [Standarder att ha koll på](/2021/07/31/standarder.html)\
+**Läs mer:** [Journalsystem i Sverige](/2021/07/30/journalsystem.html)\
 **Läs mer:** [Privata digitala vårdgivare i Sverige](/2021/07/30/digital-vardgivare.html)
 
 ## Vilka fördelar kan eHälsa ha?
@@ -57,7 +57,7 @@ En mängd aktörer ingår i Sveriges ekosystem för eHälsa:
 * inkubatorer och innovationshubbar som hjälper företag att utvecklas och nå ut med sina produkter
 * akademiska forskare som utvärderar och förbättrar eHälsa.
 
-**Läs mer:** [Akademisk forskning om eHälsa](/2021/07/29/akademiskforskning.html)
+**Läs mer:** [Akademisk forskning om eHälsa](/2021/07/29/akademiskforskning.html)\
 **Läs mer:** [Starta företag inom eHälsa](/2021/07/31/starta-foretag.html)
 
 ## Hur kan jag lära mig mer?
