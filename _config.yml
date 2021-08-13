@@ -10,14 +10,14 @@ twitter_username: ehälsa-sverige
 
 #Colours!
 color:
-  primary: "CF6766"
-  dark: "031424"
-  light: "8EAEBD"
-  medium: "30415D"
+  primary: "5472C5"
+  dark: "0F172D"
+  light: "C2CDEA"
+  medium: "293E77"
   shade:
     opacity: "0.5"
-    primary: "207, 103, 102"
-    dark: "3, 20, 36"
+    primary: "84, 114, 197"
+    dark: "15, 23, 45"
 
 # Build settings
 #theme: no-style-please
