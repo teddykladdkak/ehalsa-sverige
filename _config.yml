@@ -25,7 +25,7 @@ color:
 
 #Artiklar per sida
 paginate: 5
-paginate_path: "/artiklar/page:num/"
+paginate_path: "/artiklar/:num/"
 
 # Build settings
 #theme: no-style-please
