@@ -16,6 +16,9 @@ sitemap:
   changefreq: 'weekly'
 ---
 Vill du gå kurser eller till och med få examen i e-hälsa? Här samlar vi utbildningar inom ämnet.
+
+{% include toc.md %}
+
 ## Kurser och program på universitet
 Nedanstående avser kurser och program som kan tas hösten 2021.
 ### Högskolan Dalarna

@@ -17,11 +17,7 @@ sitemap:
 ---
 Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
 
-[DentMe](#dentme)\
-[Folktandvården Skåne](#ftv-skane)\
-[Onlinetandläkaren (Aqua Dental)](#onlinetandlakaren-aquadental)\
-[Onlinetandläkaren](#onlinetandlakaren)\
-[Toothie](#toothie)
+{% include toc.md %}
 
 ## Företag
 ### DentMe {#dentme}

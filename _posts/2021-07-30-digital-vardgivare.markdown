@@ -19,28 +19,7 @@ Digitala vårdgivare (“nätläkare”) har blivit en del av vardagen för mån
 
 Utöver de privata vårdgivarna erbjuder vissa regioner sina egna digitala vårdtjänster. Det finns även tandläkare och veterinärer online.
 
-## Innehåll
-
-[Accumbo (Blodtrycksdoktorn)](#accumbo)\
-[Agilokliniken](#agilo)\
-[Capio Go](#capio-go)\
-[Din psykolog](#din-psykolog)\
-[Doktor.se](#doktorse)\
-[Doktor24](#doktor24)\
-[Fysioterapeut onlin](#fysioterapeut-online)\
-[Hej! Samtal Online](#hej)
-[Joint Academy](#joint-academy)\
-[Knodd](#knodd)\
-[Kry](#kry)\
-[Learning to Sleep](#learning-to-sleep)\
-[MediCheck](#medicheck)\
-[Mendly](#mendly)\
-[Min Doktor](#min-doktor)\
-[Mindler](#mindler)\
-[Pratamera](#pratamera)\
-[Skadekompassen](#skadekompassen)\
-[Snapmed](#snapmed)\
-[Vårdhjälpen](#vardhjalparen)
+{% include toc.md %}
 
 ## Företag
 ### Accumbo (Blodtrycksdoktorn) {#accumbo}

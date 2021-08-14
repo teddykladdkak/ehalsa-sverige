@@ -18,20 +18,7 @@ sitemap:
 
 Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? Här samlar vi forskning vid svenska lärosäten.
 
-## Innehåll
-
-[Lärosäten och forskargrupper](#larosaten)\
-	[Högskolan i Skövde](#skovde)\
-	[Karlstads universitet](#karlstad)\
-	[Linnéuniversitetet](#linne)\
-	[Lunds universitet](#lund)\
-	[Uppsala universitet](#uppsala)\
-	[Örebro universitet](#orebro)\
-[Samarbeten](#samarbeten)\
-	[Development of Online Medical records and E-health services (DOME)](#dome)\
-	[Digital förvaltning](#digital-forvaltning)\
-	[Human, Technology & Organisation](#hto)\
-	[Medtech Science & Innovation centre](#msic)
+{% include toc.md %}
 
 ## Lärosäten och forskargrupper {#larosaten}
 ### Högskolan i Skövde {#skovde}

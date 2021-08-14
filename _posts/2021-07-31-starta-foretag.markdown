@@ -15,8 +15,10 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-
 Har du en idé inom eHälsa som du vill kommersialisera? Här tipsar vi om viktiga aspekter att ha i åtanke när du startar företag.
+
+{% include toc.md %}
+
 ## Se till att ni kan regelverket
 E-hälsa kan vara en hårt reglerad bransch, så det är viktigt att ni känner till vilka regler som gäller för er produkt och verksamhet. Detta gäller särskilt om din produkt betraktas som en medicinteknisk produkt. Att av okunskap bryta mot reglerna kan bli väldigt dyrt i längden, både finansiellt och genom förlorat anseende.
 

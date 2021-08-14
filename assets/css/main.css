@@ -90,8 +90,9 @@ nav p .mobile-icon {
     display: none;
     float: right;
     cursor: pointer;
+    color: #FFF;
 }
-nav p .mobile-icon:hover {
+nav p .mobile-icon:hover svg {
     color: #{{ site.color.light }};
 }
 .dropdown {
@@ -359,6 +360,13 @@ a.cal-ev .cal-ev-col {
 .postbody {
     padding-top: 20px;
 }
+.postbody a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+}
 .postbody img {
     display: block;
     width: 80%;
@@ -443,6 +451,24 @@ a.cal-ev .cal-ev-col {
 }
 .kategori {
     display: none;
+}
+.screen-reader-only {
+    position: relative;
+}
+.screen-reader-only p {
+    text-align: center;
+}
+.screen-reader-only a {
+    position: absolute;
+    left: -5000px;
+    width: 100%;
+    color: #000;
+    padding: 10px 0px;
+    background-color: #{{ site.color.light }};
+}
+.screen-reader-only a:focus {
+    left: 0;
+    top: 50px;
 }
 @media only screen and (max-width: 800px) {
     .mobile-min {

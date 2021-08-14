@@ -17,19 +17,7 @@ sitemap:
 ---
 Eletroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom e-hälsa behöver förhålla sig till.
 
-## Innehåll
-[Karta över Sveriges journalsystem](#karta)\
-[Så ritas kartan om](#ny-karta)\
-[Om journalsystemen](#om)\
-	[AsynjaVisph](#av)\
-	[Cosmic](#cosmic)\
-	[Melior](#melior)\
-	[Millenium](#millenium)\
-	[NCS Cross](#ncs)\
-	[Profdoc Medical Office (PMO)](#pmo)\
-	[TakeCare/AsynjaVisph](#tc)\
-	[VårdAdministrativt System (VAS)](#vas)
-
+{% include toc.md %}
 
 ## Karta över Sveriges journalsystem {#karta}
 Idag används sex journalsystem i den regionalt styrda vården. 18 regioner använder samma journalsystem inom primärvård och på sjukhus, medan tre regioner använder olika system.

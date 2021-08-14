@@ -17,25 +17,7 @@ sitemap:
 ---
 Som utvecklare, inköpare eller användare av e-hälsotjänster lönar det sig att ha koll på vilka standarder som används inom branschen. Här förklarar vi några av de vanligaste och viktigaste standarderna.
 
-## Innehåll
-[Anatomical Therapeutic Chemical Classification System (ATC)](#atc)\
-[Fast Healthcare Interoperability Resources (FHIR)](#fhir)\
-[International Statistical Classification of Diseases and Related Health Problems (ICD)](#icd)\
-[Internationell klassifikation av funktionstillstånd, funktionshinder och hälsa (ICF)](#icf)\
-[IEC 62304](#iec-62304)\
-[IEC 62366](#iec-62366)\
-[ISO 9001](#iso-9001)\
-[ISO 13485](#iso-13485)\
-[ISO 14971](#iso-14971)\
-[ISO/IEC 27001](#iso-iec-27001)\
-[ISO/IEC 27017](#iso-iec-27017)\
-[ISO/IEC 27018](#iso-iec-27018)\
-[Klassifikation av sjukdomar och hälsoproblem 1997, Primärvård (KSH97-P)](#ksh97-p)\
-[Klassifikation av vårdåtgärder (KVÅ)](#kva)\
-[Medical Subject Headings (MeSH)](#mesh)\
-[Nomenclature of Properties and Units (NPU)](#npu)\
-[openEHR](#openehr)\
-[Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT)](#snomed-ct)
+{% include toc.md %}
 
 ## Anatomical Therapeutic Chemical Classification System (ATC) {#atc}
 **Användning:** Koder för gruppering av läkemedel\
