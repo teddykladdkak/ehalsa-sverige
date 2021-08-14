@@ -31,7 +31,7 @@ Som utvecklare, inköpare eller användare av e-hälsotjänster lönar det sig a
 [ISO/IEC 27017](#iso-iec-27017)\
 [ISO/IEC 27018](#iso-iec-27018)\
 [Klassifikation av sjukdomar och hälsoproblem 1997, Primärvård (KSH97-P)](#ksh97-p)\
-[Klassifikation av vårdåtgärder (KVÅ)](#kvå)\
+[Klassifikation av vårdåtgärder (KVÅ)](#kva)\
 [Medical Subject Headings (MeSH)](#mesh)\
 [Nomenclature of Properties and Units (NPU)](#npu)\
 [openEHR](#openehr)\
@@ -154,7 +154,7 @@ ISO 27018 utgår från ISO 27002, men lägger till ytterligare kontrollmekanisme
 ## Klassifikation av sjukdomar och hälsoproblem 1997, Primärvård (KSH97-P) {#ksh97-p}
 Se International Statistical Classification of Diseases and Related Health Problems (ICD).
 
-## Klassifikation av vårdåtgärder (KVÅ) {#kvå}
+## Klassifikation av vårdåtgärder (KVÅ) {#kva}
 **Användning:** Åtgärdskoder\
 **Förvaltare:** Socialstyrelsen
 

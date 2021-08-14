@@ -18,9 +18,9 @@ sitemap:
 Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
 
 [DentMe](#dentme)\
-[Folktandvården Skåne](#ftv-skåne)\
-[Onlinetandläkaren (Aqua Dental)](#onlinetandläkaren-aquadental)\
-[Onlinetandläkaren](#onlinetandläkaren)\
+[Folktandvården Skåne](#ftv-skane)\
+[Onlinetandläkaren (Aqua Dental)](#onlinetandlakaren-aquadental)\
+[Onlinetandläkaren](#onlinetandlakaren)\
 [Toothie](#toothie)
 
 ## Företag
@@ -29,17 +29,17 @@ Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
 **Har fysiska mottagningar:** Ja, kan hänvisa patienter till samarbetskliniker\
 **Kontakttyp:** Chatt eller video\
 **Teknisk lösning:** App (Android och iOS)
-### Folktandvården Skåne {#ftv-skåne}
+### Folktandvården Skåne {#ftv-skane}
 **Hemsida:** [https://folktandvardenskane.se/tidbokning/videosamtal/](https://folktandvardenskane.se/tidbokning/videosamtal/)\
 **Har fysiska mottagningar:** Ja
 **Kontakttyp:** Video\
 **Teknisk lösning:** Webbläsare
-### Onlinetandläkaren (Aqua Dental) {#onlinetandläkaren-aquadental}
+### Onlinetandläkaren (Aqua Dental) {#onlinetandlakaren-aquadental}
 **Hemsida:** [https://www.aquadental.se/onlinetandlakaren](https://www.aquadent\al.se/onlinetandlakaren)\
 **Har fysiska mottagningar:** Ja\
 **Kontakttyp:** Video\
 **Teknisk lösning:** Webbläsare
-### Onlinetandläkaren {#onlinetandläkaren}
+### Onlinetandläkaren {#onlinetandlakaren}
 **Hemsida:** [https://onlinetandlakaren.se/](https://onlinetandlakaren.se/)\
 **Har fysiska mottagningar:** Nej\
 **Kontakttyp:** Formulär\

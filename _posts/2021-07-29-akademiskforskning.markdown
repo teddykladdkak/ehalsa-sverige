@@ -20,21 +20,21 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 
 ## Innehåll
 
-[Lärosäten och forskargrupper](#lärosäten)\
-	[Högskolan i Skövde](#skövde)\
+[Lärosäten och forskargrupper](#larosaten)\
+	[Högskolan i Skövde](#skovde)\
 	[Karlstads universitet](#karlstad)\
-	[Linnéuniversitetet](#linné)\
+	[Linnéuniversitetet](#linne)\
 	[Lunds universitet](#lund)\
 	[Uppsala universitet](#uppsala)\
-	[Örebro universitet](#örebro)\
+	[Örebro universitet](#orebro)\
 [Samarbeten](#samarbeten)\
 	[Development of Online Medical records and E-health services (DOME)](#dome)\
-	[Digital förvaltning](#digital-förvaltning)\
+	[Digital förvaltning](#digital-forvaltning)\
 	[Human, Technology & Organisation](#hto)\
 	[Medtech Science & Innovation centre](#msic)
 
-## Lärosäten och forskargrupper {#lärosäten}
-### Högskolan i Skövde {#skövde}
+## Lärosäten och forskargrupper {#larosaten}
+### Högskolan i Skövde {#skovde}
 **Forskare:** [Rose-Mharie Åhlfeldt](https://www.his.se/mot-hogskolan/medarbetare/rose-mharie.ahlfeldt/)\
 **Projekt:**
 * DOME - Deployment of online medical records and e-health services
@@ -45,7 +45,7 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 ### Karlstads universitet {#karlstad}
 **Grupp:** [eHälsa](https://www.kau.se/informatik/forskning-och-samverkan/forskning/forskning-inom-informatik/ehalsa)\
 **Beskrivning:** Aktiva inom konsoritierna DOME och NORDeHEALTH.
-### Linnéuniversitetet {#linné}
+### Linnéuniversitetet {#linne}
 **Grupp:** [eHälsoinstitutet](https://lnu.se/forskning/sok-forskning/ehalsoinstitutet/)\
 **Beskrivning:** “eHälsoinstitutet är en mötesplats för forskning, utvärdering, samverkan och utbildning inom e-hälsa, dvs. digitalt stöd för att stärka individen samt höja kvalitet och effektivitet inom hälsa, vård, medicin och omsorg.”\
 **Projekt:**
@@ -68,9 +68,9 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 * Utveckling, testning, utvärdering och implementering av komplexa interventioner t.ex. e-Hälsa interventioner
 * Utveckling av metoder för att optimera rekrytering, adherence och rekrytering i forskningsstudier
 
-### Örebro universitet {#örebro}
+### Örebro universitet {#orebro}
 **Grupp:** [Centre for empirical research on information systems (CERIS)](https://www.oru.se/forskning/forskningsmiljoer/ent/ceris/)\
-**Beskrivning:** “Centre for Empirical Research on Information Systems (CERIS) utvecklar kunskap om informationssystems möjligheter och begränsningar när det gäller att stödja hur människor arbetar i, styr och utvecklar verksamheter.”\
+**Beskrivning:** “Centre for Empirical Research on Information Systems (CERIS) utvecklar kunskap om informationssystems möjligheter och begränsningar när det gäller att stödja hur människor arbetar i, styr och utvecklar verksamheter.”
 ## Samarbeten {#samarbeten}
 ### Development of Online Medical records and E-health services (DOME) {#dome}
 **Hemsida:** [https://domeconsortium.org/](https://domeconsortium.org/)\
@@ -83,7 +83,7 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 * NordWit
 * Patient-centred assessment of patients’ online access to electronic health records (PACESS)
 
-### Digital förvaltning {#digital-förvaltning}
+### Digital förvaltning {#digital-forvaltning}
 **Hemsida:** [https://www.digitalforvaltning.se/](https://www.digitalforvaltning.se/)\
 **Deltagare:** Göteborgs universitet, Stockholms universitet och Umeå universitet\
 **Beskrivning:** Forskningskonsortium inom ramen för Swedish Center for Digital Innovation. Arbetar med en modell för att mäta och följa upp digital mognad i offentlig sektor.
