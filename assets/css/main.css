@@ -79,12 +79,9 @@ nav ul li a:hover {
 nav ul li.call-to-action a {
     background-color: #{{ site.color.highlight }};
     color: #000;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: hidden;
 }
 nav ul li.call-to-action a:hover {
-    opacity: 0.8;
+    border: hidden;
 }
 nav p .mobile-icon {
     display: none;
@@ -219,12 +216,19 @@ footer svg {
     margin-right: 5px;
     padding: 3px 5px;
 }
-input[type=button] {
+.button svg {
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+}
+.button, input[type=button] {
+    display: inline-block;
     font-size: 1rem;
-    border: none;
     padding: 10px 20px;
     border-radius: 10px;
+    border: hidden;
     -webkit-appearance: none;
+    text-decoration: none;
     background-color: #{{ site.color.primary }};
     color: #FFF;
 }
@@ -232,7 +236,7 @@ input[type=button] {
     background-color: #{{ site.color.medium }};
     color: #FFF;
 }
-input[type=button]:hover {
+.button:hover, input[type=button]:hover {
     color: #FFF;
     cursor: pointer;
     background-color: #{{ site.color.medium }};
@@ -449,6 +453,10 @@ a.cal-ev .cal-ev-col {
     max-width: 600px;
     overflow: hidden;
 }
+.pagination {
+    text-align: center;
+    padding: 20px 10px;
+}
 .kategori {
     display: none;
 }
@@ -489,6 +497,9 @@ a.cal-ev .cal-ev-col {
     nav, nav ul {
         align-items: flex-start;
     }
+    #mainMenu {
+        align-items: center;
+    }
 }
 @media only screen and (max-width: 600px) {
     .post-card {
@@ -516,6 +527,9 @@ a.cal-ev .cal-ev-col {
     }
     nav, nav ul {
         flex-direction: column;
+    }
+    #mainMenu {
+        align-items: flex-start;
     }
     nav {
         padding-right: 10px;

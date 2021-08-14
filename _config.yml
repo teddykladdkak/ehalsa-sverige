@@ -23,8 +23,13 @@ color:
 #Monokrom
 #Komplementär
 
+#Artiklar per sida
+paginate: 5
+paginate_path: "/artiklar/page:num/"
+
 # Build settings
 #theme: no-style-please
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 theme: minima

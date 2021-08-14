@@ -1,0 +1,54 @@
+---
+layout: default
+title: Artiklar
+sitemap:
+  lastmod: 2021-07-27
+  priority: 0.8
+  changefreq: 'weekly'
+---
+<h1>Artiklar</h1>
+{%- if site.posts.size > 0 -%}
+<div class="post-list">
+  {% for post in paginator.posts %}
+  <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});">
+        <article>
+            <header>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <p>
+                    <h3>{{ post.title | escape }}</h3>
+                </p>
+                <p>
+                    {{ post.date | date: date_format }}
+                </p>
+            </header>
+            <p class="post-content mobile-min">
+                {{ post.content | strip_html | truncate: 250, '...'}}
+            </p>
+        </article>
+    </a>
+  {%- endfor -%}
+</div>
+{%- endif -%}
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="button">
+      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+      <span class="mobile-hidden"> Föregående</span>
+    </a>
+  {% else %}
+    <!--<span class="previous">Previous</span>-->
+  {% endif %}
+  <span class="page_number ">
+    Sida: {{ paginator.page }} av {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="button">
+      <span class="mobile-hidden">Nästa </span>
+      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg></a>
+  {% else %}
+    <!--<span class="next ">Next</span>-->
+  {% endif %}
+</div>
