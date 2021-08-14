@@ -55,8 +55,6 @@ nav, nav ul {
 nav {
     background-color: #{{ site.color.dark }};
     color: #FFF;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 nav .nav-spacer {
     width: 100%;
@@ -91,7 +89,6 @@ nav ul li.call-to-action a:hover {
 nav p .mobile-icon {
     display: none;
     float: right;
-    margin-right: 20px;
     cursor: pointer;
 }
 nav p .mobile-icon:hover {
@@ -108,6 +105,8 @@ nav p .mobile-icon:hover {
     padding-top: 20px;
     margin-top: 2px;
     min-width: 160px;
+    webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     background-color: #{{ site.color.dark }};
@@ -123,8 +122,8 @@ nav p .mobile-icon:hover {
     flex-direction: column;
 }
 h1, h2, h3, h4, p {
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 h1 {
     font-size: 1.4rem;
@@ -353,6 +352,8 @@ a.cal-ev .cal-ev-col {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .postbody {
@@ -490,8 +491,15 @@ a.cal-ev .cal-ev-col {
     nav, nav ul {
         flex-direction: column;
     }
+    nav {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     nav p {
+        display: block;
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     nav p .mobile-icon {
         display: block;

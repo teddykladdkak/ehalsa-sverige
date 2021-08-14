@@ -16,7 +16,7 @@ color:
   medium: "3F5591"
   highlight: "C4A554"
   shade:
-    opacity: "0.5"
+    opacity: "0.3"
     primary: "84, 114, 197"
     dark: "30, 40, 69"
 #https://color.adobe.com/sv/create/color-wheel
