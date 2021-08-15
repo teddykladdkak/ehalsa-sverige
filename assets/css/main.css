@@ -359,7 +359,6 @@ a.cal-ev .cal-ev-col {
 .postbody a {
     overflow-wrap: break-word;
     word-wrap: break-word;
-    -ms-word-break: break-all;
     word-break: break-all;
 }
 .postbody img {
