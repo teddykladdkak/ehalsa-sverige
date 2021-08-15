@@ -14,12 +14,8 @@ sitemap:
         <article>
             <header>
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <p>
-                    <h3>{{ post.title | escape }}</h3>
-                </p>
-                <p>
-                    {{ post.date | date: date_format }}
-                </p>
+                <h3>{{ post.title | escape }}</h3>
+                <p>{{ post.date | date: date_format }}</p>
             </header>
             <p class="post-content mobile-min">
                 {{ post.content | strip_html | truncate: 250, '...'}}
