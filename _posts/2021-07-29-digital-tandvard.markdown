@@ -6,7 +6,7 @@ date:   2021-07-29 08:00:00 +0200
 tags: Digital_vård
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/tandlakare.jpg"
   head: "/assets/images/post-head/1920/tandlakare.jpg"
