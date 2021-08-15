@@ -6,7 +6,7 @@ date:   2021-07-30 08:00:00 +0200
 tags: Digital_vård Journalsystem
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/ssk_med_journalsystem.jpg"
   head: "/assets/images/post-head/1920/ssk_med_journalsystem.jpg"
@@ -15,7 +15,7 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-Eletroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom e-hälsa behöver förhålla sig till.
+Elektroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom eHälsa behöver förhålla sig till.
 
 {% include toc.md %}
 

@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Standarder att ha koll på"
-description: "Standarder som kan vara bra att följa ino e-hälsa"
+description: "Standarder som kan vara bra att följa inom eHälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Standarder Medicinteknik
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pil.jpg"
   head: "/assets/images/post-head/1920/pil.jpg"
@@ -15,7 +15,7 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-Som utvecklare, inköpare eller användare av e-hälsotjänster lönar det sig att ha koll på vilka standarder som används inom branschen. Här förklarar vi några av de vanligaste och viktigaste standarderna.
+Som utvecklare, inköpare eller användare av eHälsotjänster lönar det sig att ha koll på vilka standarder som används inom branschen. Här förklarar vi några av de vanligaste och viktigaste standarderna.
 
 {% include toc.md %}
 

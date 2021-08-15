@@ -6,7 +6,7 @@ date:   2021-08-13 08:00:00 +0200
 tags: Utbildning
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/start.jpg"
   head: "/assets/images/post-head/1920/start.jpg"

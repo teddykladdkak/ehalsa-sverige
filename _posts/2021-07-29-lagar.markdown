@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Lagar att ha koll på"
-description: "Lagar som kan påverka e-hälsoprodukter"
+description: "Lagar som kan påverka eHälsoprodukter"
 date:   2021-07-29 08:00:00 +0200
 tags: Lagar Medicinteknik
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/lag.jpg"
   head: "/assets/images/post-head/1920/lag.jpg"
@@ -16,7 +16,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-Som tillverkare, leverantör, inköpare eller användare av e-hälsoprodukter är det viktigt att förstå vilka regelverk man måste förhålla sig till. Vissa lagar gäller särskilt för e-hälsotjänster som betraktas som medicintekniska produkter. Här följer i bokstavsordning några lagar som kan gälla ditt område.
+Som tillverkare, leverantör, inköpare eller användare av eHälsoprodukter är det viktigt att förstå vilka regelverk man måste förhålla sig till. Vissa lagar gäller särskilt för eHälsotjänster som betraktas som medicintekniska produkter. Här följer i bokstavsordning några lagar som kan gälla ditt område.
 
 {% include toc.md %}
 
@@ -42,7 +42,7 @@ Förordningen beskriver även krav på anmälda organ (organisationer som säker
 ## Dataskyddsförordningen (GDPR) {#gdpr}
 GDPR reglerar hur organisationer får hantera personuppgifter i EU. Personuppgifter kan innebära sådant som direkt identifierar en fysisk person (t.ex. namn och adress) men även information som indirekt kan härledas till en person, exempelvis ip-adresser.
 
-Vissa så-kallade känsliga personuppgifter ges särskild starkt skydd. Känsliga personuppgifter innefattar information om ras eller etnisk tillhörighet, politiska åsikter, religiösa övertygelser, medlemskap i fackföreningar, genetik, biometri, hälsa och sexualliv. Vissa data i e-hälsolösningar faller in under denna kategori, eftersom de vanligen hanterar hälsodata.
+Vissa så-kallade känsliga personuppgifter ges särskild starkt skydd. Känsliga personuppgifter innefattar information om ras eller etnisk tillhörighet, politiska åsikter, religiösa övertygelser, medlemskap i fackföreningar, genetik, biometri, hälsa och sexualliv. Vissa data i eHälsolösningar faller in under denna kategori, eftersom de vanligen hanterar hälsodata.
 
 GDPR är omfattande och tar bland annat upp
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Utbildningar i e-hälsa"
-description: "Möjligheter för dig att utbilda dig i e-hälsa"
+title:  "Utbildningar i eHälsa"
+description: "Möjligheter för dig att utbilda dig i eHälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Utbildning Medicinteknik
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/utbildning.jpg"
   head: "/assets/images/post-head/1920/utbildning.jpg"
@@ -15,7 +15,7 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-Vill du gå kurser eller till och med få examen i e-hälsa? Här samlar vi utbildningar inom ämnet.
+Vill du gå kurser eller till och med få examen i eHälsa? Här samlar vi utbildningar inom ämnet.
 
 {% include toc.md %}
 
@@ -80,7 +80,7 @@ Nedanstående avser kurser och program som kan tas hösten 2021.
 **Studietakt:** Halvfart
 
 ### Lunds universitet
-#### [Informatik: Introduktion till e-hälsa](http://www.lu.se/lubas/i-uoh-lu-INFA44/21311)
+#### [Informatik: Introduktion till eHälsa](http://www.lu.se/lubas/i-uoh-lu-INFA44/21311)
 **Högskolepoäng:** 7,5\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Engelska\
@@ -99,12 +99,12 @@ Nedanstående avser kurser och program som kan tas hösten 2021.
 Information om hur du påverkas av lagen om nationell läkemedelslista.
 
 ### Socialstyrelsen
-Socialstyrelsen erbjuder flera digitala utbildningsmoduler om e-hälsa.
+Socialstyrelsen erbjuder flera digitala utbildningsmoduler om eHälsa.
 
 #### [Digital verksamhetsutveckling i vården](https://socialstyrelsen.onlineacademy.se/external/play/16039)
 Utbildning som syftar till att inspirera medarbetare inom vården, chefer, beslutsfattare och politiker.
 
-#### [E-hälsa och välfärdsteknik i socialtjänsten](https://utbildning.socialstyrelsen.se/learn/course/external/view/elearning/105/e-halsa-och-valfardsteknik-i-socialtjansten)
+#### [E-hälsa och välfärdsteknik i socialtjänsten](https://utbildning.socialstyrelsen.se/learn/course/external/view/elearning/105/eHalsa-och-valfardsteknik-i-socialtjansten)
 Riktad mot personer som arbetar inom socialtjänsten.
 
 #### [Etik och integritet vid införande av välfärdsteknik](https://utbildning.socialstyrelsen.se/learn/course/external/view/elearning/76/Etikochintegritetvidinf%C3%B6randeavv%C3%A4lf%C3%A4rdsteknik)

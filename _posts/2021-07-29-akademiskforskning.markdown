@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Akademisk forskning om e-hälsa"
-description: "Här samlar vi forskning om e-hälsa vid svenska lärosäten"
+title:  "Akademisk forskning om eHälsa"
+description: "Här samlar vi forskning om eHälsa vid svenska lärosäten"
 date:   2021-07-29 08:00:00 +0200
 tags: Forskning
 author:
   name: "Redaktionen"
-  description: "Intern grupp som aretar med denna webplatsen."
+  description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/research.jpg"
   head: "/assets/images/post-head/1920/research.jpg"
@@ -16,7 +16,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? Här samlar vi forskning vid svenska lärosäten.
+Intresserad av att läsa om eller bidra till akademisk forskning om eHälsa? Här samlar vi forskning vid svenska lärosäten.
 
 {% include toc.md %}
 
@@ -34,7 +34,7 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 **Beskrivning:** Aktiva inom konsoritierna DOME och NORDeHEALTH.
 ### Linnéuniversitetet {#linne}
 **Grupp:** [eHälsoinstitutet](https://lnu.se/forskning/sok-forskning/ehalsoinstitutet/)\
-**Beskrivning:** “eHälsoinstitutet är en mötesplats för forskning, utvärdering, samverkan och utbildning inom e-hälsa, dvs. digitalt stöd för att stärka individen samt höja kvalitet och effektivitet inom hälsa, vård, medicin och omsorg.”\
+**Beskrivning:** “eHälsoinstitutet är en mötesplats för forskning, utvärdering, samverkan och utbildning inom eHälsa, dvs. digitalt stöd för att stärka individen samt höja kvalitet och effektivitet inom hälsa, vård, medicin och omsorg.”\
 **Projekt:**
 * Läkemedelsanvändning vid kranskärlssjukdom
 * Bättre livskvalitet för äldre med inriktning mot läkemedel, skeletthälsa och D-vitamin
@@ -49,7 +49,7 @@ Intresserad av att läsa om eller bidra till akademisk forskning om e-hälsa? H�
 **Grupp:** [eHealth@LU](https://www.ehealth.lth.se/)\
 **Beskrivning:** Samarbete mellan forskare vid olika fakulteter vid Lunds universitet, offentlig sektor och företag.
 ### Uppsala universitet {#uppsala}
-**Grupp:** [Hälsovetenskap och e-hälsa](https://www.kbh.uu.se/forskning/halsovetenskap-och-e-halsa/)\
+**Grupp:** [Hälsovetenskap och eHälsa](https://www.kbh.uu.se/forskning/halsovetenskap-och-e-halsa/)\
 **Beskrivning:** “Vi arbetar bl.a. med att identifiera, förutsäga och behandla sjukdomsrelaterade emotionella besvär hos de som drabbats av kroppslig sjukdom och deras närstående.”\
 **Projekt:**
 * Utveckling, testning, utvärdering och implementering av komplexa interventioner t.ex. e-Hälsa interventioner
