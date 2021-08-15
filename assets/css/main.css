@@ -4,10 +4,6 @@ sitemap:
 ---
 @import url('/assets/fonts/poppins/poppins.css');
 a, .dropdown-content, input[type=button], .mobile-icon {
-    -webkit-transition: all 150ms linear;
-    -moz-transition: all 150ms linear;
-    -o-transition: all 150ms linear;
-    -ms-transition: all 150ms linear;
     transition: all 150ms linear;
 }
 html, footer {
@@ -103,8 +99,6 @@ nav p .mobile-icon:hover svg {
     padding-top: 20px;
     margin-top: 2px;
     min-width: 160px;
-    webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     background-color: #{{ site.color.dark }};
@@ -357,8 +351,6 @@ a.cal-ev .cal-ev-col {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .postbody {
@@ -369,7 +361,6 @@ a.cal-ev .cal-ev-col {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-all;
-    word-break: break-word;
 }
 .postbody img {
     display: block;
@@ -548,8 +539,6 @@ a.cal-ev .cal-ev-col {
         display: flex;
         flex-direction: column;
         position: relative;
-        webkit-box-shadow: none;
-        -moz-box-shadow: none;
         box-shadow: none;
     }
     footer {
