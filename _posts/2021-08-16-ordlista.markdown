@@ -15,29 +15,78 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-Här förklarar vi begrepp som dyker upp i eHälsosammanhang.
+Här förklarar vi begrepp som dyker upp i eHälsosammanhang.\
+Se även: [Socialstyrelsens termbank](https://termbank.socialstyrelsen.se/)
 
-**Distansmonitorering:** En slags telemedicin (se nedan) där patienter utanför en vårdmiljö upprepat rapporterar in värden (exempelvis blodtryck eller enkäter) som automatiserat eller manuellt bedöms av vården.\
-**eHälsa/e-hälsa:** Beskrivs av Socialstyrelsen som “att använda digitala verktyg och utbyta information digitalt för att uppnå och bibehålla hälsa”.\
-**FHIR:** Forkortning av _Fast Healthcare Interoperability Resources_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).\
-**Integration:** Att få flera it-system att att kunna skicka data till och ta emot data från varandra.\
-**Interoperabilitet:** Att flera program kan utbyta information med varandra. Kräver någon standardisering av hur data ska formateras, skickas och tas emot.\
-**ISO:** Förkortning av _Internationella standardiseringsorganisationen_, vilket är ett organ som ger ut standarder inom en mängd områden, varav vissa kan vara relevanta för eHälsa. Se [Standarder att ha koll på](/2021/07/31/standarder.html).\
-**Journalsystem:** I Sverige vanligen datorprogram som används för att komma åt patientjournaler. Se [Journalsystem i Sverige](/2021/07/30/journalsystem.html).\
-**Kliniskt beslutsstödssystem:** Mjukvara som ger vårdpersonal underlag eller rekommendationer att fatta medicinska beslut, exempelvis genom beräkning av sjukdomsrisk baserat på patientdata.\
-**Medicinteknik:** Icke-farmaceutiska produkter som används för bl.a. diagnos, profylax, övervakning, prediktion, prognos, behandling eller lindring av sjukdomar eller funktionsnedsättningar. Regleras i EU av .Förordning (EU) 2017/745 av den 5 april 2017 om medicintekniska produkter (förkortas vanligen _MDR_, för Medical Device Regulation). Detta kan innefatta eHälsoprodukter, inklusive mjukvara. Se Är min eHälsoprodukt en medicinteknisk produkt?\
-**mHälsa/m-hälsa:** Att använda mobila kommunikationsmedel såsom mobiltelefoner eller surfplattor för hälsotjänster. Underkategori till eHälsa.\
-**Patientjournal:** En eller flera journalhandlingar som rör samma patient, där journalhandlingar enligt Patientdatalagen definieras som “Framställning i skrift eller bild samt upptagning som kan läsas, avlyssnas eller på annat sätt uppfattas endast med tekniskt hjälpmedel och som upprättas eller inkommer i samband med vården av en patient och som innehåller uppgifter om patientens hälsotillstånd eller andra personliga förhållanden eller om vidtagna eller planerade vårdåtgärder.”\
-**Sakernas internet (engelska: _Internet of Things_):** Nätverk av fysiska föremål med inbyggda internetuppkopplingar som kan styras eller utbyta data över nätet.\
-**Sammanhållen journalföring:** Definieras enligt Patientdatalagen som “[e]tt elektroniskt system, som gör det möjligt för en vårdgivare att ge eller få direktåtkomst till personuppgifter hos en annan vårdgivare”. Patientdatalagen anger att patienten bestämmer om vårdgivare ska ha tillgång till varandras journalanteckningar.\
-**SNOMED CT:** Förkortning av _Systematized Nomenclature of Medicine -- Clinical Terms_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).\
-**Skalbarhet:** Att kunna öka omfattningen på hur mjukvara används (exempelvis genom att lägga till användare) utan att behöva göra betydande ändringar i mjukvaran i sig.\
-**Standard:** En dokumenterad norm för hur något ska göras, exempelvis hur en produkt tillverkas eller hur en tjänst utförs. Se [Standarder att ha koll på](/2021/07/31/standarder.html).\
-**Systemarkitektur:** Vilka komponenter som ingår i ett datasystem, hur de används och hur de fungerar tillsammans.\
-**Tekniskt arv (engelska: legacy):** Existerande, vanligen föråldrade, datasystem som ännu är i drift (ofta för att de är kostsamma att ersätta). Ofta behöver nya lösningar ta hänsyn till sådana existerande system för att fungera adekvat i kundens it-miljö.\
-**Teknisk skuld:** Programutveckling som försvårar framtida utveckling. Detta kan exempelvis uppkomma för att möta en kortsiktig deadline.\
-**Telemedicin:** Att ge vård på distans, exempelvis genom chatt- eller videokommunikation med patienten.\
-**Vårdgivare:** Definieras av Patientdatalagen som “Statlig myndighet, region och kommun i fråga om sådan hälso- och sjukvård som myndigheten, regionen eller kommunen har ansvar för (offentlig vårdgivare) samt annan juridisk person eller enskild näringsidkare som bedriver hälso- och sjukvård (privat vårdgivare)”. “Vårdgivare” är alltså inte en beteckning på enskilda anställda inom vården (som kan betecknas som “vårdpersonal” eller “vårdutövare”).\
-**Öppen källkod:** Källkod för mjukvara som vem som helst kan få tillgång till och använda i sina egna program.\
+{% include toc.md %}
+
+#### Distansmonitorering
+En slags telemedicin (se nedan) där patienter utanför en vårdmiljö upprepat rapporterar in värden (exempelvis blodtryck eller enkäter) som automatiserat eller manuellt bedöms av vården.
+
+#### eHälsa/e-hälsa
+Beskrivs av Socialstyrelsen som “att använda digitala verktyg och utbyta information digitalt för att uppnå och bibehålla hälsa”.
+
+#### FHIR
+Forkortning av _Fast Healthcare Interoperability Resources_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+
+#### Integration
+Att få flera it-system att att kunna skicka data till och ta emot data från varandra.
+
+#### Interoperabilitet
+Att flera program kan utbyta information med varandra. Kräver någon standardisering av hur data ska formateras, skickas och tas emot.
+
+#### ISO
+Förkortning av _Internationella standardiseringsorganisationen_, vilket är ett organ som ger ut standarder inom en mängd områden, varav vissa kan vara relevanta för eHälsa. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+
+#### Journalsystem
+I Sverige vanligen datorprogram som används för att komma åt patientjournaler. Se [Journalsystem i Sverige](/2021/07/30/journalsystem.html).
+
+#### Kliniskt beslutsstödssystem
+Mjukvara som ger vårdpersonal underlag eller rekommendationer att fatta medicinska beslut, exempelvis genom beräkning av sjukdomsrisk baserat på patientdata.
+
+#### Medicinteknik
+Icke-farmaceutiska produkter som används för bl.a. diagnos, profylax, övervakning, prediktion, prognos, behandling eller lindring av sjukdomar eller funktionsnedsättningar. Regleras i EU av .Förordning (EU) 2017/745 av den 5 april 2017 om medicintekniska produkter (förkortas vanligen _MDR_, för Medical Device Regulation). Detta kan innefatta eHälsoprodukter, inklusive mjukvara. Se Är min eHälsoprodukt en medicinteknisk produkt?
+
+#### mHälsa/m-hälsa
+Att använda mobila kommunikationsmedel såsom mobiltelefoner eller surfplattor för hälsotjänster. Underkategori till eHälsa.
+
+#### Patientjournal
+En eller flera journalhandlingar som rör samma patient, där journalhandlingar enligt Patientdatalagen definieras som “Framställning i skrift eller bild samt upptagning som kan läsas, avlyssnas eller på annat sätt uppfattas endast med tekniskt hjälpmedel och som upprättas eller inkommer i samband med vården av en patient och som innehåller uppgifter om patientens hälsotillstånd eller andra personliga förhållanden eller om vidtagna eller planerade vårdåtgärder.”
+
+#### PM3
+Styr- och samverkansmodell / Förvaltningsmodell som innebär att ett "objekt" innehållande grupp av representanter från IT organisationen och representanter från vanliga verksamheten.
+
+#### Sakernas internet (engelska: _Internet of Things_)
+Nätverk av fysiska föremål med inbyggda internetuppkopplingar som kan styras eller utbyta data över nätet.
+
+#### Sammanhållen journalföring
+Definieras enligt Patientdatalagen som “[e]tt elektroniskt system, som gör det möjligt för en vårdgivare att ge eller få direktåtkomst till personuppgifter hos en annan vårdgivare”. Patientdatalagen anger att patienten bestämmer om vårdgivare ska ha tillgång till varandras journalanteckningar.
+
+#### SNOMED CT
+Förkortning av _Systematized Nomenclature of Medicine -- Clinical Terms_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+
+#### Skalbarhet
+Att kunna öka omfattningen på hur mjukvara används (exempelvis genom att lägga till användare) utan att behöva göra betydande ändringar i mjukvaran i sig.
+
+#### Standard
+En dokumenterad norm för hur något ska göras, exempelvis hur en produkt tillverkas eller hur en tjänst utförs. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+
+#### Systemarkitektur
+Vilka komponenter som ingår i ett datasystem, hur de används och hur de fungerar tillsammans.
+
+#### Tekniskt arv (engelska: legacy)
+Existerande, vanligen föråldrade, datasystem som ännu är i drift (ofta för att de är kostsamma att ersätta). Ofta behöver nya lösningar ta hänsyn till sådana existerande system för att fungera adekvat i kundens it-miljö.
+
+#### Teknisk skuld
+Programutveckling som försvårar framtida utveckling. Detta kan exempelvis uppkomma för att möta en kortsiktig deadline.
+
+#### Telemedicin
+Att ge vård på distans, exempelvis genom chatt- eller videokommunikation med patienten.
+
+#### Vårdgivare
+Definieras av Patientdatalagen som “Statlig myndighet, region och kommun i fråga om sådan hälso- och sjukvård som myndigheten, regionen eller kommunen har ansvar för (offentlig vårdgivare) samt annan juridisk person eller enskild näringsidkare som bedriver hälso- och sjukvård (privat vårdgivare)”. “Vårdgivare” är alltså inte en beteckning på enskilda anställda inom vården (som kan betecknas som “vårdpersonal” eller “vårdutövare”).
+
+#### Öppen källkod
+Källkod för mjukvara som vem som helst kan få tillgång till och använda i sina egna program.
 
 _Hittat något fel eller har vi missat något begrepp? [Kontakta oss!](/index.html#form-message)*_
