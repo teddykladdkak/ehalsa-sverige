@@ -10,6 +10,7 @@ author:
 image:
   path: "/assets/images/post-head/500/startup.jpg"
   head: "/assets/images/post-head/1920/startup.jpg"
+video: "/assets/video/starta_foretag_inom_ehalsa.mp4"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7
