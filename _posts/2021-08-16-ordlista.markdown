@@ -54,7 +54,7 @@ Att använda mobila kommunikationsmedel såsom mobiltelefoner eller surfplattor 
 En eller flera journalhandlingar som rör samma patient, där journalhandlingar enligt Patientdatalagen definieras som “Framställning i skrift eller bild samt upptagning som kan läsas, avlyssnas eller på annat sätt uppfattas endast med tekniskt hjälpmedel och som upprättas eller inkommer i samband med vården av en patient och som innehåller uppgifter om patientens hälsotillstånd eller andra personliga förhållanden eller om vidtagna eller planerade vårdåtgärder.”
 
 #### PM3
-Styr- och samverkansmodell / Förvaltningsmodell som innebär att ett "objekt" innehållande grupp av representanter från IT organisationen och representanter från vanliga verksamheten.
+Styr- och samverkansmodell/förvaltningsmodell baserat på "objekt" innehållande grupp av representanter från IT-organisationen och representanter från vanliga verksamheten.
 
 #### Sakernas internet (engelska: _Internet of Things_)
 Nätverk av fysiska föremål med inbyggda internetuppkopplingar som kan styras eller utbyta data över nätet.
@@ -74,7 +74,7 @@ En dokumenterad norm för hur något ska göras, exempelvis hur en produkt tillv
 #### Systemarkitektur
 Vilka komponenter som ingår i ett datasystem, hur de används och hur de fungerar tillsammans.
 
-#### Tekniskt arv (engelska: legacy)
+#### Tekniskt arv (engelska: _legacy_)
 Existerande, vanligen föråldrade, datasystem som ännu är i drift (ofta för att de är kostsamma att ersätta). Ofta behöver nya lösningar ta hänsyn till sådana existerande system för att fungera adekvat i kundens it-miljö.
 
 #### Teknisk skuld
