@@ -1,15 +1,5 @@
-function monthText(month){
-    return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('09', 'sep').replace('08', 'aug').replace('07', 'jul').replace('06', 'jun').replace('05', 'maj').replace('04', 'apr').replace('03', 'mar').replace('02', 'feb').replace('01', 'jan');
-};
-function checkPassed(date){
-    var d = new Date(date, 8, 0, 0, 0);
-    var today = new Date();
-    if(d.getTime() <= today.getTime()){
-        return false;
-    }else{
-        return true;
-    };
-};
+function monthText(month){return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('09', 'sep').replace('08', 'aug').replace('07', 'jul').replace('06', 'jun').replace('05', 'maj').replace('04', 'apr').replace('03', 'mar').replace('02', 'feb').replace('01', 'jan');};
+function checkPassed(v){var s = v.split('-');var d = new Date(s[0], parseInt(s[1])-1, parseInt(s[2]), 8, 0, 0, 0);var t = new Date();if(d.getTime() > t.getTime()){return true;}else{return false;};};
 var maxelements = 0;
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
