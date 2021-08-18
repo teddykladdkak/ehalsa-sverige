@@ -33,4 +33,8 @@
         </ul>
     </div>
     <script src="/assets/js/menu.js"></script>
+    {%- if page.video -%}
+        <script src="/assets/js/openplayer.min.js"></script>
+        <script>const player = new OpenPlayerJS('player');player.init();</script>
+    {%- endif -%}
 </footer>

@@ -20,20 +20,26 @@
               </p>
           </header>
           <div class="postbody">
-              {{ content }}
-              <div class="tagwrapper">
-                {% for tag in page.tags %}
-                  <p class="min tag">
-                    <a href="/kategori.html#{{ tag }}">{{ tag | replace: "_"," " }}</a>
-                  </p>
-                  {%- if site.demo -%}
-                  {%- endif -%}
-                {% endfor %}
-              </div>
-              <div class="post-footer min">
-                <h3>{{ page.author.name }}</h3>
-                <p>{{ page.author.description }}</p>
-              </div>
+            {%- if page.video -%}
+              <video class="op-player__media" id="player" controls playsinline>
+                <source src="{{ page.video }}" type="video/mp4">
+                <!--<track kind="subtitles" src="/path/to/video.vtt" srclang="en" label="English">-->
+              </video>
+            {%- endif -%}
+            {{ content }}
+            <div class="tagwrapper">
+              {% for tag in page.tags %}
+                <p class="min tag">
+                  <a href="/kategori.html#{{ tag }}">{{ tag | replace: "_"," " }}</a>
+                </p>
+                {%- if site.demo -%}
+                {%- endif -%}
+              {% endfor %}
+            </div>
+            <div class="post-footer min">
+              <h3>{{ page.author.name }}</h3>
+              <p>{{ page.author.description }}</p>
+            </div>
           </div>
         </article>
       </section>
