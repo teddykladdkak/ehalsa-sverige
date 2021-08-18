@@ -346,15 +346,49 @@ a.cal-ev .cal-ev-col {
 .calendarbody {
     padding-top: 10px;
 }
-.postbody, .calendarbody {
+.calendarbody {
     max-width: 700px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+.postwrapper {
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.postwrapper .sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #{{ site.color.dark }};
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.postwrapper .sticky a {
+    color: #FFF;
+    text-decoration: none;
+}
+.postwrapper .sticky a:hover {
+    color: #{{ site.color.light }};
+    cursor: pointer;
+}
+.postwrapper .sticky svg {
+    width: 30px;
+    height: 30px;
+}
+.postwrapper .sticky span {
+    display: none;
+}
 .postbody {
     padding-top: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .postbody a {
     overflow-wrap: break-word;
@@ -489,6 +523,24 @@ a.cal-ev .cal-ev-col {
     }
     #mainMenu {
         align-items: center;
+    }
+    .postwrapper {
+        flex-direction: column-reverse;
+    }
+    .postwrapper .sticky {
+        position: relative;
+        top: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        text-align: center;
+    }
+    .postwrapper .sticky span {
+        display: inline-block;
+        color: #FFF;
+    }
+    .postwrapper .sticky svg {
+        vertical-align: middle;
     }
 }
 @media only screen and (max-width: 600px) {
