@@ -5,8 +5,12 @@ descriptionHTML: "<b>eHälsa Sverige</b> är ett privat initiativ med visionen a
 lang: sv
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ehalsasverige.se" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ehälsa-sverige
-#github_username:  jekyll
+social:
+  twitter:
+    username: "@ehalsasverige"
+    profile: "https://twitter.com/ehalsasverige"
+  linkedin: "https://www.linkedin.com/company/ehalsasverige/"
+  facebook: "https://www.facebook.com/ehalsasverige"
 
 #Colours!
 color:
