@@ -14,10 +14,11 @@ sitemap:
   lastmod: 2021-07-29
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 
 Intresserad av att läsa om eller bidra till akademisk forskning om eHälsa? Här samlar vi forskning vid svenska lärosäten.
-
+<!--more-->
 {% include toc.md %}
 
 ## Lärosäten och forskargrupper {#larosaten}

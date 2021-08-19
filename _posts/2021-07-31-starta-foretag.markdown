@@ -15,9 +15,10 @@ sitemap:
   lastmod: 2021-07-31
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 Har du en idé inom eHälsa som du vill kommersialisera? Här tipsar vi om viktiga aspekter att ha i åtanke när du startar företag.
-
+<!--more-->
 {% include toc.md %}
 
 ## Se till att ni kan regelverket

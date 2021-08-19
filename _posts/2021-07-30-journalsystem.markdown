@@ -15,9 +15,10 @@ sitemap:
   lastmod: 2021-07-30
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 Elektroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom eHälsa behöver förhålla sig till.
-
+<!--more-->
 {% include toc.md %}
 
 ## Karta över Sveriges journalsystem {#karta}

@@ -15,9 +15,10 @@ sitemap:
   lastmod: 2021-07-31
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 Vill du gå kurser eller till och med få examen i eHälsa? Här samlar vi utbildningar inom ämnet.
-
+<!--more-->
 {% include toc.md %}
 
 ## Kurser och program på universitet

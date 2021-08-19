@@ -14,11 +14,12 @@ sitemap:
   lastmod: 2021-07-30
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 Digitala vårdgivare (“nätläkare”) har blivit en del av vardagen för många patienter. Bara de fyra största privata genomförde minst 2,3 miljoner distansbesök 2020.
 
 Utöver de privata vårdgivarna erbjuder vissa regioner sina egna digitala vårdtjänster. Det finns även tandläkare och veterinärer online.
-
+<!--more-->
 {% include toc.md %}
 
 ## Företag

@@ -14,10 +14,11 @@ sitemap:
   lastmod: 2021-07-29
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 
 Som tillverkare, leverantör, inköpare eller användare av eHälsoprodukter är det viktigt att förstå vilka regelverk man måste förhålla sig till. Vissa lagar gäller särskilt för eHälsotjänster som betraktas som medicintekniska produkter. Här följer i bokstavsordning några lagar som kan gälla ditt område.
-
+<!--more-->
 {% include toc.md %}
 
 ## CLOUD Act {#cloud}

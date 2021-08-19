@@ -15,6 +15,7 @@ sitemap:
   lastmod: 2021-08-13
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 
 ## Vad är eHälsa?
@@ -28,7 +29,7 @@ Viktiga områden inom eHälsa är
 * elektroniska journalsystem
 * telemedicin
 * effektivisering och automatisering.
-
+<!--more-->
 **Läs mer:** [Lagar att ha koll på](/2021/07/29/lagar.html)\
 **Läs mer:** [Standarder att ha koll på](/2021/07/31/standarder.html)\
 **Läs mer:** [Journalsystem i Sverige](/2021/07/30/journalsystem.html)\

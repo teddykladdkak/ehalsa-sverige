@@ -18,7 +18,7 @@ sitemap:
                 <p>{{ post.date | date: date_format }}</p>
             </header>
             <p class="post-content mobile-min">
-                {{ post.content | strip_html | truncate: 250, '...'}}
+              {{ post.excerpt | strip_html | truncate: 250, '...' }}
             </p>
         </article>
     </a>

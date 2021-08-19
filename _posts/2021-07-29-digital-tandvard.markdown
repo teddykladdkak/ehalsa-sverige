@@ -14,9 +14,10 @@ sitemap:
   lastmod: 2021-07-29
   priority: 0.7
   changefreq: 'weekly'
+excerpt_separator: <!--more-->
 ---
 Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
-
+<!--more-->
 {% include toc.md %}
 
 ## Företag
