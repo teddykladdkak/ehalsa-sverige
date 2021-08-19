@@ -10,6 +10,7 @@ author:
 image:
   path: "/assets/images/post-head/500/pil.jpg"
   head: "/assets/images/post-head/1920/pil.jpg"
+video: "/assets/video/standarder_att_ha_koll_pa.mp4"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7
