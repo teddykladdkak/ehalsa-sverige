@@ -16,6 +16,7 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+cc: "Kartor i artikeln är redigerade och distribuerade under"
 ---
 Elektroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom eHälsa behöver förhålla sig till.
 <!--more-->
@@ -97,8 +98,5 @@ NCS Cross (tidigare SysTeamCross) utvecklades ursprungligen av IBM och Landsting
 **Används i:** Halland, Norrbotten
 
 VAS utvecklades under 80-talet av Norrbottens Läns Landsting.
-
-
-Kartor ritade utifrån [https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg](https://commons.wikimedia.org/wiki/File:SWE-Map_L%C3%A4n.svg).
 
 *Hittat fel i artikeln? [Kontakta oss!](/index.html#form-message)*

@@ -17,7 +17,7 @@ sitemap:
 excerpt_separator: <!--more-->
 ---
 Här förklarar vi begrepp som dyker upp i eHälsosammanhang.\
-Se även: [Socialstyrelsens termbank](https://termbank.socialstyrelsen.se/)
+Se även: [Socialstyrelsens termbank](https://termbank.socialstyrelsen.se/){:target="_blank"}
 <!--more-->
 {% include toc.md %}
 
