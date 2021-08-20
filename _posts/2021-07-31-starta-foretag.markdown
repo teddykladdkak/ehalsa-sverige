@@ -24,7 +24,7 @@ Har du en idé inom eHälsa som du vill kommersialisera? Här tipsar vi om vikti
 ## Se till att ni kan regelverket
 eHälsa kan vara en hårt reglerad bransch, så det är viktigt att ni känner till vilka regler som gäller för er produkt och verksamhet. Detta gäller särskilt om din produkt betraktas som en medicinteknisk produkt. Att av okunskap bryta mot reglerna kan bli väldigt dyrt i längden, både finansiellt och genom förlorat anseende.
 
-**Läs mer:** [Lagar att ha koll på](/2021/07/29/lagar.html)
+**Läs mer:** [Lagar som påverkar eHälsa](/2021/07/29/lagar.html)
 ## Ha en affärsplan
 Det räcker inte med att ha en häftig produkt – exakt hur kommer ni att tjäna pengar på ert erbjudande? Sälja direkt till konsumenter, upphandlas av offentliga vårdgivare eller något annat? Vilka köpvolymer behöver ni komma upp i innan ni blir lönsamma? Vilka funktioner kommer ni att behöva ha i företaget i takt med att det växer? Vill ni nå ut internationellt, och vad kommer krävas tekniskt, organisatoriskt och i form av kapital för att ni ska lyckas med det? Dessa frågor och många fler därtill behöver ni kunna besvara för att föra organisationen i rätt riktning och att få investerare att vilja investera i er.
 
@@ -44,7 +44,7 @@ Genom att från början arbeta enligt etablerade standarder underlättar ni fram
 
 Att låta er certifieras enligt en standard ger er, men framför allt era kunder, tryggheten att veta att ni faktiskt uppfyller standardkraven. Tänk på att certifieringsorgan tar ut en avgift för certifiering och att certifieringsprocessen ofta är tidskrävande och görs i flera steg. Beroende på vilken standard ni vill certifiera er enligt kan certifieringsorganen även ha en väntetid. När företaget väl är certifierat görs vanligen regelbundna inspektioner för att företaget ska få ha kvar sin certifiering.
 
-**Läs mer:** [Standarder att ha koll på](/2021/07/31/standarder.html)\
+**Läs mer:** [Standarder inom eHälsa](/2021/07/31/standarder.html)\
 **Läs mer:** [Utbildningar inom eHälsa](/2021/07/31/utbildningar.html)
 ## Sköt om företagets formalia
 Det kan vara lockande att lägga all sin tid på att skapa sin produkt och att få ut den på marknaden, men företagets juridiska administration ska inte förglömmas. Se till att ha avtal på plats mellan delägare och att ni har kompetens att sköta bokföring och skatt. Detta kan spara er tärande konflikter på sikt.
