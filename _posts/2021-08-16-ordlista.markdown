@@ -28,7 +28,7 @@ En slags telemedicin (se nedan) där patienter utanför en vårdmiljö upprepat 
 Beskrivs av Socialstyrelsen som “att använda digitala verktyg och utbyta information digitalt för att uppnå och bibehålla hälsa”.
 
 #### FHIR
-Forkortning av _Fast Healthcare Interoperability Resources_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+Forkortning av _Fast Healthcare Interoperability Resources_. Se [Standarder inom eHälsa](/2021/07/31/standarder.html).
 
 #### Integration
 Att få flera it-system att att kunna skicka data till och ta emot data från varandra.
@@ -37,7 +37,7 @@ Att få flera it-system att att kunna skicka data till och ta emot data från va
 Att flera program kan utbyta information med varandra. Kräver någon standardisering av hur data ska formateras, skickas och tas emot.
 
 #### ISO
-Förkortning av _Internationella standardiseringsorganisationen_, vilket är ett organ som ger ut standarder inom en mängd områden, varav vissa kan vara relevanta för eHälsa. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+Förkortning av _Internationella standardiseringsorganisationen_, vilket är ett organ som ger ut standarder inom en mängd områden, varav vissa kan vara relevanta för eHälsa. Se [Standarder inom eHälsa](/2021/07/31/standarder.html).
 
 #### Journalsystem
 I Sverige vanligen datorprogram som används för att komma åt patientjournaler. Se [Journalsystem i Sverige](/2021/07/30/journalsystem.html).
@@ -64,13 +64,13 @@ Nätverk av fysiska föremål med inbyggda internetuppkopplingar som kan styras 
 Definieras enligt Patientdatalagen som “[e]tt elektroniskt system, som gör det möjligt för en vårdgivare att ge eller få direktåtkomst till personuppgifter hos en annan vårdgivare”. Patientdatalagen anger att patienten bestämmer om vårdgivare ska ha tillgång till varandras journalanteckningar.
 
 #### SNOMED CT
-Förkortning av _Systematized Nomenclature of Medicine -- Clinical Terms_. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+Förkortning av _Systematized Nomenclature of Medicine -- Clinical Terms_. Se [Standarder inom eHälsa](/2021/07/31/standarder.html).
 
 #### Skalbarhet
 Att kunna öka omfattningen på hur mjukvara används (exempelvis genom att lägga till användare) utan att behöva göra betydande ändringar i mjukvaran i sig.
 
 #### Standard
-En dokumenterad norm för hur något ska göras, exempelvis hur en produkt tillverkas eller hur en tjänst utförs. Se [Standarder att ha koll på](/2021/07/31/standarder.html).
+En dokumenterad norm för hur något ska göras, exempelvis hur en produkt tillverkas eller hur en tjänst utförs. Se [Standarder inom eHälsa](/2021/07/31/standarder.html).
 
 #### Systemarkitektur
 Vilka komponenter som ingår i ett datasystem, hur de används och hur de fungerar tillsammans.
