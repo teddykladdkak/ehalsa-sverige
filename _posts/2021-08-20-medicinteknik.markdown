@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Är min eHälsoprodukt en medicinteknisk produkt"
+title:  "Är min eHälsoprodukt en medicinteknisk produkt?"
 description: "Introduktion till regelverket för medicinteknik"
 date:   2021-08-20 08:00:00 +0200
 tags: Utbildning Medicinteknik
