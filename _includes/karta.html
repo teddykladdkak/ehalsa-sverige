@@ -1,11 +1,5 @@
-<div id="{{ include.id }}" style="height: 200px;"></div>
+<div id="{{ include.id }}" style="height: {%- if include.height -%}{{ include.height }}{%- else -%}200px{%- endif -%};"></div>
 <script>
-    var circleIcon = L.icon({
-        iconUrl: '/assets/css/leaflet/circle.svg',
-        iconSize:     [20, 20],
-        iconAnchor:   [10, 10],
-        popupAnchor:  [0, 0]
-    });
     var markers = [{{ include.content }}];
     var mymap = L.map('{{ include.id }}').setView([{{ include.position }}], {{ include.zoom }});
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -17,6 +11,15 @@
         accessToken: 'pk.eyJ1IjoidGVkZHlrbGFkZGthayIsImEiOiJja3NsazF6aTkwcDQyMnBudTRveW40bDByIn0.UOrVx1Mt69ZPKCJEpdwwjQ'
     }).addTo(mymap);
     for (var i = 0; i < markers.length; i++) {
-        L.marker([markers[i].latitud, markers[i].longitud], {icon: circleIcon}).bindPopup(markers[i].text).addTo(mymap);  
+        var iconobj = {iconUrl: '/assets/css/leaflet/circle.svg', iconSize: [30, 30], iconAnchor: [0, 0], popupAnchor: [0, 0]};
+        if(!markers[i].id || markers[i].id == ''){}else{
+            iconobj.className = 'karta-' + markers[i].id;
+        };
+        var circleIcon = L.icon(iconobj);
+        if(!markers[i].text || markers[i].text == ''){
+            L.marker([markers[i].latitud, markers[i].longitud], {icon: circleIcon}).addTo(mymap);
+        }else{
+            L.marker([markers[i].latitud, markers[i].longitud], {icon: circleIcon}).bindPopup(markers[i].text).addTo(mymap);
+        };
     };
 </script>

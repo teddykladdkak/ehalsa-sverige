@@ -1,0 +1,211 @@
+---
+layout: default
+title: Kalender
+description: "Här samlar vi alla event som berör eHälsa i sverige"
+sitemap:
+  exclude: 'yes'
+karta: true
+---
+<!--
+sitemap:
+  lastmod: 2021-08-10
+  priority: 0.8
+  changefreq: 'weekly'
+-->
+<style>
+    .karta {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .karta-list {
+        width: 70%;
+    }
+    .karta-map {
+        width: 30%;
+    }
+    .karta-list .karta-col {
+        display: flex;
+        flex-direction: row;
+    }
+    .karta-list .karta-col a {
+        text-decoration: none;
+        color: #000;
+    }
+    .karta-list .karta-col a:hover {
+        text-decoration: underline;
+    }
+    .karta-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+</style>
+<section class="karta">
+    <div class="karta-list">
+        <h2>Inkubatorer</h2>
+        {%- assign inkubator_url = "/2021/08/21/inkubatorer.html#" -%}
+        {%- assign rens = ' onmouseout="rensaKarta();"' -%}
+        <div class="karta-col min">
+            <ul>
+                <li>
+                    <a href="{{ inkubator_url }}blekinge" onmouseover="highlight('blekinge');"{{ rens }}>Blekinge Business Incubator</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}dalarna" onmouseover="highlight('dalarna');"{{ rens }}>Dalarna Science Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}gotland" onmouseover="highlight('gotland');"{{ rens }}>Science Park Gotland</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}gavleborg" onmouseover="highlight('gavleborg');"{{ rens }}>Faxepark</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}gavleborg" onmouseover="highlight('gavleborg');"{{ rens }}>Movexum</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}halland" onmouseover="highlight('halland');"{{ rens }}>High Five</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}halland" onmouseover="highlight('halland');"{{ rens }}>Potential.vbg</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}jamtlandharjedalen" onmouseover="highlight('jamtlandharjedalen');"{{ rens }}>PEAK Innovation</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}jonkoping" onmouseover="highlight('jonkoping');"{{ rens }}>Science Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}kalmar" onmouseover="highlight('kalmar');"{{ rens }}>Kalmar Science Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}kronoberg" onmouseover="highlight('kronoberg');"{{ rens }}>Företagsfabriken</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}norrbotten" onmouseover="highlight('norrbotten');"{{ rens }}>Artic Business Incubator</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}skane" onmouseover="highlight('skane');"{{ rens }}>E-Commerce Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}skane" onmouseover="highlight('skane');"{{ rens }}>Ideon Innovation</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}skane" onmouseover="highlight('skane');"{{ rens }}>Minc</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}skane" onmouseover="highlight('skane');"{{ rens }}>SMiLE</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}skane" onmouseover="highlight('skane');"{{ rens }}>VentureLab</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}stockholm" onmouseover="highlight('stockholm');"{{ rens }}>DRIVE (KI Innovations)</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}stockholm" onmouseover="highlight('stockholm');"{{ rens }}>KTH Innovation</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}stockholm" onmouseover="highlight('stockholm');"{{ rens }}>SSE Business Lab</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="{{ inkubator_url }}stockholm" onmouseover="highlight('stockholm');"{{ rens }}>Sting</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}sormland" onmouseover="highlight('sormland');"{{ rens }}>Create (Sörmland)</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}uppsala" onmouseover="highlight('uppsala');"{{ rens }}>Uppsala Innovation Centre</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}varmland" onmouseover="highlight('varmland');"{{ rens }}>Karlstad Innovation Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vasterbotten" onmouseover="highlight('vasterbotten');"{{ rens }}>Go Business</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vasterbotten" onmouseover="highlight('vasterbotten');"{{ rens }}>Umeå Biotech Incubator</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vasterbotten" onmouseover="highlight('vasterbotten');"{{ rens }}>Uminova Innovation</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vasternorrland" onmouseover="highlight('vasternorrland');"{{ rens }}>BizMaker</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastmanland" onmouseover="highlight('vastmanland');"{{ rens }}>Create (Västmanland)</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>Borås INK</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>Chalmers Ventures</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>GU Ventures</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>Innovatum Science Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>Sahlgrenska Science Park</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}vastragotaland" onmouseover="highlight('vastragotaland');"{{ rens }}>Science Park Skövde</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}orebro" onmouseover="highlight('orebro');"{{ rens }}>Inkubera</a>
+                </li>
+                <li>
+                    <a href="{{ inkubator_url }}ostergotland" onmouseover="highlight('ostergotland');"{{ rens }}>Lead</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="karta-map">
+        <div class="karta-sticky">
+            {% include karta.html id="karta1" position="62.5, 17.5" zoom="5" height="100vh" content="
+                {'latitud': 56.2452561, 'longitud': 14.6515829, 'id': 'blekinge'},
+                {'latitud': 61.0502821, 'longitud': 12.1984638, 'id': 'dalarna'},
+                {'latitud': 57.6507537, 'longitud': 18.3235382, 'id': 'gotland'},
+                {'latitud': 61.2702565, 'longitud': 13.8084299, 'id': 'gavleborg'},
+                {'latitud': 56.9452818, 'longitud': 12.7691804, 'id': 'halland'},
+                {'latitud': 63.2555568, 'longitud': 13.9595398, 'id': 'jamtlandharjedalen'},
+                {'latitud': 57.515779, 'longitud': 14.2921344, 'id': 'jonkoping'},
+                {'latitud': 57.1633306, 'longitud': 16.2264823, 'id': 'kalmar'},
+                {'latitud': 56.7938951, 'longitud': 14.5250319, 'id': 'kronoberg'},
+                {'latitud': 67.0011711, 'longitud': 19.7012687, 'id': 'norrbotten'},
+                {'latitud': 55.6009973, 'longitud': 13.5471419, 'id': 'skane'},
+                {'latitud': 59.326242, 'longitud': 17.9732911, 'id': 'stockholm'},
+                {'latitud': 59.0399934, 'longitud': 16.6525073, 'id': 'sormland'},
+                {'latitud': 59.8333776, 'longitud': 17.6234216, 'id': 'uppsala'},
+                {'latitud': 59.930381, 'longitud': 13.0193943, 'id': 'varmland'},
+                {'latitud': 64.8512063, 'longitud': 17.9054766, 'id': 'vasterbotten'},
+                {'latitud': 63.0096238, 'longitud': 17.3895181, 'id': 'vasternorrland'},
+                {'latitud': 59.7000676, 'longitud': 16.1725654, 'id': 'vastmanland'},
+                {'latitud': 58.1842961, 'longitud': 12.8035238, 'id': 'vastragotaland'},
+                {'latitud': 59.3851922, 'longitud': 15.0110785, 'id': 'orebro'},
+                {'latitud': 58.3576543, 'longitud': 15.8238966, 'id': 'ostergotland'}
+            " %}
+        </div>
+    </div>
+</section>
+<script>
+    function rensaKarta(){
+        var def = document.getElementsByClassName('leaflet-marker-icon');
+        for (let a = 0; a < def.length; a++) {
+            def[a].setAttribute('src', def[a].getAttribute('src').replace('-highlight.svg', '.svg'));
+        };
+    };
+    function highlight(c){
+        rensaKarta();
+        var icons = document.getElementsByClassName('karta-' + c);
+        for (let i = 0; i < icons.length; i++) {
+            icons[i].setAttribute('src', icons[i].getAttribute('src').replace('.svg', '-highlight.svg'));
+        };
+    };
+</script>
