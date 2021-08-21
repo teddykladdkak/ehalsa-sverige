@@ -26,7 +26,8 @@ Här samlar vi svenska inkubatorer som kan vara aktuella för eHälsoföretag en
 <!--more-->
 {% include toc.md %}
 
-## Blekinge {% include karta.html id="karta1" position="56.53, 14.4" zoom="2" content="{'latitud': 56.182484, 'longitud': 15.5915836, 'text': 'Blekinge Business Incubator Karlskrona'},{'latitud': 56.1655373, 'longitud': 14.8632801, 'text': 'Blekinge Business Incubator Karlshamn'}" %}
+## Blekinge
+{% include karta.html id="karta1" position="62.1, 15.5" zoom="3" content="{'latitud': 56.182484, 'longitud': 15.5915836, 'text': 'Blekinge Business Incubator Karlskrona'},{'latitud': 56.1655373, 'longitud': 14.8632801, 'text': 'Blekinge Business Incubator Karlshamn'}" %}
 ### Blekinge Business Incubator (BBI)
 **Hemsida:** https://b-b-i.se/\
 **Program:** Startupprogram
