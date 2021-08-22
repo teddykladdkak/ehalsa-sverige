@@ -249,6 +249,13 @@ footer svg {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+.event h3 a {
+    color: #000;
+    text-decoration: none;
+}
+.event h3 a:hover {
+    text-decoration: underline;
+}
 .kontakt {
     background-image: url(/assets/images/illustration/contact.svg);
     color: #FFF;
