@@ -44,11 +44,20 @@ sitemap:
     }
 </style>
 <section class="karta">
-    <div class="karta-list" id="Inkubatorer">
-        <h2>Inkubatorer</h2>
-        <div class="karta-col min">
-            <ul></ul>
-            <ul></ul>
+    <div class="karta-list">
+        <div id="Inkubatorer">
+            <h2>Inkubatorer</h2>
+            <div class="karta-col min">
+                <ul></ul>
+                <ul></ul>
+            </div>
+        </div>
+        <div id="Forskning">
+            <h2>Forskning</h2>
+            <div class="karta-col min">
+                <ul></ul>
+                <ul></ul>
+            </div>
         </div>
     </div>
     <div class="karta-map">
@@ -85,7 +94,6 @@ sitemap:
     Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vS5_gAmo9oFPsMDGmQ-LyIf7i2ZEySuEg9RMS4FQ3sPXJWEd1VholZELScFzCZbJ5Skbs1av6C_L7Lm/pub?output=csv", {
         download: true,
         step: function(row) {
-            console.log(row);
             if(row.data[0] == "Namn"){}else{
                 var unikID = 'karta-' + Math.random().toString(36).substr(2, 9);
                 var circleIcon = L.icon({iconUrl: '/assets/css/leaflet/circle.svg', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, 0], className: unikID});
