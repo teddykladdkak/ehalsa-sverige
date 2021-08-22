@@ -42,6 +42,23 @@ sitemap:
         position: sticky;
         top: 0;
     }
+    @media only screen and (max-width: 600px) {
+        .karta-list .karta-col {
+            flex-direction: column;
+        }
+        .karta-list {
+            width: 60%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .karta-map {
+            width: 40%;
+        }
+        .karta-list ul {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
 </style>
 <section class="karta">
     <div class="karta-list">
