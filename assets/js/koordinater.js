@@ -1,3 +1,12 @@
+var usedKor = [];
+function checkUsedKor(kor){
+    for (let i = 0; i < usedKor.length; i++) {
+        if(usedKor[i].kor == kor){
+            return usedKor[i].id;
+        };
+    };
+    return false;
+};
 function getRegionKor(namn){
     var region = [
         {namn: "Region Stockholm", koordinater: "59.5 ,18.0"},

@@ -126,8 +126,22 @@ sitemap:
                 }else{
                     console.log('Koordinat fattas för: ' + row.data[0]);
                 };
-                var koordinatObj = JSON.parse('[' + koordinat + ']');
-                L.marker(koordinatObj, {icon: circleIcon}).addTo(mymap);
+                var alreadyUsed = checkUsedKor(koordinat);
+                if(!alreadyUsed){
+                    var koordinatObj = JSON.parse('[' + koordinat + ']');
+                    L.marker(koordinatObj, {icon: circleIcon}).bindPopup('<a href="' + row.data[5] + '">' + row.data[0] + '</a>', {className: unikID.replace('karta-', 'karta-popup-')}).addTo(mymap);
+                    usedKor.push({kor: koordinat, id: unikID});
+                }else{
+                    mymap.eachLayer(function(feature){
+                        if(!feature._icon){}else{
+                            if(feature._icon.className.includes(alreadyUsed)){
+                                var newContent = feature.getPopup()._content + '<br/><a href="' + row.data[5] + '">' + row.data[0] + '</a>';
+                                feature.setPopupContent(newContent);
+                            };
+                        };
+                    });
+                    var unikID = alreadyUsed;
+                };
                 var wrapper = document.getElementById(row.data[1]).getElementsByClassName('karta-col')[0];
                 var checkUl = wrapper.getElementsByTagName('ul');
                     var li = document.createElement('li');
