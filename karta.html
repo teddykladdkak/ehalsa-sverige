@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Karta
+title: eHälsokartan
 description: "Karta över Sveriges eHälsa"
 sitemap:
   exclude: 'yes'
@@ -20,6 +20,9 @@ sitemap:
         margin-left: auto;
         margin-right: auto;
     }
+    .karta h2 {
+        font-size: 1.2rem;
+    }
     .karta-list {
         width: 70%;
     }
@@ -31,6 +34,7 @@ sitemap:
         flex-direction: row;
     }
     .karta-list .karta-col a {
+        display: block;
         text-decoration: none;
         color: #000;
     }
@@ -65,14 +69,15 @@ sitemap:
 </style>
 <section class="karta">
     <div class="karta-list">
-        <div id="Inkubatorer">
+        <h1>eHälsokartan</h1>
+        <div id="Inkubatorer" style="display: none;">
             <h2>Inkubatorer</h2>
             <div class="karta-col min">
                 <ul></ul>
                 <ul></ul>
             </div>
         </div>
-        <div id="Forskning">
+        <div id="Forskning" style="display: none;">
             <h2>Forskning</h2>
             <div class="karta-col min">
                 <ul></ul>
@@ -88,15 +93,18 @@ sitemap:
 </section>
 <script src="/assets/js/papaparse.min.js"></script>
 <script src="/assets/js/koordinater.js"></script>
+<style id="markerOnTop"></style>
 <script>
     function rensaKarta(){
         var def = document.getElementsByClassName('leaflet-marker-icon');
         for (let a = 0; a < def.length; a++) {
             def[a].setAttribute('src', def[a].getAttribute('src').replace('-highlight.svg', '.svg'));
         };
+        document.getElementById('markerOnTop').innerText = '';
     };
     function highlight(c){
         rensaKarta();
+        document.getElementById('markerOnTop').innerText = '.' + c + ' { z-index: 9999!important };'
         var icons = document.getElementsByClassName(c);
         for (let i = 0; i < icons.length; i++) {
             icons[i].setAttribute('src', icons[i].getAttribute('src').replace('.svg', '-highlight.svg'));
@@ -142,7 +150,9 @@ sitemap:
                     });
                     var unikID = alreadyUsed;
                 };
-                var wrapper = document.getElementById(row.data[1]).getElementsByClassName('karta-col')[0];
+                var headWrapper = document.getElementById(row.data[1]);
+                    headWrapper.removeAttribute('style');
+                var wrapper = headWrapper.getElementsByClassName('karta-col')[0];
                 var checkUl = wrapper.getElementsByTagName('ul');
                     var li = document.createElement('li');
                         var liA = document.createElement('a');
