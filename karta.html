@@ -23,6 +23,13 @@ sitemap:
     .karta h2 {
         font-size: 1.2rem;
     }
+    .karta select {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+    }
     .karta-list {
         width: 70%;
     }
@@ -32,6 +39,9 @@ sitemap:
     .karta-list .karta-col {
         display: flex;
         flex-direction: row;
+    }
+    .karta-list .karta-col ul {
+        width: 50%;
     }
     .karta-list .karta-col a {
         display: block;
@@ -72,28 +82,28 @@ sitemap:
         <h1>eHälsokartan</h1>
         <label for="filter" style="display: none;">Välj region för att filtrera på kartan</label>
         <select name="filtrera" id="filter" onchange="filter(this);">
-            <option value="">Filtrera efter Region</option>
-            <option value="Region Stockholm">Region Stockholm</option>
-            <option value="Region Uppsala">Region Uppsala</option>
-            <option value="Region Sörmland">Region Sörmland</option>
-            <option value="Region Östergötland">Region Östergötland</option>
+            <option value="">Alla Regioner</option>
+            <option value="Region Blekinge">Region Blekinge</option>
+            <option value="Region Dalarna">Region Dalarna</option>
+            <option value="Region Gotland">Region Gotland</option>
+            <option value="Region Gävleborg">Region Gävleborg</option>
+            <option value="Region Halland">Region Halland</option>
+            <option value="Region Jämtland Härjedalen">Region Jämtland Härjedalen</option>
             <option value="Region Jönköpings län">Region Jönköpings län</option>
             <option value="Region Kronoberg">Region Kronoberg</option>
             <option value="Region Kalmar län">Region Kalmar län</option>
-            <option value="Region Gotland">Region Gotland</option>
-            <option value="Region Blekinge">Region Blekinge</option>
-            <option value="Region Skåne">Region Skåne</option>
-            <option value="Region Halland">Region Halland</option>
-            <option value="Västra Götalandsregionen">Västra Götalandsregionen</option>
-            <option value="Region Värmland">Region Värmland</option>
-            <option value="Region Örebro län">Region Örebro län</option>
-            <option value="Region Västmanland">Region Västmanland</option>
-            <option value="Region Dalarna">Region Dalarna</option>
-            <option value="Region Gävleborg">Region Gävleborg</option>
-            <option value="Region Västernorrland">Region Västernorrland</option>
-            <option value="Region Jämtland Härjedalen">Region Jämtland Härjedalen</option>
-            <option value="Region Västerbotten">Region Västerbotten</option>
             <option value="Region Norrbotten">Region Norrbotten</option>
+            <option value="Region Skåne">Region Skåne</option>
+            <option value="Region Stockholm">Region Stockholm</option>
+            <option value="Region Sörmland">Region Sörmland</option>
+            <option value="Region Uppsala">Region Uppsala</option>
+            <option value="Region Värmland">Region Värmland</option>
+            <option value="Region Västerbotten">Region Västerbotten</option>
+            <option value="Region Västernorrland">Region Västernorrland</option>
+            <option value="Region Västmanland">Region Västmanland</option>
+            <option value="Västra Götalandsregionen">Västra Götalandsregionen</option>
+            <option value="Region Örebro län">Region Örebro län</option>
+            <option value="Region Östergötland">Region Östergötland</option>
         </select>
         <div id="Inkubatorer" style="display: none;">
             <h2>Inkubatorer</h2>
@@ -140,7 +150,13 @@ sitemap:
         return region.replace(/[^A-Za-z0-9]/g,"").toLowerCase();
     };
     function filter(el){
-        document.getElementById('filterStyle').innerText = '.karta-filter { display: none; } .karta-filer-' + makeID(el.value) + ' { display: block; };';
+        if(el.value == ''){
+            document.getElementById('filterStyle').innerText = '';
+            mymap.setView([62.5, 17.5], 5);
+        }else{
+            document.getElementById('filterStyle').innerText = '.karta-filter { display: none; } .karta-filter-list-' + makeID(el.value) + ' { display: list-item; } .karta-filter-marker-' + makeID(el.value) + ' { display: block; }';
+            mymap.setView(JSON.parse('[' + getRegionKor(el.value) + ']'), 7);
+        };
     };
     var mymap = L.map('karta1').setView([62.5, 17.5], 5);
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -156,8 +172,8 @@ sitemap:
         step: function(row) {
             if(row.data[0] == "Namn"){}else{
                 var unikID = 'karta-' + Math.random().toString(36).substr(2, 9);
-                var filter = 'karta-filer-' + makeID(row.data[2]) + ' karta-filter';
-                var circleIcon = L.icon({iconUrl: '/assets/css/leaflet/circle.svg', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, 0], className: unikID + ' ' + filter});
+                var filter = makeID(row.data[2]) + ' karta-filter';
+                var circleIcon = L.icon({iconUrl: '/assets/css/leaflet/circle.svg', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, 0], className: unikID + ' karta-filter-marker-' + filter});
                 if(!row.data[4] == ""){
                     var koordinat = row.data[4];
                 }else if(!row.data[3] == ""){
@@ -188,7 +204,7 @@ sitemap:
                 var wrapper = headWrapper.getElementsByClassName('karta-col')[0];
                 var checkUl = wrapper.getElementsByTagName('ul');
                     var li = document.createElement('li');
-                        li.setAttribute('class', filter);
+                        li.setAttribute('class', 'karta-filter-list-' + filter);
                         var liA = document.createElement('a');
                             liA.setAttribute('href', row.data[5]);
                             liA.setAttribute('onmouseover', 'highlight("' + unikID + '");');
