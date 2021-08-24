@@ -31,7 +31,7 @@ sitemap:
       </p>
     </div>
     <div class="col-img col-2-in">
-      <img src="/assets/images/illustration/start.svg" alt="Bild som visar två personer som lägger upp information på en tavla">
+      <img src="/assets/images/illustration/start.svg" width="80%" height="273.3px" alt="Bild som visar två personer som lägger upp information på en tavla">
     </div>
   </section>
 </div>
@@ -44,10 +44,9 @@ sitemap:
       Denna plattform är under utveckling. Har du några idéer eller vet information som fattas, berätta det för oss!
     </p>
     <div id="contact-form">
-      <label for="form-message" style="display: none;">Meddelande</label>
-      <textarea id="form-message" onkeydown="checkEnter(event, 'contact-button')"></textarea>
-      <label for="contact-button" style="display: none;">Skicka meddelande</label>
-      <input type="button" value="Skicka" id="contact-button" onclick="post(this, 'form-message', 'T0293BW7CHH/B028NE6M8T1/KqZ4B4wHUjzBNsxjY84dcEz4');">
+      <label for="formMessage" class="min">Meddelande:</label>
+      <textarea id="formMessage" onkeydown="checkEnter(event, 'contactButton')"></textarea>
+      <input type="button" value="Skicka" id="contactButton" onclick="post(this, 'formMessage', 'T0293BW7CHH/B028NE6M8T1/KqZ4B4wHUjzBNsxjY84dcEz4');">
     </div>
   </div>
   <div class="event col-2-in">
@@ -57,6 +56,6 @@ sitemap:
     <div id="event-wrapper"></div>
   </div>
   </section>
-  <script src="/assets/js/papaparse.min.js"></script>
-  <script src="/assets/js/event.js"></script>
-  <script src="/assets/js/post.js"></script>
+  <script src="/assets/js/papaparse.min.js" defer></script>
+  <script src="/assets/js/event.js" defer></script>
+  <script src="/assets/js/post.js" defer></script>
