@@ -93,7 +93,7 @@ Baserat i Söderhamn.\
 **Program:** Tillväxtprogrammet
 
 ## Norrbotten {#norrbotten}
-### Artic Business Incubator
+### Arctic Business Incubator
 Finns i Kiruna, Luleå, Piteå och Skellefteå.
 **Hemsida:** https://www.abi.se/\
 **Program:** Accelerator
