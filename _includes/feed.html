@@ -1,0 +1,33 @@
+<ul id="feedContent"></ul>
+<script type="text/javascript">
+    var content = document.getElementById('content');
+    const url = "{{ include.url }}";
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState==4 && xhr.status==200) {
+            var data = JSON.parse(xhr.responseText);
+            if(data.status == 'ok'){
+                var wrapper = document.getElementById('feedContent');
+                for( var i=0,t = data.items.length ; i < t ; ++i ){
+                    if(i == parseInt({{ include.antal }})){ break; };
+                    var item = data.items[i];
+                    var li = document.createElement('li');
+                        var liA = document.createElement('a');
+                            liA.setAttribute('href', item.link);
+                            liA.setAttribute('target', '_blank');
+                            liA.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
+                            var liAText = document.createTextNode(item.title);
+                            liA.appendChild(liAText);
+                        li.appendChild(liA);
+                    wrapper.appendChild(li);
+                };
+            };
+        };
+    };
+    xhr.open(
+        'GET',
+        'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI(url),
+        true
+    );
+    xhr.send();
+</script>
