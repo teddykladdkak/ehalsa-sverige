@@ -58,6 +58,13 @@ sitemap:
         position: sticky;
         top: 0;
     }
+    .karta-list.filtered ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .karta-list.filtered .karta-col {
+        flex-direction: column;
+    }
     @media only screen and (max-width: 600px) {
         .karta {
             flex-direction: row-reverse;
@@ -153,9 +160,11 @@ sitemap:
     };
     function filter(el){
         if(el.value == ''){
+            document.getElementsByClassName('karta-list')[0].setAttribute('class', 'karta-list');
             document.getElementById('filterStyle').innerText = '';
             mymap.setView([62.5, 17.5], 5);
         }else{
+            document.getElementsByClassName('karta-list')[0].setAttribute('class', 'karta-list filtered');
             document.getElementById('filterStyle').innerText = '.karta-filter { display: none; } .karta-filter-list-' + makeID(el.value) + ' { display: list-item; } .karta-filter-marker-' + makeID(el.value) + ' { display: block; }';
             mymap.setView(JSON.parse('[' + getRegionKor(el.value) + ']'), 7);
         };
