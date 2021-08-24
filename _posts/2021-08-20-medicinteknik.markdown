@@ -3,7 +3,7 @@ layout: post
 title:  "Är min eHälsoprodukt en medicinteknisk produkt?"
 description: "Introduktion till regelverket för medicinteknik"
 date:   2021-08-20 08:00:00 +0200
-tags: Utbildning Medicinteknik
+tags: Lagar Medicinteknik
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -94,7 +94,7 @@ För renodlad mjukvara är alltså regel 11 mest relevant, men för mjukvara som
 >
 >All annan programvara tillhör klass I.
 
-Eftersom de flesta medicinska applikationer “används för att fatta beslut för diagnostiska eller terapeutiska ändamål” innebär regeln att medicinteknisk mjukvara i allmänhet betraktas som åtminstone klass IIa. Om ens programvara “kan orsaka… allvarlig försämring av en persons hälsotillstånd eller en kirurgisk intervention” eller “övervaka[r] fysiologiska parametrar, vars variationer… skulle kunna resultera i omedelbar fara” betraktas den som klass IIb. Om den “kan orsaka... dödsfall eller en oåterkallelig försämring av en persons hälsotillstånd” blir den klass III. Om inget av detta är fallet för din produkt och inga av de andra reglerna 2 till 21 gäller betraktas produkten enligt huvudregeln 1 som klass I. 
+Eftersom de flesta medicinska applikationer “används för att fatta beslut för diagnostiska eller terapeutiska ändamål” innebär regeln att medicinteknisk mjukvara i allmänhet betraktas som åtminstone klass IIa. Om ens programvara “kan orsaka… allvarlig försämring av en persons hälsotillstånd eller en kirurgisk intervention” eller “övervaka[r] fysiologiska parametrar, vars variationer… skulle kunna resultera i omedelbar fara” betraktas den som klass IIb. Om den “kan orsaka... dödsfall eller en oåterkallelig försämring av en persons hälsotillstånd” blir den klass III. Om inget av detta är fallet för din produkt och inga av de andra reglerna 2 till 21 gäller betraktas produkten enligt huvudregeln 13 som klass I. 
 ## Vad innebär det för mig?
 Om din mjukvara räknas som en medicinteknisk produkt innebär det att du måste följa regelverket för medicinteknik, som MDR utgör grunden till. Kraven är då omfattande (alltför omfattande för att behandlas i denna artikel). Ju högre riskklass din produkt tillhör, desto högre krav ställs på hur produkten tas fram, utvärderas, dokumenteras och godkänns för användning.
 ## Slutsatser
