@@ -1,0 +1,5 @@
+---
+sitemap:
+  exclude: 'yes'
+---
+Sitemap: {{ site.url }}/sitemap.xml

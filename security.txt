@@ -1,0 +1,4 @@
+Contact: mailto:mail@ehalsasverige.se
+Expires: 2022-01-01T07:00:00.000Z
+Preferred-Languages: en
+Canonical: https://ehalsasverige.se/security.txt
