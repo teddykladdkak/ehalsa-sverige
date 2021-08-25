@@ -28,8 +28,9 @@ Viktiga områden inom eHälsa är
 * informationssäkerhet
 * elektroniska journalsystem
 * telemedicin
-* effektivisering och automatisering.
+* effektivisering och automatisering.\
 <!--more-->
+
 **Läs mer:** [Lagar som påverkar eHälsa](/2021/07/29/lagar.html)\
 **Läs mer:** [Standarder inom eHälsa](/2021/07/31/standarder.html)\
 **Läs mer:** [Journalsystem i Sverige](/2021/07/30/journalsystem.html)\
