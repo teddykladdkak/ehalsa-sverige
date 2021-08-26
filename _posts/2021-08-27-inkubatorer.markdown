@@ -2,7 +2,7 @@
 layout: post
 title:  "Inkubatorer för eHälsa"
 description: "Inkubatorer för småföretagare inom eHälsa"
-date:   2021-08-21 08:00:00 +0200
+date:   2021-08-26 08:00:00 +0200
 tags: Utbildning Medicinteknik
 author:
   name: "Redaktionen"
@@ -11,7 +11,7 @@ image:
   path: "/assets/images/post-head/500/medicinteknik.jpg"
   head: "/assets/images/post-head/1920/medicinteknik.jpg"
 sitemap:
-  lastmod: 2021-08-27
+  lastmod: 2021-08-26
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -28,15 +28,15 @@ Här samlar vi svenska inkubatorer som kan vara aktuella för eHälsoföretag en
 
 ## Blekinge {#blekinge}
 ### Blekinge Business Incubator (BBI)
-**Hemsida:** https://b-b-i.se/\
+**Hemsida:** https://b-b-i.se \
 **Program:** Startupprogram
 ## Dalarna {#dalarna}
 ### Dalarna Science Park
-**Hemsida:** https://www.dalarnasciencepark.se/\
+**Hemsida:** https://www.dalarnasciencepark.se \
 **Program:** Inkubatorprogrammet
 ## Gotland {#gotland}
 ### Science Park Gotland
-**Hemsida:** https://scienceparkgotland.se/\
+**Hemsida:** https://scienceparkgotland.se \
 **Program:**
 * SPG Startup
 * SPG Summit
@@ -44,17 +44,17 @@ Här samlar vi svenska inkubatorer som kan vara aktuella för eHälsoföretag en
 ## Gävleborg {#gavleborg}
 ### Faxepark
 Baserat i Söderhamn.\
-**Hemsida:** https://www.soderhamn.se/underwebbar/faxepark.html\
+**Hemsida:** https://www.soderhamn.se/underwebbar/faxepark.html \
 **Program:** Företagsinkubator
 ### Movexum
-**Hemsida:** https://movexum.se/\
+**Hemsida:** https://movexum.se \
 **Program:**
 * Movexum Boost Chamber
 * Movexum Inkubator
 
 ## Halland {#halland}
 ### High Five
-**Hemsida:** https://h5halmstad.se/\
+**Hemsida:** https://h5halmstad.se \
 **Program:**
 * Jämställdhetsmatchen
 * H5 Business
@@ -64,21 +64,21 @@ Baserat i Söderhamn.\
 * H5 Start
 
 ### Potential.vbg
-**Hemsida:** http://potentialvbg.se\
+**Hemsida:** http://potentialvbg.se 
 ## Jämtland Härjedalen {#jamtland}
 ### PEAK Innovation
-**Hemsida:** https://peakinnovation.se/\
+**Hemsida:** https://peakinnovation.se \
 **Program:** PEAK Incubator
 ## Jönköpings län {#jonkoping}
 ### Science Park
-**Hemsida:** https://sciencepark.se/\
+**Hemsida:** https://sciencepark.se \
 **Program:**
 * Acceleratorn
 * Inkubatorn
 
 ## Kalmar län {#kalmar}
 ### Kalmar Science Park
-**Hemsida:** https://kalmarsciencepark.se/\
+**Hemsida:** https://kalmarsciencepark.se \
 **Program:**
 * Associate
 * Boost Chamber
@@ -89,34 +89,34 @@ Baserat i Söderhamn.\
 
 ## Kronoberg {#kronoberg}
 ### Företagsfabriken
-**Hemsida:** https://foretagsfabriken.se/\
+**Hemsida:** https://foretagsfabriken.se \
 **Program:** Tillväxtprogrammet
 
 ## Norrbotten {#norrbotten}
 ### Arctic Business Incubator
-Finns i Kiruna, Luleå, Piteå och Skellefteå.
-**Hemsida:** https://www.abi.se/\
+Finns i Kiruna, Luleå, Piteå och Skellefteå.\
+**Hemsida:** https://www.abi.se \
 **Program:** Accelerator
 ## Skåne {#skane}
 ### E-Commerce Park
-Baserat i Helsingborg och inriktat mot e-handel.
-**Hemsida:** https://ecommercepark.se/\
+Baserat i Helsingborg och inriktat mot e-handel.\
+**Hemsida:** https://ecommercepark.se \
 **Program:** E-handelsinkubatorn
 
 ### Ideon Innovation
-Baserat i Lund.
-**Hemsida:** https://www.ideoninnovation.se/\
+Baserat i Lund.\
+**Hemsida:** https://www.ideoninnovation.se \
 **Program:** E-handelsinkubatorn
 ### Minc
 Baserat i Malmö.
-**Hemsida:** https://www.minc.se/\
+**Hemsida:** https://www.minc.se \
 **Program:**
 * Minc Incubator
 * Fast Track Malmö
 
 ### SMiLE
 Baserat i Lund.
-**Hemsida:** https://www.innovationskane.com/\
+**Hemsida:** https://www.innovationskane.com \
 **Program:**
 * Alumni Service
 * Biotech Bootcamp Program
@@ -128,14 +128,14 @@ Baserat i Lund.
 * Vinnova Verification Grand
 
 ### VentureLab
-För studenter vid Lunds universitet.
-**Hemsida:** https://www.venturelab.lu.se/\
+För studenter vid Lunds universitet.\
+**Hemsida:** https://www.venturelab.lu.se \
 **Program:** Startup-programmet
 ## Stockholm {#stockholm}
 ### DRIVE (KI Innovations)
-**Hemsida:** https://karolinskainnovations.ki.se/\
+**Hemsida:** https://karolinskainnovations.ki.se
 ### KTH Innovation
-**Hemsida:** https://www.kth.se/en/om/innovation\
+**Hemsida:** https://www.kth.se/en/om/innovation \
 **Program:**
 * Pre-Incubator Program
 * Mentor Program
@@ -144,15 +144,15 @@ För studenter vid Lunds universitet.
 * Test Drive Deeptech
 
 ### SSE Business Lab
-För studenter, alumner och anställda vid Handelshögskolan i Stockholm.
-**Hemsida:** https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab\
+För studenter, alumner och anställda vid Handelshögskolan i Stockholm.\
+**Hemsida:** https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab \
 **Program:**
 * Ideate
 * Activate
 * Incubate
 
 ### Sting
-**Hemsida:** https://sting.co/\
+**Hemsida:** https://sting.co \
 **Program:**
 * Sting Accelerate
 * Sting Incubate
@@ -160,8 +160,8 @@ För studenter, alumner och anställda vid Handelshögskolan i Stockholm.
 
 ## Sörmland {#sormland}
 ### Create
-Arbetar för innovation i både Sörmland och Västmanland.
-**Hemsida:** https://www.create.se/\
+Arbetar för innovation i både Sörmland och Västmanland.\
+**Hemsida:** https://www.create.se \
 **Program:**
 * Step - Startup Team
 * CX - Customer Experience
@@ -172,7 +172,7 @@ Arbetar för innovation i både Sörmland och Västmanland.
 
 ## Uppsala {#uppsala}
 ### Uppsala Innovation Centre
-**Hemsida:** https://uic.se/\
+**Hemsida:** https://uic.se \
 **Program:**
 * UIC Business Startup
 * UIC Business Build
@@ -181,16 +181,16 @@ Arbetar för innovation i både Sörmland och Västmanland.
 
 ## Värmland {#varmland}
 ### Karlstad Innovation Park
-**Hemsida:** https://karlstadinnovationpark.se/\
+**Hemsida:** https://karlstadinnovationpark.se \
 **Program:** Startlab
 ## Västerbotten {#vasterbotten}
 ### Go Business
-Heldigital inkubator för människor i Norrbotten och Västerbotten.
+Heldigital inkubator för människor i Norrbotten och Västerbotten.\
 
-**Hemsida:** https://www.gobusiness.nu/\
+**Hemsida:** https://www.gobusiness.nu
 
 ### Umeå Biotech Incubator
-**Hemsida:** https://www.ubi.se/\
+**Hemsida:** https://www.ubi.se \
 **Program:**
 * Preincubate
 * Verify 1
@@ -200,7 +200,7 @@ Heldigital inkubator för människor i Norrbotten och Västerbotten.
 * Alumni
 
 ### Uminova Innovation
-**Hemsida:** https://www.uminovainnovation.se/\
+**Hemsida:** https://www.uminovainnovation.se \
 **Program:**
 * Starta upp
 * Skala upp
@@ -209,8 +209,7 @@ Heldigital inkubator för människor i Norrbotten och Västerbotten.
 ## Västernorrland {#vasternorrland}
 ### BizMaker
 Kontor i Sundsvall, Härnösand, Ånge och Örnsköldsvik.\
-
-**Hemsida:** https://bizmaker.se/\
+**Hemsida:** https://bizmaker.se \
 **Program:**
 * Arena Experience Accelerator
 * Business Incubator
@@ -223,7 +222,7 @@ Kontor i Sundsvall, Härnösand, Ånge och Örnsköldsvik.\
 Se ovan.
 ## Västra Götaland {#vastragotaland}
 ### Borås INK
-**Hemsida:** https://boras-ink.se\
+**Hemsida:** https://boras-ink.se \
 **Program:**
 * INK Day
 * INK LAB
@@ -231,7 +230,7 @@ Se ovan.
 * INK Exit
 
 ### Chalmers Ventures
-**Hemsida:** https://www.chalmersventures.com/\
+**Hemsida:** https://www.chalmersventures.com \
 **Program:**
 * Accelerator
 * Startup Camp
@@ -241,7 +240,7 @@ Se ovan.
 
 ### GU Ventures
 För företag med koppling till Göteborgs universitet.\
-**Hemsida:** https://www.guventures.com\
+**Hemsida:** https://www.guventures.com \
 **Program:**
 * Accelerator
 * Startup Camp
@@ -250,20 +249,20 @@ För företag med koppling till Göteborgs universitet.\
 
 ### Innovatum Science Park
 Spets inom space tech och industriell teknik, men stöttar startups inom de flesta branscher.\
-**Hemsida:** https://innovatumsciencepark.se/\
+**Hemsida:** https://innovatumsciencepark.se \
 **Program:** Affärsrådning, kontakter och samarbetsmöjligheter.
 ### Sahlgrenska Science Park
-**Hemsida:** https://www.sahlgrenskasciencepark.se/\
+**Hemsida:** https://www.sahlgrenskasciencepark.se \
 **Program:**
 * Start-up Accelerator
 * Business Accelerator
 
 ### Science Park Skövde
-**Hemsida:** https://scienceparkskovde.se/\
+**Hemsida:** https://scienceparkskovde.se \
 **Program:** Inkubatortjänster
 ## Örebro län {#orebro}
 ### Inkubera
-**Hemsida:** https://www.inkubera.se/\
+**Hemsida:** https://www.inkubera.se \
 **Program:**
 * Prepare
 * Startup
@@ -272,7 +271,7 @@ Spets inom space tech och industriell teknik, men stöttar startups inom de fles
 ## Östergötland {#ostergotland}
 ### Lead
 Kontor i Linköping och Norrköping.\
-**Hemsida:** https://lead.se/\
+**Hemsida:** https://lead.se \
 **Program:**
 * Business Lab
 * Incubate
