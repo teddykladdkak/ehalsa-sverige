@@ -59,7 +59,11 @@
     {%- if page.image.path -%}
         <meta property="og:image" content="{{ page.image.path | absolute_url }}">
         <meta name="twitter:image" content="{{ page.image.path | absolute_url }}">
+    {%- else -%}
+        <meta property="og:image" content="{{ "/assets/images/ovrigt/ehalsasverige.jpg" | absolute_url }}">
+        <meta name="twitter:image" content="{{ "/assets/images/ovrigt/ehalsasverige.jpg" | absolute_url }}">
     {%- endif -%}
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="alternate icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/assets/images/icons/icons-192.png">

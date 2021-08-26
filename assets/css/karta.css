@@ -1,0 +1,80 @@
+.karta {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.karta h2 {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.karta h2 img {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 5px;
+}
+.karta select {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+.karta-list {
+    width: 70%;
+}
+.karta-map {
+    width: 30%;
+}
+.karta-list .karta-col {
+    display: flex;
+    flex-direction: row;
+}
+.karta-list .karta-col ul {
+    width: 50%;
+}
+.karta-list .karta-col a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.karta-list .karta-col a:hover {
+    text-decoration: underline;
+}
+.karta-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.karta-list.filtered ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.karta-list.filtered .karta-col {
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .karta {
+        flex-direction: row-reverse;
+    }
+    .karta-list .karta-col {
+        flex-direction: column;
+    }
+    .karta-list {
+        width: 60%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .karta-map {
+        width: 40%;
+    }
+    .karta-list ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
