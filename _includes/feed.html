@@ -1,11 +1,10 @@
 <ul id="feedContent"></ul>
 <script type="text/javascript">
-    var content = document.getElementById('content');
-    const url = "{{ include.url }}";
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState==4 && xhr.status==200) {
-            var data = JSON.parse(xhr.responseText);
+    var url = "{{ include.url }}";
+    var feedxhr = new XMLHttpRequest();
+        feedxhr.onreadystatechange = function(){
+        if (feedxhr.readyState==4 && feedxhr.status==200) {
+            var data = JSON.parse(feedxhr.responseText);
             if(data.status == 'ok'){
                 var wrapper = document.getElementById('feedContent');
                 for( var i=0,t = data.items.length ; i < t ; ++i ){
@@ -16,18 +15,21 @@
                             liA.setAttribute('href', item.link);
                             liA.setAttribute('target', '_blank');
                             liA.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
+                            liA.setAttribute('rel', 'noopener noreferrer"');
                             var liAText = document.createTextNode(item.title);
                             liA.appendChild(liAText);
                         li.appendChild(liA);
                     wrapper.appendChild(li);
                 };
+            }else{
+                console.log(data.status);
             };
         };
     };
-    xhr.open(
+    feedxhr.open(
         'GET',
         'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI(url),
         true
     );
-    xhr.send();
+    feedxhr.send();
 </script>
