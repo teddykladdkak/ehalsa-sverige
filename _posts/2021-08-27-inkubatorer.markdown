@@ -8,8 +8,8 @@ author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
 image:
-  path: "/assets/images/post-head/500/medicinteknik.jpg"
-  head: "/assets/images/post-head/1920/medicinteknik.jpg"
+  path: "/assets/images/post-head/500/startup2.jpg"
+  head: "/assets/images/post-head/1920/startup2.jpg"
 sitemap:
   lastmod: 2021-08-26
   priority: 0.7
