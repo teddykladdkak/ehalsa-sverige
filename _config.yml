@@ -40,6 +40,6 @@ plugins:
 theme: minima
 
 serviceworker:
-  version: "v1:1:0"
-  files: "'/index.html','/assets/css/main.css','/favicon.svg','/assets/images/illustration/start.svg','/assets/images/illustration/knowledge.svg'"
+  version: "v1:1:1"
+  files: "'/favicon.svg'"
   talk: false
