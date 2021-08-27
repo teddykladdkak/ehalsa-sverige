@@ -3,7 +3,7 @@ layout: post
 title:  "Inkubatorer för eHälsa"
 description: "Inkubatorer för småföretagare inom eHälsa"
 date:   2021-08-26 08:00:00 +0200
-tags: Utbildning Medicinteknik
+tags: Företag
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -17,9 +17,9 @@ sitemap:
 excerpt_separator: <!--more-->
 karta: true
 ---
-Inkubatorer hjälper småföretag mot tillväxt och lönsamhet. De erbjuder bland annat affärsrådgivning, nätverk mot potentiella kunder, samarbetspartner och investerare samt lokaler.\
+Inkubatorer hjälper småföretag mot tillväxt och lönsamhet. De erbjuder bland annat affärsrådgivning, nätverk mot potentiella kunder, samarbetspartner och investerare samt lokaler.
 
-Inkubatorer kan ha olika inriktningar och kräver vanligen att man ansöker om att delta i deras affärsutvecklingsprogram. Småföretagsinkubatorer finns i samtliga svenska regioner.\
+Inkubatorer kan ha olika inriktningar och kräver vanligen att man ansöker om att delta i deras affärsutvecklingsprogram. Småföretagsinkubatorer finns i samtliga svenska regioner.
 
 Här samlar vi svenska inkubatorer som kan vara aktuella för eHälsoföretag enligt region. Listan nedan tar inte upp exempelvis innovationshubbar eller delade kontorsutrymmen som inte erbjuder inkubatorprogram.
 
