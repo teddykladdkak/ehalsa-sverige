@@ -18,10 +18,10 @@ excerpt_separator: <!--more-->
 karta: true
 ---
 
-Vill du läsa om den senaste forskningen inom eHälsa eller kanske få din egen forskning publicerad? Här samlar vi akademiska tidskrifter som berör ämnet.\
+Vill du läsa om den senaste forskningen inom eHälsa eller kanske få din egen forskning publicerad? Här samlar vi akademiska tidskrifter som berör ämnet.
 
 <!--more-->
-![Tidskrifter inom eHälsa med högst impact factor](/assets/images/post-assets/tidskrifter.png "Tidskrifter inom eHälsa med högst impact factor")
+![Tidskrifter inom eHälsa med högst impact factor](/assets/images/post-assets/tidskrifter.PNG "Tidskrifter inom eHälsa med högst impact factor")
 
 _Tidskrifter inom eHälsa med högst impact factor._
 
@@ -497,4 +497,4 @@ _Tidskrifter inom eHälsa med högst impact factor._
 **Kostnad för att publicera:** USD 5000\
 **Hemsida:** [https://www.thelancet.com/journals/landig/home](https://www.thelancet.com/journals/landig/home)
 
-_Hittat något fel eller har vi missat någon tidskrift? [Kontakta oss!](/index.html#form-message](Kontakta oss!](/index.html#form-message))_
+_Hittat något fel eller har vi missat någon tidskrift? [Kontakta oss!](/index.html#form-message)_
