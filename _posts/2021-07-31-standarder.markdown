@@ -16,6 +16,9 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Som utvecklare, inköpare eller användare av eHälsotjänster lönar det sig att ha koll på vilka standarder som används inom branschen. Här förklarar vi några av de vanligaste och viktigaste standarderna.
 <!--more-->

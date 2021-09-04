@@ -10,11 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/ordbok.jpg"
   head: "/assets/images/post-head/1920/ordbok.jpg"
+video: false
 sitemap:
   lastmod: 2021-08-16
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Här förklarar vi begrepp som dyker upp i eHälsosammanhang.\
 Se även: [Socialstyrelsens termbank](https://termbank.socialstyrelsen.se/){:target="_blank"}

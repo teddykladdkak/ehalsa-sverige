@@ -16,6 +16,9 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 
 ## Vad är eHälsa?

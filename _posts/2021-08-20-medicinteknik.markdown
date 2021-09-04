@@ -10,11 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/medicinteknik.jpg"
   head: "/assets/images/post-head/1920/medicinteknik.jpg"
+video: false
 sitemap:
   lastmod: 2021-08-20
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Hur vet jag om min eHälsoprodukt betraktas som en medicinteknisk produkt (engelska: _medical device_)? Och vad innebär i så fall det? Här förklarar vi regelverket.
 <!--more-->

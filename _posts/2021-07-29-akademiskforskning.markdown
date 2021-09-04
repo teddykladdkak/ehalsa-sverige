@@ -10,11 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/research.jpg"
   head: "/assets/images/post-head/1920/research.jpg"
+video: false
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 
 Intresserad av att läsa om eller bidra till akademisk forskning om eHälsa? Här samlar vi forskning vid svenska lärosäten.

@@ -10,11 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/tandlakare.jpg"
   head: "/assets/images/post-head/1920/tandlakare.jpg"
+video: false
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Numera erbjuder flera aktörer rådgivning och bedömning inom tandvård.
 <!--more-->

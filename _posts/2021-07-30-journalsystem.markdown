@@ -16,6 +16,8 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
 cc: "Kartor i artikeln är redigerade och distribuerade under"
 ---
 Elektroniska journalsystemen är centrala för Sveriges vård och något som de flesta aktörer inom eHälsa behöver förhålla sig till.

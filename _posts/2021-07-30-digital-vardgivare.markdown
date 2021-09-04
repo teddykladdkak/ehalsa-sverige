@@ -10,11 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/digital_vard.jpg"
   head: "/assets/images/post-head/1920/digital_vard.jpg"
+video: false
 sitemap:
   lastmod: 2021-07-30
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Digitala vårdgivare (“nätläkare”) har blivit en del av vardagen för många patienter. Bara de fyra största privata genomförde minst 2,3 miljoner distansbesök 2020.
 

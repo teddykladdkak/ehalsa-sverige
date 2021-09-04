@@ -16,6 +16,8 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
 cc: "Bilder på lärosäten i artikelns video är under"
 ---
 Vill du gå kurser eller till och med få examen i eHälsa? Här samlar vi utbildningar inom ämnet.

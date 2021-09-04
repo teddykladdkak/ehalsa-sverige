@@ -10,19 +10,21 @@ author:
 image:
   path: "/assets/images/post-head/500/tidskrifter.jpg"
   head: "/assets/images/post-head/1920/tidskrifter.jpg"
+video: false
 sitemap:
   lastmod: 2021-09-02
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
-karta: true
+karta: false
+chart: true
+cc: false
 ---
 
 Vill du läsa om den senaste forskningen inom eHälsa eller kanske få din egen forskning publicerad? Här samlar vi akademiska tidskrifter som berör ämnet.
 
 <!--more-->
-![Tidskrifter inom eHälsa med högst impact factor](/assets/images/post-assets/tidskrifter.PNG "Tidskrifter inom eHälsa med högst impact factor")
-
+{% include chart.html id="impact-factor" label_space="180" height="500" labels="'Lancet Digital Health', 'npj Digital Medicine', 'J Biomed Inform', 'IEEE J Biomed Health Inform', 'J Med Internet Res', 'Comput Methods Programs Biomed', 'Artif Intell Med', 'JMIR mHealth uHealth', 'Clinical eHealth', 'Comput Biol Med', 'J Am Med Inform Assoc', 'J Med Sys', 'JMIR Mental Health', 'JMIR Medical Informatics', 'JMIR Serious Games', 'JMIR Pub Health Surveillance', 'Int J Med Inform', 'Telemedicine e-Health', 'Digit Health', 'Health Informatics J'" series="[24.519, 11.653, 6.317, 5.772, 5.43, 5.428, 5.326, 4.77, 4.589, 4.589, 4.497, 4.46, 4.39, 4.14, 4.14, 4.11, 4.046, 3.536, 3.495, 2.681]" %}
 _Tidskrifter inom eHälsa med högst impact factor._
 
 {% include toc.md %}

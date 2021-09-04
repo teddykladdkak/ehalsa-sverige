@@ -1,0 +1,26 @@
+<div class="{{ include.id }}"></div>
+<script>
+      new Chartist.Bar('.{{ include.id }}', {
+            labels: [{{ include.labels }}],
+            series: [
+                {{ include.series }}
+            ]
+        },{
+            seriesBarDistance: 10,
+            reverseData: true,
+            horizontalBars: true,
+            axisY: {
+                offset: {{ include.label_space }}
+            },
+            height: {{ include.height }}
+        });
+</script>
+<style>
+    .{{ include.id }} .ct-series-a .ct-bar {
+        stroke: #{{ site.color.primary }};
+    }
+    .{{ include.id }} .ct-label {
+        font-size: 0.6rem;
+        color: #000;
+    }
+</style>

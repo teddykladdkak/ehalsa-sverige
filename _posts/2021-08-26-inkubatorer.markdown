@@ -10,12 +10,15 @@ author:
 image:
   path: "/assets/images/post-head/500/startup2.jpg"
   head: "/assets/images/post-head/1920/startup2.jpg"
+video: false
 sitemap:
   lastmod: 2021-08-26
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
-karta: true
+karta: false
+chart: false
+cc: false
 ---
 Inkubatorer hjälper småföretag mot tillväxt och lönsamhet. De erbjuder bland annat affärsrådgivning, nätverk mot potentiella kunder, samarbetspartner och investerare samt lokaler.
 

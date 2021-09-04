@@ -16,6 +16,9 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
 ---
 Har du en idé inom eHälsa som du vill kommersialisera? Här tipsar vi om viktiga aspekter att ha i åtanke när du startar företag.
 <!--more-->
