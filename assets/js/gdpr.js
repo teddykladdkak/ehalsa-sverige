@@ -11,7 +11,8 @@ function laddaMixpanel(){
     console.log('Mixpanel laddas.');
     var kampanj = getParameterByName('k');
     window.mixpanel.init("b35f108b80eac00bf9bd8d654be744d1");
-    if(!kampanj || kampanj == ''){window.mixpanel.track('{{ site.title }}: {{ page.title }}');}else{window.mixpanel.track('{{ site.title }}: {{ page.title }}', {'source': kampanj,});};
+    var titel = document.getElementsByTagName('title')[0].innerText;
+    if(!kampanj || kampanj == ''){window.mixpanel.track(titel);}else{window.mixpanel.track(titel, {'source': kampanj,});};
 };
 function visaGDPR(){
     if (typeof localStorage !== 'undefined') {
