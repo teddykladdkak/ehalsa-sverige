@@ -10,7 +10,7 @@
 
     <link rel="manifest" href="/manifest.json">
 
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" rel=preload />
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}">
     
@@ -71,9 +71,7 @@
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="yes" name="mobile-web-app-capable">
 
-    <meta name="theme-color" content="#{{ site.color.primary }}">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#{{ site.color.primary }}">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#{{ site.color.primary }}">
+    <meta name="theme-color" content="#{{ site.color.dark }}">
 
     {%- if page.video -%}
         <link rel="stylesheet" href="/assets/css/openplayer.min.css">

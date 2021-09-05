@@ -14,7 +14,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
                             link.setAttribute('class', 'cal-ev');
                             link.setAttribute('title', row.data[2]);
                             link.setAttribute('target', '_blank');
-                            link.setAttribute('rel', 'noopener noreferrer');
+                            link.setAttribute('rel', 'noopener');
                             var linkDate = document.createElement('div');
                                 linkDate.setAttribute('class', 'cal-ev-col');
                                 var linkDateDay = document.createElement('div');
