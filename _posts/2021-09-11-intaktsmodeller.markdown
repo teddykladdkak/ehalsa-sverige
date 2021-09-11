@@ -17,15 +17,13 @@ sitemap:
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
 karta: false
-chart: true
+chart: false
 cc: false
 ---
 
 Ett företags intäktsmodell beskriver hur företaget tjänar pengar. Oavsett hur genialisk din uppfinning är behöver ditt företag en fungerande intäktsmodell för att uppfinningen ska bidra till företagets framgång. Här beskriver vi olika konceptuella sätt som ditt eHälsoföretag kan tjäna pengar på.
 
 <!--more-->
-
-_Tidskrifter inom eHälsa med högst impact factor._
 
 {% include toc.md %}
 
