@@ -31,7 +31,7 @@ eHälsa kan vara en hårt reglerad bransch, så det är viktigt att ni känner t
 ## Ha en affärsplan
 Det räcker inte med att ha en häftig produkt – exakt hur kommer ni att tjäna pengar på ert erbjudande? Sälja direkt till konsumenter, upphandlas av offentliga vårdgivare eller något annat? Vilka köpvolymer behöver ni komma upp i innan ni blir lönsamma? Vilka funktioner kommer ni att behöva ha i företaget i takt med att det växer? Vill ni nå ut internationellt, och vad kommer krävas tekniskt, organisatoriskt och i form av kapital för att ni ska lyckas med det? Dessa frågor och många fler därtill behöver ni kunna besvara för att föra organisationen i rätt riktning och att få investerare att vilja investera i er.
 
-**Läs mer:** Affärsmodeller för eHälsoföretag\
+**Läs mer:** [Intäktsmodeller för eHälsoföretag](/2021/09/11/intaktsmodeller.html)\
 **Läs mer:** Grunder i offentliga upphandlingar\
 **Läs mer:** 10 frågor att ställa dig själv om din affärsplan
 ## Skapa ett nätverk
