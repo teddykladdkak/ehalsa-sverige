@@ -421,6 +421,15 @@ a.cal-ev .cal-ev-col {
     padding: 5px;
     border: solid 1px #{{ site.color.light }};
 }
+.postbody .related {
+    color: #FFF;
+    background-color: #{{ site.color.dark }};
+}
+.postbody .related h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
 .postbody .tagwrapper {
     padding: 5px;
 }
