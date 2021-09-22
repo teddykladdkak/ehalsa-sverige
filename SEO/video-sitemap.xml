@@ -15,11 +15,11 @@ sitemap:
 						<video:title><![CDATA[{{ post.title }}]]></video:title>
 						<video:description><![CDATA[{{ post.description }}]]></video:description>
 						<video:tag><![CDATA["{{ post.tags | join: '", "' }}"]]></video:tag>
-						<video:content_loc>{{ post.video }}</video:content_loc>
-						<video:thumbnail_loc>{{ post.video | replace: "mp4", "png" }}</video:thumbnail_loc>
-						<video:publication_date>{{ post.date }}</video:publication_date>
+						<video:content_loc>{{ site.url }}{{ post.video }}</video:content_loc>
+						<video:thumbnail_loc>{{ site.url }}{{ post.video | replace: "mp4", "png" }}</video:thumbnail_loc>
+						<video:publication_date>{{ post.date | date: "%Y-%m-%dT%H:%M:00+0200" }}</video:publication_date>
 						<video:family_friendly>yes</video:family_friendly>
-						<video:uploader info="{{ site.url }}">{{ post.author }}</video:uploader>
+						<video:uploader info="{{ site.url }}">{{ post.author.name }}</video:uploader>
 						<video:live>no</video:live>
 					</video:video>
 				</url>
