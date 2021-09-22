@@ -36,7 +36,7 @@
             </div>
             <div class="postbody">
               {%- if page.video -%}
-                <video class="op-player__media" id="player" controls playsinline>
+                <video class="op-player__media" id="player" controls playsinline poster="{{ page.video | replace: 'mp4', 'png' }}">
                   <source src="{{ page.video }}" type="video/mp4">
                   <!--<track kind="subtitles" src="/path/to/video.vtt" srclang="en" label="English">-->
                 </video>
