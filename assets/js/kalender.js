@@ -92,10 +92,14 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
                 var tColor = getContrast(color);
                 var eventtopush = {title: results.data[a][2], start: results.data[a][0], url: results.data[a][3], backgroundColor: color, borderColor: color, textColor: tColor};
                 if(!results.data[a][1] || results.data[a][1] == ''){}else{
-                    var datea = new Date(results.data[a][1]);
-                    var dateb = datea.getTime() + (((60*1000)*60)*24);
-                    var datec = new Date(dateb);
-                    eventtopush.end = datec.getFullYear() + '-' + (datec.getMonth() + 1).toString().padStart(2, 0) + '-' + datec.getDate().toString().padStart(2, 0);
+                    if(results.data[a][1].split('T').length == 2){
+                        eventtopush.end = results.data[a][1];
+                    }else{
+                        var datea = new Date(results.data[a][1]);
+                        var dateb = datea.getTime() + (((60*1000)*60)*24);
+                        var datec = new Date(dateb);
+                        eventtopush.end = datec.getFullYear() + '-' + (datec.getMonth() + 1).toString().padStart(2, 0) + '-' + datec.getDate().toString().padStart(2, 0);
+                    };
                 };
                 ev.push(eventtopush);
             };
