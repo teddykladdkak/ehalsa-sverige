@@ -113,12 +113,17 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         };
         var calendar = new FullCalendar.Calendar(calendarEl, {
             headerToolbar: {
-                left: 'dayGridMonth,listWeek',
+                left: 'dayGridMonth,timeGridWeek,listWeek',
                 center: 'title',
                 right: 'prevYear,prev,next,nextYear'
             },
             initialView: view,
-            events: ev
+            events: ev,
+            eventTimeFormat: { 
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12:false
+            }
         });
         calendar.render();
         indexArrangor();
