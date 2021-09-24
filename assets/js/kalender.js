@@ -112,10 +112,19 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
             var view = 'listWeek';
         };
         var calendar = new FullCalendar.Calendar(calendarEl, {
+            locale: 'sv',
+            eventDidMount: function(info) {
+                info.el.setAttribute('title', info.event['_def'].title)
+            },
             headerToolbar: {
                 left: 'dayGridMonth,timeGridWeek,listWeek',
                 center: 'title',
                 right: 'prevYear,prev,next,nextYear'
+            },
+            views: {
+                dayGridMonth: { buttonText: 'Månad' },
+                timeGridWeek: { buttonText: 'Vecka' },
+                listWeek: { buttonText: 'Lista' }
             },
             initialView: view,
             events: ev,
