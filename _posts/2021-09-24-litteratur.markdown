@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Litteratur om eHälsa"
-description: "Bäcker för den som vill fördjupa sig inom eHälsa"
+description: "Böcker för den som vill fördjupa sig inom eHälsa"
 date:   2021-09-24 08:00:00 +0200
 tags: Forskning Utbildning
 author:
