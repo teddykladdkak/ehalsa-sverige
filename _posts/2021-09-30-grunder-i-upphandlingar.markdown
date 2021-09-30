@@ -40,7 +40,7 @@ Lagen innehåller fem principer:
 * _Proportionalitet_: Kraven som ställs vid en upphandling ska vara rimligt omfattande i förhållande till vad som ska upphandlas.
 _Ömsesidigt erkännande_: Intyg, betyg och certifikat som utfärdats av behöriga myndigheter i något annat EU-land måste godtas i Sverige.
 
-Den upphandlande myndigheten ska fatta sitt beslut i första hand på bästa förhållandet mellan kvalitet och pris. Leverantören som bäst uppfyller detta tilldelas ett kontrakt. \
+Den upphandlande myndigheten ska fatta sitt beslut i första hand på bästa förhållandet mellan kvalitet och pris. Leverantören som bäst uppfyller detta tilldelas ett kontrakt.
 
 Om man som leverantör anser att en upphandling har gått fel till kan man begära en överprövning. Begäran om överprövning ska lämnas in till tingsrätten inom tio dagar från tilldelningsbeslutet. Om Tingsrätten håller med om att upphandlingen gått fel till kan de bestämma att upphandlingen ska göras om.
 ## Slutsatser
