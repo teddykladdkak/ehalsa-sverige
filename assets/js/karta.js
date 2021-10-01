@@ -27,6 +27,15 @@ function filter(el){
         mymap.setView(JSON.parse('[' + getRegionKor(el.value) + ']'), 7);
     };
 };
+function checkInclude(obj, sep, str){
+    var split = obj.split(sep);
+    for (let i = 0; i < split.length; i++) {
+        if(split[i] == str){
+            return true;
+        };
+    };
+    return false;
+};
 var mymap = L.map('karta1').setView([62.5, 17.5], 5);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -65,7 +74,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vS5_gAmo9oFPsMDGmQ-L
             }else{
                 mymap.eachLayer(function(feature){
                     if(!feature._icon){}else{
-                        if(feature._icon.className.includes(alreadyUsed)){
+                        if(checkInclude(feature._icon.className, ' ', alreadyUsed)){
                             var newContent = feature.getPopup()._content + '<br/>' + link;
                             feature.setPopupContent(newContent);
                         };

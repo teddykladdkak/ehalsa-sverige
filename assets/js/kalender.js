@@ -67,6 +67,13 @@ function indexArrangor(){
             table.appendChild(tBody);
         wrapper.appendChild(table);
 };
+function addZero(num){
+    if(num.split('').length == 1){
+        return '0' + num;
+    }else{
+        return num;
+    };
+};
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
     error: function(results) {
@@ -98,7 +105,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
                         var datea = new Date(results.data[a][1]);
                         var dateb = datea.getTime() + (((60*1000)*60)*24);
                         var datec = new Date(dateb);
-                        eventtopush.end = datec.getFullYear() + '-' + (datec.getMonth() + 1).toString().padStart(2, 0) + '-' + datec.getDate().toString().padStart(2, 0);
+                        eventtopush.end = datec.getFullYear() + '-' + addZero((datec.getMonth() + 1).toString()) + '-' + addZero(datec.getDate().toString());
                     };
                 };
                 ev.push(eventtopush);
