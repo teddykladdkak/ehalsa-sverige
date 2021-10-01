@@ -151,7 +151,6 @@ h1 {
 }
 .col-2 .col-img img {
     width: 80%;
-    height: auto;
 }
 .col-2 .col-2-in {
     width: 50%;
@@ -181,6 +180,7 @@ footer ul li {
 }
 footer svg {
     width: 0.8rem;
+    height: 0.8rem;
     vertical-align: middle;
 }
 #gdpr {
@@ -388,6 +388,7 @@ a.cal-ev .cal-ev-col {
     cursor: pointer;
 }
 .postwrapper .sticky svg {
+    display: block;
     width: 30px;
     height: 30px;
 }
