@@ -10,7 +10,7 @@ author:
 image:
   path: "/assets/images/post-head/500/medicinteknik.jpg"
   head: "/assets/images/post-head/1920/medicinteknik.jpg"
-video: false
+video: "/assets/video/medicinteknik.mp4"
 sitemap:
   lastmod: 2021-08-20
   priority: 0.7

@@ -561,6 +561,7 @@ a.cal-ev .cal-ev-col {
         color: #FFF;
     }
     .postwrapper .sticky svg {
+        display: inline-block;
         vertical-align: middle;
     }
 }
