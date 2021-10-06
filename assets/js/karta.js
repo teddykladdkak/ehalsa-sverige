@@ -49,60 +49,62 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vS5_gAmo9oFPsMDGmQ-L
     download: true,
     step: function(row) {
         if(row.data[0] == "Namn"){}else{
-            var unikID = 'karta-' + Math.random().toString(36).substr(2, 9);
-            var filter = makeID(row.data[2]) + ' karta-filter';
-            var circleIcon = L.icon({iconUrl: '/assets/css/leaflet/circle-' + makeID(row.data[1]) + '.svg', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, 0], className: unikID + ' karta-filter-marker-' + filter});
-            if(!row.data[4] == ""){
-                var koordinat = row.data[4];
-            }else if(!row.data[3] == ""){
-                var koordinat = getStadKor(row.data[3]);
-            }else if(!row.data[2] == ""){
-                var koordinat = getRegionKor(row.data[2]);
-            }else{
-                console.log('Koordinat fattas för: ' + row.data[0]);
-            };
-            var alreadyUsed = checkUsedKor(koordinat);
-            if(row.data[5] == '#'){
-                var link = row.data[0];
-            }else{
-                var link = '<a href="' + row.data[5] + '">' + row.data[0] + '</a>';
-            };
-            if(!alreadyUsed){
-                var koordinatObj = JSON.parse('[' + koordinat + ']');
-                L.marker(koordinatObj, {icon: circleIcon}).bindPopup(link, {className: unikID.replace('karta-', 'karta-popup-')}).addTo(mymap);
-                usedKor.push({kor: koordinat, id: unikID});
-            }else{
-                mymap.eachLayer(function(feature){
-                    if(!feature._icon){}else{
-                        if(checkInclude(feature._icon.className, ' ', alreadyUsed)){
-                            var newContent = feature.getPopup()._content + '<br/>' + link;
-                            feature.setPopupContent(newContent);
-                        };
-                    };
-                });
-                var unikID = alreadyUsed;
-            };
             var headWrapper = document.getElementById(row.data[1]);
+            if(!headWrapper){}else{
+                var unikID = 'karta-' + Math.random().toString(36).substr(2, 9);
+                var filter = makeID(row.data[2]) + ' karta-filter';
+                var circleIcon = L.icon({iconUrl: '/assets/css/leaflet/circle-' + makeID(row.data[1]) + '.svg', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, 0], className: unikID + ' karta-filter-marker-' + filter});
+                if(!row.data[4] == ""){
+                    var koordinat = row.data[4];
+                }else if(!row.data[3] == ""){
+                    var koordinat = getStadKor(row.data[3]);
+                }else if(!row.data[2] == ""){
+                    var koordinat = getRegionKor(row.data[2]);
+                }else{
+                    console.log('Koordinat fattas för: ' + row.data[0]);
+                };
+                var alreadyUsed = checkUsedKor(koordinat);
+                if(row.data[5] == '#'){
+                    var link = row.data[0];
+                }else{
+                    var link = '<a href="' + row.data[5] + '">' + row.data[0] + '</a>';
+                };
+                if(!alreadyUsed){
+                    var koordinatObj = JSON.parse('[' + koordinat + ']');
+                    L.marker(koordinatObj, {icon: circleIcon}).bindPopup(link, {className: unikID.replace('karta-', 'karta-popup-')}).addTo(mymap);
+                    usedKor.push({kor: koordinat, id: unikID});
+                }else{
+                    mymap.eachLayer(function(feature){
+                        if(!feature._icon){}else{
+                            if(checkInclude(feature._icon.className, ' ', alreadyUsed)){
+                                var newContent = feature.getPopup()._content + '<br/>' + link;
+                                feature.setPopupContent(newContent);
+                            };
+                        };
+                    });
+                    var unikID = alreadyUsed;
+                };
                 headWrapper.removeAttribute('style');
-            var wrapper = headWrapper.getElementsByClassName('karta-col')[0];
-            var checkUl = wrapper.getElementsByTagName('ul');
-                var li = document.createElement('li');
-                    li.setAttribute('class', 'karta-filter-list-' + filter);
-                    if(row.data[5] == '#'){
-                        var liA = document.createElement('span');
-                    }else{
-                        var liA = document.createElement('a');
-                            liA.setAttribute('href', row.data[5]);
-                    };
-                        liA.setAttribute('onmouseover', 'highlight("' + unikID + '");');
-                        liA.setAttribute('onmouseout', 'rensaKarta();');
-                        var liAText = document.createTextNode(row.data[0]);
-                        liA.appendChild(liAText);
-                    li.appendChild(liA);
-            if(checkUl[0].getElementsByTagName('li').length <= checkUl[1].getElementsByTagName('li').length){
-                checkUl[0].appendChild(li);
-            }else{
-                checkUl[1].appendChild(li);
+                var wrapper = headWrapper.getElementsByClassName('karta-col')[0];
+                var checkUl = wrapper.getElementsByTagName('ul');
+                    var li = document.createElement('li');
+                        li.setAttribute('class', 'karta-filter-list-' + filter);
+                        if(row.data[5] == '#'){
+                            var liA = document.createElement('span');
+                        }else{
+                            var liA = document.createElement('a');
+                                liA.setAttribute('href', row.data[5]);
+                        };
+                            liA.setAttribute('onmouseover', 'highlight("' + unikID + '");');
+                            liA.setAttribute('onmouseout', 'rensaKarta();');
+                            var liAText = document.createTextNode(row.data[0]);
+                            liA.appendChild(liAText);
+                        li.appendChild(liA);
+                if(checkUl[0].getElementsByTagName('li').length <= checkUl[1].getElementsByTagName('li').length){
+                    checkUl[0].appendChild(li);
+                }else{
+                    checkUl[1].appendChild(li);
+                };
             };
         };
     },
