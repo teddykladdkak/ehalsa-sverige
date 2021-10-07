@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Grunder i offentliga upphandlingar"
-description: "Bäcker för den som vill fördjupa sig inom eHälsa"
+description: "Kort förklaring om grundprinciper som styr offentliga upphandlingar"
 date:   2021-09-30 08:00:00 +0200
 tags: Lagar
 author:
