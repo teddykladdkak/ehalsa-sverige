@@ -29,46 +29,46 @@ Vill du lyssna på det senaste inom e-hälsa? Här listar vi både svenska och i
 
 ## 2025-podden
 **Utgivare:** e-Hälsa 2025 \
-**Länk:** https://ehalsa2025.se/kategori/podd/
+**Länk:** [https://ehalsa2025.se/kategori/podd/](https://ehalsa2025.se/kategori/podd/)
 ## Breaking Health Podcast
 **Utgivare:** Digital Healthcare Innovation Summit \
-**Länk:** https://dhis.net/breaking-health-podcast/
+**Länk:** [https://dhis.net/breaking-health-podcast/](https://dhis.net/breaking-health-podcast/)
 ## Data book
 **Utgivare:** Chief Healthcare Executive \
-**Länk:** https://www.chiefhealthcareexecutive.com/podcasts
+**Länk:** [https://www.chiefhealthcareexecutive.com/podcasts](https://www.chiefhealthcareexecutive.com/podcasts)
 ## Digitala influencerpodden
 **Utgivare:** Consid AB \
-**Länk:** https://consid.se/podd/digitala-influencer-podden/ 
+**Länk:** [https://consid.se/podd/digitala-influencer-podden/](https://consid.se/podd/digitala-influencer-podden/)
 ## Digital Health Today
 **Utgivare:** Digital Health Today \
-**Länk:** https://digitalhealthtoday.com/podcasts/
+**Länk:** [https://digitalhealthtoday.com/podcasts/](https://digitalhealthtoday.com/podcasts/)
 ## Empowered Patient Podcast
 **Utgivare:** Turtleback Interactive \
-**Länk:** https://empoweredpatientradio.com/
+**Länk:** [https://empoweredpatientradio.com/](https://empoweredpatientradio.com/)
 ## Faces of Digital Health
 **Utgivare:** Tjaša Zajc \
-**Länk:** https://www.facesofdigitalhealth.com/
+**Länk:** [https://www.facesofdigitalhealth.com/](https://www.facesofdigitalhealth.com/)
 ## Healthcare IT Today
 **Utgivare:** Healthcare Scene \
-**Länk:** https://www.healthcareittoday.com/
+**Länk:** [https://www.healthcareittoday.com/](https://www.healthcareittoday.com/)
 ## Health Tech Podcast
 **Utgivare:** GeekWire \
-**Länk:** https://www.geekwire.com/healthtech/
+**Länk:** [https://www.geekwire.com/healthtech/](https://www.geekwire.com/healthtech/)
 ## Medicine and the Machine
 **Utgivare:** Medscape \
-**Länk:** https://www.medscape.com/features/public/machine
+**Länk:** [https://www.medscape.com/features/public/machine](https://www.medscape.com/features/public/machine)
 ## Medtechpodden
 **Utgivare:** Swedish Medtech \
-**Länk:** https://www.swedishmedtech.se/sidor/medtechpodden.aspx
+**Länk:** [https://www.swedishmedtech.se/sidor/medtechpodden.aspx](https://www.swedishmedtech.se/sidor/medtechpodden.aspx)
 ## Näravårdpodden
 **Utgivare:** Sveriges kommuner och regioner (SKR) \
-**Länk:** https://skr.se/skr/halsasjukvard/utvecklingavverksamhet/naravard/podcastnaravard.29690.html
+**Länk:** [https://skr.se/skr/halsasjukvard/utvecklingavverksamhet/naravard/podcastnaravard.29690.html](https://skr.se/skr/halsasjukvard/utvecklingavverksamhet/naravard/podcastnaravard.29690.html)
 ## Spinnovation
 **Utgivare:** Spinnovation \
-**Länk:** https://spinnovation.se/series/spinnovation/
+**Länk:** [https://spinnovation.se/series/spinnovation/](https://spinnovation.se/series/spinnovation/)
 ## The Big Unlock
 **Utgivare:** Paddy Padmanabhan \
-**Länk:** https://thebigunlock.com/the-big-unlock-podcast/
+**Länk:** [https://thebigunlock.com/the-big-unlock-podcast/](https://thebigunlock.com/the-big-unlock-podcast/)
 
 
 
