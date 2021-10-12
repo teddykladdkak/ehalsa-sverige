@@ -39,19 +39,21 @@
     <script>const player = new OpenPlayerJS('player');player.init();</script>
 {%- endif -%}
 {% if site.url != "http://localhost:4000"%}
-    <script>
-        // ServiceWorker is a progressive technology. Ignore unsupported browsers
-        if ('serviceWorker' in navigator) {
-            {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration in progress.');{%- endif -%}
-            navigator.serviceWorker.register('/service-worker.js').then(function() {
-                {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration complete.');{%- endif -%}
-            }, function() {
-                {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration failure.');{%- endif -%}
-            });
-        }else{
-            {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker is not supported.');{%- endif -%}
-        };
-    </script>
+    {% if site.serviceWorker %}
+        <script>
+            // ServiceWorker is a progressive technology. Ignore unsupported browsers
+            if ('serviceWorker' in navigator) {
+                {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration in progress.');{%- endif -%}
+                navigator.serviceWorker.register('/service-worker.js').then(function() {
+                    {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration complete.');{%- endif -%}
+                }, function() {
+                    {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker registration failure.');{%- endif -%}
+                });
+            }else{
+                {%- if site.serviceworker.talk -%}console.log('CLIENT: service worker is not supported.');{%- endif -%}
+            };
+        </script>
+    {%- endif -%}
 {%- endif -%}
 {%- if page.footer -%}
     {{ page.footer }}
