@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5 {
     width: 28px;
     margin-right: 3px;
 }
+.loader {
+    margin: auto;
+    display: block;
+}
 header ul {
     font-size: 0.9rem;
 }
