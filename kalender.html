@@ -8,16 +8,15 @@ sitemap:
   changefreq: 'weekly'
 image:
   path: "/assets/images/ovrigt/kalender.jpg"
+header: '<link href="/assets/css/fullcalendar.min.css" rel="stylesheet" /><link href="/assets/css/kalender.css" rel="stylesheet" />'
+footer: '<script src="/assets/js/papaparse.min.js"></script><script src="/assets/js/fullcalendar.min.js"></script><script src="/assets/js/fullcalendar-locale-sv.js"></script><script src="/assets/js/kalender.js"></script>'
 ---
 <section>
     <div class="calendarbody">
-        <div id="calendar"></div>
+      <h1>eHälsa Kalender</h1>
+      <div id="calendar">
+        {% include loader.html %}
+      </div>
     </div>
     <p style="text-align: center;"><i>Har vi missat något event? <a href="http://localhost:4000/index.html#form-message">Kontakta oss</a> eller <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUQRgSLezBl6zmONtLl6Uq69z3JHtgSNE5Xx_J_XyQDrFm-Q/viewform?usp=sf_link" target="_blank" rel="noopener">ansök om tillägg av nytt event</a>.</i></p>
 </section>
-<link href='/assets/css/fullcalendar.min.css' rel='stylesheet' />
-<link href='/assets/css/kalender.css' rel='stylesheet' />
-<script src="/assets/js/papaparse.min.js"></script>
-<script src='/assets/js/fullcalendar.min.js'></script>
-<script src='/assets/js/fullcalendar-locale-sv.js'></script>
-<script src='/assets/js/kalender.js'></script>

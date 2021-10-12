@@ -10,6 +10,8 @@ sitemap:
 karta: true
 image:
   path: "/assets/images/ovrigt/ehalsokarta.jpg"
+header: '<style id="markerOnTop"></style><style id="filterStyle"></style>'
+footer: '<script src="/assets/js/papaparse.min.js"></script><script src="/assets/js/koordinater.js"></script><script src="/assets/js/karta.js"></script>'
 ---
 <link rel="stylesheet" href="/assets/css/karta.css">
 <section class="karta">
@@ -40,6 +42,7 @@ image:
             <option value="Region Örebro län">Region Örebro län</option>
             <option value="Region Östergötland">Region Östergötland</option>
         </select>
+        {% include loader.html id="loader" %}
         <div id="Inkubatorer" style="display: none;">
             <h2><img src="/assets/css/leaflet/circle-inkubatorer.svg" alt="Markering för inkubatorer">Inkubatorer</h2>
             <div class="karta-col min">
@@ -68,8 +71,3 @@ image:
         </div>
     </div>
 </section>
-<script src="/assets/js/papaparse.min.js"></script>
-<script src="/assets/js/koordinater.js"></script>
-<style id="markerOnTop"></style>
-<style id="filterStyle"></style>
-<script src="/assets/js/karta.js"></script>

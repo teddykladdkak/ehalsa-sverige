@@ -88,4 +88,8 @@
         <link rel="stylesheet" href="/assets/css/chartist.min.css">
         <script src="/assets/js/chartist.min.js"></script>
     {% endif %}
+
+    {%- if page.header -%}
+        {{ page.header }}
+    {%- endif -%}
 </head>

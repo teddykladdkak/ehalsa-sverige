@@ -48,7 +48,9 @@ var mymap = L.map('karta1').setView([62.5, 17.5], 5);
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vS5_gAmo9oFPsMDGmQ-LyIf7i2ZEySuEg9RMS4FQ3sPXJWEd1VholZELScFzCZbJ5Skbs1av6C_L7Lm/pub?output=csv", {
     download: true,
     step: function(row) {
-        if(row.data[0] == "Namn"){}else{
+        if(row.data[0] == "Namn"){
+            loader.parentElement.removeChild(loader);
+        }else{
             var headWrapper = document.getElementById(row.data[1]);
             if(!headWrapper){}else{
                 var unikID = 'karta-' + Math.random().toString(36).substr(2, 9);

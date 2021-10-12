@@ -4,7 +4,10 @@ var maxelements = 0;
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
     step: function(row) {
-        if(row.data[0] == "Start"){}else{
+        if(row.data[0] == "Start"){
+            var wrapper = document.getElementById('event-wrapper');
+            while (wrapper.firstChild) {wrapper.removeChild(wrapper.lastChild);};
+        }else{
             if(checkPassed(row.data[0])){
                 ++maxelements;
                 if(maxelements <= 5){

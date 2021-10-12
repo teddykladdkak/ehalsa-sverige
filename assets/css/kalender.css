@@ -29,4 +29,7 @@ sitemap:
         font-size: 0.6rem;
         font-weight: 200;
     }
+    .fc-header-toolbar {
+        flex-direction: column;
+    }
 }

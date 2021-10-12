@@ -141,6 +141,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
                 hour12:false
             }
         });
+        while (calendarEl.firstChild) {calendarEl.removeChild(calendarEl.lastChild);};
         calendar.render();
         indexArrangor();
     }
