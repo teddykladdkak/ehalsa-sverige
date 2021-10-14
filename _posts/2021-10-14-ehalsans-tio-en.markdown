@@ -3,7 +3,7 @@ layout: post
 title:  "eHälsans tio e:n"
 description: "En välkänd eHälsoforskares syn på vad eHälsa innebär"
 date:   2021-10-14 08:00:00 +0200
-tags: ¨Forskning
+tags: Forskning
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -25,32 +25,34 @@ Vad är eHälsa, och vad är det bra för? Redan 2001 publicerade eHälsoforskar
 
 <!--more-->
 
-# Definition av eHälsa
+{% include toc.md %}
+
+## Definition av eHälsa
 Eysenbach definierar eHälsa som “vårdtjänster och -information som levereras eller förbättras genom Internet och relaterad teknik”. Han menar dessutom att eHälsa sträcker sig bortom tekniken som används:
 
 “I en bredare bemärkelse innebär begreppet eHälsa inte bara teknisk utveckling, utan även ett tankesätt, en attityd och ett åtagande till sammanlänkat, globalt tänkande för att förbättra vården lokalt, regionalt och runtom i världen genom informations- och kommunikationsteknik.”
-# eHälsans potential - tio e:n
-## Efficiency - effektivitet.
+## eHälsans potential - tio e:n
+### Efficiency - effektivitet.
 eHälsa kan öka vad vården får ut i förhållande till resurserna som investeras. Det kan röra sig om att förkorta vårdköer, att minska dubbelarbete eller att minska belastningen på vårdpersonal.
-## Enhancing quality - ökar kvalitet
+### Enhancing quality - ökar kvalitet
 Vårdkvaliteten kan ökas genom exempelvis medicinskt beslutsstöd, jämförelser mellan vård som ges på olika ställen eller att inkludera patienter som ett led i kvalitetssäkring.
-## Evidence-based - evidensbaserat
+### Evidence-based - evidensbaserat
 eHälsa, liksom andra interventioner i vården, bör vetenskapligt utvärderas för att undersöka dess för- och nackdelar.
-## Empowerment - ökar delaktighet
+### Empowerment - ökar delaktighet
 Patienter får tillgång till mer kunskap om medicin och om sin egen hälsa. De får bättre möjligheter att välja den sortens vård som de själva trivs bäst med.
-## Encouragement - uppmuntran
+### Encouragement - uppmuntran
 eHälsa uppmuntrar till ett partnerskap mellan läkare och patient, där beslut fattas gemensamt.
-## Education - utbildning
+### Education - utbildning
 Både vårdpersonal och patienter får nya möjligheter att uppgradera sina kunskaper.
-## Enabling - möjliggör informationsutbyte
+### Enabling - möjliggör informationsutbyte
 Informationsutbyte kan ske standardiserat mellan olika medarbetare inom vården, mellan olika vårdgivare och mellan patienter och vården. Därmed minskar risken för att viktig information försvinner, samtidigt som behovet av dubbeldokumentation minskar.
-## Extending - utvidgar vården
+### Extending - utvidgar vården
 eHälsan kan utvidga vården bortom sina vanliga gränser, både geografiskt och konceptuellt. Patienter kan få vård oavsett var de befinner sig, och vården innefattar fler tjänster, från enkel digital rådgivning till komplexa interventioner.
-## Ethics - etik
+### Ethics - etik
 Utöver nya möjligheter aktualiserar eHälsan även nya etiska frågeställningar, exempelvis kring datahantering, patienters samtycke och jämlikhet i vården.
-## Equity - jämlikhet
+### Equity - jämlikhet
 Att göra vården mer jämlik genom att öka dess tillgänglighet är en av eHälsans stora möjligheter, men samtidigt riskeras ökade skillnader mellan de tekniskt kunniga som kan utnyttja eHälsans potential och de som saknar dessa kunskaper.
-# Ytterligare aspekter
+## Ytterligare aspekter
 Eysenbach tar också upp ytterligare aspekter av eHälsa. Den bör vara
 
 * easy-to-use (lättanvänt)
