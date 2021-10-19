@@ -26,6 +26,16 @@ html, body, main, textarea, input {
 strong, b {
     font-weight: 400;
 }
+a {
+    text-decoration: none;
+    color: #{{ site.color.dark }};
+}
+a:hover {
+    text-decoration: underline;
+}
+.post-link:hover, footer a:hover, .title:hover, nav ul li a:hover, .button:hover {
+    text-decoration: none;
+}
 h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
