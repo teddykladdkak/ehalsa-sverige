@@ -1,35 +1,51 @@
-<ul id="feedContent"></ul>
+<div id="{{ include.id }}" class="news-list"></div>
 <script>
-    var url = "{{ include.url }}";
-    var feedxhr = new XMLHttpRequest();
-        feedxhr.onreadystatechange = function(){
-        if (feedxhr.readyState==4 && feedxhr.status==200) {
-            var data = JSON.parse(feedxhr.responseText);
+    var {{ include.id }}Url = "{{ include.url }}";
+    var {{ include.id }}Icons = {
+        pubmed: '/assets/images/icons/feeds/pubmed.jpg'
+    };
+    var {{ include.id }}xhr = new XMLHttpRequest();
+    {{ include.id }}xhr.onreadystatechange = function(){
+        if ({{ include.id }}xhr.readyState==4 && {{ include.id }}xhr.status==200) {
+            var data = JSON.parse({{ include.id }}xhr.responseText);
             if(data.status == 'ok'){
-                var wrapper = document.getElementById('feedContent');
+                var wrapper = document.getElementById('{{ include.id }}');
                 for( var i=0,t = data.items.length ; i < t ; ++i ){
                     if(i == parseInt({{ include.antal }})){ break; };
                     var item = data.items[i];
-                    var li = document.createElement('li');
-                        var liA = document.createElement('a');
-                            liA.setAttribute('href', item.link);
-                            liA.setAttribute('target', '_blank');
-                            liA.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
-                            liA.setAttribute('rel', 'noopener noreferrer"');
-                            var liAText = document.createTextNode(item.title);
-                            liA.appendChild(liAText);
-                        li.appendChild(liA);
-                    wrapper.appendChild(li);
+                    console.log(item);
+                    var id = item.link.replace('www.', '').replace('http://', '').replace('https://', '').split('.')[0];
+                    var line = document.createElement('a');
+                        line.setAttribute('href', item.link);
+                        line.setAttribute('target', '_blank');
+                        line.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
+                        line.setAttribute('rel', 'noopener noreferrer"');
+                        var date = document.createElement('span');
+                            var datet = document.createTextNode(minDate(item.pubDate.split(' ')[0]));
+                            date.appendChild(datet);
+                        line.appendChild(date);
+                        var icon = document.createElement('span');
+                            var iconb = document.createElement('img');
+                                iconb.setAttribute('src', {{ include.id }}Icons[id]);
+                                iconb.setAttribute('height', '35px');
+                                iconb.setAttribute('width', '35px');
+                            icon.appendChild(iconb);
+                        line.appendChild(icon);
+                        var title = document.createElement('span');
+                            var titlet = document.createTextNode(item.title);
+                            title.appendChild(titlet);
+                        line.appendChild(title);
+                    wrapper.appendChild(line);
                 };
             }else{
                 console.log(data.status);
             };
         };
     };
-    feedxhr.open(
+    {{ include.id }}xhr.open(
         'GET',
-        'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI(url),
+        'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI({{ include.id }}Url),
         true
     );
-    feedxhr.send();
+    {{ include.id }}xhr.send();
 </script>
