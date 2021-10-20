@@ -29,22 +29,15 @@ sitemap:
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="button">
-      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
-      <span class="mobile-hidden"> Föregående</span>
-    </a>
-  {% else %}
-    <!--<span class="previous">Previous</span>-->
-  {% endif %}
+  <a href="{{ paginator.previous_page_path }}" class="button"{% if paginator.previous_page %}{% else %} style="visibility: hidden;"{% endif %}>
+    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+    <span class="mobile-hidden"> Föregående</span>
+  </a>
   <span class="page_number ">
     Sida: {{ paginator.page }} av {{ paginator.total_pages }}
   </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="button">
-      <span class="mobile-hidden">Nästa </span>
-      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg></a>
-  {% else %}
-    <!--<span class="next ">Next</span>-->
-  {% endif %}
+  <a href="{{ paginator.next_page_path }}" class="button"{% if paginator.next_page %}{% else %} style="visibility: hidden;"{% endif %}>
+    <span class="mobile-hidden">Nästa </span>
+    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+  </a>
 </div>
