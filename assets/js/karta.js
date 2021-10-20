@@ -49,7 +49,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vS5_gAmo9oFPsMDGmQ-L
     download: true,
     step: function(row) {
         if(row.data[0] == "Namn"){
-            loader.parentElement.removeChild(loader);
+            removeElement('loader');
         }else{
             var headWrapper = document.getElementById(row.data[1]);
             if(!headWrapper){}else{

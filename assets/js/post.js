@@ -1,34 +1,31 @@
 
-var xhr = new XMLHttpRequest();
-function remove(wrapper){while (wrapper.firstChild) {wrapper.removeChild(wrapper.lastChild);}};
+var postXhr = new XMLHttpRequest();
 var windowTextID = '';
-xhr.onreadystatechange = function () {
-    if (this.readyState != 4) return;
+    postXhr.onreadystatechange = function () {
+        if (this.readyState != 4) return;
 
-    if (this.status == 200) {
-        var wrapper = document.getElementById('contact-form');
-        if(this.responseText == 'ok'){
-            var text = document.getElementById(windowTextID);
-                text.setAttribute('disabled', 'disabled');
-                text.setAttribute('class', 'send-approved');
+        if (this.status == 200) {
+            var wrapper = document.getElementById('contact-form');
+            if(this.responseText == 'ok'){
+                var text = document.getElementById(windowTextID);
+                    text.setAttribute('disabled', 'disabled');
+                    text.setAttribute('class', 'send-approved');
+            }else{
+                var text = document.getElementById(windowTextID);
+                    text.setAttribute('disabled', 'disabled');
+                    text.setAttribute('class', 'send-error');
+            };
         }else{
             var text = document.getElementById(windowTextID);
                 text.setAttribute('disabled', 'disabled');
                 text.setAttribute('class', 'send-error');
         };
-    }else{
-        var text = document.getElementById(windowTextID);
-            text.setAttribute('disabled', 'disabled');
-            text.setAttribute('class', 'send-error');
     };
-};
-
 function post(el, textID, url){
     el.setAttribute('disabled', 'disabled');
     window['windowTextID'] = textID;
     var text = document.getElementById(textID).value;
-    xhr.open('POST', 'https://hooks.slack.com/services/' + url, true);
-    xhr.send(JSON.stringify({"text": text}));
+    postXhr.open('POST', 'https://hooks.slack.com/services/' + url, true);
+    postXhr.send(JSON.stringify({"text": text}));
 };
-
 function checkEnter(event, buttonID){ if (event.keyCode === 13) { document.getElementById(buttonID).click(); }; };
