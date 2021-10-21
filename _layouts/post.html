@@ -51,6 +51,11 @@
                   {%- endif -%}
                 {% endfor %}
               </div>
+              <div class="post-footer min">
+                <h3>{{ page.author.name }}</h3>
+                <p>{{ page.author.description }}</p>
+                {%- include cc.html -%}
+              </div>
               <div class="related">
                 <h4>Liknande artiklar:</h4>
                 <div class="post-card">
@@ -86,11 +91,6 @@
                     {% endif %}
                   {% endfor %}
                 </div>
-              </div>
-              <div class="post-footer min">
-                <h3>{{ page.author.name }}</h3>
-                <p>{{ page.author.description }}</p>
-                {%- include cc.html -%}
               </div>
             </div>
           </div>

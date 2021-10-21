@@ -545,6 +545,9 @@ a.cal-ev .cal-ev-col {
     flex-direction: column;
     margin: 0px 10px 10px 10px;
 }
+.news-list a {
+    margin-bottom: 10px;
+}
 .news-list span {
     padding: 5px;
 }
@@ -637,6 +640,9 @@ a.cal-ev .cal-ev-col {
     }
     nav p .mobile-icon {
         display: block;
+    }
+    header ul {
+        font-size: 1.1rem;
     }
     .dropdown-content {
         display: flex;
