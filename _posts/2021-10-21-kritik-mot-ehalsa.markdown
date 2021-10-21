@@ -37,6 +37,7 @@ Potentiella lösningar är
 * att involvera representativa slutanvändare i produkttestningen. Därmed stämmer utvecklarna av att deras produkt faktiskt fyller ett behov hos användaren, och att den kan användas som tänkt.
 * att följa [standarder](/2021/07/31/standarder.html) för produktutveckling och användarvänlighet.
 * att segmentera sin tänkta användargrupp, så att man inte försöker påtvinga sin produkt på grupper som aldrig kommer att vara intresserade. Detta leder oss dock in på nästa kritik:
+
 ## Ojämlik vård
 Trots att en av de teoretiska fördelarna med eHälsa är att tillgängliggöra vården för alla patienter finns en risk att bara de teknikvana (ofta yngre och friskare) utnyttjar dess möjligheter, medan de äldre och mer sjuka som inte behärskar IT utesluts. Statistiken visar att storstadsbor med nära till fysiska vårdinrättningar använder distanstjänster för vård mer än boende på glesbygden.
 
