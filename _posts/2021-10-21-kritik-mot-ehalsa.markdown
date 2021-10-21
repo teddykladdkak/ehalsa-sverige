@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kritik mot eHälsa"
-description: "En välkänd eHälsoforskares syn på vad eHälsa innebär"
+description: "Problem som ibland framförs mot eHälsa och hur man kan lösa dem"
 date:   2021-10-21 08:00:00 +0200
 tags: Forskning
 author:
