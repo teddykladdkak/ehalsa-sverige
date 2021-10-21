@@ -28,6 +28,9 @@ strong, b {
 }
 a {
     text-decoration: none;
+    color: #{{ site.color.primary }};
+}
+.calendarbody a {
     color: #{{ site.color.dark }};
 }
 a:hover {
