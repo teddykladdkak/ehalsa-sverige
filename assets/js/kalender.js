@@ -1,3 +1,73 @@
+function filterArrangor(arrangorText){
+    var arrangor = getParameterByName('arrangor');
+    if(arrangor == null){
+        return true;
+    }else{
+        var arrangorSplit = decodeURI(arrangor).split(',');
+        for (let i = 0; i < arrangorSplit.length; i++) {
+            if(arrangorText == arrangorSplit[i]){
+                return true;
+            };
+        };
+    };
+    return false;
+};
+function filterPlats(platsCode){
+    var plats = getParameterByName('plats');
+    if(plats == null){
+        return true;
+    }else{
+        if(plats == '1'){
+            if(platsCode == '1'){
+                return true;
+            }else if(platsCode == '3'){
+                return true;
+            }else{
+                return false;
+            };
+        }else if(plats == '2'){
+            if(platsCode == '2'){
+                return true;
+            }else if(platsCode == '3'){
+                return true;
+            }else{
+                return false;
+            };
+        }else{
+            return true;
+        };
+    };
+    return false;
+};
+function filerKostnad(kostnadCode){
+    var kostnad = getParameterByName('gratis');
+    if(kostnad == null){
+        return true;
+    }else{
+        if(kostnad == 'true'){
+            if(kostnadCode == ''){
+                return false;
+            }else if(kostnadCode == 'TRUE'){
+                return false;
+            }else{
+                return true;
+            };
+        }else{
+            return true;
+        };
+    };
+    return false;
+};
+function filter(arrangorText, platsCode , kostnadCode){
+    var arrangor = filterArrangor(arrangorText);
+    var plats = filterPlats(platsCode);
+    var kostnadCode = filerKostnad(kostnadCode);
+    if(arrangor && plats && kostnadCode){
+        return true;
+    }else{
+        return false;
+    };
+};
 var getContrast = function (hexcolor){
     /*!
     * (c) 2019 Chris Ferdinandi, MIT License, https://gomakethings.com
@@ -88,20 +158,22 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         var ev = [];
         for (var a = 0; a < results.data.length; a++){
             if(results.data[a][0] == 'Start'){}else{
-                var color = addArrangor(results.data[a][4]);
-                var tColor = getContrast(color);
-                var eventtopush = {title: results.data[a][2], start: results.data[a][0], url: results.data[a][3], backgroundColor: color, borderColor: color, textColor: tColor};
-                if(!results.data[a][1] || results.data[a][1] == ''){}else{
-                    if(results.data[a][1].split('T').length == 2){
-                        eventtopush.end = results.data[a][1];
-                    }else{
-                        var datea = new Date(results.data[a][1]);
-                        var dateb = datea.getTime() + (((60*1000)*60)*24);
-                        var datec = new Date(dateb);
-                        eventtopush.end = dateFormat(datec);
+                if(filter(results.data[a][4].split(',')[0], results.data[a][5], results.data[a][6])){
+                    var color = addArrangor(results.data[a][4]);
+                    var tColor = getContrast(color);
+                    var eventtopush = {title: results.data[a][2], start: results.data[a][0], url: results.data[a][3], backgroundColor: color, borderColor: color, textColor: tColor};
+                    if(!results.data[a][1] || results.data[a][1] == ''){}else{
+                        if(results.data[a][1].split('T').length == 2){
+                            eventtopush.end = results.data[a][1];
+                        }else{
+                            var datea = new Date(results.data[a][1]);
+                            var dateb = datea.getTime() + (((60*1000)*60)*24);
+                            var datec = new Date(dateb);
+                            eventtopush.end = dateFormat(datec);
+                        };
                     };
+                    ev.push(eventtopush);
                 };
-                ev.push(eventtopush);
             };
         };
         var calendarEl = document.getElementById('calendar');
