@@ -1,3 +1,11 @@
+/*
+# API
+* arrangor: TEXT,TEXT,TEXT...
+* plats: 1/2/FALSE
+* gratis: TRUE/FALSE
+* vy: manad/vecka/dag/lista
+* datum: ÅÅÅÅ-MM-DD
+*/
 function filterArrangor(arrangorText){
     var arrangor = getParameterByName('arrangor');
     if(arrangor == null){
@@ -254,6 +262,14 @@ function indexArrangor(){
         var space = document.createElement('br');
         wrapper.appendChild(space);
 };
+function getWidthView(){
+    const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if(width > 800){
+        return 'dayGridMonth';
+    }else{
+        return 'listWeek';
+    };
+};
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
     error: function(results) {
@@ -294,13 +310,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
             };
         };
         var calendarEl = document.getElementById('calendar');
-        const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        if(width > 800){
-            var view = 'dayGridMonth';
-        }else{
-            var view = 'listWeek';
-        };
-        var calendar = new FullCalendar.Calendar(calendarEl, {
+        var options = {
             locale: 'sv',
             eventDidMount: function(info) {
                 info.el.setAttribute('title', info.event['_def'].title)
@@ -315,14 +325,35 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
                 timeGridWeek: { buttonText: 'Vecka' },
                 listWeek: { buttonText: 'Lista' }
             },
-            initialView: view,
+            initialView: 'dayGridMonth',
             events: ev,
             eventTimeFormat: { 
                 hour: '2-digit',
                 minute: '2-digit',
                 hour12:false
             }
-        });
+        };
+        var vy = getParameterByName('vy');
+        if(vy == null){
+            options.initialView = getWidthView();
+        }else{
+            if(vy == 'manad'){
+                options.initialView = 'dayGridMonth';
+            }else if(vy == 'vecka'){
+                options.initialView = 'timeGridWeek';
+            }else if(vy == 'dag'){
+                options.initialView = 'timeGridDay';
+            }else if(vy == 'lista'){
+                options.initialView = 'listWeek';
+            }else{
+                options.initialView = getWidthView();
+            };
+        };
+        var datum = getParameterByName('datum');
+        if(datum == null){}else{
+            options.initialDate = encodeURI(datum);
+        };
+        var calendar = new FullCalendar.Calendar(calendarEl, options);
         removeElements(calendarEl);
         calendar.render();
         addFilter();
