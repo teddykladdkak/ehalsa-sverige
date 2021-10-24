@@ -157,10 +157,12 @@ details {
     margin: 10px;
 }
 summary {
-    font-weight: bold;
+    font-weight: 400;
     margin: -.5em -.5em 0;
     padding: .5em;
     cursor: pointer;
+    color: #FFF;
+    background-color: #{{ site.color.dark }};
 }
 details[open] {
     padding: .5em;
@@ -168,6 +170,20 @@ details[open] {
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
+}
+.calendarbody .spacer {
+    padding-top: 10px;
+}
+.calendarbody .spacer label {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.calendarbody .spacer.blocker label {
+    display: block;
+}
+select {
+    border-radius: 10px;
+    padding: 10px;
 }
 .col-2 {
     display: flex;

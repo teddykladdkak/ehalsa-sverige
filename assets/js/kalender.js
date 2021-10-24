@@ -112,29 +112,81 @@ function addArrangor(namn){
     };
     return randomColor;
 };
+function makeSelect(options, labelText, first, text, val, multiple, id){
+    var wrapper = document.createElement('div');
+        wrapper.setAttribute('class', 'blocker spacer');
+        var label = document.createElement('label');
+            label.setAttribute('for', id);
+            var labelT = document.createTextNode(labelText);
+            label.appendChild(labelT);
+        wrapper.appendChild(label);
+        var select = document.createElement('select');
+            select.setAttribute('id', id);
+        if(multiple){
+            select.setAttribute('multiple', 'multiple');
+        };
+        if(first){
+            var firstOption = document.createElement('option');
+                firstOption.setAttribute('value', '');
+                var firstOptionT = document.createTextNode(first);
+                firstOption.appendChild(firstOptionT);
+            select.appendChild(firstOption);
+        };
+        for (let i = 0; i < options.length; i++) {
+            var option = document.createElement('option');
+                option.setAttribute('value', options[i][val]);
+                var optionT = document.createTextNode(options[i][text]);
+                option.appendChild(optionT);
+            select.appendChild(option);
+        };
+        wrapper.appendChild(select);
+    return wrapper;
+};
 function addFilter(){
-    var plats = [{text: 'Välj typ av plats', kod: '0'},{text: 'Digital', kod: '1'},{text: 'Fysisk', kod: '2'},{text: 'Både digital & fysisk', kod: '3'}];
+    var plats = [{text: 'Digital', val: '1'},{text: 'Fysisk', val: '2'},{text: 'Både digital & fysisk', val: '3'}];
     var wrapper = document.getElementsByClassName('calendarbody')[0];
         var details = document.createElement('details');
             var rubrik = document.createElement('summary');
                 var rubrikT = document.createTextNode('Filter');
                 rubrik.appendChild(rubrikT);
             details.appendChild(rubrik);
-            var select = document.createElement('select');
-                for (let i = 0; i < plats.length; i++) {
-                    var option = document.createElement('option');
-                        option.setAttribute('value', plats[i].kod);
-                        var optionT = document.createTextNode(plats[i].text);
-                        option.appendChild(optionT);
-                    select.appendChild(option);
-                };
-            details.appendChild(select);
+            details.appendChild(makeSelect(plats, 'Plats typ:', 'Välj plats', 'text', 'val', false, 'valAvPlats'));
+            details.appendChild(makeSelect(arrangor, 'Välj arrangörer:', false, 'namn', 'namn', true, 'valAvArrangor'));
+            var gratisWrapper = document.createElement('div');
+                gratisWrapper.setAttribute('class', 'spacer');
+                var gratisCheckbox = document.createElement('input');
+                    gratisCheckbox.setAttribute('type', 'checkbox');
+                    gratisCheckbox.setAttribute('id', 'valAvAvgift');
+                gratisWrapper.appendChild(gratisCheckbox);
+                var gratisLabel = document.createElement('label');
+                    gratisLabel.setAttribute('for', 'valAvAvgift');
+                    var gratisLabelT = document.createTextNode('Avgiftsfria event');
+                    gratisLabel.appendChild(gratisLabelT);
+                gratisWrapper.appendChild(gratisLabel);
+            details.appendChild(gratisWrapper);
             var buttonFilter = document.createElement('input');
                 buttonFilter.setAttribute('type', 'button');
-                buttonFilter.setAttribute('style', 'display: block;');
+                buttonFilter.setAttribute('style', 'display: block;margin-top: 10px;');
                 buttonFilter.setAttribute('value', 'Applicera filter');
+                buttonFilter.setAttribute('onclick', 'appliceraFilter("valAvPlats", "valAvArrangor", "valAvAvgift")')
             details.appendChild(buttonFilter);
         wrapper.appendChild(details);
+};
+function appliceraFilter(platsId, arrangorId, avgiftId){
+    var url = [];
+    var plats = document.getElementById(platsId).value;
+    if(plats == ''){}else{url.push('plats=' + plats);};
+    var arrangorOptions = document.getElementById(arrangorId).getElementsByTagName('option');
+    var arrangorer = [];
+    for (let i = 0; i < arrangorOptions.length; i++) {
+        if(arrangorOptions[i].selected){
+            arrangorer.push(arrangorOptions[i].value);
+        };
+    };
+    if(arrangorer.length == 0){}else{url.push('arrangor=' + arrangorer.join(','));};
+    var avgift = document.getElementById(avgiftId).checked;
+    if(avgift){url.push('gratis=true');};
+    window.open(encodeURI('/kalender.html?' + url.join('&')), '_self');
 };
 function indexArrangor(){
     var wrapper = document.getElementsByClassName('calendarbody')[0];
@@ -184,8 +236,8 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         var ev = [];
         for (var a = 0; a < results.data.length; a++){
             if(results.data[a][0] == 'Start'){}else{
+                var color = addArrangor(results.data[a][4]);
                 if(filter(results.data[a][4].split(',')[0], results.data[a][5], results.data[a][6])){
-                    var color = addArrangor(results.data[a][4]);
                     var tColor = getContrast(color);
                     var eventtopush = {title: results.data[a][2], start: results.data[a][0], url: results.data[a][3], backgroundColor: color, borderColor: color, textColor: tColor};
                     if(!results.data[a][1] || results.data[a][1] == ''){}else{
@@ -234,7 +286,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         });
         removeElements(calendarEl);
         calendar.render();
-        /*addFilter();*/
+        addFilter();
         indexArrangor();
     }
 });
