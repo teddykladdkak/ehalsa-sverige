@@ -166,11 +166,40 @@ function addFilter(){
             details.appendChild(gratisWrapper);
             var buttonFilter = document.createElement('input');
                 buttonFilter.setAttribute('type', 'button');
-                buttonFilter.setAttribute('style', 'display: block;margin-top: 10px;');
+                buttonFilter.setAttribute('style', 'margin-top: 15px;margin-right: 10px;');
                 buttonFilter.setAttribute('value', 'Applicera filter');
                 buttonFilter.setAttribute('onclick', 'appliceraFilter("valAvPlats", "valAvArrangor", "valAvAvgift")')
             details.appendChild(buttonFilter);
+            var buttonRensaFilter = document.createElement('input');
+                buttonRensaFilter.setAttribute('type', 'button');
+                buttonRensaFilter.setAttribute('style', 'margin-top: 15px;background-color: gray;');
+                buttonRensaFilter.setAttribute('value', 'Återställ filter');
+                buttonRensaFilter.setAttribute('onclick', 'window.open("/kalender.html?", "_self")');
+            details.appendChild(buttonRensaFilter);
         wrapper.appendChild(details);
+    loadSaved('valAvPlats', 'valAvArrangor', 'valAvAvgift');
+};
+function loadSaved(platsId, arrangorId, avgiftId){
+    var arrangor = getParameterByName('arrangor');
+    if(arrangor == null){}else{
+        var arrangorSplit = decodeURI(arrangor).split(',');
+        for (let i = 0; i < arrangorSplit.length; i++) {
+            var allArrangorOptions = document.getElementById(arrangorId).getElementsByTagName('option');
+            for (let a = 0; a < allArrangorOptions.length; a++) {
+                if(allArrangorOptions[a].value == arrangorSplit[i]){
+                    allArrangorOptions[a].selected = true;
+                };
+            };
+        };
+    };
+    var plats = getParameterByName('plats');
+    if(plats == null){}else{
+        document.getElementById(platsId).value = plats;
+    };
+    var avgift = getParameterByName('gratis');
+    if(avgift == 'true'){
+        document.getElementById(avgiftId).checked = true;
+    };
 };
 function appliceraFilter(platsId, arrangorId, avgiftId){
     var url = [];
