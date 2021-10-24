@@ -112,30 +112,56 @@ function addArrangor(namn){
     };
     return randomColor;
 };
+function addFilter(){
+    var plats = [{text: 'Välj typ av plats', kod: '0'},{text: 'Digital', kod: '1'},{text: 'Fysisk', kod: '2'},{text: 'Både digital & fysisk', kod: '3'}];
+    var wrapper = document.getElementsByClassName('calendarbody')[0];
+        var details = document.createElement('details');
+            var rubrik = document.createElement('summary');
+                var rubrikT = document.createTextNode('Filter');
+                rubrik.appendChild(rubrikT);
+            details.appendChild(rubrik);
+            var select = document.createElement('select');
+                for (let i = 0; i < plats.length; i++) {
+                    var option = document.createElement('option');
+                        option.setAttribute('value', plats[i].kod);
+                        var optionT = document.createTextNode(plats[i].text);
+                        option.appendChild(optionT);
+                    select.appendChild(option);
+                };
+            details.appendChild(select);
+            var buttonFilter = document.createElement('input');
+                buttonFilter.setAttribute('type', 'button');
+                buttonFilter.setAttribute('style', 'display: block;');
+                buttonFilter.setAttribute('value', 'Applicera filter');
+            details.appendChild(buttonFilter);
+        wrapper.appendChild(details);
+};
 function indexArrangor(){
     var wrapper = document.getElementsByClassName('calendarbody')[0];
-        var rubrik = document.createElement('h3');
-            rubrik.setAttribute('style', 'margin-bottom: 0px;');
-            var rubrikT = document.createTextNode('Arrangör');
-            rubrik.appendChild(rubrikT);
-        wrapper.appendChild(rubrik);
-        var table = document.createElement('table');
-            table.setAttribute('style', 'margin-right: 10px; margin-left: 10px;');
-            table.setAttribute('class', 'min');
-            var tBody = document.createElement('tbody');
-            for (let i = 0; i < arrangor.length; i++) {
-                var line = document.createElement('tr');
-                    var color = document.createElement('td');
-                        color.setAttribute('style', 'width: 20px; background-color: ' + arrangor[i].color + ';');
-                    line.appendChild(color);
-                    var text = document.createElement('td');
-                        var textT = document.createTextNode(arrangor[i].namn);
-                        text.appendChild(textT);
-                    line.appendChild(text);
-                tBody.appendChild(line);
-            };
-            table.appendChild(tBody);
-        wrapper.appendChild(table);
+        var details = document.createElement('details');
+            var rubrik = document.createElement('summary');
+                var rubrikT = document.createTextNode('Arrangör');
+                rubrik.appendChild(rubrikT);
+            details.appendChild(rubrik);
+            var table = document.createElement('table');
+                table.setAttribute('class', 'min');
+                var tBody = document.createElement('tbody');
+                for (let i = 0; i < arrangor.length; i++) {
+                    var line = document.createElement('tr');
+                        var color = document.createElement('td');
+                            color.setAttribute('style', 'width: 20px; background-color: ' + arrangor[i].color + ';');
+                        line.appendChild(color);
+                        var text = document.createElement('td');
+                            var textT = document.createTextNode(arrangor[i].namn);
+                            text.appendChild(textT);
+                        line.appendChild(text);
+                    tBody.appendChild(line);
+                };
+                table.appendChild(tBody);
+            details.appendChild(table);
+        wrapper.appendChild(details);
+        var space = document.createElement('br');
+        wrapper.appendChild(space);
 };
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
@@ -208,6 +234,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         });
         removeElements(calendarEl);
         calendar.render();
+        /*addFilter();*/
         indexArrangor();
     }
 });
