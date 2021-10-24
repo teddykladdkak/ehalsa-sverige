@@ -143,14 +143,19 @@ function makeSelect(options, labelText, first, text, val, multiple, id){
     return wrapper;
 };
 function addFilter(){
-    var plats = [{text: 'Digital', val: '1'},{text: 'Fysisk', val: '2'},{text: 'Både digital & fysisk', val: '3'}];
+    arrangor.sort(function(a, b){
+        if(a.namn.toLowerCase() < b.namn.toLowerCase()) { return -1; }
+        if(a.namn.toLowerCase() > b.namn.toLowerCase()) { return 1; }
+        return 0;
+    });
+    var plats = [{text: 'Digital', val: '1'},{text: 'Fysisk', val: '2'}];
     var wrapper = document.getElementsByClassName('calendarbody')[0];
         var details = document.createElement('details');
             var rubrik = document.createElement('summary');
                 var rubrikT = document.createTextNode('Filter');
                 rubrik.appendChild(rubrikT);
             details.appendChild(rubrik);
-            details.appendChild(makeSelect(plats, 'Plats typ:', 'Välj plats', 'text', 'val', false, 'valAvPlats'));
+            details.appendChild(makeSelect(plats, 'Plats format:', 'Både digital & fysisk', 'text', 'val', false, 'valAvPlats'));
             details.appendChild(makeSelect(arrangor, 'Välj arrangörer:', false, 'namn', 'namn', true, 'valAvArrangor'));
             var gratisWrapper = document.createElement('div');
                 gratisWrapper.setAttribute('class', 'spacer');
@@ -218,6 +223,11 @@ function appliceraFilter(platsId, arrangorId, avgiftId){
     window.open(encodeURI('/kalender.html?' + url.join('&')), '_self');
 };
 function indexArrangor(){
+    arrangor.sort(function(a, b){
+        if(a.namn.toLowerCase() < b.namn.toLowerCase()) { return -1; }
+        if(a.namn.toLowerCase() > b.namn.toLowerCase()) { return 1; }
+        return 0;
+    });
     var wrapper = document.getElementsByClassName('calendarbody')[0];
         var details = document.createElement('details');
             var rubrik = document.createElement('summary');
