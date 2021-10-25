@@ -20,7 +20,7 @@
                     {% assign tags = site.tags | sort %}
                     {% for tag in tags %}
                         <li>
-                            <a href="{{ site.url }}/kategori.html#{{ tag[0] }}" class="meny-kategorier">{{ tag[0] | replace: "_"," " }}</a>
+                            <a href="{{ site.url }}/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase }}.html" class="meny-kategorier">{{ tag[0] | replace: "_"," " }}</a>
                         </li>
                     {% endfor %}
                 </ul>

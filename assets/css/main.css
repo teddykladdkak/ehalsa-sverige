@@ -207,6 +207,28 @@ select {
 .col-2 .col-2-in {
     width: 50%;
 }
+.kategorier-lista {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.kategorier-lista a {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #{{ site.color.dark }};
+}
+.kategorier-lista a:hover {
+    opacity: .95;
+}
 footer {
     display: flex;
     flex-direction: row;

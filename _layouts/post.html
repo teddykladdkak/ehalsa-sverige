@@ -45,7 +45,7 @@
               <div class="tagwrapper">
                 {% for tag in page.tags %}
                   <p class="min tag">
-                    <a href="/kategori.html#{{ tag }}">{{ tag | replace: "_"," " }}</a>
+                    <a href="/kategori/{{ tag | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.html">{{ tag | replace: "_"," " }}</a>
                   </p>
                   {%- if site.demo -%}
                   {%- endif -%}
