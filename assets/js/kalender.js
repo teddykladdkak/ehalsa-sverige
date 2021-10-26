@@ -1,7 +1,7 @@
 /*
 # API
 * arrangor: TEXT,TEXT,TEXT...
-* plats: 1/2/FALSE
+* format: 1/2/FALSE
 * gratis: TRUE/FALSE
 * vy: manad/vecka/dag/lista
 * datum: ÅÅÅÅ-MM-DD
@@ -21,7 +21,7 @@ function filterArrangor(arrangorText){
     return false;
 };
 function filterPlats(platsCode){
-    var plats = getParameterByName('plats');
+    var plats = getParameterByName('format');
     if(plats == null){
         return true;
     }else{
@@ -163,7 +163,7 @@ function addFilter(){
                 var rubrikT = document.createTextNode('Filter');
                 rubrik.appendChild(rubrikT);
             details.appendChild(rubrik);
-            details.appendChild(makeSelect(plats, 'Plats format:', 'Både digital & fysisk', 'text', 'val', false, 'valAvPlats'));
+            details.appendChild(makeSelect(plats, 'Format:', 'Både digital & fysisk', 'text', 'val', false, 'valAvPlats'));
             details.appendChild(makeSelect(arrangor, 'Välj arrangörer:', false, 'namn', 'namn', true, 'valAvArrangor'));
             var gratisWrapper = document.createElement('div');
                 gratisWrapper.setAttribute('class', 'spacer');
@@ -205,7 +205,7 @@ function loadSaved(platsId, arrangorId, avgiftId){
             };
         };
     };
-    var plats = getParameterByName('plats');
+    var plats = getParameterByName('format');
     if(plats == null){}else{
         document.getElementById(platsId).value = plats;
     };
@@ -217,7 +217,7 @@ function loadSaved(platsId, arrangorId, avgiftId){
 function appliceraFilter(platsId, arrangorId, avgiftId){
     var url = [];
     var plats = document.getElementById(platsId).value;
-    if(plats == ''){}else{url.push('plats=' + plats);};
+    if(plats == ''){}else{url.push('format=' + plats);};
     var arrangorOptions = document.getElementById(arrangorId).getElementsByTagName('option');
     var arrangorer = [];
     for (let i = 0; i < arrangorOptions.length; i++) {
