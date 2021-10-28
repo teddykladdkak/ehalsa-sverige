@@ -52,6 +52,7 @@ Den senaste versionen (ISO 9001:2015) är uppbyggd enligt följande 11 kapitel:
 * Kapitel 8 handlar om hur produkter och tjänster planeras, skapas, kontrolleras och överförs till ens mottagare (t.ex. ens kund).
 * Kapitel 9 handlar om övervakning av verksamheten, exempelvis genom prestandamått och internrevisioner.
 * Kapitel 10 handlar om ständig förbättring av verksamheten och hantering av avvikelser.
+
 ### Dokumentationskrav
 Standarden innehåller ganska få hårda krav på dokumentation. Kan man rättfärdiga att ens verksamhet inte behöver dokumentera en viss rutin eller process för att fungera tillfredsställande behöver man vanligen inte dokumentera det för sakens skull. I övrigt finns det bara krav på dokumentation av
 
