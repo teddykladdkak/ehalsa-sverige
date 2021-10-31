@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Kalender 2021"
+description: "Introduktion till kvalitetsstandarden ISO 9001"
+date:   2021-10-31 08:00:00 +0200
+tags: Digital_vård
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/jul.jpg"
+  head: "/assets/images/post-head/1920/jul.jpg"
+video: false
+sitemap:
+  lastmod: 2021-12-01
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+Varje dag fram till jul kommer ny lucka att bli tillgänglig. I varje lucka gömmer sig en god insikt ifrån centrala personer inom eHälsoområdet.
+
+<!--more-->
+
