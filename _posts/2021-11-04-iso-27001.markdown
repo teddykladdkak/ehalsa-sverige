@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Vad är ISO 27001?"
+description: "Introduktion till informationssäkerhetsstandarden ISO 27001"
+date:   2021-11-04 08:00:00 +0200
+tags: Standarder
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/27001.jpg"
+  head: "/assets/images/post-head/1920/27001.jpg"
+video: false
+sitemap:
+  lastmod: 2021-11-04
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+ISO 27001 är en av världens vanligaste standarder för informationssäkerhet. Den kan utgöra ett krav i upphandlingar, men minst lika viktigt är att den kan bespara din organisation kostsamma informationssäkerhetsincidenter.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Övergripande
+ISO 27001 är applicerbar på informationssäkerhet i en bred bemärkelse - den tar upp elektronisk datasäkerhet, men även exempelvis fysisk säkerhet i arbetslokaler och mänskliga faktorer. Strukturen påminner om [ISO 9001](/2021/10/28/iso-9001.html), och det är vanligt att organisationer implementerar båda standarderna parallellt. Det finns flera ytterligare standarder i 27000-serien för specifika situationer, exempelvis ISO 27017 och ISO 27018 för informationssäkerhet inom molntjänster.
+
+Standarden är helt riskbaserad. Det innebär att den inte rekommenderar några specifika säkerhetsåtgärder (exempelvis krypteringsstandarder) - istället får organisationen systematiskt bedöma vilka informationssäkerhetsrisker som finns och vilka åtgärder som är lämpliga för att minimera riskerna till en acceptabel nivå.
+
+## Informationstyper och informationshanteringssystem
+Organisationer hanterar många olika typer av information: avtal, personuppgifter, källkod, marknadsföringsmaterial, med mera. För varje typ av information bedöms krav på sekretess, integritet (hur väl det skyddas mot förvanskning) och tillgänglighet. Exempelvis kan patienters hälsoinformation ha höga krav på sekretess, integritet och tillgänglighet (för behöriga personer), medan reklammaterial har låga krav på sekretess, eftersom det ändå används offentligt (det kanske ändå har höga krav på integritet, då man inte vill att ens budskap förvanskas).
+
+Även vilka system för att hantera information som används i organisationen bedöms avseende egenskaperna sekretess, tillgänglighet, integritet och tillgänglighet. Exempelvis kan information hanteras på ett företags intranät, på dess e-postklient eller i ett fysiskt arktiv för pappersdokument. Genom att sedan jämföra egenskaperna hos var informationen lagras med kraven som ställs på hantering av informationen kan man bedöma om informationen hanteras adekvat. Som exempel, om en typ av information som egentligen kräver hög sekretess ligger i ett system som är tillgängligt för alla med rätt länk behöver man fundera på om man ska lagra informationen i något annat system. Genom att arbeta igenom alla sina informationstyper och informationshanteringssytem kan man upptäcka var det finns brister i hur informationen hanteras.
+
+## Uttalande om tillämplighet (bilaga A)
+Bilaga A i ISO 27001 beskriver olika situationer då åtgärder för informationssäkerhet kan sättas in samt sätt att kontrollera riskerna. Exempelvis tar punkt A.9.1.2 upp att användare enbart ska få tillgång till nätverk som de har rätt till. Organisationen får själv tänka ut hur man ska göra detta rent praktiskt. För att få mer handfasta förslag kring hur man kan lösa situationerna finns stödstandarden ISO 27002.
+
+Genom att dokumentera hur man uppfyller kraven för varje punkt (eller rättfärdigar att de inte är applicerbara på ens verksamhet) skapar man ett _uttalande om tillämplighet_ (engelska: _statement of applicability_, “SoA”). Om man certifierar sig för standarden kommer ens certifikat att hänvisa till ens uttalande om tillämplighet, inklusive datumet då uttalandet fastställdes. Senaste när man uppdaterar sin certifiering bör man även uppdatera sitt uttalande om tillämplighet. Exempelvis kunder kan efterfråga att se ens uttalande om tillämplighet för att närmare bedöma hur man hanterar informationssäkerhet.
+
+## Slutsats
+ISO 27001 kan verka svårförståelig vid första anblick, men brukar ses som förnuftig när man väl förstår hur man ska applicera den. Standarden bygger på ens egna bedömningar av informationssäkerhetsrisker och ger en stor frihet i att hantera riskerna på ett sätt som är lämpligt för ens verksamhet. Om man inte har erfarenhet av liknande arbete rekommenderas att ta hjälp av konsult.
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
