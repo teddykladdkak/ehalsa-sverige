@@ -712,9 +712,6 @@ a.cal-ev .cal-ev-col {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .col-2 .col-img img {
-        width: 50%;
-    }
     nav, nav ul {
         flex-direction: column;
     }
