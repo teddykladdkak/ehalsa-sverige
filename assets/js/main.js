@@ -8,6 +8,11 @@ function showHideMenu(el, event){var wrapper = document.getElementById('mainMenu
 function monthText(month){return month.replace('12', 'dec').replace('11', 'nov').replace('10', 'okt').replace('09', 'sep').replace('08', 'aug').replace('07', 'jul').replace('06', 'jun').replace('05', 'maj').replace('04', 'apr').replace('03', 'mar').replace('02', 'feb').replace('01', 'jan');};
 function checkPassed(v){var s = v.split('-');var d = new Date(s[0], parseInt(s[1])-1, parseInt(s[2]), 8, 0, 0, 0);var t = new Date();if(d.getTime() > t.getTime()){return true;}else{return false;};};
 function dateFormat(date){return date.getFullYear() + '-' + addZero((date.getMonth() + 1).toString()) + '-' + addZero(date.getDate().toString())};
+function oppnaModal(id){document.getElementById(id).style.display = "block";};
+function stangModal(){var modal = document.getElementsByClassName("modal");for (let i = 0; i < modal.length; i++) {modal[i].style.display = "none";};};
+window.onclick = function(event) {
+    var modal = document.getElementsByClassName("modal");for (let i = 0; i < modal.length; i++) {if (event.target == modal[i]) {stangModal();};};
+};
 window.addEventListener("load", function(){
     if(!getParameterByName('snow')){}else{document.getElementsByTagName('body')[0].setAttribute('id','snow');};
 });

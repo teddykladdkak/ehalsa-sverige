@@ -9,16 +9,16 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vT90tUWUvDqVMGVvMKXG
                 if(results.data[a][5] == 'TRUE'){
                     var obj = document.getElementById('julKalender' + results.data[a][0]);
                         obj.setAttribute('class', 'jul-kalender active');
-                        obj.setAttribute('onclick', 'modal("' + results.data[a][2] + '", "' + results.data[a][1] + '", "' + results.data[a][3] + '", "' + results.data[a][4] + '");');
-                        if(getParameterByName('julkalender') == results.data[a][0]){
-                            modal(results.data[a][2], results.data[a][1], results.data[a][3], results.data[a][4]);
+                        obj.setAttribute('onclick', 'julkalenderModal("' + results.data[a][2] + '", "' + results.data[a][1] + '", "' + results.data[a][3] + '", "' + results.data[a][4] + '");');
+                        if(getParameterByName('lucka') == results.data[a][0]){
+                            julkalenderModal(results.data[a][2], results.data[a][1], results.data[a][3], results.data[a][4]);
                         };
                 };
             };
         };
     }
 });
-function modal(text, datum, ref, href){
+function julkalenderModal(text, datum, ref, href){
     document.getElementById('kalender-datum').innerText = datum;
     document.getElementById('kalender-message').innerText = text;
     var objRef = document.getElementById('kalender-reference');
@@ -35,14 +35,5 @@ function modal(text, datum, ref, href){
                 link.appendChild(linkT);
             objRef.appendChild(link);
         };
-    document.getElementById("myModal").style.display = "block";        
+    oppnaModal('julkalenderModal');
 };
-function stangModal(){
-    document.getElementById("myModal").style.display = "none";
-};
-window.onclick = function(event) {
-    var modal = document.getElementById("myModal");
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}

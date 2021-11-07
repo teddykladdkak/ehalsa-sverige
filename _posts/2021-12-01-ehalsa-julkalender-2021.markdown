@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kalender 2021"
+title:  "eHälsa Julkalender 2021"
 description: "Introduktion till kvalitetsstandarden ISO 9001"
 date:   2021-10-31 08:00:00 +0200
 tags: Digital_vård
@@ -50,38 +50,6 @@ Varje dag fram till jul kommer ny lucka att bli tillgänglig. I varje lucka göm
         font-size: 1.2rem;
         font-style: italic;
         font-weight: bold;
-    }
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0,0.4);
-    }
-    .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        max-width: 800px;
-    }
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-        margin-top: -20px;
-    }
-    .close:hover, .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
     }
 </style>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="628" viewBox="0 0 800 628" id="julKalender">
@@ -264,12 +232,4 @@ Varje dag fram till jul kommer ny lucka att bli tillgänglig. I varje lucka göm
         </g>
     </g>
 </svg>
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="stangModal();">&times;</span>
-    <p id="kalender-datum">Datum text</p>
-    <p id="kalender-message">Some text..</p>
-    <p id="kalender-reference"><a href="#">Some link text..</a></p>
-    <input type="button" value="Stäng" onclick="stangModal();" style="margin-left: 10px;">
-  </div>
-</div>
+{%- include modal.html id="julkalenderModal" content="<p id=\"kalender-datum\">Datum text</p><p id=\"kalender-message\">Some text..</p><p id=\"kalender-reference\"><a href=\"#\">Some link text..</a></p>" -%}
