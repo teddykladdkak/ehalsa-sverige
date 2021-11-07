@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "eHälsa Julkalender 2021"
-description: "Introduktion till kvalitetsstandarden ISO 9001"
-date:   2021-10-31 08:00:00 +0200
+description: "Årets julkalender med temat eHälsa är fullpackad med citat och insikter. Ny lucka varje dag under december!"
+date:   2021-12-01 08:00:00 +0200
 tags: Digital_vård
 author:
   name: "Redaktionen"
