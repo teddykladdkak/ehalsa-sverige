@@ -648,6 +648,25 @@ a.cal-ev .cal-ev-col {
 .modal-button {
     margin-left: 10px;
 }
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+}
+.modal-footer .modal-footer-kolumn {
+    width: 50%;
+}
+.modal-footer .modal-footer-kolumn:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+.modal-footer a {
+    display: inline-block;
+}
+.modal-footer a svg {
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+}
 @media only screen and (min-width: 1500px) {
     header ul, header .button {
         font-size: 1.1rem;
