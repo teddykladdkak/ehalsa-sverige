@@ -34,11 +34,11 @@ Offentliga upphandlingar styrs främst av Lagen om offentlig upphandling (LOU). 
 ## Vad säger Lagen om offentlig upphandling?
 Lagen innehåller fem principer:
 
-* _Likabehandling_: Alla leverantörer ska ges så lika förutsättningar som möjligt. Alla måste till exempel få samma information om upphandlingen. Eventuella frågor från leverantörer ska besvaras så att alla kan ta del av svaren.
-* _Icke-diskriminering_: Upphandlingar får inte utformas så att endast svenska leverantörer kan uppfylla kraven.
-* _Öppenhet_ (eller _transparens_): Upphandlingar ska vara offentliga. Dokument som beskriver upphandlingskrav ska vara tydligt formulerade och innehålla alla krav som ställs.
-* _Proportionalitet_: Kraven som ställs vid en upphandling ska vara rimligt omfattande i förhållande till vad som ska upphandlas.
-_Ömsesidigt erkännande_: Intyg, betyg och certifikat som utfärdats av behöriga myndigheter i något annat EU-land måste godtas i Sverige.
+1. _Likabehandling_: Alla leverantörer ska ges så lika förutsättningar som möjligt. Alla måste till exempel få samma information om upphandlingen. Eventuella frågor från leverantörer ska besvaras så att alla kan ta del av svaren.
+2. _Icke-diskriminering_: Upphandlingar får inte utformas så att endast svenska leverantörer kan uppfylla kraven.
+3. _Öppenhet_ (eller _transparens_): Upphandlingar ska vara offentliga. Dokument som beskriver upphandlingskrav ska vara tydligt formulerade och innehålla alla krav som ställs.
+4. _Proportionalitet_: Kraven som ställs vid en upphandling ska vara rimligt omfattande i förhållande till vad som ska upphandlas.
+5. _Ömsesidigt erkännande_: Intyg, betyg och certifikat som utfärdats av behöriga myndigheter i något annat EU-land måste godtas i Sverige.
 
 Den upphandlande myndigheten ska fatta sitt beslut i första hand på bästa förhållandet mellan kvalitet och pris. Leverantören som bäst uppfyller detta tilldelas ett kontrakt.
 
