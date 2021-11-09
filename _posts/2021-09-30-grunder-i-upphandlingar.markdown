@@ -10,7 +10,7 @@ author:
 image:
   path: "/assets/images/post-head/500/upphandling.jpg"
   head: "/assets/images/post-head/1920/upphandling.jpg"
-video: false
+video: "/assets/video/lou.mp4"
 sitemap:
   lastmod: 2021-09-30
   priority: 0.7
