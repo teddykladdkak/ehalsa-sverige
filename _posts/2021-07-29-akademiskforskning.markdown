@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/research.jpg"
-  head: "/assets/images/post-head/1920/research.jpg"
+  webp: true
 video: false
 sitemap:
   lastmod: 2021-07-29

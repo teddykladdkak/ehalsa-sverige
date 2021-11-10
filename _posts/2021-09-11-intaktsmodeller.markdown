@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pengar.jpg"
-  head: "/assets/images/post-head/1920/pengar.jpg"
+  webp: true
 video: "/assets/video/intaktsmodeller.mp4"
 sitemap:
   lastmod: 2021-09-11

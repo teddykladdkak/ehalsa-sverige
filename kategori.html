@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Artiklar: Kategorier"
+backgrounds: "kategori-index"
 sitemap:
   lastmod: 2021-10-25
   priority: 0.6
@@ -10,7 +11,7 @@ sitemap:
     <h1>Artiklar: Kategorier</h1>
     <div class="kategorier-lista">
         {% for tag in site.tags %}
-            <a href="/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.html" style="background-image: linear-gradient(180deg, rgba(30, 40, 69,1) 25%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url(/assets/images/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.jpg);">{{ tag[0] | replace: "_"," " }}</a>
+            <a href="/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.html" class="{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }}">{{ tag[0] | replace: "_"," " }}</a>
         {% endfor %}
     </div>
 </section>

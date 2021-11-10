@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/bok.jpg"
-  head: "/assets/images/post-head/1920/bok.jpg"
+  webp: true
 video: "/assets/video/litteratur_om_ehalsa.mp4"
 sitemap:
   lastmod: 2021-09-24

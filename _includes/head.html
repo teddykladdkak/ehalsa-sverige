@@ -90,6 +90,77 @@
         <script src="/assets/js/chartist.min.js"></script>
     {% endif %}
 
+    {% if page.backgrounds == "start" %}
+        <style>
+            {%- for post in site.posts limit:4 -%}
+                {% if post.image.webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif include.backgrounds == "post" %}
+        <style>
+            {% if post.image.webp %}
+                .webp .posthead {
+                    background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ page.image.path | replace: "/500/", "/1920/" | replace: ".jpg", "" | replace: ".png", "" | absolute_url }}.webp);
+                }
+                .no-js .posthead, .no-webp .posthead {
+            {% else %}
+                .posthead {
+            {% endif %}
+                    background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ page.image.path | replace: "/500/", "/1920/" | absolute_url }});
+                }
+        </style>
+    {% elsif page.backgrounds == "artiklar" %}
+        <style>
+            {% for post in paginator.posts %}
+                {% if post.image.webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif page.backgrounds == "kategori" %}
+        <style>
+            {% for post in site.tags[page.tag] %}
+                {% if post.image.webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif page.backgrounds == "kategori-index" %}
+        <style>
+            {% for tag in site.tags %}
+                .webp .{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }} {
+                    background-image: linear-gradient(180deg, rgba(30, 40, 69,1) 25%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url(/assets/images/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.webp);
+                }
+                .no-js {{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }}, .no-webp {{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }} {
+                    background-image: linear-gradient(180deg, rgba(30, 40, 69,1) 25%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url(/assets/images/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.jpg);
+                }
+            {% endfor %}
+        </style>
+    {% endif %}
+    
     {%- if page.header -%}
         {{ page.header }}
     {%- endif -%}

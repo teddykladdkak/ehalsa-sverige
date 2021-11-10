@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/digital_vard.jpg"
-  head: "/assets/images/post-head/1920/digital_vard.jpg"
+  webp: true
 video: false
 sitemap:
   lastmod: 2021-07-30

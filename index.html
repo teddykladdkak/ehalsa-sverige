@@ -2,6 +2,7 @@
 layout: default
 title: Start
 tags: eHälsa eHealth telemedicin sverige ehalsasverige
+backgrounds: start
 sitemap:
   lastmod: 2021-07-27
   priority: 0.9
@@ -13,7 +14,7 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
     <section class="post-card">
       <h2 style="display: none;">Senaste artiklarna</h2>
       {%- for post in site.posts limit:4 -%}
-      <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});">
+      <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <p>
                 {{ post.title | escape }}

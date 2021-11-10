@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pil.jpg"
-  head: "/assets/images/post-head/1920/pil.jpg"
+  webp: true
 video: "/assets/video/standarder_att_ha_koll_pa.mp4"
 sitemap:
   lastmod: 2021-07-31

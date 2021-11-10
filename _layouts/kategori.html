@@ -8,7 +8,7 @@ sitemap:
 <h1>Artiklar: {{ page.tag | replace: "_"," " }}</h1>
 <div class="post-list">
     {% for post in site.tags[page.tag] %}
-        <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});">
+        <a class="post-link {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
             <article>
                 <header>
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

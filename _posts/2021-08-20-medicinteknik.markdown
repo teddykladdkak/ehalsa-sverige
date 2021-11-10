@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/medicinteknik.jpg"
-  head: "/assets/images/post-head/1920/medicinteknik.jpg"
+  webp: true
 video: "/assets/video/medicinteknik.mp4"
 sitemap:
   lastmod: 2021-08-20
