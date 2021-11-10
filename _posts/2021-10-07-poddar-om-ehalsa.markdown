@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/podd.jpg"
-  webp: true
 video: "/assets/video/podd.mp4"
 sitemap:
   lastmod: 2021-10-07

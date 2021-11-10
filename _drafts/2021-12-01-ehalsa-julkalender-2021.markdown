@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/jul.jpg"
-  head: "/assets/images/post-head/1920/jul.jpg"
 video: false
 sitemap:
   lastmod: 2021-12-01

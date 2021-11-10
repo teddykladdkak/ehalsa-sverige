@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/startup2.jpg"
-  webp: true
 video: false
 sitemap:
   lastmod: 2021-08-26

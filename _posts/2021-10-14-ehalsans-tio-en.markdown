@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/forelasning.jpg"
-  webp: true
 video: false
 sitemap:
   lastmod: 2021-10-14

@@ -93,9 +93,11 @@
     {% if page.backgrounds == "start" %}
         <style>
             {%- for post in site.posts limit:4 -%}
-                {% if post.image.webp %}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in site.static_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
                     .webp .{{ post.image.path | slugify: "latin" }} {
-                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ check_webp }});
                     }
                     .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
                 {% else %}
@@ -107,9 +109,11 @@
         </style>
     {% elsif include.backgrounds == "post" %}
         <style>
-            {% if post.image.webp %}
+            {%- capture check_webp -%}{{ page.image.path | replace: "/500/", "/1920/" | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+            {%- assign todo_webp = false -%}{%- for static_file in site.static_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+            {% if todo_webp %}
                 .webp .posthead {
-                    background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ page.image.path | replace: "/500/", "/1920/" | replace: ".jpg", "" | replace: ".png", "" | absolute_url }}.webp);
+                    background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ check_webp }});
                 }
                 .no-js .posthead, .no-webp .posthead {
             {% else %}
@@ -121,9 +125,11 @@
     {% elsif page.backgrounds == "artiklar" %}
         <style>
             {% for post in paginator.posts %}
-                {% if post.image.webp %}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in site.static_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
                     .webp .{{ post.image.path | slugify: "latin" }} {
-                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ check_webp }});
                     }
                     .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
                 {% else %}
@@ -136,9 +142,11 @@
     {% elsif page.backgrounds == "kategori" %}
         <style>
             {% for post in site.tags[page.tag] %}
-                {% if post.image.webp %}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in site.static_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
                     .webp .{{ post.image.path | slugify: "latin" }} {
-                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp);
+                        background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ check_webp }});
                     }
                     .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
                 {% else %}

@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/ssk_med_journalsystem.jpg"
-  webp: true
 video: "/assets/video/journalsystem_i_sverige.mp4"
 sitemap:
   lastmod: 2021-07-30

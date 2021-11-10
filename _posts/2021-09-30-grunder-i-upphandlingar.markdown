@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/upphandling.jpg"
-  webp: true
 video: "/assets/video/lou.mp4"
 sitemap:
   lastmod: 2021-09-30

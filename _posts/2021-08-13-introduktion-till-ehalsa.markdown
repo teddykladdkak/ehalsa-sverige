@@ -9,7 +9,6 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/start.jpg"
-  webp: true
 video: "/assets/video/introduktion_till_ehalsa.mp4"
 sitemap:
   lastmod: 2021-08-13
