@@ -466,9 +466,13 @@ a.cal-ev .cal-ev-col {
     padding-top: 0px;
 }
 .postbody a {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+    -ms-word-break: break-all;
     word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 }
 .postbody img {
     display: block;
