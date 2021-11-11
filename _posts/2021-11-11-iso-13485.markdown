@@ -64,6 +64,7 @@ Organisationen behöver planera för stegen i att ta fram sina produkter:
 * inköp av exempelvis komponenter till produkterna
 * produktion
 * övervakning och mätning.
+
 ### Kapitel 8: mätning, analys och förbättring
 När organisationen väl har fått ut sin produkt till kund behöver den säkerställa att kunden faktiskt gör vad kunden vill att den ska göra. Att göra detta på ett tillfredsställande sätt innefattar att
 
@@ -73,6 +74,7 @@ När organisationen väl har fått ut sin produkt till kund behöver den säkers
 * hantera avvikelser
 * samla in och analysera information
 * genomföra korrigerande och förebyggande åtgärder vid behov.
+
 ## Hur skiljer sig ISO 13485 från ISO 9001?
 ISO 13485 bygger på den allmänna kvalitetsstandarden [ISO 9001](/2021/10/28/iso-9001.html), men det finns flera viktiga skillnader:
 
@@ -81,6 +83,7 @@ ISO 13485 bygger på den allmänna kvalitetsstandarden [ISO 9001](/2021/10/28/is
 * Hela kvalitetsledningssystemet är riskbaserat.
 * Hantering av produktklagomål, incidenter och olycks- och tillbudsrapportering
 * ISO 13485 ställer tydligare krav på validering, verifiering och design av produkter.
+
 ## Kopplingen till internationella regelverk
 En av fördelarna med ISO 13485 är att den harmonierar med flera internationella regelverk för medicinteknik. Här beskriver vi kort relationen mellan ISO 13485 och regelverken för medicinteknik i EU respektive USA.
 ### EU:s medicintekniska förordning
