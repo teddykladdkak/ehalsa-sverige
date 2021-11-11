@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/utbildning.jpg"
-video: "/assets/video/utbildningar_i_ehalsa.mp4"
+video:
+  src: "644964471?h=cc4dc20eea"
+  title: "Utbildningar i eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7

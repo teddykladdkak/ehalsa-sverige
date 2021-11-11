@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pil.jpg"
-video: "/assets/video/standarder_att_ha_koll_pa.mp4"
+video:
+  src: "644964363?h=c33925f383"
+  title: "Standarder att ha koll p&amp;aring;"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7

@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/upphandling.jpg"
-video: "/assets/video/lou.mp4"
+video:
+  src: "644964163?h=f832ad0cf4"
+  title: "Grunder i offentlig upphandling"
 sitemap:
   lastmod: 2021-09-30
   priority: 0.7

@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/ssk_med_journalsystem.jpg"
-video: "/assets/video/journalsystem_i_sverige.mp4"
+video:
+  src: "644964040?h=5700d5b07d"
+  title: "Journalsystem i Sverige"
 sitemap:
   lastmod: 2021-07-30
   priority: 0.7

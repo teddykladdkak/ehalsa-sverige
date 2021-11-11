@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/podd.jpg"
-video: "/assets/video/podd.mp4"
+video:
+  src: "644964296?h=0d0d575856"
+  title: "Poddar om eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-10-07
   priority: 0.7

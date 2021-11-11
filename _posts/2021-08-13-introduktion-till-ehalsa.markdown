@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/start.jpg"
-video: "/assets/video/introduktion_till_ehalsa.mp4"
+video:
+  src: "644963995?h=8c5c4f9f9e"
+  title: "Introduktion till eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-08-13
   priority: 0.7

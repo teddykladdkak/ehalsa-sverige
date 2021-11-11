@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pengar.jpg"
-video: "/assets/video/intaktsmodeller.mp4"
+video:
+  src: "644963966?h=97a12ebc35"
+  title: "Int&amp;auml;ktsmodeller"
 sitemap:
   lastmod: 2021-09-11
   priority: 0.7
