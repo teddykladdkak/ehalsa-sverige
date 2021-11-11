@@ -45,3 +45,9 @@ serviceworker:
   version: "v1:1:1"
   files: "'/favicon.svg'"
   talk: false
+
+defaults:
+  - scope:
+      path: "assets/images/post-head"
+    values:
+      image: true
