@@ -1,4 +1,4 @@
-<div id="{{ include.id }}" class="modal">
+<div id="{{ include.id }}" class="modal{% if include.class %} {{ include.class }}{% endif %}">
     <div class="modal-content">
         <span class="modal-close" onclick="stangModal();">&times;</span>
         {{ include.content }}

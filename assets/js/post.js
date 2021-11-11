@@ -3,22 +3,16 @@ var postXhr = new XMLHttpRequest();
 var windowTextID = '';
     postXhr.onreadystatechange = function () {
         if (this.readyState != 4) return;
-
+        document.getElementById(windowTextID).value = '';
         if (this.status == 200) {
             var wrapper = document.getElementById('contact-form');
             if(this.responseText == 'ok'){
-                var text = document.getElementById(windowTextID);
-                    text.setAttribute('disabled', 'disabled');
-                    text.setAttribute('class', 'send-approved');
+                oppnaModal('sendSuccess');
             }else{
-                var text = document.getElementById(windowTextID);
-                    text.setAttribute('disabled', 'disabled');
-                    text.setAttribute('class', 'send-error');
+                oppnaModal('sendError');
             };
         }else{
-            var text = document.getElementById(windowTextID);
-                text.setAttribute('disabled', 'disabled');
-                text.setAttribute('class', 'send-error');
+            oppnaModal('sendError');
         };
     };
 function post(el, textID, url){

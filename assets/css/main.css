@@ -353,20 +353,6 @@ footer svg {
     max-width: 400px;
     min-height: 200px;
 }
-textarea.send-approved {
-    background-image: url(/assets/images/illustration/mail.svg);
-    background-color: #FFF;
-}
-textarea.send-error {
-    background-image: url(/assets/images/illustration/error.svg);
-    background-color: rgb(255, 144, 144);
-}
-textarea.send-approved, textarea.send-error {
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    opacity: 1;
-}
 .event {
     background-image: url(/assets/images/illustration/cal.svg);
     background-color: #{{ site.color.light }};
@@ -633,6 +619,16 @@ a.cal-ev .cal-ev-col {
     width: 80%;
     max-width: 800px;
 }
+.modal.modal-small .modal-content {
+    max-width: 400px;
+}
+.modal-head-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 200px;
+}
 .modal-close {
     color: #aaa;
     float: right;
@@ -655,7 +651,7 @@ a.cal-ev .cal-ev-col {
 .modal-footer .modal-footer-kolumn {
     width: 50%;
 }
-.modal-footer .modal-footer-kolumn:last-child {
+.modal-footer .modal-footer-kolumn:nth-child(2) {
     text-align: right;
     padding-right: 10px;
 }
