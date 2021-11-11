@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/forelasning.jpg"
-video: false
+video: "/assets/video/ehalsans_tio_e_n.mp4"
 sitemap:
   lastmod: 2021-10-14
   priority: 0.7
