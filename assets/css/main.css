@@ -105,6 +105,9 @@ nav p .mobile-icon {
 nav p .mobile-icon:hover svg {
     color: #{{ site.color.light }};
 }
+nav p .mobile-icon:focus svg {
+    color: #FFF;
+}
 .dropdown {
     position: relative;
     display: inline-block;
