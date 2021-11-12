@@ -3,7 +3,7 @@ sitemap:
   exclude: 'yes'
 ---
 @import url('/assets/fonts/poppins/poppins.css');
-a, .dropdown-content, input[type=button], .mobile-icon {
+a, .dropdown-content, input[type=button], .mobile-icon, .rwd-table tr {
     transition: all 150ms linear;
 }
 html, footer {
@@ -540,19 +540,78 @@ a.cal-ev .cal-ev-col {
     left: 0;
     top: 50px;
 }
-.news-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px 10px 10px;
-}
-.news-list span {
-    padding: 5px;
-}
 .news-list img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
+    border-radius: 25px;
 }
+.news-list {
+    padding: 0px 10px 40px 10px;
+}
+.rwd-table {
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    background-color: #{{ site.color.dark }};
+}
+.rwd-table tr:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #{{ site.color.light }};
+}
+.rwd-table tr:first-child:hover {
+    cursor: default;
+    color: #FFF;
+    background-color: #{{ site.color.dark }};
+}
+.rwd-table th {
+    display: none;
+}
+.rwd-table td {
+    display: block;
+}
+.rwd-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 5.5em;
+    display: inline-block;
+}
+.rwd-table td:first-child {
+    text-align: center;
+}
+.rwd-table td:first-child:before {
+    display: none;
+}
+.rwd-table th, .rwd-table td {
+    text-align: left;
+    margin: 10px;
+    border-color: #{{ site.color.light }};
+}
+.rwd-table th, .rwd-table td:before {
+    color: #{{ site.color.light }};
+}
+.rwd-table tr:hover td:before {
+    color: #000;
+}
+@media (min-width: 750px) {
+    .rwd-table td:before {
+        display: none;
+    }
+    .rwd-table th, .rwd-table td {
+        display: table-cell;
+        padding: .25em .5em;
+        padding: 1em !important;
+    }
+    .rwd-table th:first-child, .rwd-table td:first-child {
+        padding-left: 0;
+    }
+    .rwd-table th:last-child, .rwd-table td:last-child {
+        padding-right: 0;
+    }
+}
+  
 @media only screen and (max-width: 800px) {
     .mobile-min {
         font-size: .8rem;
