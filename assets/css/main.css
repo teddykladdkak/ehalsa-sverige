@@ -181,6 +181,9 @@ details[open] summary {
 .calendarbody .spacer.blocker label {
     display: block;
 }
+.change-order {
+    flex-direction: column-reverse;
+}
 select {
     border-radius: 10px;
     padding: 10px;
@@ -324,11 +327,14 @@ footer svg {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.event h3 a {
+.h3 {
+    font-size: 1.17em;
+}
+.event .h3 a {
     color: #000;
     text-decoration: none;
 }
-.event h3 a:hover {
+.event .h3 a:hover {
     text-decoration: underline;
 }
 .kontakt {
@@ -757,7 +763,7 @@ a.cal-ev .cal-ev-col {
     }
     .change-order-mobile {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .col-2 {
         flex-direction: column;

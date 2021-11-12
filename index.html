@@ -9,7 +9,18 @@ sitemap:
   changefreq: 'weekly'
 footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/assets/js/event.js" defer></script><script src="/assets/js/post.js" defer></script>'
 ---
-<div class="change-order-mobile">
+<div class="change-order-mobile change-order">
+  <section class="col-2 max">
+    <div class="col-2-in">
+      <h1>Samlingsplatsen för alla som påverkas av eHälsa</h1>
+      <p>
+        {{ site.descriptionHTML }}
+      </p>
+    </div>
+    <div class="col-img col-2-in">
+      <img src="/assets/images/illustration/start.svg" width="400" height="273" alt="Illustration som inkluderar några av målgrupperna eHälsa Sverige har">
+    </div>
+  </section>
   {%- if site.posts.size > 0 -%}
     <section class="post-card">
       <h2 style="display: none;">Senaste artiklarna</h2>
@@ -26,24 +37,12 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
       {%- endfor -%}
     </section>
   {%- endif -%}
-
-  <section class="col-2 max">
-    <div class="col-2-in">
-      <h1>Samlingsplatsen för alla som påverkas av eHälsa</h1>
-      <p>
-        {{ site.descriptionHTML }}
-      </p>
-    </div>
-    <div class="col-img col-2-in">
-      <img src="/assets/images/illustration/start.svg" width="400" height="273" alt="Illustration som inkluderar några av målgrupperna eHälsa Sverige har">
-    </div>
-  </section>
 </div>
 <section class="col-2 col-str">
   <div class="kontakt col-2-in">
-    <h3>
+    <h2 class="h3">
       Kontakt
-    </h3>
+    </h2>
     <p class="mobile-min">
       Denna plattform är under utveckling. Har du några idéer eller vet information som fattas, berätta det för oss!
     </p>
@@ -54,9 +53,9 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
     </div>
   </div>
   <div class="event col-2-in">
-    <h3>
+    <h2 class="h3">
       <a href="/kalender.html">Kommande event</a>
-    </h3>
+    </h2>
     <div id="event-wrapper">{% include loader.html id="eventLoader" style="display: none;" %}</div>
   </div>
   </section>
@@ -65,7 +64,7 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
       <img src="/assets/images/illustration/knowledge.svg" width="400" height="273" alt="Bild som visar kvinna som står brevid ett papper">
     </div>
     <div class="col-2-in">
-      <h3>Senaste forskningen om eHälsa</h3>
+      <h2 class="h3">Senaste forskningen om eHälsa</h2>
       <div id="feedWrapper" class="mobile-min">
         {% include feed.html id="feedContent" antal="3" url="https://pubmed.ncbi.nlm.nih.gov/rss/search/1hSsbZPB1F1mLEy6VDSKtqfkJFqlED_Lgw_HOIW51blP7O7Mst/?limit=5&utm_campaign=pubmed-2&fc=20210826060919" %}
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28ehealth%29+OR+%28e-health%29%29+OR+%28%22digital+health%22%29&sort=date" title="Till sökning i PubMed" target="_blank" rel="noopener noreferrer">Mer artiklar (PubMed)</a></p>
