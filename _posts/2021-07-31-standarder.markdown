@@ -97,6 +97,9 @@ ISO 9001 är en allmän standard för kvalitetssystem, som används världen öv
 * förbättring av verksamheten.
 
 Det är vanligt att upphandlingar ställer krav på certifiering eller dokumenterat arbete enligt ISO 9001.
+
+**Läs mer:** [Vad är ISO 9001?](/2021/10/28/iso-9001.html)
+
 ## ISO 13485 – Medicintekniska produkter – Ledningssystem för kvalitet – Krav för regulatoriska ändamål {#iso-13485}
 **Användning:** Företagsledning och kvalitet för medicinteknik\
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO)
@@ -108,6 +111,8 @@ ISO 13485 bygger på ISO 9001 men är anpassad för medicinteknik. Viktiga skill
 * Hela kvalitetsledningssystemet är riskbaserat.
 * Hantering av produktklagomål, incidenter och olycks- och tillbudsrapportering
 * ISO 13485 ställer tydligare krav på validering, verifiering och design av produkter.
+
+**Läs mer:** [Vad är ISO 13485?](/2021/11/11/iso-13485.html)
 
 ## ISO 14971 – Medicintekniska produkter – Tillämpning av ett system för riskhantering för medicintekniska produkter {#iso-14971}
 **Användning:** Riskhantering för medicinteknik\
@@ -127,6 +132,8 @@ ISO 14971 fastställer krav för och beskriver en process för hur tillverkare a
 **Förvaltare:** Internationella standardiseringsorganisationen (ISO) och International Electrotechnical Commission (IEC)
 
 ISO 27001 beskriver en riskbaserad metod för att strukturerat hantera informationssäkerhetsfrågor. ISO 27002 till ISO 27005 utgör stödstandarder för att underlätta tolkning och implementation av ISO 27001. Det är vanligt att verksamheter integrerar ISO 27001 med ISO 9001.
+
+[Vad är ISO 27001?](/2021/11/04/iso-27001.html)
 
 ## ISO/IEC 27017 – Säkerhetstekniker – Riktlinjer för säkerhetsåtgärder för molntjänster baserade på SS-ISO/IEC 27002 {#iso-iec-27017}
 **Användning:** Informationssäkerhet särskilt för molntjänster\
