@@ -71,8 +71,8 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
       </div>
     </div>
   </section>
-  <section class="col-1 max">
+  <section class="col-1 max" id="shownyheter" style="display: none;">
     <h3>Senaste nyheterna om eHälsa</h3>
     {%- if site.url == "http://localhost:4000" -%}{%- capture newslink -%}{{ site.microserver.local }}/nyheter.json{%- endcapture -%}{%- else -%}{%- capture newslink -%}{{ site.microserver.live }}/nyheter.json{%- endcapture -%}{%- endif -%}
-    {% include news.html id="newsContent" url=newslink %}
+    {% include news.html id="newsContent" url=newslink toshow="shownyheter" %}
   </section>

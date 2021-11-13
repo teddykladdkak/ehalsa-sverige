@@ -9,7 +9,7 @@
     };
     var file = '{{ include.url }}';
         loadFile(file, function (responseText) {
-            var data = JSON.parse(responseText);
+            var data = JSON.parse(responseText).data;
             var rubriker = ['Datum', 'Rubrik', 'Utgivare'];
             var wrapper = document.getElementById('{{ include.id }}');
                 var table = document.createElement('table');
@@ -43,5 +43,6 @@
                         table.appendChild(line);
                     };
                 wrapper.appendChild(table);
+            document.getElementById('{{ include.toshow }}').removeAttribute('style');
         });
 </script>
