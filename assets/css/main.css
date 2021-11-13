@@ -572,18 +572,6 @@ a.cal-ev .cal-ev-col {
 .rwd-table td {
     display: block;
 }
-.rwd-table td:before {
-    content: attr(data-th) ": ";
-    font-weight: bold;
-    width: 5.5em;
-    display: inline-block;
-}
-.rwd-table td:first-child {
-    text-align: center;
-}
-.rwd-table td:first-child:before {
-    display: none;
-}
 .rwd-table th, .rwd-table td {
     text-align: left;
     margin: 10px;
@@ -594,6 +582,21 @@ a.cal-ev .cal-ev-col {
 }
 .rwd-table tr:hover td:before {
     color: #000;
+}
+@media (max-width: 751px) {
+    .rwd-table td:nth-child(1), .rwd-table td:nth-child(3) {
+        font-size: .8rem;
+    }
+    .rwd-table td:nth-child(1) {
+        margin-bottom: 0px;
+    }
+    .rwd-table td:nth-child(2) {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .rwd-table td:nth-child(3) {
+        margin-top: 0px;
+    }
 }
 @media (min-width: 750px) {
     .rwd-table td:before {

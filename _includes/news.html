@@ -1,99 +1,47 @@
 <div id="{{ include.id }}" class="news-list"></div>
 <script>
     function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
-    var {{ include.id }}Icons = {
-        ehalsomyndigheten: {
-            url: 'https://www.ehalsomyndigheten.se/static/ehm/images/favicon-196x196.png?v=3',
-            titel: 'eHälsomyndigheten'
-        },
-        socialstyrelsen: {
-            url: 'https://www.socialstyrelsen.se/ClientResources/Images/icons/faviconsos.se.png',
-            titel: 'Socialstyrelsen'
-        },
-        ehealtharena: {
-            url: 'https://www.ehealtharena.se/wp-content/themes/ehealtharena/assets/img/favicons/apple-touch-icon.png',
-            titel: 'eHealth Arena'
-        }
-    };
-    function buildList(){
-        var allData = [];
-        for (let i = 0; i < jsonData.length; i++) {
-            if(!jsonData[i]){
-
-            }else{
-                for (let a = 0; a < jsonData[i].length; a++) {
-                    allData.push({datum: jsonData[i][a].pubDate, titel: jsonData[i][a].title, link: jsonData[i][a].link});
-                };
-            };
-        };
-        allData.sort(function(a, b){return b.datum.split(' ')[0].replace(/-/g, '') - a.datum.split(' ')[0].replace(/-/g, '')});
-        var wrapper = document.getElementById('{{ include.id }}');
-            var table = document.createElement('table');
-                table.setAttribute('class', 'rwd-table');
-            var rubriker = ['', 'Datum', 'Rubrik', 'Utgivare'];
-                var thead = document.createElement('thead');
-                    var theadline = document.createElement('tr');
-                    for (let i = 0; i < rubriker.length; i++) {
-                        var theadlinecol = document.createElement('th');
-                            var theadlinecolt = document.createTextNode(rubriker[i]);
-                            theadlinecol.appendChild(theadlinecolt);
-                        theadline.appendChild(theadlinecol);
-                    }
-                    thead.appendChild(theadline);
-                table.appendChild(thead);
-        for (let i = 0; i < allData.length; i++) {
-            if(i == parseInt({{ include.antal }})){ break; };
-            var id = allData[i].link.replace('www.', '').replace('http://', '').replace('https://', '').split('.')[0];
-            var line = document.createElement('tr');
-                line.setAttribute('onclick', 'window.open("' + allData[i].link + '", "_blank");');
-                line.setAttribute('tabindex', '0');
-                line.setAttribute('onkeypress', 'handleEnter(this, event);');
-                var icon = document.createElement('td');
-                    var iconb = document.createElement('img');
-                        iconb.setAttribute('src', {{ include.id }}Icons[id].url);
-                        iconb.setAttribute('height', '50px');
-                        iconb.setAttribute('width', '50px');
-                    icon.appendChild(iconb);
-                line.appendChild(icon);
-                var date = document.createElement('td');
-                    date.setAttribute('data-th', rubriker[1]);
-                    var datet = document.createTextNode(minDate(allData[i].datum.split(' ')[0]));
-                    date.appendChild(datet);
-                line.appendChild(date);
-                var title = document.createElement('td');
-                    title.setAttribute('data-th', rubriker[2]);
-                    var titlet = document.createTextNode(allData[i].titel);
-                    title.appendChild(titlet);
-                line.appendChild(title);
-                var utgivare = document.createElement('td');
-                    utgivare.setAttribute('data-th', rubriker[3]);
-                    var utgivaret = document.createTextNode({{ include.id }}Icons[id].titel);
-                    utgivare.appendChild(utgivaret);
-                line.appendChild(utgivare);
-            table.appendChild(line);
-        };
-        wrapper.appendChild(table);
-    };
     var loadFile = function (filePath, done) {
         var xhr = new XMLHttpRequest();
             xhr.onload = function () { return done(this.responseText) }
-            xhr.open("GET", 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI(filePath), true);
+            xhr.open("GET", encodeURI(filePath), true);
             xhr.send();
     };
-    var myFiles = {{ include.url }};
-    var jsonData = [];
-    myFiles.forEach(function (file, i) {
+    var file = '{{ include.url }}';
         loadFile(file, function (responseText) {
-            jsonData[i] = JSON.parse(responseText).items;
-            if(myFiles.length == jsonData.length){
-                var gogo = true;
-                for (let a = 0; a < jsonData.length; a++) {
-                    if(!jsonData[a]){gogo = false;};
-                };
-                if(gogo){
-                    buildList();
-                };
-            };
+            var data = JSON.parse(responseText);
+            var rubriker = ['Datum', 'Rubrik', 'Utgivare'];
+            var wrapper = document.getElementById('{{ include.id }}');
+                var table = document.createElement('table');
+                    table.setAttribute('class', 'rwd-table');
+                    var thead = document.createElement('thead');
+                        var theadline = document.createElement('tr');
+                        for (let i = 0; i < rubriker.length; i++) {
+                            var theadlinecol = document.createElement('th');
+                                var theadlinecolt = document.createTextNode(rubriker[i]);
+                                theadlinecol.appendChild(theadlinecolt);
+                            theadline.appendChild(theadlinecol);
+                        };
+                        thead.appendChild(theadline);
+                    table.appendChild(thead);
+                    for (let i = 0; i < data.length; i++) {
+                        var line = document.createElement('tr');
+                            line.setAttribute('onclick', 'window.open("' + data[i].url + '", "_blank");');
+                            line.setAttribute('tabindex', '0');
+                            line.setAttribute('onkeypress', 'handleEnter(this, event);');
+                            var date = document.createElement('td');
+                                var datet = document.createTextNode(minDate(data[i].datum));
+                                date.appendChild(datet);
+                            line.appendChild(date);
+                            var title = document.createElement('td');
+                                title.innerHTML = data[i].titel;
+                            line.appendChild(title);
+                            var utgivare = document.createElement('td');
+                                var utgivaret = document.createTextNode(data[i].kalla);
+                                utgivare.appendChild(utgivaret);
+                            line.appendChild(utgivare);
+                        table.appendChild(line);
+                    };
+                wrapper.appendChild(table);
         });
-    });
 </script>
