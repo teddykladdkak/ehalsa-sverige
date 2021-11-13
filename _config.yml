@@ -15,6 +15,10 @@ social:
 
 serviceWorker: false
 
+microserver:
+  live: "https://ehalsa-sverige-microserver.vercel.app"
+  local: "http://localhost:3000"
+
 #Colours!
 color:
   primary: "5472C5"

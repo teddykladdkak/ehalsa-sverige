@@ -73,5 +73,6 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
   </section>
   <section class="col-1 max">
     <h3>Senaste nyheterna om eHälsa</h3>
-    {% include news.html id="newsContent" url="https://nyheter.glitch.me/nyheter.json" %}
+    {%- if site.url == "http://localhost:4000" -%}{%- capture newslink -%}{{ site.microserver.local }}/nyheter.json{%- endcapture -%}{%- else -%}{%- capture newslink -%}{{ site.microserver.live }}/nyheter.json{%- endcapture -%}{%- endif -%}
+    {% include news.html id="newsContent" url=newslink %}
   </section>
