@@ -7,48 +7,42 @@
             alt: 'PubMed ikon'
         }
     };
-    var {{ include.id }}xhr = new XMLHttpRequest();
-    {{ include.id }}xhr.onreadystatechange = function(){
-        if ({{ include.id }}xhr.readyState==4 && {{ include.id }}xhr.status==200) {
-            var data = JSON.parse({{ include.id }}xhr.responseText);
-            if(data.status == 'ok'){
-                var wrapper = document.getElementById('{{ include.id }}');
-                for( var i=0,t = data.items.length ; i < t ; ++i ){
-                    if(i == parseInt({{ include.antal }})){ break; };
-                    var item = data.items[i];
-                    var id = item.link.replace('www.', '').replace('http://', '').replace('https://', '').split('.')[0];
-                    var line = document.createElement('a');
-                        line.setAttribute('href', item.link);
-                        line.setAttribute('target', '_blank');
-                        line.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
-                        line.setAttribute('rel', 'noopener noreferrer"');
-                        var date = document.createElement('span');
-                            var datet = document.createTextNode(minDate(item.pubDate.split(' ')[0]));
-                            date.appendChild(datet);
-                        line.appendChild(date);
-                        var icon = document.createElement('span');
-                            var iconb = document.createElement('img');
-                                iconb.setAttribute('src', {{ include.id }}Icons[id].url);
-                                iconb.setAttribute('alt', {{ include.id }}Icons[id].alt);
-                                iconb.setAttribute('height', '35px');
-                                iconb.setAttribute('width', '35px');
-                            icon.appendChild(iconb);
-                        line.appendChild(icon);
-                        var title = document.createElement('span');
-                            var titlet = document.createTextNode(item.title);
-                            title.appendChild(titlet);
-                        line.appendChild(title);
-                    wrapper.appendChild(line);
-                };
-            }else{
-                console.log(data.status);
-            };
-        };
+    var loadFile = function (filePath, done) {
+        var xhr = new XMLHttpRequest();
+            xhr.onload = function () { return done(this.responseText) }
+            xhr.open("GET", encodeURI(filePath), true);
+            xhr.send();
     };
-    {{ include.id }}xhr.open(
-        'GET',
-        'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURI({{ include.id }}Url),
-        true
-    );
-    {{ include.id }}xhr.send();
+    var file = '{{ include.url }}';
+    loadFile(file, function (responseText) {
+        var data = JSON.parse(responseText).data;
+        var wrapper = document.getElementById('{{ include.id }}');
+        for( var i=0,t = data.length ; i < t ; ++i ){
+            if(i == parseInt({{ include.antal }})){ break; };
+            var item = data[i];
+            var id = item.url.replace('www.', '').replace('http://', '').replace('https://', '').split('.')[0];
+            var line = document.createElement('a');
+                line.setAttribute('href', item.url);
+                line.setAttribute('target', '_blank');
+                line.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
+                line.setAttribute('rel', 'noopener noreferrer"');
+                var date = document.createElement('span');
+                    var datet = document.createTextNode(minDate(item.datum));
+                    date.appendChild(datet);
+                line.appendChild(date);
+                var icon = document.createElement('span');
+                    var iconb = document.createElement('img');
+                        iconb.setAttribute('src', {{ include.id }}Icons[id].url);
+                        iconb.setAttribute('alt', {{ include.id }}Icons[id].alt);
+                        iconb.setAttribute('height', '35px');
+                        iconb.setAttribute('width', '35px');
+                    icon.appendChild(iconb);
+                line.appendChild(icon);
+                var title = document.createElement('span');
+                    var titlet = document.createTextNode(item.titel);
+                    title.appendChild(titlet);
+                line.appendChild(title);
+            wrapper.appendChild(line);
+        };
+    });
 </script>
