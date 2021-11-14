@@ -626,7 +626,6 @@ a.cal-ev .cal-ev-col {
     overflow: hidden;
     border-collapse: collapse;
     background-color: #{{ site.color.dark }};
-    margin-bottom: 40px;
 }
 .rwd-table tr:hover {
     cursor: pointer;

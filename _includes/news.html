@@ -43,6 +43,11 @@
                         table.appendChild(line);
                     };
                 wrapper.appendChild(table);
-            document.getElementById('{{ include.toshow }}').removeAttribute('style');
+                var smallText = document.createElement('p');
+                    smallText.setAttribute('class', 'min');
+                    var smallTextT = document.createTextNode(JSON.parse(responseText).kalla);
+                    smallText.appendChild(smallTextT);
+                wrapper.appendChild(smallText);
+            hideElement('{{ include.toshow }}');
         });
 </script>

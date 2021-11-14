@@ -1,4 +1,6 @@
-<div id="{{ include.id }}" class="news-list"></div>
+<div id="{{ include.id }}" class="news-list">
+    {% include loader.html id="feedLoader" style="display: none;" %}
+</div>
 <script>
     var {{ include.id }}Url = "{{ include.url }}";
     var {{ include.id }}Icons = {
@@ -8,6 +10,7 @@
         }
     };
     var loadFile = function (filePath, done) {
+        hideElement('feedLoader');
         var xhr = new XMLHttpRequest();
             xhr.onload = function () { return done(this.responseText) }
             xhr.open("GET", encodeURI(filePath), true);
@@ -44,5 +47,6 @@
                 line.appendChild(title);
             wrapper.appendChild(line);
         };
+        removeElement('feedLoader');
     });
 </script>
