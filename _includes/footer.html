@@ -53,3 +53,8 @@
 {%- if page.footer -%}
     {{ page.footer }}
 {%- endif -%}
+{% if site.url != "http://localhost:4000"%}
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5ff8160fb6a24db19ba386cffc20e020"}' defer></script>
+    <!-- End Cloudflare Web Analytics -->
+{%- endif -%}
