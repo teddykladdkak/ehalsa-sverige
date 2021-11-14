@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Vad är ISO 9001?"
+description: "Introduktion till kvalitetsstandarden ISO 9001"
+date:   2021-10-28 08:00:00 +0200
+tags: Standarder
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/9001.jpg"
+video: false
+sitemap:
+  lastmod: 2021-10-28
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+ISO 9001 beskriver ett systematiskt sätt att uppnå kvalitet och ständigt förbättra sin verksamhet. Det är en av de vanligaste standarderna i världen, men det kan vara svårt att förstå vad den egentligen innebär och vad den ska vara bra för.
+
+<!--more-->
+
+{% include toc.md %}
+
+
+## Fördelar med ISO 9001
+Varför ska man implementera ISO 9001 i sin verksamhet?
+
+* Det kan öka verksamhetens effektivitet och förbättra kvaliteten på dess varor och tjänster.
+* Det kan förenkla arbetet för ens anställda och samarbete med externa parter genom att följa en väletablerad metod.
+* Det kan vara krav i [upphandlingar](/2021/09/30/grunder-i-upphandlingar.html) att verksamhetens kvalitetsledningssystem ska vara certifierat eller åtminstone kunna redovisas.
+Även privata företag kan ha krav på kvalitetsledningssystem hos sina leverantörer.
+
+Finns det några nackdelar med att implementera ISO 9001?
+
+Den främsta nackdelen skulle vara att det krävs en investering i tid och engagemang för att lägga om sina arbetssätt. Om man saknar erfarenhet från sådant arbete behövs det ofta hjälp av en konsult. Om man sedan vill certifiera sig innebär det också en viss kostnad.
+## Innehåll och krav i ISO 9001
+ISO 9001 har utformats för att kunna appliceras i vitt skilda branscher och på organisationer av väldigt olika storlek. Det gör att den är väldigt allmänt skriven, vilket kan göra det svårt att förstå hur man ska tillämpa den på sin egen verksamhet.
+
+Den senaste versionen (ISO 9001:2015) är uppbyggd enligt följande 11 kapitel:
+
+* Kapitel 0 till 3 innefattar definitioner av begreppet och av standardens omfattning samt hänvisningar till andra standarder.
+* Kapitel 4 är det första kapitlet med egentliga krav på verksamheten. Det handlar om att förstå verksamhetens omvärld (t.ex. hur den förhåller sig till andra intressenter såsom kunder eller myndigheter) och att kartlägga företagets förutsättningar (t.ex. genom en SWOT-analys) och dess processer.
+* Kapitel 5 handlar om företagsledningens engagemang och roller inom företaget.
+* Kapitel 6 handlar om systematisk bedömning och hantering av risker och om planering av hur verksamheten ska uppnå sina kvalitetsmål.
+* Kapitel 7 handlar om vilka stödfunktioner som finns för att driva verksamheten, t.ex. personal, infrastruktur och kompetens.
+* Kapitel 8 handlar om hur produkter och tjänster planeras, skapas, kontrolleras och överförs till ens mottagare (t.ex. ens kund).
+* Kapitel 9 handlar om övervakning av verksamheten, exempelvis genom prestandamått och internrevisioner.
+* Kapitel 10 handlar om ständig förbättring av verksamheten och hantering av avvikelser.
+
+### Dokumentationskrav
+Standarden innehåller ganska få hårda krav på dokumentation. Kan man rättfärdiga att ens verksamhet inte behöver dokumentera en viss rutin eller process för att fungera tillfredsställande behöver man vanligen inte dokumentera det för sakens skull. I övrigt finns det bara krav på dokumentation av
+
+* en kvalitetspolicy, som ger verksamheten riktning genom att bekräfta ledningens engagemang att uppfylla krav som ställs på verksamheten och att ständigt förbättra verksamheten
+* en beskrivning av kvalitetssystemets omfattning.
+
+## Branschspecifika anpassningar
+Vissa branscher kan ha standarder som bygger på ISO 9001, men med anpassningar som är relevanta för branschen. Ett exempel är ISO 13485, som gäller medicintekniska produkter. ISO 13485 är anpassad till det medicintekniska regelverket och ställer exempelvis högre krav på dokumentation än ISO 9001.
+
+Vanligen ställer de branschspecifika standarderna ytterligare krav jämfört med ISO 9001, så att man kan komma en bra bit på vägen genom att följa ISO 9001. Ibland kan det dock finnas motsättningar mellan ISO 9001 och branschspecifika standarder, så att man får välja vilken man vill följa.
+## Certifiering
+Att ens företag certifieras innebär att man låter en extern part bedöma huruvida man uppfyller kraven i standarden. Detta brukar göras genom att en expert på standarden (som kallas för _revisor_) besöker verksamheten och intervjuar personalen. Företag som har godkänts för att ge ut certifikat kallas för _certifieringsorgan_.
+
+Vanligen får man vissa anmärkningar som man sedan ska visa att man har avhjälpt. När man kan visa att man uppfyller kraven får man ett diplom som intygar detta. Det är _företaget_ som certifieras, inte produkten eller tjänsten. Man kan således aldrig säga att ens produkt är “ISO 9001-certifierad”.
+
+Ofta erbjuder certifieringsorgan certifiering för flera standarder. Exempelvis är det vanligt att företag kombinerar implementering av ISO 9001 med ISO 14001 (ledningssystem för miljö) och ISO 27001 (informationssäkerhet). Då kan det vara smidigast att alla standarderna bedöms av samma certifieringsorgan och att revisionerna görs i samband med varandra.
+
+När man väl har fått sitt intyg om att man uppfyller ISO 9001 kan man inte återgå till hur man gjorde förr, utan man måste upprätthålla och ständigt förbättra sitt kvalitetsledningssystem enligt standarden. Certifieringsorganet gör återkommande revisioner som man behöver godkännas på för få behålla sin certifiering.
+
+## Slutsatser
+Att följa ISO 9001 kan vara ett krav i vissa sammanhang, men minst lika viktigt är att det kan innebära ett sätt att förbättra sin verksamhet. Om du vill uppfylla standarden eller certifieras enligt den får du räkna med att avsätta personal och tid för att anpassa verksamhetens rutiner, men det lönar sig oftast i längden.
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_

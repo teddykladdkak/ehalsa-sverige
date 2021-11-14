@@ -9,8 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/bok.jpg"
-  head: "/assets/images/post-head/1920/bok.jpg"
-video: false
+video:
+  src: "644964125?h=52bc95e2db"
+  title: "Litteratur om eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-09-24
   priority: 0.7

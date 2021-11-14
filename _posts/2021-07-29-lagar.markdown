@@ -9,8 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/lag.jpg"
-  head: "/assets/images/post-head/1920/lag.jpg"
-video: "/assets/video/lagar.mp4"
+video:
+  src: "644964110?h=9746d51f4c"
+  title: "Lagar som p&amp;aring;verkar eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-07-29
   priority: 0.7

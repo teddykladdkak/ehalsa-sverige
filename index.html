@@ -2,18 +2,30 @@
 layout: default
 title: Start
 tags: eHälsa eHealth telemedicin sverige ehalsasverige
+backgrounds: start
 sitemap:
   lastmod: 2021-07-27
   priority: 0.9
   changefreq: 'weekly'
 footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/assets/js/event.js" defer></script><script src="/assets/js/post.js" defer></script>'
 ---
-<div class="change-order-mobile">
+<div class="change-order-mobile change-order">
+  <section class="col-2 max">
+    <div class="col-2-in">
+      <h1>Samlingsplatsen för alla som påverkas av eHälsa</h1>
+      <p>
+        {{ site.descriptionHTML }}
+      </p>
+    </div>
+    <div class="col-img col-2-in">
+      <img src="/assets/images/illustration/start.svg" width="400" height="273" alt="Illustration som inkluderar några av målgrupperna eHälsa Sverige har">
+    </div>
+  </section>
   {%- if site.posts.size > 0 -%}
     <section class="post-card">
       <h2 style="display: none;">Senaste artiklarna</h2>
       {%- for post in site.posts limit:4 -%}
-      <a class="post-link mobile-min" href="{{ post.url | relative_url }}" style="background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});">
+      <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <p>
                 {{ post.title | escape }}
@@ -25,24 +37,12 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
       {%- endfor -%}
     </section>
   {%- endif -%}
-
-  <section class="col-2 max">
-    <div class="col-2-in">
-      <h1>Samlingsplatsen för alla som påverkas av eHälsa</h1>
-      <p>
-        {{ site.descriptionHTML }}
-      </p>
-    </div>
-    <div class="col-img col-2-in">
-      <img src="/assets/images/illustration/start.svg" width="400" height="273" alt="Bild som visar två personer som lägger upp information på en tavla">
-    </div>
-  </section>
 </div>
 <section class="col-2 col-str">
   <div class="kontakt col-2-in">
-    <h3>
+    <h2 class="h3">
       Kontakt
-    </h3>
+    </h2>
     <p class="mobile-min">
       Denna plattform är under utveckling. Har du några idéer eller vet information som fattas, berätta det för oss!
     </p>
@@ -53,9 +53,9 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
     </div>
   </div>
   <div class="event col-2-in">
-    <h3>
+    <h2 class="h3">
       <a href="/kalender.html">Kommande event</a>
-    </h3>
+    </h2>
     <div id="event-wrapper">{% include loader.html id="eventLoader" style="display: none;" %}</div>
   </div>
   </section>
@@ -64,7 +64,7 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
       <img src="/assets/images/illustration/knowledge.svg" width="400" height="273" alt="Bild som visar kvinna som står brevid ett papper">
     </div>
     <div class="col-2-in">
-      <h3>Senaste forskningen om eHälsa</h3>
+      <h2 class="h3">Senaste forskningen om eHälsa</h2>
       <div id="feedWrapper" class="mobile-min">
         {% include feed.html id="feedContent" antal="3" url="https://pubmed.ncbi.nlm.nih.gov/rss/search/1hSsbZPB1F1mLEy6VDSKtqfkJFqlED_Lgw_HOIW51blP7O7Mst/?limit=5&utm_campaign=pubmed-2&fc=20210826060919" %}
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28ehealth%29+OR+%28e-health%29%29+OR+%28%22digital+health%22%29&sort=date" title="Till sökning i PubMed" target="_blank" rel="noopener noreferrer">Mer artiklar (PubMed)</a></p>
@@ -76,3 +76,5 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
     {%- if site.url == "http://localhost:4000" -%}{%- capture newslink -%}{{ site.microserver.local }}/nyheter.json{%- endcapture -%}{%- else -%}{%- capture newslink -%}{{ site.microserver.live }}/nyheter.json{%- endcapture -%}{%- endif -%}
     {% include news.html id="newsContent" url=newslink toshow="shownyheter" %}
   </section>
+  {%- include modal.html id="sendSuccess" class="modal-small" content="<img src=\"/assets/images/illustration/mail.svg\" width=\"200px\" height=\"200px\" class=\"modal-head-image\"><p>Meddelande skickades!</p>" -%}
+  {%- include modal.html id="sendError" class="modal-small" content="<img src=\"/assets/images/illustration/error.svg\" width=\"200px\" height=\"200px\" class=\"modal-head-image\"><p>Meddelande kunde tyvärr inte skickas.</p>" -%}

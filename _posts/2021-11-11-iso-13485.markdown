@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "Vad är ISO 13485?"
+description: "Introduktion till medicintekniska kvalitetsstandarden ISO 13485"
+date:   2021-11-11 08:00:00 +0200
+tags: Medicinteknik Standarder
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/13485.jpg"
+video: false
+sitemap:
+  lastmod: 2021-11-11
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+ISO 13485 är en standard för kvalitetsledning för medicintekniska produkter. För tillverkare av medicinteknik kan den innebära ett sätt att upprätthålla kvaliteten på sina produkter och att säkerställa att man uppfyller krav som ställs av myndigheter.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Vilka borde följa ISO 13485?
+Standarden är applicerbar för företag som tillhandahåller medicintekniska produkter. Om du utvecklar en eHälsoprodukt som uppfyller kriterierna för att vara en medicinteknisk produkt kan det alltså vara en god idé att följa standarden.
+
+**Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
+## Vad innehåller ISO 13485?
+ISO 13485 består av åtta huvudsakliga kapitel och ett antal informativa bilagor (vilket alltså innebär att de inte innehåller några krav). De tre första kapitlen innehåller definitioner och hänvisningar. De egentliga kraven ställs i kapitel fyra till åtta.
+### Kapitel 4: kvalitetsledningssystem
+Detta kapitel delas in i allmänna krav (4.1) och dokumentationskrav (4.2).
+
+De allmänna kraven innefattar bland annat att
+
+* följa standarden och andra tillämpliga krav (t.ex. från myndigheter)
+* upprätta och utvärdera processer för kvalitetsledningssystemet
+* övervaka utkontrakterade processer (t.ex. hos underleverantörer)
+* dokumentera rutiner för att validera mjukvaran som används kvalitetsledningssystemet.
+
+Kraven på dokumentation innefattar
+
+* kvalitetspolicy, -mål och -manual
+* rutiner och redovisande dokument
+* andra dokument som krävs av författningar
+* produktdokumentation.
+
+Dokument som krävs av kvalitetsledningssystemet ska styras, så att de exempelvis är uppdaterade och godkända innan de används.
+### Kapitel 5: ledningens ansvar
+Standarden ställer krav på organisationens högsta ledning att vara engagerad i kvalitetsledningssystemet. Detta innebär bland annat att upprätta en kvalitetspolicy, upprätta kvalitetsmål, säkerställa att tillräckliga resurser finns tillgängliga och att genomföra ledningsgenomgångar. Ledningen ska också se till att ansvar och befogenheter inom organisationen har definierats.
+
+En ledningsgenomgång innebär att ledningen utvärderar kvalitetsledningssystemet utifrån ett insamlat underlag, t.ex. nyckeltal, revisionsrapporter och klagomålshantering. Resultatet av dessa genomgångar ska dokumenteras och beslut ska fattas gällande hur kvalitetsledningssystemet kan förbättras.
+### Kapitel 6: hantering av resurser
+Organisationen behöver se till att det finns personal, lokaler, utrustning och stödtjänster för att uppfylla kraven på kvalitetsledningssystemet. Personalen behöver ha tillräcklig kompetens, och detta ska dokumenteras genom exempelvis cv:n och intyg om genomgångna utbildningar.
+### Kapitel 7: produktframtagning
+Organisationen behöver planera för stegen i att ta fram sina produkter:
+
+* kravställning utifrån exempelvis kunders behov och gällande regelverk
+* konstruktion och utveckling
+* inköp av exempelvis komponenter till produkterna
+* produktion
+* övervakning och mätning.
+
+### Kapitel 8: mätning, analys och förbättring
+När organisationen väl har fått ut sin produkt till kund behöver den säkerställa att kunden faktiskt gör vad kunden vill att den ska göra. Att göra detta på ett tillfredsställande sätt innefattar att
+
+* hantera klagomål
+* rapportera händelser som uppfyller rapporteringskrav till tillsynsmyndigheter
+* genomföra internrevisioner av verksamheten
+* hantera avvikelser
+* samla in och analysera information
+* genomföra korrigerande och förebyggande åtgärder vid behov.
+
+## Hur skiljer sig ISO 13485 från ISO 9001?
+ISO 13485 bygger på den allmänna kvalitetsstandarden [ISO 9001](/2021/10/28/iso-9001.html), men det finns flera viktiga skillnader:
+
+* Vissa krav i ISO 9001 är oförenliga med regelverket för medicintekniska produkter och har därför utelämnats.
+* ISO 13485 ställer högre krav på dokumentation. ISO 9001 ställer uttryckligen krav på ett fåtal dokument - i övrigt får organisationen själv bedöma hur mycket dokumentation man behöver för att ens kvalitetsledningssystem ska fungera adekvat.
+* Hela kvalitetsledningssystemet är riskbaserat.
+* Hantering av produktklagomål, incidenter och olycks- och tillbudsrapportering
+* ISO 13485 ställer tydligare krav på validering, verifiering och design av produkter.
+
+## Kopplingen till internationella regelverk
+En av fördelarna med ISO 13485 är att den harmonierar med flera internationella regelverk för medicinteknik. Här beskriver vi kort relationen mellan ISO 13485 och regelverken för medicinteknik i EU respektive USA.
+### EU:s medicintekniska förordning
+Medicintekniska produkter som säljs i EU måste följa EU:s medicintekniska förordning (engelska: _Medical Device Regulation_, MDR). MDR ställer i artikel 10 minimikrav på kvalitetssystem hos tillverkare av medicintekniska produkter. Dessa krav täcks in av ISO 13485, så att man kan demonstrera att man uppfyller MDR:s krav på kvalitetssystem genom att följa ISO 13485.
+
+_Tabell 1. Avsnitt i ISO 13485 som motsvarar krav på kvalitetssystem i EU:s förordning om medicinteknik. Anpassat efter [Advisera](https://advisera.com/13485academy/blog/2020/03/09/how-can-iso-13485-help-with-mdr-compliance/)._
+
+| Krav i EU:s MDR|Avsnitt i ISO 13485|
+| ------------- |-------------|
+|strategi för efterlevnad av bestämmelserna|4.1|
+|säkerhet och prestanda|7.5|
+|ledningens ansvar|5.1, 5.5|
+|resurshantering|7.4|
+|riskhantering|7.3|
+|klinisk utvärdering|7.3|
+|produktrealisering (planering, konstruktion, utveckling, produktion och tillhandahållande av tjänster)|7|
+|unik produktindentifiering|7.5.8, 7.5.9|
+|övervakning av frisläppta produkter|8.2.1, 8.2.2|
+|kommunikation med myndigheter|8.2.3|
+|rapportering av tillbud och korrigerande säkerhetsåtgärder|8.2.3|
+|korrigerande och förebyggande åtgärder|8.5.2, 8.5.3|
+|övervakning och mätning av resultat, dataanalys och produktförbättring|8.2|
+
+Notera att det alltså inte är ett krav att följa ISO 13485 för att uppfylla MDR, men det kan vara ett bra stöd. EU har gett ut en [lista](https://ec.europa.eu/growth/single-market/european-standards/harmonised-standards/medical-devices_en) på standarder som harmonierar med MDR, och ISO 13485 är den enda standarden för kvalitetsledning som nämns.
+### USA:s _Code of Federal Regulations_
+Medicintekniska produkter som säljs i USA måste följa Food and Drug Administrations (FDA:s) _Code of Federal Regulations_ (CFR). [Del 820](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=820) i CFR är det huvudsakliga avsnittet som berör kvalitetssystem. FDA var inblandade i att uppdatera ISO 13485, så mycket av innehållet motsvarar vartannat. Det kan dock finnas krav i CFR som inte nämns uttryckligen i ISO 13485, exempelvis Device History Record. Om du har implementerat ISO 13485 och vill införa din produkt i USA kan det vara en god idé att med en kunnig person göra en gapanalys gentemot FDA:s krav.
+## Slutsats
+ISO 13485 är en användbar standard att följa för att upprätthålla kvalitet för dina medicintekniska produkter och att underlätta att uppfylla krav från myndigheter. Om din produkt inte klassas som medicinteknik kan ISO 9001 vara ett alternativ om du vill följa en standard för kvalitetsledningssystem.
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_

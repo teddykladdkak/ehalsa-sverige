@@ -9,8 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/medicinteknik.jpg"
-  head: "/assets/images/post-head/1920/medicinteknik.jpg"
-video: "/assets/video/medicinteknik.mp4"
+video:
+  src: "644964225?h=f21becbd63"
+  title: "Vad &amp;auml;r en medicinteknisk produkt?"
 sitemap:
   lastmod: 2021-08-20
   priority: 0.7

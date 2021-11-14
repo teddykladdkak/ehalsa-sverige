@@ -2,7 +2,10 @@
 <script>
     var {{ include.id }}Url = "{{ include.url }}";
     var {{ include.id }}Icons = {
-        pubmed: '/assets/images/icons/feeds/pubmed.jpg'
+        pubmed: {
+            url: '/assets/images/icons/feeds/pubmed.svg',
+            alt: 'PubMed ikon'
+        }
     };
     var {{ include.id }}xhr = new XMLHttpRequest();
     {{ include.id }}xhr.onreadystatechange = function(){
@@ -25,7 +28,8 @@
                         line.appendChild(date);
                         var icon = document.createElement('span');
                             var iconb = document.createElement('img');
-                                iconb.setAttribute('src', {{ include.id }}Icons[id]);
+                                iconb.setAttribute('src', {{ include.id }}Icons[id].url);
+                                iconb.setAttribute('alt', {{ include.id }}Icons[id].alt);
                                 iconb.setAttribute('height', '35px');
                                 iconb.setAttribute('width', '35px');
                             icon.appendChild(iconb);

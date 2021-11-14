@@ -14,10 +14,8 @@ sitemap:
 				<image:image>
       				<image:loc>{{ site.url }}{{ post.image.path }}</image:loc>
     			</image:image>
-			{% endif %}
-			{% if post.image.head %}
 				<image:image>
-      				<image:loc>{{ site.url }}{{ post.image.head }}</image:loc>
+      				<image:loc>{{ site.url }}{{ post.image.path | replace: "/500/", "/1920/" | absolute_url }}</image:loc>
     			</image:image>
 			{% endif %}
 			{% if post.sitemap.lastmod %}

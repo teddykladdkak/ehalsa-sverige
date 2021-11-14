@@ -18,7 +18,7 @@ function visaGDPR(){
                     window.onscroll = function(){
                         if(!localStorage.getItem('gdpr')){
                             var elmnt = document.getElementsByTagName('html')[0];
-                            if(elmnt.scrollTop >= 400){
+                            if(elmnt.scrollTop >= 600){
                                 tillatGDPR();
                             };
                         };

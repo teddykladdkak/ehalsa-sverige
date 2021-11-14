@@ -1,32 +1,17 @@
 ---
 layout: default
 title: "Artiklar: Kategorier"
+backgrounds: "kategori-index"
 sitemap:
-  lastmod: 2021-07-27
+  lastmod: 2021-10-25
   priority: 0.6
   changefreq: 'weekly'
 ---
-
-<h1>Artiklar: Kategorier</h1>
-{% for tag in site.tags %}
-    <div id="{{ tag[0] }}" class="kategori">
-        <h3>{{ tag[0] | replace: "_"," " }}</h3>
-        <div class="post-list">
-            {% for post in tag[1] %}
-                <a class="post-link" href="{{ post.url | relative_url }}" style="background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({{ post.image.path }});">
-                    <article>
-                        <header>
-                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                            <h3>{{ post.title | escape }}</h3>
-                            <p>{{ post.date | date: date_format }}</p>
-                        </header>
-                        <p class="post-content mobile-min">
-                            {{ post.excerpt | strip_html | truncate: 250, '...' }}
-                        </p>
-                    </article>
-                </a>
-            {% endfor %}
-        </div>
+<section class="col-1 max">
+    <h1>Artiklar: Kategorier</h1>
+    <div class="kategorier-lista">
+        {% for tag in site.tags %}
+            <a href="/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.html" class="{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }}">{{ tag[0] | replace: "_"," " }}</a>
+        {% endfor %}
     </div>
-{% endfor %}
-<script src="/assets/js/kategori.js"></script>
+</section>

@@ -9,8 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/startup.jpg"
-  head: "/assets/images/post-head/1920/startup.jpg"
-video: "/assets/video/starta_foretag_inom_ehalsa.mp4"
+video:
+  src: "644964405?h=1cca538653"
+  title: "Starta f&amp;ouml;retag inom eH&amp;auml;lsa"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7

@@ -76,10 +76,6 @@
 
     <meta name="theme-color" content="#{{ site.color.dark }}">
 
-    {%- if page.video -%}
-        <link rel="stylesheet" href="/assets/css/openplayer.min.css">
-    {%- endif -%}
-
     {% if page.karta == true %}
         <link rel="stylesheet" href="/assets/css/leaflet.css" />
         <script src="/assets/js/leaflet.js"></script>
@@ -90,6 +86,121 @@
         <script src="/assets/js/chartist.min.js"></script>
     {% endif %}
 
+    {%- capture backgrounds_css -%}background-image: linear-gradient(0deg, rgba({{ site.color.shade.dark }},1) 40%, rgba({{ site.color.shade.dark }},0) 100%), linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url({%- endcapture -%}
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% if page.backgrounds == "start" %}
+        <style>
+            {%- for post in site.posts limit:4 -%}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        {{ backgrounds_css }}{{ check_webp }});
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                        {{ backgrounds_css }}{{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif include.backgrounds == "post" %}
+        <style>
+            {%- capture check_webp -%}{{ page.image.path | replace: "/500/", "/1920/" | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+            {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+            {%- if todo_webp -%}
+                .webp .posthead {
+                    {{ backgrounds_css }}{{ check_webp }});
+                }
+                .no-js .posthead, .no-webp .posthead {
+            {%- else -%}
+                .posthead {
+            {%- endif -%}
+                {{ backgrounds_css }}{{ page.image.path | replace: "/500/", "/1920/" | absolute_url }});
+                }
+            {%- assign maxRelated = 3 -%}
+                {%- assign minCommonTags =  1 -%}
+                {%- assign maxRelatedCounter = 0 -%}
+                {%- for post in site.posts -%}
+                    {%- assign sameTagCount = 0 -%}
+                    {%- assign commonTags = '' -%}
+                    {%- for tag in post.tags -%}
+                        {%- if post.url != page.url -%}
+                        {%- if page.tags contains tag -%}
+                            {%- assign sameTagCount = sameTagCount | plus: 1 -%}
+                            {%- capture tagmarkup -%} <span class="label label-default">{{ tag }}</span> {%- endcapture -%}
+                            {%- assign commonTags = commonTags | append: tagmarkup -%}
+                        {%- endif -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                    {%- if sameTagCount >= minCommonTags -%}
+                        {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                        {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                        {%- if todo_webp -%}
+                            .webp .{{ post.image.path | slugify: "latin" }} {
+                                {{ backgrounds_css }}{{ check_webp }});
+                            }
+                            .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                        {%- else -%}
+                            .{{ post.image.path | slugify: "latin" }} {
+                        {%- endif -%}
+                                {{ backgrounds_css }}{{ post.image.path }});
+                            }
+                        {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
+                        {%- if maxRelatedCounter >= maxRelated -%}
+                            {%- break -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endfor -%}
+        </style>
+    {% elsif page.backgrounds == "artiklar" %}
+        <style>
+            {% for post in paginator.posts %}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        {{ backgrounds_css }}{{ check_webp }});
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                {{ backgrounds_css }}{{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif page.backgrounds == "kategori" %}
+        <style>
+            {% for post in site.tags[page.tag] %}
+                {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
+                {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
+                {% if todo_webp %}
+                    .webp .{{ post.image.path | slugify: "latin" }} {
+                        {{ backgrounds_css }}{{ check_webp }});
+                    }
+                    .no-js .{{ post.image.path | slugify: "latin" }}, .no-webp .{{ post.image.path | slugify: "latin" }} {
+                {% else %}
+                    .{{ post.image.path | slugify: "latin" }} {
+                {% endif %}
+                {{ backgrounds_css }}{{ post.image.path }});
+                    }
+            {%- endfor -%}
+        </style>
+    {% elsif page.backgrounds == "kategori-index" %}
+        <style>
+            {% for tag in site.tags %}
+                .webp .{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }} {
+                    background-image: linear-gradient(180deg, rgba(30, 40, 69,1) 25%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url(/assets/images/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.webp);
+                }
+                .no-js {{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }}, .no-webp {{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }} {
+                    background-image: linear-gradient(180deg, rgba(30, 40, 69,1) 25%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url(/assets/images/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.jpg);
+                }
+            {% endfor %}
+        </style>
+    {% endif %}
+    
     {%- if page.header -%}
         {{ page.header }}
     {%- endif -%}
