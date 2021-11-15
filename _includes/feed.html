@@ -30,7 +30,7 @@
                 line.setAttribute('alt', 'Klicka på länken för att komma till artikeln');
                 line.setAttribute('rel', 'noopener noreferrer"');
                 var date = document.createElement('span');
-                    var datet = document.createTextNode(minDate(item.datum));
+                    var datet = document.createTextNode(minDate(item.date));
                     date.appendChild(datet);
                 line.appendChild(date);
                 var icon = document.createElement('span');
@@ -42,7 +42,7 @@
                     icon.appendChild(iconb);
                 line.appendChild(icon);
                 var title = document.createElement('span');
-                    var titlet = document.createTextNode(item.titel);
+                    var titlet = document.createTextNode(item.title);
                     title.appendChild(titlet);
                 line.appendChild(title);
             wrapper.appendChild(line);

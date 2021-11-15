@@ -30,14 +30,16 @@
                             line.setAttribute('tabindex', '0');
                             line.setAttribute('onkeypress', 'handleEnter(this, event);');
                             var date = document.createElement('td');
-                                var datet = document.createTextNode(minDate(data[i].datum));
+                                var datet = document.createTextNode(minDate(data[i].date));
                                 date.appendChild(datet);
                             line.appendChild(date);
                             var title = document.createElement('td');
-                                title.innerHTML = data[i].titel;
+                                var titleT = document.createTextNode(data[i].title);
+                                title.appendChild(titleT);
+                                //title.innerHTML = data[i].title;
                             line.appendChild(title);
                             var utgivare = document.createElement('td');
-                                var utgivaret = document.createTextNode(data[i].kalla);
+                                var utgivaret = document.createTextNode(data[i].source);
                                 utgivare.appendChild(utgivaret);
                             line.appendChild(utgivare);
                         table.appendChild(line);
@@ -45,7 +47,7 @@
                 wrapper.appendChild(table);
                 var smallText = document.createElement('p');
                     smallText.setAttribute('class', 'min');
-                    var smallTextT = document.createTextNode(JSON.parse(responseText).kalla);
+                    var smallTextT = document.createTextNode(JSON.parse(responseText).source);
                     smallText.appendChild(smallTextT);
                 wrapper.appendChild(smallText);
             hideElement('{{ include.toshow }}');
