@@ -1,4 +1,4 @@
-<div id="{{ include.id }}" class="news-list"></div>
+<div id="{{ include.id }}"></div>
 <script>
     function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
     var loadFile = function (filePath, done) {
@@ -44,12 +44,20 @@
                             line.appendChild(utgivare);
                         table.appendChild(line);
                     };
+                    var footer = document.createElement('tr');
+                        var footerCol = document.createElement('td');
+                            footerCol.setAttribute('class', 'min');
+                            footerCol.setAttribute('colspan', '3');
+                            var footerColT = document.createTextNode(JSON.parse(responseText).source);
+                            footerCol.appendChild(footerColT);
+                        footer.appendChild(footerCol);
+                    table.appendChild(footer);
                 wrapper.appendChild(table);
-                var smallText = document.createElement('p');
+                /*var smallText = document.createElement('p');
                     smallText.setAttribute('class', 'min');
                     var smallTextT = document.createTextNode(JSON.parse(responseText).source);
                     smallText.appendChild(smallTextT);
-                wrapper.appendChild(smallText);
+                wrapper.appendChild(smallText);*/
             hideElement('{{ include.toshow }}');
         });
 </script>
