@@ -66,10 +66,16 @@ footer: '<script src="/assets/js/papaparse.min.js" defer></script><script src="/
     <div class="col-2-in">
       <h2 class="h3">Senaste forskningen om eHälsa</h2>
       <div id="feedWrapper" class="mobile-min">
-        {% include feed.html id="feedContent" antal="3" url="https://pubmed.ncbi.nlm.nih.gov/rss/search/1hSsbZPB1F1mLEy6VDSKtqfkJFqlED_Lgw_HOIW51blP7O7Mst/?limit=5&utm_campaign=pubmed-2&fc=20210826060919" %}
+        {%- if site.url == "http://localhost:4000" -%}{%- capture articlelink -%}{{ site.microserver.local }}/artiklar.json{%- endcapture -%}{%- else -%}{%- capture articlelink -%}{{ site.microserver.live }}/artiklar.json{%- endcapture -%}{%- endif -%}
+        {% include feed.html id="feedContent" antal="3" url=articlelink %}
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28ehealth%29+OR+%28e-health%29%29+OR+%28%22digital+health%22%29&sort=date" title="Till sökning i PubMed" target="_blank" rel="noopener noreferrer">Mer artiklar (PubMed)</a></p>
       </div>
     </div>
+  </section>
+  <section class="col-1 max" id="shownyheter" style="display: none;">
+    <h3>Senaste nyheterna om eHälsa</h3>
+    {%- if site.url == "http://localhost:4000" -%}{%- capture newslink -%}{{ site.microserver.local }}/nyheter.json{%- endcapture -%}{%- else -%}{%- capture newslink -%}{{ site.microserver.live }}/nyheter.json{%- endcapture -%}{%- endif -%}
+    {% include news.html id="newsContent" url=newslink toshow="shownyheter" %}
   </section>
   {%- include modal.html id="sendSuccess" class="modal-small" content="<img src=\"/assets/images/illustration/mail.svg\" width=\"200px\" height=\"200px\" class=\"modal-head-image\"><p>Meddelande skickades!</p>" -%}
   {%- include modal.html id="sendError" class="modal-small" content="<img src=\"/assets/images/illustration/error.svg\" width=\"200px\" height=\"200px\" class=\"modal-head-image\"><p>Meddelande kunde tyvärr inte skickas.</p>" -%}

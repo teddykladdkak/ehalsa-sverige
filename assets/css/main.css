@@ -3,7 +3,7 @@ sitemap:
   exclude: 'yes'
 ---
 @import url('/assets/fonts/poppins/poppins.css');
-a, .dropdown-content, input[type=button], .mobile-icon {
+a, .dropdown-content, input[type=button], .mobile-icon, .rwd-table tr {
     transition: all 150ms linear;
 }
 html, footer {
@@ -606,20 +606,94 @@ a.cal-ev .cal-ev-col {
     top: 50px;
 }
 .news-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px 10px 10px;
-}
-.news-list a {
-    margin-bottom: 10px;
-}
-.news-list span {
-    padding: 5px;
+    padding: 0px 10px 0px 10px;
 }
 .news-list img {
     width: 25px;
     height: 25px;
     vertical-align: middle;
+}
+.news-list a {
+    display: block;
+    margin-bottom: 10px;
+}
+.news-list span {
+    padding: 5px;
+}
+.rwd-table {
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    color: #000;
+    background-color: #FFF;
+    margin: 0px 10px 40px 10px;
+}
+.rwd-table tr:nth-child(even){
+    background-color: #EEE;
+}
+.rwd-table tr:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #{{ site.color.light }};
+}
+.rwd-table tr:first-child, .rwd-table tr:first-child:hover, .rwd-table tr:last-child, .rwd-table tr:last-child:hover {
+    cursor: default;
+    color: #FFF;
+    background-color: #{{ site.color.dark }};
+}
+.rwd-table th {
+    display: none;
+}
+.rwd-table td {
+    display: block;
+}
+.rwd-table th, .rwd-table td {
+    text-align: left;
+    margin: 10px;
+}
+.rwd-table tr:hover td:before {
+    color: #000;
+}
+@media (max-width: 751px) {
+    .rwd-table {
+        border-radius: 0px;
+    }
+    .rwd-table tr:last-child, .rwd-table tr:last-child:hover {
+        background-color: #FFF;
+        color: #000;
+    }
+    .rwd-table tr:last-child td {
+        font-size: 0.7rem;
+    }
+    .rwd-table td:nth-child(1), .rwd-table td:nth-child(3) {
+        font-size: .8rem;
+    }
+    .rwd-table td:nth-child(1) {
+        margin-bottom: 0px;
+    }
+    .rwd-table td:nth-child(2) {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .rwd-table td:nth-child(3) {
+        margin-top: 0px;
+    }
+}
+@media (min-width: 750px) {
+    .rwd-table td:before {
+        display: none;
+    }
+    .rwd-table th, .rwd-table td {
+        display: table-cell;
+        padding: .25em .5em;
+        padding: 1em !important;
+    }
+    .rwd-table th:first-child, .rwd-table td:first-child {
+        padding-left: 0;
+    }
+    .rwd-table th:last-child, .rwd-table td:last-child {
+        padding-right: 0;
+    }
 }
 .modal {
     display: none;

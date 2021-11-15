@@ -1,0 +1,63 @@
+<div id="{{ include.id }}"></div>
+<script>
+    function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
+    var loadFile = function (filePath, done) {
+        var xhr = new XMLHttpRequest();
+            xhr.onload = function () { return done(this.responseText) }
+            xhr.open("GET", encodeURI(filePath), true);
+            xhr.send();
+    };
+    var file = '{{ include.url }}';
+        loadFile(file, function (responseText) {
+            var data = JSON.parse(responseText).data;
+            var rubriker = ['Datum', 'Rubrik', 'Utgivare'];
+            var wrapper = document.getElementById('{{ include.id }}');
+                var table = document.createElement('table');
+                    table.setAttribute('class', 'rwd-table');
+                    var thead = document.createElement('thead');
+                        var theadline = document.createElement('tr');
+                        for (let i = 0; i < rubriker.length; i++) {
+                            var theadlinecol = document.createElement('th');
+                                var theadlinecolt = document.createTextNode(rubriker[i]);
+                                theadlinecol.appendChild(theadlinecolt);
+                            theadline.appendChild(theadlinecol);
+                        };
+                        thead.appendChild(theadline);
+                    table.appendChild(thead);
+                    for (let i = 0; i < data.length; i++) {
+                        var line = document.createElement('tr');
+                            line.setAttribute('onclick', 'window.open("' + data[i].url + '", "_blank");');
+                            line.setAttribute('tabindex', '0');
+                            line.setAttribute('onkeypress', 'handleEnter(this, event);');
+                            var date = document.createElement('td');
+                                var datet = document.createTextNode(minDate(data[i].date));
+                                date.appendChild(datet);
+                            line.appendChild(date);
+                            var title = document.createElement('td');
+                                var titleT = document.createTextNode(data[i].title);
+                                title.appendChild(titleT);
+                                //title.innerHTML = data[i].title;
+                            line.appendChild(title);
+                            var utgivare = document.createElement('td');
+                                var utgivaret = document.createTextNode(data[i].source);
+                                utgivare.appendChild(utgivaret);
+                            line.appendChild(utgivare);
+                        table.appendChild(line);
+                    };
+                    var footer = document.createElement('tr');
+                        var footerCol = document.createElement('td');
+                            footerCol.setAttribute('class', 'min');
+                            footerCol.setAttribute('colspan', '3');
+                            var footerColT = document.createTextNode(JSON.parse(responseText).source);
+                            footerCol.appendChild(footerColT);
+                        footer.appendChild(footerCol);
+                    table.appendChild(footer);
+                wrapper.appendChild(table);
+                /*var smallText = document.createElement('p');
+                    smallText.setAttribute('class', 'min');
+                    var smallTextT = document.createTextNode(JSON.parse(responseText).source);
+                    smallText.appendChild(smallTextT);
+                wrapper.appendChild(smallText);*/
+            hideElement('{{ include.toshow }}');
+        });
+</script>
