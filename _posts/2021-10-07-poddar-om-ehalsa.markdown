@@ -58,6 +58,11 @@ Vill du lyssna på det senaste inom e-hälsa? Här listar vi både svenska och i
 **Utgivare:** Turtleback Interactive \
 **Länk:** [https://empoweredpatientradio.com/](https://empoweredpatientradio.com/)
 
+## En Livsviktig Podd
+![En Livsviktig Podd](https://is4-ssl.mzstatic.com/image/thumb/Podcasts116/v4/ce/ca/a7/cecaa705-ceb4-cabc-fb3e-7748c7da8ccf/mza_12239558619358533680.png/1200x630wp.png)
+**Utgivare:** eHealth Arena \
+**Länk:** [https://podcasts.apple.com/us/podcast/en-livsviktig-podd/id1592959509](https://podcasts.apple.com/us/podcast/en-livsviktig-podd/id1592959509)
+
 ## Faces of Digital Health
 ![Faces of Digital Health](https://is3-ssl.mzstatic.com/image/thumb/Podcasts125/v4/43/8d/8a/438d8afc-8c68-23fe-524f-a7b5b38c4968/mza_1123211292233731078.jpeg/1200x630wp.png)
 **Utgivare:** Tjaša Zajc \
