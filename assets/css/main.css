@@ -471,7 +471,7 @@ a.cal-ev .cal-ev-col {
 .postbody .video-wrapper {
     height: 100%;
     max-height: 371px;
-    background-color: #{{ site.color.light }};
+    background-color: #{{ site.color.dark }};
 }
 .postbody a {
     -ms-word-break: break-all;

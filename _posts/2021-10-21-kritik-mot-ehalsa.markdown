@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/kritik.jpg"
-video: false
+video:
+  src: "646641284?h=5031043677"
+  title: "Kritik mot eH&amp;lsa"
 sitemap:
   lastmod: 2021-10-21
   priority: 0.7
