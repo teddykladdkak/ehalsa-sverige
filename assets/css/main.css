@@ -473,6 +473,10 @@ a.cal-ev .cal-ev-col {
     max-height: 371px;
     background-color: #{{ site.color.dark }};
 }
+.postbody .video-wrapper img {
+    width: 200px;
+    height: 200px;
+}
 .postbody a {
     -ms-word-break: break-all;
     word-break: break-all;
