@@ -1,58 +1,45 @@
-var maxelements = 0;
-hideElement('eventLoader');
-Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
-    download: true,
-    step: function(row) {
-        if(row.data[0] == "Start"){
-            var wrapper = document.getElementById('event-wrapper');
-            removeElements(wrapper);
-        }else{
-            if(checkPassed(row.data[0])){
-                ++maxelements;
-                if(maxelements <= 5){
-                    var wrapper = document.getElementById('event-wrapper');
-                        var link = document.createElement('a');
-                            link.setAttribute('href', row.data[3]);
-                            link.setAttribute('class', 'cal-ev');
-                            link.setAttribute('title', row.data[2]);
-                            link.setAttribute('target', '_blank');
-                            link.setAttribute('rel', 'noopener');
-                            var linkDate = document.createElement('div');
-                                linkDate.setAttribute('class', 'cal-ev-col');
-                                var linkDateDay = document.createElement('div');
-                                    linkDateDay.setAttribute('class', 'oneline');
-                                    var linkDateDayText = document.createTextNode(parseInt(row.data[0].split('-')[2]));
-                                    linkDateDay.appendChild(linkDateDayText);
-                                linkDate.appendChild(linkDateDay);
-                                var linkDateMonth = document.createElement('div');
-                                    linkDateMonth.setAttribute('class', 'min');
-                                    var linkDateMonthText = document.createTextNode(monthText(row.data[0].split('-')[1]));
-                                    linkDateMonth.appendChild(linkDateMonthText);
-                                linkDate.appendChild(linkDateMonth);
-                            link.appendChild(linkDate);
-                            var linkTitle = document.createElement('div');
-                                linkTitle.setAttribute('class', 'cal-ev-col min');
-                                var linkTitleText = document.createTextNode(row.data[2]);
-                                linkTitle.appendChild(linkTitleText);
-                            link.appendChild(linkTitle);
-                        wrapper.appendChild(link);
-                };
-            };
-        };
-    },
-    error: function(results) {
-		console.log('Något gick fel');
+---
+sitemap:
+  exclude: 'yes'
+---
+{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.local }}/event.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.live }}/event.json{%- endcapture -%}{%- endif -%}
+var loadFile = function (filePath, done) {
+    hideElement('eventLoader');
+    var xhr = new XMLHttpRequest();
+        xhr.onload = function () { return done(this.responseText) }
+        xhr.open("GET", encodeURI(filePath), true);
+        xhr.send();
+};
+    loadFile("{{ eventlink }}", function (responseText) {
+        var res = JSON.parse(responseText);
+        console.log('Events: ' + res.latestUpdate);
         var wrapper = document.getElementById('event-wrapper');
-            wrapper.setAttribute('style', 'text-align: center;');
-            var errmessage = document.createElement('p');
-                errmessage.setAttribute('class', 'err-message light-bg');
-                var errmessagetext = document.createTextNode('Kunde inte ladda event, testa att ladda om sidan.');
-                errmessage.appendChild(errmessagetext);
-            wrapper.appendChild(errmessage);
-            var reloadbutton = document.createElement('input');
-                reloadbutton.setAttribute('type', 'button');
-                reloadbutton.setAttribute('value', 'Ladda om');
-                reloadbutton.setAttribute('onclick', 'location.reload();');
-            wrapper.appendChild(reloadbutton);
-	}
-});
+        removeElements(wrapper);
+            res.data.forEach(row => {
+                var link = document.createElement('a');
+                    link.setAttribute('href', row[3]);
+                    link.setAttribute('class', 'cal-ev');
+                    link.setAttribute('title', row[2]);
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener');
+                    var linkDate = document.createElement('div');
+                        linkDate.setAttribute('class', 'cal-ev-col');
+                        var linkDateDay = document.createElement('div');
+                            linkDateDay.setAttribute('class', 'oneline');
+                            var linkDateDayText = document.createTextNode(parseInt(row[0].split('-')[2]));
+                            linkDateDay.appendChild(linkDateDayText);
+                        linkDate.appendChild(linkDateDay);
+                        var linkDateMonth = document.createElement('div');
+                            linkDateMonth.setAttribute('class', 'min');
+                            var linkDateMonthText = document.createTextNode(monthText(row[0].split('-')[1]));
+                            linkDateMonth.appendChild(linkDateMonthText);
+                        linkDate.appendChild(linkDateMonth);
+                    link.appendChild(linkDate);
+                    var linkTitle = document.createElement('div');
+                        linkTitle.setAttribute('class', 'cal-ev-col min');
+                        var linkTitleText = document.createTextNode(row[2]);
+                        linkTitle.appendChild(linkTitleText);
+                    link.appendChild(linkTitle);
+                wrapper.appendChild(link);
+            });
+    });
