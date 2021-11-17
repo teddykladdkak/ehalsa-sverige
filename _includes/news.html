@@ -9,6 +9,7 @@
     };
     var file = '{{ include.url }}';
         loadFile(file, function (responseText) {
+            console.log('Nyheter: ' + JSON.parse(responseText).latestUpdate);
             var data = JSON.parse(responseText).data;
             var rubriker = ['Datum', 'Rubrik', 'Utgivare'];
             var wrapper = document.getElementById('{{ include.id }}');
