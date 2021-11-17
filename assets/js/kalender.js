@@ -1,3 +1,7 @@
+---
+sitemap:
+  exclude: 'yes'
+---
 /*
 # API
 * arrangor: TEXT,TEXT,TEXT...
@@ -270,6 +274,86 @@ function getWidthView(){
         return 'listWeek';
     };
 };
+{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.local }}/kalender.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.live }}/kalender.json{%- endcapture -%}{%- endif -%}
+var loadFile = function (filePath, done) {
+    var xhr = new XMLHttpRequest();
+        xhr.onload = function () { return done(this.responseText) }
+        xhr.open("GET", encodeURI(filePath), true);
+        xhr.send();
+};
+    loadFile("{{ eventlink }}", function (responseText) {
+        var results = JSON.parse(responseText);
+        console.log('Kalender: ' + results.latestUpdate);
+        var ev = [];
+        for (var a = 0; a < results.data.length; a++){
+            var color = addArrangor(results.data[a][4]);
+            if(filter(results.data[a][4].split(',')[0], results.data[a][5], results.data[a][6])){
+                var tColor = getContrast(color);
+                var eventtopush = {title: results.data[a][2], start: results.data[a][0], url: results.data[a][3], backgroundColor: color, borderColor: color, textColor: tColor};
+                if(!results.data[a][1] || results.data[a][1] == ''){}else{
+                    if(results.data[a][1].split('T').length == 2){
+                        eventtopush.end = results.data[a][1];
+                    }else{
+                        var datea = new Date(results.data[a][1]);
+                        var dateb = datea.getTime() + (((60*1000)*60)*24);
+                        var datec = new Date(dateb);
+                        eventtopush.end = dateFormat(datec);
+                    };
+                };
+                ev.push(eventtopush);
+            };
+        };
+        var calendarEl = document.getElementById('calendar');
+        var options = {
+            locale: 'sv',
+            eventDidMount: function(info) {
+                info.el.setAttribute('title', info.event['_def'].title)
+            },
+            headerToolbar: {
+                left: 'dayGridMonth,timeGridWeek,listWeek',
+                center: 'title',
+                right: 'prevYear,prev,next,nextYear'
+            },
+            views: {
+                dayGridMonth: { buttonText: 'Månad' },
+                timeGridWeek: { buttonText: 'Vecka' },
+                listWeek: { buttonText: 'Lista' }
+            },
+            initialView: 'dayGridMonth',
+            events: ev,
+            eventTimeFormat: { 
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12:false
+            }
+        };
+        var vy = getParameterByName('vy');
+        if(vy == null){
+            options.initialView = getWidthView();
+        }else{
+            if(vy == 'manad'){
+                options.initialView = 'dayGridMonth';
+            }else if(vy == 'vecka'){
+                options.initialView = 'timeGridWeek';
+            }else if(vy == 'dag'){
+                options.initialView = 'timeGridDay';
+            }else if(vy == 'lista'){
+                options.initialView = 'listWeek';
+            }else{
+                options.initialView = getWidthView();
+            };
+        };
+        var datum = getParameterByName('datum');
+        if(datum == null){}else{
+            options.initialDate = encodeURI(datum);
+        };
+        var calendar = new FullCalendar.Calendar(calendarEl, options);
+        removeElements(calendarEl);
+        calendar.render();
+        addFilter();
+        indexArrangor();
+    });
+/*
 Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW85RvTWUD48YFVARLE7k7mJYibPQiBwvqzbQiGuA5V6eh4sKyEBi6t0uU7rv/pub?output=csv", {
     download: true,
     error: function(results) {
@@ -359,4 +443,4 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSbjbryKgVBlKFeb4tIW
         addFilter();
         indexArrangor();
     }
-});
+});*/
