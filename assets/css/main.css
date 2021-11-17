@@ -624,13 +624,17 @@ a.cal-ev .cal-ev-col {
 .news-list span {
     padding: 5px;
 }
+#newsContent {
+    padding: 0px 10px 0px 10px;
+}
 .rwd-table {
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
     border-collapse: collapse;
     color: #000;
     background-color: #FFF;
-    margin: 0px 10px 40px 10px;
+    margin: 0px 0px 40px 0px;
 }
 .rwd-table tr:nth-child(even){
     background-color: #EEE;
@@ -659,9 +663,11 @@ a.cal-ev .cal-ev-col {
     color: #000;
 }
 @media (max-width: 751px) {
+    #newsContent {
+        padding: 0px;
+    }
     .rwd-table {
         border-radius: 0px;
-        margin: 0px 0px 40px 0px;
     }
     .rwd-table tr:last-child, .rwd-table tr:last-child:hover {
         background-color: #FFF;
