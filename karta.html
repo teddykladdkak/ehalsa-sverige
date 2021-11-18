@@ -10,37 +10,15 @@ sitemap:
 karta: true
 image:
   path: "/assets/images/ovrigt/ehalsokarta.jpg"
-header: '<style id="markerOnTop"></style><style id="filterStyle"></style>'
-footer: '<script src="/assets/js/papaparse.min.js"></script><script src="/assets/js/koordinater.js"></script><script src="/assets/js/karta.js"></script>'
+header: '<style id="markerOnTop"></style><style id="filterStyle"></style><link rel="stylesheet" href="/assets/css/karta.css">'
+footer: '<script src="/assets/js/karta.js"></script>'
 ---
-<link rel="stylesheet" href="/assets/css/karta.css">
 <section class="karta">
     <div class="karta-list">
         <h1>eHälsokartan</h1>
         <label for="filter" style="display: none;">Välj region för att filtrera på kartan</label>
         <select name="filtrera" id="filter" onchange="filter(this);">
             <option value="">Alla Regioner</option>
-            <option value="Region Blekinge">Region Blekinge</option>
-            <option value="Region Dalarna">Region Dalarna</option>
-            <option value="Region Gotland">Region Gotland</option>
-            <option value="Region Gävleborg">Region Gävleborg</option>
-            <option value="Region Halland">Region Halland</option>
-            <option value="Region Jämtland Härjedalen">Region Jämtland Härjedalen</option>
-            <option value="Region Jönköpings län">Region Jönköpings län</option>
-            <option value="Region Kronoberg">Region Kronoberg</option>
-            <option value="Region Kalmar län">Region Kalmar län</option>
-            <option value="Region Norrbotten">Region Norrbotten</option>
-            <option value="Region Skåne">Region Skåne</option>
-            <option value="Region Stockholm">Region Stockholm</option>
-            <option value="Region Sörmland">Region Sörmland</option>
-            <option value="Region Uppsala">Region Uppsala</option>
-            <option value="Region Värmland">Region Värmland</option>
-            <option value="Region Västerbotten">Region Västerbotten</option>
-            <option value="Region Västernorrland">Region Västernorrland</option>
-            <option value="Region Västmanland">Region Västmanland</option>
-            <option value="Västra Götalandsregionen">Västra Götalandsregionen</option>
-            <option value="Region Örebro län">Region Örebro län</option>
-            <option value="Region Östergötland">Region Östergötland</option>
         </select>
         {% include loader.html id="loader" %}
         <div id="wrapperKategori"></div>

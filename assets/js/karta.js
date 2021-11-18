@@ -4,6 +4,15 @@ sitemap:
 ---
 var origIcon = 'M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z';
 var highlightIcon = 'M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z';
+var usedKor = [];
+function checkUsedKor(kor){
+    for (let i = 0; i < usedKor.length; i++) {
+        if(usedKor[i].kor == kor){
+            return usedKor[i].id;
+        };
+    };
+    return false;
+};
 function rensaKarta(){
     var def = document.getElementsByClassName('leaflet-marker-icon');
     for (let a = 0; a < def.length; a++) {
@@ -19,8 +28,8 @@ function highlight(c){
         icons[i].setAttribute('src', icons[i].getAttribute('src').replace(origIcon, highlightIcon));
     };
 };
-function makeID(region){
-    return region.replace(/[^A-Za-z0-9]/g,"").toLowerCase();
+function makeID(text){
+    return text.replace(/[^A-Za-z0-9]/g,"").toLowerCase();
 };
 function filter(el){
     if(el.value == ''){
@@ -29,8 +38,14 @@ function filter(el){
         mymap.setView([62.5, 17.5], 5);
     }else{
         document.getElementsByClassName('karta-list')[0].setAttribute('class', 'karta-list filtered');
-        document.getElementById('filterStyle').innerText = '.karta-filter { display: none; } .karta-filter-list-' + makeID(el.value) + ' { display: list-item; } .karta-filter-marker-' + makeID(el.value) + ' { display: block; }';
-        mymap.setView(JSON.parse('[' + getRegionKor(el.value) + ']'), 7);
+        document.getElementById('filterStyle').innerText = '.karta-filter { display: none; } .karta-filter-list-' + el.value + ' { display: list-item; } .karta-filter-marker-' + el.value + ' { display: block; }';
+        var options = el.getElementsByTagName('option');
+        for (let i = 0; i < options.length; i++) {
+            if(el.value == options[i].value){
+                var kordinateData = JSON.parse('[' + options[i].getAttribute('data-kor') + ']');
+            };
+        };
+        mymap.setView(kordinateData, 7);
     };
 };
 function checkInclude(obj, sep, str){
@@ -63,6 +78,15 @@ var loadFile = function (filePath, done) {
         var res = JSON.parse(responseText);
         console.log('Karta: ' + res.latestUpdate);
         removeElement('loader');
+        var regionSelect = document.getElementById('filter');
+        res.regioner.forEach(region => {
+            var opt = document.createElement('option');
+                opt.setAttribute('value', makeID(region.namn));
+                opt.setAttribute('data-kor', region.koordinater);
+                var optT = document.createTextNode(region.namn);
+                opt.appendChild(optT);
+            regionSelect.appendChild(opt);
+        });
         var kategoriWrapper = document.getElementById('wrapperKategori');
         res.kategorier.forEach(kategori => {
             var wrap = document.createElement('div');
