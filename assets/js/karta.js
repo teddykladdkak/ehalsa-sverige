@@ -79,6 +79,11 @@ var loadFile = function (filePath, done) {
         console.log('Karta: ' + res.latestUpdate);
         removeElement('loader');
         var regionSelect = document.getElementById('filter');
+        res.regioner.sort(function(a, b){
+            if(a.namn.replace('Region ', '') < b.namn.replace('Region ', '')) { return -1; }
+            if(a.namn.replace('Region ', '') > b.namn.replace('Region ', '')) { return 1; }
+            return 0;
+        });
         res.regioner.forEach(region => {
             var opt = document.createElement('option');
                 opt.setAttribute('value', makeID(region.namn));
