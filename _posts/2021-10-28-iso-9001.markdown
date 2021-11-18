@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/9001.jpg"
-video: false
+video:
+  src: "647472466?h=0624c41b88"
+  title: "ISO 9001"
 sitemap:
   lastmod: 2021-10-28
   priority: 0.7

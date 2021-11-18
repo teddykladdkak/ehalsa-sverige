@@ -9,7 +9,9 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/27001.jpg"
-video: false
+video:
+  src: "647479925?h=fbf49abbc7"
+  title: "ISO 27001"
 sitemap:
   lastmod: 2021-11-04
   priority: 0.7
