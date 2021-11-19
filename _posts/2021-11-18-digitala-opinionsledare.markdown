@@ -50,5 +50,5 @@ Digitala opinionsledare kan vara värdefulla allierade för många typer av orga
 
 Som alltid är det viktigt att tänka på vilka juridiska och etiska regler som gäller för din organisation och bransch. Exempelvis kan det finnas regler kring vilka grupper som vissa typer av produkter får marknadsföras mot (som att receptbelagda läkemedel inte får marknadsföras mot allmänheten) och att det måste framgå om en digital opinionsledare får betalt för att göra reklam för en viss produkt.
 
-<br/>
-_Hittat något fel eller har vi missat någon podd? [Kontakta oss!](/index.html#form-message)_
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
