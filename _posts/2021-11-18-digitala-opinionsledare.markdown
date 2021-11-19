@@ -2,7 +2,7 @@
 layout: post
 title:  "Digitala opinionsledare"
 description: "Hur digitala opinionsledare (influencers) kan hjälpa din organisation"
-date:   2021-10-18 08:00:00 +0200
+date:   2021-11-18 08:00:00 +0200
 tags: Sociala_media
 author:
   name: "Redaktionen"
@@ -13,7 +13,7 @@ video:
   src: "644964296?h=0d0d575856"
   title: "Poddar om eH&amp;auml;lsa"
 sitemap:
-  lastmod: 2021-10-18
+  lastmod: 2021-11-18
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
