@@ -3,7 +3,7 @@ layout: post
 title:  "Poddar om eHälsa"
 description: "Poddar för den som vill lära sig om eHälsa"
 date:   2021-10-07 08:00:00 +0200
-tags: Digital_vård Forskning Medicinteknik Utbildning
+tags: Digital_vård Forskning Sociala_media Utbildning
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
