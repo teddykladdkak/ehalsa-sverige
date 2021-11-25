@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finansiering för startup-företag i eHälsa"
+title:  "Finansiering för startup-företag inom eHälsa"
 description: "Sätt att få in kapital för att få ditt företag att växa"
 date:   2021-11-25 08:00:00 +0200
 tags: Företag
@@ -9,9 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/pengar2.jpg"
-video:
-  src: "644964405?h=1cca538653"
-  title: "Starta f&amp;ouml;retag inom eH&amp;auml;lsa"
+video: false
 sitemap:
   lastmod: 2021-11-25
   priority: 0.7
