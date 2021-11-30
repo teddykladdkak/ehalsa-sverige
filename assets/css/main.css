@@ -84,7 +84,7 @@ nav ul li {
 nav ul li a {
     color: #FFF;
     text-decoration: none;
-    border-bottom: solid 2px #{{ site.color.dark }};
+    border-bottom: solid 2px transparent;
 }
 nav ul li a:hover {
     border-bottom: solid 2px #FFF;
