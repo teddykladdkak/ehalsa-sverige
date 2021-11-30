@@ -3,7 +3,7 @@ layout: post
 title:  "eHälsa Julkalender 2021"
 description: "Årets julkalender med temat eHälsa är fullpackad med citat och insikter. Ny lucka varje dag under december!"
 date:   2021-12-01 08:00:00 +0200
-tags: Digital_vård
+tags: Digital_vård Forskning Utbildning
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -18,6 +18,7 @@ excerpt_separator: <!--more-->
 karta: false
 chart: false
 cc: false
+header: '<style>#julKalender { width: 100%; }.jul-kalender path { fill: rgba(0,0,0,0.5); }.jul-kalender { display: none; }.jul-kalender.active { display: inline-block; cursor: pointer; }.jul-kalender.active path { fill: rgba(0,0,0,1.0); }.jul-kalender.active:hover g { fill: rgba(255,255,255,0.8); }#kalender-message { font-size: 1.2rem; font-style: italic; font-weight: bold; }</style>'
 footer: '<script src="/assets/js/papaparse.min.js"></script><script src="/assets/js/julkalender.js"></script>'
 ---
 
@@ -25,32 +26,6 @@ Varje dag fram till jul kommer ny lucka att bli tillgänglig. I varje lucka göm
 
 <!--more-->
 
-<style>
-    #julKalender {
-        width: 100%;
-    }
-    .jul-kalender path {
-        fill: rgba(0,0,0,0.5);
-    }
-    .jul-kalender {
-        display: none;
-    }
-    .jul-kalender.active {
-        display: inline-block;
-        cursor: pointer;
-    }
-    .jul-kalender.active path {
-        fill: rgba(0,0,0,1.0);
-    }
-    .jul-kalender.active:hover g {
-        fill: rgba(255,255,255,0.8);
-    }
-    #kalender-message {
-        font-size: 1.2rem;
-        font-style: italic;
-        font-weight: bold;
-    }
-</style>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="628" viewBox="0 0 800 628" id="julKalender">
     <defs>
         <pattern id="kalender-a" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 800 533">

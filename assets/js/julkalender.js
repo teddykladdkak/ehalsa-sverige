@@ -17,7 +17,6 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vT90tUWUvDqVMGVvMKXG
                 }else{
                     var checkDate = dateInPast(luckaDatum);
                 };
-                /*if(results.data[a][5] == 'TRUE' || checkDate){*/
                 if(checkDate){
                     var obj = document.getElementById('julKalender' + results.data[a][0]);
                         obj.setAttribute('class', 'jul-kalender active');
