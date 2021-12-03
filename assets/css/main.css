@@ -639,7 +639,7 @@ a.cal-ev .cal-ev-col {
 .rwd-table tr:nth-child(even){
     background-color: #EEE;
 }
-.rwd-table tr:hover {
+.rwd-table tr:hover, .rwd-table tr:focus {
     cursor: pointer;
     color: #000;
     background-color: #{{ site.color.light }};
