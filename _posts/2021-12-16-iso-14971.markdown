@@ -8,7 +8,7 @@ author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
 image:
-  path: "/assets/images/post-head/500/IEC-62366-1.jpg"
+  path: "/assets/images/post-head/500/risk.jpg"
 video: false
 sitemap:
   lastmod: 2021-12-16
