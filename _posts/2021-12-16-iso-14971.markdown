@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Vad är ISO 14971 för riskhantering?"
+description: "Överblick av medicintekniska standarden ISO 14971 för riskhantering"
+date:   2021-12-16 08:00:00 +0200
+tags: Medicinteknik Standarder
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/IEC-62366-1.jpg"
+video: false
+sitemap:
+  lastmod: 2021-12-16
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+ISO 14971 (_Tillämpning av ett system för riskhantering för medicintekniska produkter_) är en standard för riskhantering för medicintekniska produkter. Om din eHälsoprodukt klassificeras som en medicinteknisk produkt kan det därför vara en god idé att efterleva standarden.
+
+<!--more-->
+
+{% include toc.md %}
+
+# Varför följa ISO 14971?
+Att bedöma och hantera risker är grundläggande för att utveckla säkra medicintekniska produkter. Vidare kräver EU:s medicintekniska förordning (MDR) att tillverkare av medicintekniska produkter har ett riskhanteringssystem. Att följa ISO 14971 kan vara ett sätt att förbättra din produkts säkerhet och samtidigt visa att du uppfyller det medicintekniska regelverkets krav på riskhantering.
+
+**Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
+# Hur följer man ISO 14971?
+Standarden beskriver sex steg för riskhantering enligt nedan. Aktiviteter och resultat ska dokumenteras i en riskhanteringsplan och i riskhanteringsfiler.
+## 1. Riskanalys
+Faror som kan uppstå identifieras utifrån produktens avsedda ändamål och möjlig felanvändning. För att senare kunna skapa tydligare åtgärder identifieras även situationer som leder fram till varje typ av fara. Sannolikheten och konsekvensen 
+
+Identifierade risker placeras vanligen in i en matris med sannolikheten för en fara på ena axeln och konsekvens om faran inträffar på den andra. För varje cell i matrisen definieras om risker i respektive position är acceptabla eller inte. En sådan matris skulle kunna se ut så här:
+
+![Exempel på risktabell](/assets/images/post-assets/risktabell.PNG "Exempel på risktabell")
+
+## 2. Riskvärdering
+Baserat på kriterierna som man har fastställt i sin riskhanteringsplan avgör man för varje risk om man behöver minska risken eller om risken kan accepteras.
+## 3. Riskkontroll
+Risker som anses oacceptabla behöver minskas. Risker kan minskas på tre sätt:
+
+* Produkten utformas för att vara säker
+* Säkerhetsåtgärder hos produkten
+* Information eller utbildning för att öka säkerheten
+
+Efter att ha genomfört riskminskningsåtgärder utvärderar man hur mycket av risken som kvarstår.
+## 4. Utvärdera övergripande kvarvarande risk
+Efter att ha åtgärdat alla oacceptabla risker utvärderas den sammantagna kvarstående risken utifrån kriterier som man har definierat i sin riskhanteringsplan. Resultatet av utvärderingen ska dokumenteras i ens riskhanteringsfil.
+## 5. Genomgång av riskhantering
+Innan produkten släpps ska tillverkaren gå igenom och dokumentera 
+
+* att riskhanteringsplanen har implementerats korrekt
+* att den övergripande kvarvarande risken är acceptabel
+* att det finns lämpliga system för att inhämta information från och efter produktion.
+
+## 6. Aktiviteter under och efter produktion
+Tillverkaren ska se till att det finns system för att inhämta och utvärdera information om produkten eller liknande produkter vid produkten och efter produktion. Denna information används sedan i förnyade riskbedömningar.
+
+# Slutsats
+ISO 14971 är den mest utbredda standarden för riskhantering för medicintekniska produkter. Genom att tidigt i produktutvecklingen arbeta enligt ISO 14971 kan man uppmärksamma och åtgärda risker som hade kunnat bli problem längre fram. Dessutom kan man visa myndigheter eller andra intressenter att man uppfyller det medicintekniska regelverkets krav på riskhantering.
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
