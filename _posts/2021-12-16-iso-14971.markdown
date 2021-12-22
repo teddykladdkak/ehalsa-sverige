@@ -37,7 +37,7 @@ Faror som kan uppstå identifieras utifrån produktens avsedda ändamål och mö
 
 Identifierade risker placeras vanligen in i en matris med sannolikheten för en fara på ena axeln och konsekvens om faran inträffar på den andra. För varje cell i matrisen definieras om risker i respektive position är acceptabla eller inte. En sådan matris skulle kunna se ut så här:
 
-![Exempel på risktabell](/assets/images/post-assets/risktabell.PNG "Exempel på risktabell")
+![Exempel på risktabell](/assets/images/post-assets/risktabell.svg "Exempel på risktabell")
 
 ## 2. Riskvärdering
 Baserat på kriterierna som man har fastställt i sin riskhanteringsplan avgör man för varje risk om man behöver minska risken eller om risken kan accepteras.
