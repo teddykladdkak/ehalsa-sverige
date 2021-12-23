@@ -51,7 +51,7 @@ Omfattningen på kraven i standarden beror på vilken säkerhetsklass som produk
 För att avgöra vilken säkerhetsklass ens produkt tillhör kan man använda följande flödesschema:
 
 
-![Säkerhetsklassificering enligt IEC 62304](/assets/images/post-assets/sakerhetsklassificering.png "Säkerhetsklassificering enligt IEC 62304")
+![Säkerhetsklassificering enligt IEC 62304](/assets/images/post-assets/sakerhetsklassificering.svg "Säkerhetsklassificering enligt IEC 62304")
 
 ## Process för mjukvaruutveckling
 I alla efterföljande krav i standarden framgår vilka säkerhetsklasser som kravet gäller för. Överlag har produkter i klass A minst krav och sådana i klass C flest.
