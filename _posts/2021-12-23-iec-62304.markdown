@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "Vad är IEC 62304 för mjukvara i medicinteknik?"
+description: "Överblick av medicintekniska standarden IEC 62304 för mjukvara"
+date:   2021-12-23 08:00:00 +0200
+tags: Medicinteknik Standarder
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/programmerare.jpg"
+video: false
+sitemap:
+  lastmod: 2021-12-23
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+IEC 62304 (_Elektrisk utrustning för medicinskt bruk - Livscykelprocesser för programvara_) är en standard som beskriver en metod för utveckling av mjukvara som klassas som medicinteknik. Om man utvecklar mjukvara som ingår i en medicinteknisk produkt eller som själv klassas som en medicinteknisk produkt kan det vara en god idé att följa standarden.
+
+<!--more-->
+
+{% include toc.md %}
+
+# Varför ska man följa IEC 62304?
+EU:s medicintekniska direktiv (_MDR_) ställer krav enligt följande i sina första bilaga:
+
+
+>I fråga om produkter som innehåller programvara eller i fråga om programvara som i sig är produkter ska programvaran utvecklas och tillverkas i enlighet med det allmänt erkända tekniska utvecklingsstadiet och med beaktande av principerna för utvecklingslivscykel, riskhantering, inbegripet informationssäkerhet, kontroll och validering.
+
+IEC 62304 kan vara ett sätt att uppfylla MDR:s krav. Samtidigt kan det underlätta för en att säkerställa kvaliteten på ens produkt.
+
+**Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
+# Hur följer man IEC 62304?
+Ett första steg är att bedöma vilken säkerhetsklass som ens produkt faller in under. Produktens säkerhetsklass avgör sedan vilka krav i standarden som man behöver uppfylla.
+## Säkerhetsklassificering
+Omfattningen på kraven i standarden beror på vilken säkerhetsklass som produkten faller in under:
+
+* Klass A om mjukvaran 
+* inte kan bidra till en farofylld situation.
+* kan bidra till en farofylld situation som inte resulterar i en risk som anses oacceptabel efter att ha tagit i beaktande åtgärder för riskkontroll utanför mjukvarusystemet.
+* Klass B om mjukvaran
+	* kan orsaka icke-allvarlig skada även efter att riskkontrollerande åtgärder utanför mjukvarusystemet har tagits i beaktande.
+* Klass C om mjukvaran
+	* kan orsaka allvarlig skada eller dödsfall även efter att riskkontrollerande åtgärder utanför mjukvarusystemet har tagits i beaktande.
+
+För att avgöra vilken säkerhetsklass ens produkt tillhör kan man använda följande flödesschema:
+
+
+![Säkerhetsklassificering enligt IEC 62304](/assets/images/post-assets/sakerhetsklassificering.png "Säkerhetsklassificering enligt IEC 62304")
+
+## Process för mjukvaruutveckling
+I alla efterföljande krav i standarden framgår vilka säkerhetsklasser som kravet gäller för. Överlag har produkter i klass A minst krav och sådana i klass C flest.
+
+Övergripande är kraven som tas upp:
+
+* plan för mjukvaruutvecklingen
+* plan för verifiering av mjukvaran
+* plan för riskhantering
+* dokumentation
+* plan för hantering av mjukvarukonfigurering
+* kravställning på mjukvaran
+* funktionalitet
+* in- och utdata
+* gränssnitt med andra system
+* varningar och andra meddelanden till användaren
+* säkerhet
+* användarvänlighet
+* krav på databaser
+* installation av mjukvaran där den ska användas
+* användning och underhåll
+	* användardokumentation
+* regulatoriska krav
+* verifiering av mjukvaran, inklusive dokumentation av detta
+* mjukvaruarkitektur
+* uppdelning av mjukvarukomponenter i mjukvaruenheter och detaljerad design av dessa
+* integration, testning och verifiering av mjukvaruenheter
+* testning och verifiering av mjukvaran på systemnivå
+* frisläppning av mjukvaran
+* plan för mjukvaruinnehåll, inklusive att samla in och hantera användaråterkoppling
+* process för problemhantering
+# Slutsatser
+Stegen som beskrivs i IEC 62304 ses ofta som förnuftiga och i linje med vanligt förekommande arbetssätt för mjukvaruutveckling. Att efterfölja standarden kan bidra till att kvalitetssäkra ens arbetsprocesser för att skapa bättre och säkrare mjukvara och samtidigt kunna betrygga myndigheter att man arbetar på ett säkert sätt.
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
