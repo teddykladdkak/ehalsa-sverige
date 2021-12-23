@@ -83,6 +83,8 @@ I alla efterföljande krav i standarden framgår vilka säkerhetsklasser som kra
 * frisläppning av mjukvaran
 * plan för mjukvaruinnehåll, inklusive att samla in och hantera användaråterkoppling
 * process för problemhantering
+
+
 # Slutsatser
 Stegen som beskrivs i IEC 62304 ses ofta som förnuftiga och i linje med vanligt förekommande arbetssätt för mjukvaruutveckling. Att efterfölja standarden kan bidra till att kvalitetssäkra ens arbetsprocesser för att skapa bättre och säkrare mjukvara och samtidigt kunna betrygga myndigheter att man arbetar på ett säkert sätt.
 
