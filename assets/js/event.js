@@ -2,10 +2,20 @@
 sitemap:
   exclude: 'yes'
 ---
-{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.local }}/event.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.live }}/event.json{%- endcapture -%}{%- endif -%}
+function handleEvent(e) {
+    var wrapper = document.getElementById('event-wrapper');
+    removeElements(wrapper);
+    var p = document.createElement('p');
+        var pT = document.createTextNode('Event kunde inte laddas.');
+        p.appendChild(pT);
+    wrapper.appendChild(p);
+    console.log(`Event kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+};
+{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.event.local }}{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.event.live }}{%- endcapture -%}{%- endif -%}
 var loadFile = function (filePath, done) {
     hideElement('eventLoader');
     var xhr = new XMLHttpRequest();
+        xhr.addEventListener('error', handleEvent);
         xhr.onload = function () { return done(this.responseText) }
         xhr.open("GET", encodeURI(filePath), true);
         xhr.send();

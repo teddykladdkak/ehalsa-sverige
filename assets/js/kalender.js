@@ -274,9 +274,21 @@ function getWidthView(){
         return 'listWeek';
     };
 };
-{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.local }}/kalender.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.live }}/kalender.json{%- endcapture -%}{%- endif -%}
+function handleEvent(e) {
+    var loader = document.getElementById('calendar');
+    removeElements(loader);
+    var wrapper = document.getElementsByClassName('calendarbody')[0];
+    var p = document.createElement('p');
+        p.setAttribute('style', 'padding-bottom: 20px;')
+        var pT = document.createTextNode('Data för kalender kunde inte laddas. Testa att ladda om sidan.');
+        p.appendChild(pT);
+    wrapper.appendChild(p);
+    console.log(`Kalender kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+};
+{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.event.local }}/kalender.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.event.live }}/kalender.json{%- endcapture -%}{%- endif -%}
 var loadFile = function (filePath, done) {
     var xhr = new XMLHttpRequest();
+        xhr.addEventListener('error', handleEvent);
         xhr.onload = function () { return done(this.responseText) }
         xhr.open("GET", encodeURI(filePath), true);
         xhr.send();

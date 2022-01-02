@@ -66,10 +66,20 @@ var mymap = L.map('karta1').setView([62.5, 17.5], 5);
         zoomOffset: -1,
         accessToken: 'pk.eyJ1IjoidGVkZHlrbGFkZGthayIsImEiOiJja3NsazF6aTkwcDQyMnBudTRveW40bDByIn0.UOrVx1Mt69ZPKCJEpdwwjQ'
     }).addTo(mymap);
-
-{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.local }}/karta.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.live }}/karta.json{%- endcapture -%}{%- endif -%}
+function handleEvent(e) {
+    removeElement('loader');
+    removeElement('filter');
+    var wrapper = document.getElementsByClassName('karta-list')[0];
+    var p = document.createElement('p');
+        var pT = document.createTextNode('Data för karta kunde inte laddas. Testa att ladda om sidan.');
+        p.appendChild(pT);
+    wrapper.appendChild(p);
+    console.log(`Karta kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+};
+{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.karta.local }}{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.karta.live }}{%- endcapture -%}{%- endif -%}
 var loadFile = function (filePath, done) {
     var xhr = new XMLHttpRequest();
+        xhr.addEventListener('error', handleEvent);
         xhr.onload = function () { return done(this.responseText) }
         xhr.open("GET", encodeURI(filePath), true);
         xhr.send();

@@ -17,6 +17,18 @@ social:
 serviceWorker: false
 
 microserver:
+  karta:
+    live: "https://karta.ehalsasverige.workers.dev/"
+    local: "http://localhost:9001"
+  event:
+    live: "https://event.ehalsasverige.workers.dev/"
+    local: "http://localhost:9002"
+  nyheter:
+    live: "https://nyheter.ehalsasverige.workers.dev/"
+    local: "http://localhost:9003"
+  artiklar:
+    live: "https://artiklar.ehalsasverige.workers.dev/"
+    local: "http://localhost:9004"
   live: "https://ehalsa-sverige-microserver.vercel.app"
   local: "http://localhost:3000"
 

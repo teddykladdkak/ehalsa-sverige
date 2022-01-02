@@ -1,8 +1,12 @@
 <div id="{{ include.id }}"></div>
 <script>
     function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
+    function handleEvent(e) {
+        console.log(`Nyheter kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+    };
     var loadFile = function (filePath, done) {
         var xhr = new XMLHttpRequest();
+            xhr.addEventListener('error', handleEvent);
             xhr.onload = function () { return done(this.responseText) }
             xhr.open("GET", encodeURI(filePath), true);
             xhr.send();

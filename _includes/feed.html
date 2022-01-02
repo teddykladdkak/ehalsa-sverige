@@ -2,6 +2,16 @@
     {% include loader.html id="feedLoader" style="display: none;" %}
 </div>
 <script>
+    function handleEvent(e) {
+        var wrapper = document.getElementById('{{ include.id }}');
+        removeElement('feedLoader');
+        var p = document.createElement('p');
+            p.setAttribute('style', 'margin: 0px;');
+            var pT = document.createTextNode('Artiklar kunde inte laddas.');
+            p.appendChild(pT);
+        wrapper.appendChild(p);
+        console.log(`Artiklar kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+    };
     var {{ include.id }}Url = "{{ include.url }}";
     var {{ include.id }}Icons = {
         pubmed: {
@@ -12,6 +22,7 @@
     var loadFile = function (filePath, done) {
         hideElement('feedLoader');
         var xhr = new XMLHttpRequest();
+            xhr.addEventListener('error', handleEvent);
             xhr.onload = function () { return done(this.responseText) }
             xhr.open("GET", encodeURI(filePath), true);
             xhr.send();
