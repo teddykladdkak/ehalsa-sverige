@@ -1,20 +1,44 @@
 <div id="{{ include.id }}"></div>
+{%- if site.url == "http://localhost:4000" -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.local }}{%- endcapture -%}{%- else -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.live }}{%- endcapture -%}{%- endif -%}
+{%- if site.url == "http://localhost:4000" -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.local }}{%- endcapture -%}{%- else -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.live }}{%- endcapture -%}{%- endif -%}
+{%- if site.url == "http://localhost:4000" -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.local }}{%- endcapture -%}{%- else -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.live }}{%- endcapture -%}{%- endif -%}
 <script>
     function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
-    function handleEvent(e) {
-        console.log(`Nyheter kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
-    };
-    var loadFile = function (filePath, done) {
-        var xhr = new XMLHttpRequest();
-            xhr.addEventListener('error', handleEvent);
-            xhr.onload = function () { return done(this.responseText) }
-            xhr.open("GET", encodeURI(filePath), true);
-            xhr.send();
-    };
-    var file = '{{ include.url }}';
-        loadFile(file, function (responseText) {
-            console.log('Nyheter: ' + JSON.parse(responseText).latestUpdate);
-            var data = JSON.parse(responseText).data;
+    async function loadNews(){
+        try {
+            const headers = {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            };
+            let initObject = {
+                method: 'GET',
+                mode: 'cors',
+                headers: headers
+            };
+            const ehalsomyndigheten = await fetch("{{ ehalsomyndigheten }}", initObject)
+                .then(function (response) {
+                    return response.json();
+                })
+                .catch(function (err) {
+                    console.log("Something went wrong!", err);
+                });
+            const skr = await fetch("{{ skr }}", initObject)
+                .then(function (response) {
+                    return response.json();
+                })
+                .catch(function (err) {
+                    console.log("Something went wrong!", err);
+                });
+            const socialstyrelsen = await fetch("{{ socialstyrelsen }}", initObject)
+                .then(function (response) {
+                    return response.json();
+                })
+                .catch(function (err) {
+                    console.log("Something went wrong!", err);
+                });
+            const combined = ehalsomyndigheten.data.concat(skr.data,socialstyrelsen.data);
+                combined.sort(function(a, b){return b.date.split(' ')[0].replace(/-/g, '') - a.date.split(' ')[0].replace(/-/g, '');});
+                combined.length = 5;
             var rubriker = ['Datum', 'Rubrik', 'Utgivare'];
             var wrapper = document.getElementById('{{ include.id }}');
                 var table = document.createElement('table');
@@ -29,22 +53,21 @@
                         };
                         thead.appendChild(theadline);
                     table.appendChild(thead);
-                    for (let i = 0; i < data.length; i++) {
+                    for (let i = 0; i < combined.length; i++) {
                         var line = document.createElement('tr');
-                            line.setAttribute('onclick', 'window.open("' + data[i].url + '", "_blank");');
+                            line.setAttribute('onclick', 'window.open("' + combined[i].url + '", "_blank");');
                             line.setAttribute('tabindex', '0');
                             line.setAttribute('onkeypress', 'handleEnter(this, event);');
                             var date = document.createElement('td');
-                                var datet = document.createTextNode(minDate(data[i].date));
+                                var datet = document.createTextNode(minDate(combined[i].date));
                                 date.appendChild(datet);
                             line.appendChild(date);
                             var title = document.createElement('td');
-                                var titleT = document.createTextNode(data[i].title);
+                                var titleT = document.createTextNode(combined[i].title);
                                 title.appendChild(titleT);
-                                //title.innerHTML = data[i].title;
                             line.appendChild(title);
                             var utgivare = document.createElement('td');
-                                var utgivaret = document.createTextNode(data[i].source);
+                                var utgivaret = document.createTextNode(combined[i].source);
                                 utgivare.appendChild(utgivaret);
                             line.appendChild(utgivare);
                         table.appendChild(line);
@@ -53,16 +76,15 @@
                         var footerCol = document.createElement('td');
                             footerCol.setAttribute('class', 'min');
                             footerCol.setAttribute('colspan', '3');
-                            var footerColT = document.createTextNode(JSON.parse(responseText).source);
+                            var footerColT = document.createTextNode(ehalsomyndigheten.source);
                             footerCol.appendChild(footerColT);
                         footer.appendChild(footerCol);
                     table.appendChild(footer);
                 wrapper.appendChild(table);
-                /*var smallText = document.createElement('p');
-                    smallText.setAttribute('class', 'min');
-                    var smallTextT = document.createTextNode(JSON.parse(responseText).source);
-                    smallText.appendChild(smallTextT);
-                wrapper.appendChild(smallText);*/
             hideElement('{{ include.toshow }}');
-        });
+        }catch (e) {
+            console.log('Failed to load news: ' + e);
+        };
+    };
+    loadNews();
 </script>

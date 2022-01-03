@@ -26,6 +26,15 @@ microserver:
   nyheter:
     live: "https://nyheter.ehalsasverige.workers.dev/"
     local: "http://localhost:9003"
+  nyheter_ehalsomyndigheten:
+    live: "https://nyheter-ehalsomyndigheten.ehalsasverige.workers.dev/"
+    local: "http://localhost:9005"
+  nyheter_skr:
+    live: "https://nyheter-skr.ehalsasverige.workers.dev/"
+    local: "http://localhost:9006"
+  nyheter_socialstyrelsen:
+    live: "https://nyheter-socialstyrelsen.ehalsasverige.workers.dev/"
+    local: "http://localhost:9007"
   artiklar:
     live: "https://artiklar.ehalsasverige.workers.dev/"
     local: "http://localhost:9004"
