@@ -25,14 +25,18 @@ footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/j
     <section class="post-card">
       <h2 style="display: none;">Senaste artiklarna</h2>
       {%- for post in site.posts limit:4 -%}
-      <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <p>
-                {{ post.title | escape }}
-            </p>
-            <p>
-            {{ post.date | date: date_format }}
-            </p>
+        <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
+          {%- assign date_format = site.minima.date_format | default: site.date_format -%}
+          <p>
+              {{ post.title | escape }}
+          </p>
+          <p>
+            {%- if post.date_uppdaterad -%}
+              {{ post.date_uppdaterad | date: date_format }}
+            {%- else -%}
+              {{ post.date | date: date_format }}
+            {%- endif -%}
+          </p>
         </a>
       {%- endfor -%}
     </section>

@@ -1,3 +1,4 @@
+{%- assign date_format = site.minima.date_format | default: site.date_format -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "sv" }}" class="no-js">
 
@@ -12,11 +13,15 @@
           <header class="posthead">
               <h1>{{ page.title }}</h1>
               <p>
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    {{ page.date | date: date_format }}
-                </time>
-                (Skriven av: {{ page.author.name }})
+                {%- if page.date_uppdaterad -%}
+                  Uppdaterad: 
+                  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateUpdated">
+                      {{ page.date_uppdaterad | date: date_format }}
+                  </time>
+                  <span class="min">(Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>)</span>
+                {%- else -%}
+                  Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+                {%- endif -%}
               </p>
           </header>
           <div class="postwrapper">
@@ -73,12 +78,15 @@
                     {% endfor %}
                     {% if sameTagCount >= minCommonTags %}
                       <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
-                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                         <p>
                             {{ post.title | escape }}
                         </p>
                         <p>
-                        {{ post.date | date: date_format }}
+                          {%- if post.date_uppdaterad -%}
+                            {{ post.date_uppdaterad | date: date_format }}
+                          {%- else -%}
+                            {{ post.date | date: date_format }}
+                          {%- endif -%}
                         </p>
                       </a>
                       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
