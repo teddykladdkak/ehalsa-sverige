@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Utbildningar i eHälsa"
+title:  "Utbildningar i eHälsa 2022"
 description: "Möjligheter för dig att utbilda dig i eHälsa"
 date:   2021-07-31 08:00:00 +0200
+date_uppdaterad: 2022-01-04 08:00:00 +0200
 tags: Utbildning Medicinteknik
 author:
   name: "Redaktionen"
@@ -13,7 +14,7 @@ video:
   src: "644964471?h=cc4dc20eea"
   title: "Utbildningar i eH&amp;auml;lsa"
 sitemap:
-  lastmod: 2021-07-31
+  lastmod: 2022-01-04
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -26,17 +27,27 @@ Vill du gå kurser eller till och med få examen i eHälsa? Här samlar vi utbil
 {% include toc.md %}
 
 ## Kurser och program på universitet
-Nedanstående avser kurser och program som kan tas hösten 2021.
+Nedanstående avser kurser och program som kan tas 2022.
 ### Högskolan Dalarna
 #### [Välfärdsteknik i vård och omsorg](http://www.du.se/redirect/course.aspx?language=sv&code=ASA24M&applicationcode=H38HN)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
 
+### Högskolan Väst
+#### [eHälsa och omvårdnadsinformatik](https://www.hv.se/utbildning/kurs/ehalsa-och-omvardnadsinformatik-deltid-distans-eho600)
+**Högskolepoäng:** 7,5\
+**Termin:** VT\
+**Nivå:** Avancerad nivå\
+**Undervisningsspråk:** Svenska\
+**Studietakt:** Kvartsfart
+
 ### Karolinska institutet
 #### [Masterprogrammet i hälsoinformatik](https://utbildning.ki.se/programme/5HI17/21-22)
 **Högskolepoäng:** 120\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Helfart
@@ -44,36 +55,49 @@ Nedanstående avser kurser och program som kan tas hösten 2021.
 ### Linnéuniversitetet
 #### [Masterprogram i eHälsa](https://lnu.se/program/masterprogram-i-ehalsa/kalmar-distans-deltid-ht/)
 **Högskolepoäng:** 120\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
 
-#### [eHälsa - en introduktion](https://lnu.se/kurs/1XN009/20212/06406)
+#### [eHälsa - en introduktion](https://lnu.se/kurs/ehalsa-en-introduktion/distans-deltid-vt/)
 **Högskolepoäng:** 7,5\
+**Termin:** VT, HT\
 **Nivå:** Grundnivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
 
 #### [eHälsa och läkemedel](https://lnu.se/kurs/4XN019/20212/07237)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
 
 #### [eHälsa för biomedicinska analytiker](https://lnu.se/kurs/4XN018/20212/06967)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
 
 #### [Introduktion till hälsoinformatik](https://lnu.se/kurs/4XN017/20212/06407)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Helfart
 
+#### [Utvärdering av eHälsa](https://lnu.se/kurs/utvardering-av-ehalsa/distans-deltid-vt/)
+**Högskolepoäng:** 7,5\
+**Termin:** VT\
+**Nivå:** Avancerad nivå\
+**Undervisningsspråk:** Svenska\
+**Studietakt:** Halvfart
+
 #### [Vetenskaplig metod och forskningsöversikt inom Hälsoinformatik](https://lnu.se/kurs/4XN014/20212/06408)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
@@ -81,6 +105,7 @@ Nedanstående avser kurser och program som kan tas hösten 2021.
 ### Linköpings universitet
 #### [E-hälsa: visioner och verktyg](https://liu.se/utbildning/kurs/8fa281)
 **Högskolepoäng:** 7,5\
+**Termin:** HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Engelska\
 **Studietakt:** Halvfart
@@ -88,13 +113,15 @@ Nedanstående avser kurser och program som kan tas hösten 2021.
 ### Lunds universitet
 #### [Informatik: Introduktion till eHälsa](http://www.lu.se/lubas/i-uoh-lu-INFA44/21311)
 **Högskolepoäng:** 7,5\
+**Termin:** VT, HT\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Engelska\
 **Studietakt:** Kvartsfart
 
 ### Röda korsets högskola
-#### [Medicinsk teknik, digitalisering och eHälsa](https://www.rkh.se/utbildning/fristaende-kurser/)
+#### [Medicinsk teknik, digitalisering och eHälsa](https://www.rkh.se/utbildning/fristaende-kurser/medicinsk-teknik-digitalisering-och-ehalsa/)
 **Högskolepoäng:** 7,5\
+**Termin:** Löpande\
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Svenska\
 **Studietakt:** Halvfart
