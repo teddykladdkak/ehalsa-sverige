@@ -3,7 +3,6 @@ layout: post
 title:  "Utbildningar i eHälsa 2022"
 description: "Möjligheter för dig att utbilda dig i eHälsa"
 date:   2021-07-31 08:00:00 +0200
-date_uppdaterad: 2022-01-04 08:00:00 +0200
 tags: Utbildning Medicinteknik
 author:
   name: "Redaktionen"

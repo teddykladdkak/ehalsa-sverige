@@ -13,14 +13,16 @@
           <header class="posthead">
               <h1>{{ page.title }}</h1>
               <p>
-                {%- if page.date_uppdaterad -%}
-                  Uppdaterad: 
-                  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateUpdated">
-                      {{ page.date_uppdaterad | date: date_format }}
-                  </time>
-                  <span class="min">(Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>)</span>
+                {% assign publicerad = page.date | date: date_format %}
+                {% assign uppdaterad = page.sitemap.lastmod | date: date_format %}
+                {%- if publicerad == uppdaterad -%}
+                  Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ publicerad }}</time>
                 {%- else -%}
-                  Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+                  Uppdaterad: 
+                  <time datetime="{{ page.sitemap.lastmod | date_to_xmlschema }}" itemprop="dateUpdated">
+                      {{ uppdaterad }}
+                  </time>
+                  <span class="min">(Publicerad: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ publicerad }}</time>)</span>
                 {%- endif -%}
               </p>
           </header>
@@ -82,10 +84,12 @@
                             {{ post.title | escape }}
                         </p>
                         <p>
-                          {%- if post.date_uppdaterad -%}
-                            {{ post.date_uppdaterad | date: date_format }}
+                          {% assign publicerad = post.date | date: date_format %}
+                          {% assign uppdaterad = post.sitemap.lastmod | date: date_format %}
+                          {%- if publicerad == uppdaterad -%}
+                            {{ publicerad }}
                           {%- else -%}
-                            {{ post.date | date: date_format }}
+                            {{ uppdaterad }}
                           {%- endif -%}
                         </p>
                       </a>

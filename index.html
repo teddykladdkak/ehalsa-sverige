@@ -24,17 +24,20 @@ footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/j
   {%- if site.posts.size > 0 -%}
     <section class="post-card">
       <h2 style="display: none;">Senaste artiklarna</h2>
-      {%- for post in site.posts limit:4 -%}
+      {% assign sortedPosts = site.posts | sort: 'sitemap.lastmod' | reverse %}
+      {%- for post in sortedPosts limit:4 -%}
         <a class="post-link mobile-min {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
           {%- assign date_format = site.minima.date_format | default: site.date_format -%}
           <p>
               {{ post.title | escape }}
           </p>
           <p>
-            {%- if post.date_uppdaterad -%}
-              {{ post.date_uppdaterad | date: date_format }}
+            {% assign publicerad = post.date | date: date_format %}
+            {% assign uppdaterad = post.sitemap.lastmod | date: date_format %}
+            {%- if publicerad == uppdaterad -%}
+              {{ publicerad }}
             {%- else -%}
-              {{ post.date | date: date_format }}
+              {{ uppdaterad }}
             {%- endif -%}
           </p>
         </a>

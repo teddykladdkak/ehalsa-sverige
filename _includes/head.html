@@ -90,7 +90,8 @@
     {% assign image_files = site.static_files | where: "image", true %}
     {% if page.backgrounds == "start" %}
         <style>
-            {%- for post in site.posts limit:4 -%}
+            {% assign sortedPosts = site.posts | sort: 'sitemap.lastmod' | reverse %}
+            {%- for post in sortedPosts limit:4 -%}
                 {%- capture check_webp -%}{{ post.image.path | replace: ".jpg", "" | replace: ".png", "" }}.webp{%- endcapture -%}
                 {%- assign todo_webp = false -%}{%- for static_file in image_files -%}{%- if static_file.path == check_webp -%}{%- assign todo_webp = true -%}{%- endif -%}{%- endfor -%}
                 {% if todo_webp %}
