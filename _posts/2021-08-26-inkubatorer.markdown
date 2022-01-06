@@ -278,4 +278,4 @@ Kontor i Linköping och Norrköping.\
 * Business Lab
 * Incubate
 
-_Hittat något fel eller har vi missat någon inkubator? [Kontakta oss!](/index.html#form-message](Kontakta oss!](/index.html#form-message))_
+_Hittat något fel eller har vi missat någon inkubator? [Kontakta oss!](/index.html#form-message)_

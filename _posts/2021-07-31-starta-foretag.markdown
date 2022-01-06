@@ -42,7 +42,7 @@ För att förverkliga de flesta visioner krävs ett team. Genom ta initiativ och
 ## Säkerställ finansiering
 De flesta företag behöver någon form av investering innan de blir lönsamma. Det finns flera sätt att skaffa finansiering, från banklån till riskkapital. De har olika för- och nackdelar, och vilket som passar ditt företag bäst kan därför skilja sig åt.
 
-**Läs mer:** Finansiering för startup-företag i eHälsa
+**Läs mer:** [Finansiering för startup-företag i eHälsa](/2021/11/25/finansiering-startup.html)
 ## Följ etablerade standarder
 Genom att från början arbeta enligt etablerade standarder underlättar ni framtida interoperabilitet, vilket kan vara av stort värde för er och era kunder. Dessutom kan lagar eller kunder ställa krav på er att arbeta utifrån standarder för exempelvis kvalitet eller informationssäkerhet.
 
