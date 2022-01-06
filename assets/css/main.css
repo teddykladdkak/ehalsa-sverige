@@ -909,6 +909,15 @@ a.cal-ev .cal-ev-col {
     .postbody table {
         font-size: .7rem;
     }
+    .postbody table td {
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
 }
 #snow nav, #snow footer { background-image: linear-gradient(rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }}27),rgba({{ site.color.shade.primary }}, {{ site.color.shade.opacity }})), url('/assets/images/ovrigt/snow.gif'); }
 @media only screen and (max-width: 600px) { #snow .dropdown-content { background: none; } }
