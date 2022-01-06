@@ -47,36 +47,163 @@ Kraven på evidens ökar med varje steg i risknivån:
 ![Risknivåer enligt NICE:s riktlinje](/assets/images/post-assets/nice.PNG "Risknivåer enligt NICE:s riktlinje")
 
 ### Nivå 1
-|Kategori |Minimikrav|Optimalt|
-|-------------------------------|---|---|
-| Trovärdighet hos vårdpersonal |Experter inom vård och omsorg har bedömt att verkningsmekanismen är användbar och relevant|Offentligt tillgänglig bevis för att experter inom vård och omsorg har deltagit i utveckling eller testning av lösningen|
-|Relevans för vägar inom vård och omsorg|Lösningen har använts framgångsrikt i pilotförsök i vården och att den kan utföra avsedd funktion i den skala som behövs|Framgångsrik implementering i vård och omsorg|
-|Acceptans hos användare|Representanter från avsedda användargrupper har deltagit i utveckling eller testning av lösningen. Data som visar användarnas nöjdhet med lösningen.|Offentligt tillgänglig bevis på att avsedda användargrupper ingick i utveckling eller testning av lösningen och att de är nöjda med lösningen.|
-|Jämlikhet|Om tillämpligt, bevis för att lösningen bidrar till att minska ojämlikhet i vård och omsorg|Bevis för att lösningen används för grupper som är svåra att nå.|
-|Exakta och tillförlitliga mätvärden (om tillämpligt)|Bevis för att data som genereras eller mäts är exakt, reproducerbar och relevant för omfattningen av värden i den avsedda populationen.|Samma som minimikravet|
-|Exakt och tillförlitlig dataöverföring (om tillämpligt)|Teknisk data som visar att data inte ändras vid överföring och inte påverkas av förväntade värden från den avsedda patientpopulationen.|Som minimikravet, men med kvantitativa data|
+<table>
+  <thead>
+    <tr>
+      <th>Kategori</th>
+      <th>Minimikrav</th>
+      <th>Optimalt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trovärdighet hos vårdpersonal</td>
+      <td>Experter inom vård och omsorg har bedömt att verkningsmekanismen är användbar och relevant</td>
+      <td>Offentligt tillgänglig bevis för att experter inom vård och omsorg har deltagit i utveckling eller testning av lösningen</td>
+    </tr>
+    <tr>
+      <td>Relevans för vägar inom vård och omsorg</td>
+      <td>Lösningen har använts framgångsrikt i pilotförsök i vården och att den kan utföra avsedd funktion i den skala som behövs</td>
+      <td>Framgångsrik implementering i vård och omsorg</td>
+    </tr>
+  <tr>
+    <td>Acceptans hos användare</td>
+    <td>Representanter från avsedda användargrupper har deltagit i utveckling eller testning av lösningen. Data som visar användarnas nöjdhet med lösningen.</td>
+    <td>Offentligt tillgänglig bevis på att avsedda användargrupper ingick i utveckling eller testning av lösningen och att de är nöjda med lösningen.</td>
+  </tr>
+  <tr>
+    <td>Jämlikhet</td>
+    <td>Om tillämpligt, bevis för att lösningen bidrar till att minska ojämlikhet i vård och omsorg</td>
+    <td>Bevis för att lösningen används för grupper som är svåra att nå.</td>
+  </tr>
+  <tr>
+    <td>Exakta och tillförlitliga mätvärden (om tillämpligt)</td>
+    <td>Bevis för att data som genereras eller mäts är exakt, reproducerbar och relevant för omfattningen av värden i den avsedda populationen.</td>
+    <td>Samma som minimikravet</td>
+  </tr>
+  <tr>
+    <td>Exakt och tillförlitlig dataöverföring (om tillämpligt)</td>
+    <td>Teknisk data som visar att data inte ändras vid överföring och inte påverkas av förväntade värden från den avsedda patientpopulationen.</td>
+    <td>Som minimikravet, men med kvantitativa data</td>
+  </tr>
+  </tbody>
+</table>
+
 ### Nivå 2
 Lösningen i nivå 2 behöver uppfylla kraven för nivå 1 samt följande:
 
-|Kategori |Minimikrav|Optimalt|
-|-------------------------------|---|---|
-|Pålitligt informationsinnehåll|Visa att all hälsoinformation som lösningen innehåller är korrekt, uppdaterad och tillräckligt omfattande.|Stöd från vedertagen organisation.|
-|Kontinuerlig datainsamling om användning av lösningen|Åtagande om att samla in data om användning av lösningen och att dela datan med beslutsfattare|Som minimikravet.|
-|Kontinuerlig datainsamling för att visa värdet av lösningen|Åtagande att kontinuerligt samla in data för att visa användarnas utfall eller nöjdhet och att visa detta för beslutsfattare|Som minimikravet.|
-|Kvalitet och användarskydd|Visa att lämpliga skydd för användare finns för kommunikation mellan användare. Förklara vem som har tillgång till lösningen och vilka roller de har.|Som minimikravet.|
+<table>
+  <thead>
+    <tr>
+      <th>
+        Kategori
+      </th>
+      <th>
+        Minimikrav
+      </th>
+      <th>
+        Optimalt
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Pålitligt informationsinnehåll
+      </td>
+      <td>
+        Visa att all hälsoinformation som lösningen innehåller är korrekt, uppdaterad och tillräckligt omfattande.
+      </td>
+      <td>
+        Stöd från vedertagen organisation.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Kontinuerlig datainsamling om användning av lösningen
+      </td>
+      <td>
+        Åtagande om att samla in data om användning av lösningen och att dela datan med beslutsfattare
+      </td>
+      <td>
+        Som minimikravet.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Kontinuerlig datainsamling för att visa värdet av lösningen
+      </td>
+      <td>
+        Åtagande att kontinuerligt samla in data för att visa användarnas utfall eller nöjdhet och att visa detta för beslutsfattare
+      </td>
+      <td>
+        Som minimikravet.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Kvalitet och användarskydd
+      </td>
+      <td>
+        Visa att lämpliga skydd för användare finns för kommunikation mellan användare. Förklara vem som har tillgång till lösningen och vilka roller de har.
+      </td>
+      <td>
+        Som minimikravet.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Nivå 3a
 Lösningar i nivå 3a behöver uppfylla kraven för nivå 1 och 2 samt följande:
 
-|Kategori |Minimikrav|Optimalt|
-|-------------------------------|---|---|
-|Påvisa effektivitet|Högkvalitativa observationella eller kvasiexperimentella studier med relevanta utfallsmått.|Högkvalitativa interventionsstudier med kontrollgrupper.|
-|Använda lämpliga tekniker för beteendeförändring (om tillämpligt).|Visa att tekniker som används är i linje med etablerade metoder för beteendeförändring och anpassade till den avsedda användargruppen.|Publicerade bevis på att teknikerna för beteendeförändring är baserade på publicerade metoder och lämpliga för den avsedda användargruppen.|
+<table>
+  <thead>
+    <tr>
+      <th>
+        Kategori
+      </th>
+      <th>
+        Minimikrav
+      </th>
+      <th>
+        Optimalt
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Påvisa effektivitet
+      </td>
+      <td>
+        Högkvalitativa observationella eller kvasiexperimentella studier med relevanta utfallsmått.
+      </td>
+      <td>
+        Högkvalitativa interventionsstudier med kontrollgrupper.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Använda lämpliga tekniker för beteendeförändring (om tillämpligt).
+      </td>
+      <td>
+        Visa att tekniker som används är i linje med etablerade metoder för beteendeförändring och anpassade till den avsedda användargruppen.
+      </td>
+      <td>
+        Publicerade bevis på att teknikerna för beteendeförändring är baserade på publicerade metoder och lämpliga för den avsedda användargruppen.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Nivå 3b
 Lösningar i nivå 3b behöver uppfylla kraven för nivå 1 och 2 samt följande:
 
-|Kategori |Minimikrav|Optimalt|
+| Kategori | Minimikrav| Optimalt |
 |-------------------------------|---|---|
-|Påvisa effektivitet|Högkvalitativ interventionsstudie som visar förbättring i relevanta utfall.|Högkvalitativ randomiserad kontrollerad studie.|
+| Påvisa effektivitet | Högkvalitativ interventionsstudie som visar förbättring i relevanta utfall. | Högkvalitativ randomiserad kontrollerad studie. |
+
 # Slutsatser
 Oavsett om du planerar att sälja din eHälsolösning i Förenade kungariket eller inte kan [NICE:s riktlinjer](https://www.nice.org.uk/Media/Default/About/what-we-do/our-programmes/evidence-standards-framework/digital-evidence-standards-framework.pdf) vara användbar vägledning för att visa värdet i din eHälsolösning.
 
