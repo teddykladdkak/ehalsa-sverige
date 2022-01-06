@@ -477,6 +477,14 @@ a.cal-ev .cal-ev-col {
     width: 200px;
     height: 200px;
 }
+.postbody .posttext {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.postbody .posttext h1, .postbody .posttext h2, .postbody .posttext h3, .postbody .posttext h4, .postbody .posttext p, .postbody .posttext label {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .postbody a {
     -ms-word-break: break-all;
     word-break: break-all;
