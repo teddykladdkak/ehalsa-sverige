@@ -285,7 +285,7 @@ function handleEvent(e) {
     wrapper.appendChild(p);
     console.log(`Kalender kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
 };
-{%- if site.url == "http://localhost:4000" -%}{%- capture eventlink -%}{{ site.microserver.event.local }}/kalender.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.event.live }}/kalender.json{%- endcapture -%}{%- endif -%}
+{%- if site.url == "http://0.0.0.0:4000" -%}{%- capture eventlink -%}{{ site.microserver.event.local }}/kalender.json{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.event.live }}/kalender.json{%- endcapture -%}{%- endif -%}
 var loadFile = function (filePath, done) {
     var xhr = new XMLHttpRequest();
         xhr.addEventListener('error', handleEvent);

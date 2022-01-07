@@ -1,7 +1,7 @@
-<div id="{{ include.id }}"></div>
-{%- if site.url == "http://localhost:4000" -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.local }}{%- endcapture -%}{%- else -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.live }}{%- endcapture -%}{%- endif -%}
-{%- if site.url == "http://localhost:4000" -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.local }}{%- endcapture -%}{%- else -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.live }}{%- endcapture -%}{%- endif -%}
-{%- if site.url == "http://localhost:4000" -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.local }}{%- endcapture -%}{%- else -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.live }}{%- endcapture -%}{%- endif -%}
+<div id="{{ include.id }}" data-test="{{ site.url }}"></div>
+{%- if site.url == "http://0.0.0.0:4000" -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.local }}{%- endcapture -%}{%- else -%}{%- capture ehalsomyndigheten -%}{{ site.microserver.nyheter_ehalsomyndigheten.live }}{%- endcapture -%}{%- endif -%}
+{%- if site.url == "http://0.0.0.0:4000" -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.local }}{%- endcapture -%}{%- else -%}{%- capture skr -%}{{ site.microserver.nyheter_skr.live }}{%- endcapture -%}{%- endif -%}
+{%- if site.url == "http://0.0.0.0:4000" -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.local }}{%- endcapture -%}{%- else -%}{%- capture socialstyrelsen -%}{{ site.microserver.nyheter_socialstyrelsen.live }}{%- endcapture -%}{%- endif -%}
 <script>
     function handleEnter(el, e){if(e.keyCode == '13'){el.click();};};
     async function loadNews(){

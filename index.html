@@ -73,7 +73,7 @@ footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/j
     <div class="col-2-in">
       <h2 class="h3">Senaste forskningen om eHälsa</h2>
       <div id="feedWrapper" class="mobile-min">
-        {%- if site.url == "http://localhost:4000" -%}{%- capture articlelink -%}{{ site.microserver.artiklar.local }}{%- endcapture -%}{%- else -%}{%- capture articlelink -%}{{ site.microserver.artiklar.live }}{%- endcapture -%}{%- endif -%}
+        {%- if site.url == "http://0.0.0.0:4000" -%}{%- capture articlelink -%}{{ site.microserver.artiklar.local }}{%- endcapture -%}{%- else -%}{%- capture articlelink -%}{{ site.microserver.artiklar.live }}{%- endcapture -%}{%- endif -%}
         {% include feed.html id="feedContent" antal="3" url=articlelink %}
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28ehealth%29+OR+%28e-health%29%29+OR+%28%22digital+health%22%29&sort=date" title="Till sökning i PubMed" target="_blank" rel="noopener noreferrer">Mer artiklar (PubMed)</a></p>
       </div>
