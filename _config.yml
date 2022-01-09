@@ -38,6 +38,9 @@ microserver:
   artiklar:
     live: "https://ehalsasverige.se/feed/artiklar/pubmed.json"
     local: "http://localhost:9004"
+  kontakt:
+    live: "https://ehalsasverige.se/kontakt/post"
+    local: "http://localhost:9008"
   live: "https://ehalsa-sverige-microserver.vercel.app"
   local: "http://localhost:3000"
 
