@@ -19,27 +19,27 @@ serviceWorker: false
 microserver:
   karta:
     live: "https://ehalsasverige.se/feed/karta.json"
-    local: "http://0.0.0.0:9001"
+    local: "http://localhost:9001"
   event:
     live: "https://ehalsasverige.se/feed/event.json"
-    local: "http://0.0.0.0:9002"
+    local: "http://localhost:9002"
   nyheter:
     live: "https://ehalsasverige.se/feed/nyheter/all.json"
-    local: "http://0.0.0.0:9003"
+    local: "http://localhost:9003"
   nyheter_ehalsomyndigheten:
     live: "https://ehalsasverige.se/feed/nyheter/ehalsomyndigheten.json"
-    local: "http://0.0.0.0:9005"
+    local: "http://localhost:9005"
   nyheter_skr:
     live: "https://ehalsasverige.se/feed/nyheter/skr.json"
-    local: "http://0.0.0.0:9006"
+    local: "http://localhost:9006"
   nyheter_socialstyrelsen:
     live: "https://ehalsasverige.se/feed/nyheter/socialstyrelsen.json"
-    local: "http://0.0.0.0:9007"
+    local: "http://localhost:9007"
   artiklar:
     live: "https://ehalsasverige.se/feed/artiklar/pubmed.json"
-    local: "http://0.0.0.0:9004"
+    local: "http://localhost:9004"
   live: "https://ehalsa-sverige-microserver.vercel.app"
-  local: "http://0.0.0.0:3000"
+  local: "http://localhost:3000"
 
 #Date
 date_format: "%-d/%-m %Y"
