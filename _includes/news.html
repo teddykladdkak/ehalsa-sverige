@@ -53,6 +53,7 @@
     var newsData = [];
     function handleEvent(e) {
         console.log(`Nyhet kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+        errorPost(`Nyhet kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
     };
     var loadFile = function (filePath, done) {
         var xhr = new XMLHttpRequest();

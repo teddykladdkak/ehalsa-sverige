@@ -75,6 +75,7 @@ function handleEvent(e) {
         p.appendChild(pT);
     wrapper.appendChild(p);
     console.log(`Karta kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+    errorPost(`Karta kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
 };
 {%- if site.url == "http://0.0.0.0:4000" -%}{%- capture eventlink -%}{{ site.microserver.karta.local }}{%- endcapture -%}{%- else -%}{%- capture eventlink -%}{{ site.microserver.karta.live }}{%- endcapture -%}{%- endif -%}
 var loadFile = function (filePath, done) {

@@ -11,6 +11,7 @@
             p.appendChild(pT);
         wrapper.appendChild(p);
         console.log(`Artiklar kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
+        errorPost(`Artiklar kunde inte laddas pga: "${e.type}" (${e.loaded} bytes transferred)`);
     };
     var {{ include.id }}Url = "{{ include.url }}";
     var {{ include.id }}Icons = {
