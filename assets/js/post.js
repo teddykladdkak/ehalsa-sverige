@@ -5,6 +5,7 @@ sitemap:
 {%- if site.url == "http://0.0.0.0:4000" -%}{%- capture postlink -%}{{ site.microserver.kontakt.local }}{%- endcapture -%}{%- else -%}{%- capture postlink -%}{{ site.microserver.kontakt.live }}{%- endcapture -%}{%- endif -%}
 function handlePostEvent(e) {
     console.log(`Kunde inte skicka meddelande pga: "${e.type}" (${e.loaded} bytes transferred)`);
+    errorPost(`Kunde inte skicka meddelande pga: "${e.type}" (${e.loaded} bytes transferred)`);
 };
 var postXhr = new XMLHttpRequest();
     postXhr.addEventListener('error', handlePostEvent);
