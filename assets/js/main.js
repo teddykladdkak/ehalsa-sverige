@@ -24,4 +24,10 @@ window.addEventListener("load", function(){
     if(!getParameterByName('snow')){}else{document.getElementsByTagName('body')[0].setAttribute('id','snow');};
 });
 {%- if site.url == "http://0.0.0.0:4000" -%}{%- capture postlink -%}{{ site.microserver.kontakt.local }}{%- endcapture -%}{%- else -%}{%- capture postlink -%}{{ site.microserver.kontakt.live }}{%- endcapture -%}{%- endif -%}
-function errorPost(meddelande){ var postXhr = new XMLHttpRequest(); postXhr.open('POST', '{{ postlink }}', true); postXhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); postXhr.send('meddelande=err&error=' + meddelande); };
+function errorPost(meddelande){
+  {% if site.url != "http://0.0.0.0:4000"%}
+    var postXhr = new XMLHttpRequest(); postXhr.open('POST', '{{ postlink }}', true); postXhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); postXhr.send('meddelande=err&error=' + meddelande);
+  {% else %}
+    console.log('errorPost() används inte pga lokal miljö.');
+  {%- endif -%}
+};
