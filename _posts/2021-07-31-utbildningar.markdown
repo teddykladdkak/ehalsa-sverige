@@ -13,7 +13,7 @@ video:
   src: "644964471?h=cc4dc20eea"
   title: "Utbildningar i eH&amp;auml;lsa"
 sitemap:
-  lastmod: 2022-01-04
+  lastmod: 2022-01-25
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -116,6 +116,14 @@ Nedanstående avser kurser och program som kan tas 2022.
 **Nivå:** Avancerad nivå\
 **Undervisningsspråk:** Engelska\
 **Studietakt:** Kvartsfart
+
+### Mälardalens universitet
+#### [Master­programmet i hälso- och välfärdsteknik](https://www.mdh.se/utbildning/program/masterprogrammet-i-halso--och-valfardsteknik)
+**Högskolepoäng:** 120\
+**Termin:** HT\
+**Nivå:** Avancerad nivå\
+**Undervisningsspråk:** Svenska\
+**Studietakt:** Halvfart
 
 ### Röda korsets högskola
 #### [Medicinsk teknik, digitalisering och eHälsa](https://www.rkh.se/utbildning/fristaende-kurser/medicinsk-teknik-digitalisering-och-ehalsa/)
