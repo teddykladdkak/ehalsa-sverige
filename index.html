@@ -7,7 +7,7 @@ sitemap:
   lastmod: 2021-07-27
   priority: 0.9
   changefreq: 'weekly'
-footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/js/post.js" defer></script>'
+footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/js/post.js" defer></script><script src="/assets/js/artiklar.js" defer></script><script src="/assets/js/nyheter.js" defer></script>'
 ---
 <div class="change-order-mobile change-order">
   <section class="col-2 max">
@@ -73,15 +73,16 @@ footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/j
     <div class="col-2-in">
       <h2 class="h3">Senaste forskningen om eHälsa</h2>
       <div id="feedWrapper" class="mobile-min">
-        {%- if site.url == "http://0.0.0.0:4000" -%}{%- capture articlelink -%}{{ site.microserver.artiklar.local }}{%- endcapture -%}{%- else -%}{%- capture articlelink -%}{{ site.microserver.artiklar.live }}{%- endcapture -%}{%- endif -%}
-        {% include feed.html id="feedContent" antal="3" url=articlelink %}
+        <div id="feedContent" class="news-list">
+          {% include loader.html id="feedLoader" style="display: none;" %}
+        </div>
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28ehealth%29+OR+%28e-health%29%29+OR+%28%22digital+health%22%29&sort=date" title="Till sökning i PubMed" target="_blank" rel="noopener noreferrer">Mer artiklar (PubMed)</a></p>
       </div>
     </div>
   </section>
   <section class="col-1 max" id="shownyheter" style="display: none;">
     <h3>Senaste nyheterna om eHälsa</h3>
-    {% include news.html id="newsContent" toshow="shownyheter" %}
+    <div id="newsContent"></div>
   </section>
   {%- include modal.html id="sendSuccess" class="modal-small" content="<img src=\"/assets/images/illustration/mail.svg\" width=\"200\" height=\"200\" class=\"modal-head-image\" alt=\"Mail illustration\"><p>Meddelande skickades!</p>" -%}
   {%- include modal.html id="sendError" class="modal-small" content="<img src=\"/assets/images/illustration/error.svg\" width=\"200\" height=\"200\" class=\"modal-head-image\" alt=\"Mail error\"><p>Meddelande kunde tyvärr inte skickas.</p>" -%}
