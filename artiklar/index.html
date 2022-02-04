@@ -7,46 +7,74 @@ sitemap:
   priority: 0.8
   changefreq: 'weekly'
 ---
-<h1>Artiklar</h1>
-{%- if site.posts.size > 0 -%}
-  <div class="post-list">
-    {% for post in paginator.posts %}
-      <a class="post-link {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
-          <article>
-              <header>
-                  {%- assign date_format = site.minima.date_format | default: site.date_format -%}
-                  <h3>{{ post.title | escape }}</h3>
-                  <p>
-                    {% assign publicerad = post.date | date: date_format %}
-                    {% assign uppdaterad = post.sitemap.lastmod | date: date_format %}
-                    {%- if publicerad == uppdaterad -%}
-                      {{ publicerad }}
-                    {%- else -%}
-                      {{ uppdaterad }} (Publicerad: {{ publicerad }})
-                    {%- endif -%}
-                  </p>
-              </header>
-              <p class="post-content mobile-min">
-                {{ post.excerpt | strip_html | truncate: 250, '...' }}
-              </p>
-          </article>
-      </a>
-    {%- endfor -%}
-  </div>
-{%- endif -%}
-
-
-<!-- Pagination links -->
-<div class="pagination">
-  <a href="{{ paginator.previous_page_path }}" class="button"{% if paginator.previous_page %}{% else %} style="visibility: hidden;"{% endif %}>
-    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
-    <span class="mobile-hidden"> Föregående</span>
-  </a>
-  <span class="page_number ">
-    Sida: {{ paginator.page }} av {{ paginator.total_pages }}
-  </span>
-  <a href="{{ paginator.next_page_path }}" class="button"{% if paginator.next_page %}{% else %} style="visibility: hidden;"{% endif %}>
-    <span class="mobile-hidden">Nästa </span>
-    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
-  </a>
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="Sök...">
 </div>
+<h1>Artiklar</h1>
+<div class="post-list" id="results-container">
+
+</div>
+<div id="main-container">
+  {%- if site.posts.size > 0 -%}
+    <div class="post-list">
+      {% for post in paginator.posts %}
+        <a class="post-link {{ post.image.path | slugify: "latin" }}" href="{{ post.url | relative_url }}">
+            <article>
+                <header>
+                    {%- assign date_format = site.minima.date_format | default: site.date_format -%}
+                    <h3>{{ post.title | escape }}</h3>
+                    <p>
+                      {% assign publicerad = post.date | date: date_format %}
+                      {% assign uppdaterad = post.sitemap.lastmod | date: date_format %}
+                      {%- if publicerad == uppdaterad -%}
+                        {{ publicerad }}
+                      {%- else -%}
+                        {{ uppdaterad }} (Publicerad: {{ publicerad }})
+                      {%- endif -%}
+                    </p>
+                </header>
+                <p class="post-content mobile-min">
+                  {{ post.excerpt | strip_html | truncate: 250, '...' }}
+                </p>
+            </article>
+        </a>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    <a href="{{ paginator.previous_page_path }}" class="button"{% if paginator.previous_page %}{% else %} style="visibility: hidden;"{% endif %}>
+      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+      <span class="mobile-hidden"> Föregående</span>
+    </a>
+    <span class="page_number ">
+      Sida: {{ paginator.page }} av {{ paginator.total_pages }}
+    </span>
+    <a href="{{ paginator.next_page_path }}" class="button"{% if paginator.next_page %}{% else %} style="visibility: hidden;"{% endif %}>
+      <span class="mobile-hidden">Nästa </span>
+      <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+    </a>
+  </div>
+</div>
+
+<script src="/assets/js/search-script.js" type="text/javascript"></script>
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<a class="post-link" href="{url}" style="background-image: linear-gradient(0deg, rgba(30, 40, 69,1) 40%, rgba(30, 40, 69,0) 100%), linear-gradient(rgba(84, 114, 197, 0.327),rgba(84, 114, 197, 0.3)), url({img});"><article><header><h3>{title}</h3><p>{date}</p></header><p class="post-content mobile-min">{excerpt}</p></article></a>',
+    noResultsText: 'Hittar inga artiklar',
+    mainConatainer: 'main-container',
+    limit: 5,
+    success: function(){
+      if(!getParameterByName('sok')){}else{
+        console.log(getParameterByName('sok'));
+        //document.getElementById('search-input').value = getParameterByName('sok');
+        document.getElementById('search-input').select();
+      };
+    }
+})
+</script>
