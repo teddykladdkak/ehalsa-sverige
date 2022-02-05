@@ -71,8 +71,9 @@ SimpleJekyllSearch({
     limit: 5,
     success: function(){
       if(!getParameterByName('sok')){}else{
-        console.log(getParameterByName('sok'));
-        //document.getElementById('search-input').value = getParameterByName('sok');
+        if(getParameterByName('sok') != 'true'){
+          document.getElementById('search-input').value = decodeURI(getParameterByName('sok'));
+        };
         document.getElementById('search-input').select();
       };
     }
