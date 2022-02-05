@@ -398,8 +398,14 @@
             debounce(function () { search(e.target.value) }, options.debounceTime)
           }
         })
+        options.searchInput.addEventListener('keyup', function (e) {
+          if(e.keyCode == 13){
+            options.searchInput.blur();
+          };
+        })
+        debounce(function () { search(options.searchInput.value) }, options.debounceTime)
       }
-      
+
       function hideSearch() {
         document.getElementById(options.mainConatainer).removeAttribute('style');
         options.resultsContainer.setAttribute('style', 'display: none;');
