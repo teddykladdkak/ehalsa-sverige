@@ -45,6 +45,7 @@ Förordningen beskriver även krav på anmälda organ (organisationer som säker
 
 **Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)\
 **Läs mer:** Vad innebär CE-märkning?
+
 ## Dataskyddsförordningen (GDPR) {#gdpr}
 GDPR reglerar hur organisationer får hantera personuppgifter i EU. Personuppgifter kan innebära sådant som direkt identifierar en fysisk person (t.ex. namn och adress) men även information som indirekt kan härledas till en person, exempelvis ip-adresser.
 
