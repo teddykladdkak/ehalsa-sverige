@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Implementation av eHälsolösningar del 2: egenskaper hos lösningen"
-description: "Hur eHälsolösningars egenskaper kan påverka hur det går att implementera dem i vården"
+title:  "Implementation av eHälsolösningar del 3: miljö- och individfaktorer"
+description: "Hur miljön som eHälsolösningar ska implementeras i kan påverka implementationens framgång"
 date:   2022-02-17 08:00:00 +0200
 tags: Forskning Företag Utbildning 
 author:
