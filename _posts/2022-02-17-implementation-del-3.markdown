@@ -70,6 +70,6 @@ Strategier för att motverka negativa attityder är utbildning, att inkludera sl
 
 Datorvanan bland dem som ska använda eHälsolösningen kan också spela en stor roll och bör vara något man tar hänsyn till redan i lösningens utformning och utveckling. Om datorvanan fortfarande är ett hinder kan man fråga sig om det behövs fler utbildningsinsatser eller om man helt enkelt ska acceptera att inte alla ska använda lösningen.
 
-
+Läs vidare i [den sista delen](/2022/03/03/implementation-del-4.html) om implementationsprocessen.
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_

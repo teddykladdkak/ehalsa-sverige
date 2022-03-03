@@ -44,7 +44,7 @@ Ross m.fl. delade upp faktorer som påverkar implementation av eHälsoprodukter 
 
 Dessutom anger vissa forskare __tid__ som en ytterligare en faktor.
 
-I de kommande artiklarna i serien kommer vi att titta närmare på varje kategori av faktorer.
+I de kommande tre artiklarna i serien kommer vi att titta närmare på varje kategori av faktorer. Läs del två om innovationens egenskaper [här](/2022/02/02/implementation-del-2.html).
 
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_

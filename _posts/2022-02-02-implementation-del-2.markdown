@@ -65,7 +65,7 @@ Kostnaden anses ofta vara det största hindret för implementation av eHälsolö
 
 Att ha tydligt för sig vilka kostnader lösningen ger upphov till, i förhållande till vilka besparingar den bidrar till, är en förutsättning för att kunna fatta ett välgrundat beslut om lösningen bör införas över huvud taget.
 
-Nästa artikel i serien kommer att handla om den yttre miljön som implementationen sker inom.
+Läs vidare i del [tre](/2022/02/17/implementation-del-3.html) om miljön som implementationen sker inom.
 
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
