@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journalsystem i Sverige 2021"
+title:  "Journalsystem i Sverige 2022"
 description: "Förteckning över journalsystem i primär- och sjukhusvård"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital_vård Journalsystem
@@ -13,7 +13,7 @@ video:
   src: "644964040?h=5700d5b07d"
   title: "Journalsystem i Sverige"
 sitemap:
-  lastmod: 2021-07-30
+  lastmod: 2022-03-16
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
