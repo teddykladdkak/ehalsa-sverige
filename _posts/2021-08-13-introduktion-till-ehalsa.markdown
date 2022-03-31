@@ -56,6 +56,8 @@ Vanligt förekommande svårigheter med att uppnå potentialen hos eHälsa är
 * etiska och juridiska problem kring exempelvis vilka aktörer som ska ha tillgång till hälsoinformation
 * överdrivna förväntningar – att uppnå potentialen hos nya lösningar tar ofta tid, och många kan bli besvikna när man inte ser resultat direkt.
 
+**Läs mer:** [Kritik mot eHälsa](/2021/10/21/kritik-mot-ehalsa.html)
+
 ## Vilka sysslar med eHälsa i Sverige?
 En mängd aktörer ingår i Sveriges ekosystem för eHälsa:
 
@@ -72,6 +74,9 @@ En mängd aktörer ingår i Sveriges ekosystem för eHälsa:
 
 ## Hur kan jag lära mig mer?
 eHälsa Sverige har ett flertal artiklar för dig som vill lära dig mer om eHälsa, oavsett om du är patient, utvecklare eller beslutsfattare. Dessutom har vi samlat utbildningar i eHälsa som du kan delta i.
+
+**Läs mer:** [Utbildningar inom eHälsa](/2021/07/31/utbildningar.html)
+
 ## Parentes: Hur skriver jag ordet “eHälsa” (eller “e-hälsa”)?
 Både “eHälsa” och “e-hälsa” anses korrekta. Vi har valt att använda “eHälsa” för att det blir enklare att använda i ett internetdomännamn. Ofta används numera begreppet “digital hälsa” som synonym.
 
