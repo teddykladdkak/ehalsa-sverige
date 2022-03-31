@@ -82,6 +82,7 @@ nav ul li {
     padding: 0.5rem;
 }
 nav ul li a {
+    white-space: nowrap;
     color: #FFF;
     text-decoration: none;
     border-bottom: solid 2px transparent;
@@ -147,9 +148,6 @@ h1 {
 .err-message {
     font-size: 1rem;
 }
-.light-bg {
-    background-color: #{{ site.color.light }};
-}
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -212,7 +210,7 @@ select {
 }
 .kategorier-lista {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .kategorier-lista a {
     display: inline-block;
@@ -221,10 +219,10 @@ select {
     background-position: center;
     text-align: left;
     font-weight: 500;
-    font-size: 1rem;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    font-size: 0.8rem;
+    width: 150px;
+    height: 80px;
+    margin: 5px;
     padding: 10px;
     color: #FFF;
     background-color: #{{ site.color.dark }};
@@ -319,7 +317,7 @@ footer svg {
 .center {
     text-align: center;
 }
-.col-str {
+.col-str, .col-top {
     align-items: stretch;
 }
 .kontakt, .event {
@@ -337,10 +335,12 @@ footer svg {
 .event .h3 a:hover {
     text-decoration: underline;
 }
-.kontakt {
-    background-image: url(/assets/images/illustration/contact.svg);
+.kontakt, .dark-bg {
     color: #FFF;
     background-color: #{{ site.color.dark }};
+}
+.kontakt {
+    background-image: url(/assets/images/illustration/contact.svg);
 }
 .kontakt p {
     max-width: 500px;
@@ -359,9 +359,11 @@ footer svg {
     max-width: 400px;
     min-height: 200px;
 }
+.event, .light-bg {
+    background-color: #{{ site.color.light }};
+}
 .event {
     background-image: url(/assets/images/illustration/cal.svg);
-    background-color: #{{ site.color.light }};
     padding-bottom: 20px;
 }
 a.cal-ev {
@@ -596,6 +598,7 @@ a.cal-ev .cal-ev-col {
     margin-top: -2px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
@@ -849,8 +852,8 @@ a.cal-ev .cal-ev-col {
     #mainMenu {
         align-items: center;
     }
-    .postwrapper {
-        flex-direction: column-reverse;
+    .postwrapper, .mobile-reverse {
+        flex-direction: column-reverse!important;
     }
     .postwrapper .sticky {
         position: relative;
