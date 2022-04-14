@@ -29,24 +29,24 @@ Rekommendationerna bygger på en [översiktsartikel](https://implementationscien
 
 {% include toc.md %}
 
-# Den yttre miljön
+## Den yttre miljön
 Den yttre miljön syftar på omständigheter i samhället som påverkar implementationen.
 
-## Politiskt sammanhang
+### Politiskt sammanhang
 Grundförutsättningarna för att införa ett eHälsolösning skapas ofta av politiska, juridiska och samhälleliga omständigheter. Finns det en politisk vilja att satsa på lösningen? Betraktas problemet som produkten ska lösa som prioriterat? Om inte kan man riskera att arbeta i motvind redan från start.
 
 Omvänt kan politiker eller andra makthavare inom organisationer skapa incitament för företag att lösa prioriterade problem. Finansiella incitament kan innebära att avsätta budget för införandet, att ersätta utgifter i efterhand eller målbaserade incitamentsystem.
 
-## Lagstiftning
+### Lagstiftning
 Som leverantör eller inköpare av eHälsoprodukter måste man ha koll på lagstiftningen som påverkar området. Korrekt datahantering är grundläggande, men även exempelvis regler för medicintekniska produkter kan ha stor betydelse.
 
 **Läs mer:** [Lagar som påverkar eHälsa](/2021/07/29/lagar.html)\
 **Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
 
-# Den inre miljön
+## Den inre miljön
 Den inre miljön syftar på omständigheterna i organisationen där implementationen sker. Både delade värderingar hos mottagarna för implementationen (implementationsklimatet) och egenskaper hos enskilda personer kan påverka implementationens framgång.
 
-## Implementationsklimat
+### Implementationsklimat
 Kompatabiliteten mellan eHälsolösningen och organisationen den ska implementeras i är avgörande för implementationens framgång. En vanlig orsak till att implementationer misslyckas är att lösningen inte passar in i den dagliga kliniska verksamheten. Att förstå arbetsflödena och rutinerna i verksamheten är därför viktigt för att se till att lösningen passar in i vardagen.
 
 Andra faktorer i verksamheten som påverkar implementationen:
@@ -55,7 +55,7 @@ Andra faktorer i verksamheten som påverkar implementationen:
 * tillgång till resurser lokalt - allt från tid för utbildning till adekvat IT-utrustning
 * utbildning och tillgång till kunskap och support.
 
-## Individer
+### Individer
 Enskilda personers inställningar och ageranden kan ha stor betydelse för hur implementationen lyckas. Eldsjälar som entusiasmerar omgivningen underlättar implementationen, medan enstaka högljudda kritiker kan vara förödande.
 
 Negativa inställningar bland individer kan bero på att man

@@ -26,14 +26,14 @@ Att föra in en eHälsolösning i sjukvården är ett omfattande arbete med mån
 
 {% include toc.md %}
 
-# Vad innebär implementation av en eHälsolösning?
+## Vad innebär implementation av en eHälsolösning?
 Att implementera en eHälsolösning innebär att sätta den i drift i en verklig klinisk situation. Det kan betyda allt från ett pilotförsök med ett fåtal patienter till att införa gemensamma datasystem för landets sjukvård. Det innefattar tekniska moment som leverans och installation samt utbildning av användare och kommunikation kring projektet. Man behöver också beakta hur implementationen påverkar existerande rutiner och medarbetare i vården.
 
 Implementationen kan göras för att exempelvis uppnå högre effektivitet, säkerhet eller kvalitet. Innan man inför en eHälsolösning bör man ha klart för sig vad man hoppas få ut av implementationen och hur man ska bedöma om implementationen blivit en succé. Förväntar man sig att fler liv ska kunna räddas, eller är man nöjd om användarna uppger att de tycker att lösningen fungerar bra? Man bör ha en plan med tydliga kriterier för hur framgång ska mätas.
 
 Om man inte får de resultat man hoppades på från början bör man fråga sig om det berodde på produkten eller på implementationen. En dålig produkt skapar inget mervärde även om implementationen sköts föredömligt, medan en bra produkt som har införts dåligt kanske ändå kan vara användbar om den infördes på rätt sätt.
 
-# Faktorer som påverkar implementation av eHälsolösningar
+## Faktorer som påverkar implementation av eHälsolösningar
 Ross m.fl. delade upp faktorer som påverkar implementation av eHälsoprodukter i fem kategorier:
 
 * **Innovationens egenskaper:** Själva produktens egenskaper, exempelvis hur pass komplex den är att använda och hur väl den kan anpassas för olika situationer och användare.

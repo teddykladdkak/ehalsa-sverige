@@ -26,12 +26,12 @@ IEC 62366-1 är en standard för medicinteknik som beskriver en metod för att �
 
 {% include toc.md %}
 
-# Varför ska jag använda IEC 62366-1?
+## Varför ska jag använda IEC 62366-1?
 IEC 62366-1 gäller alltså bara medicinteknik. För att avgöra om den är applicerbar på din produkt bör du alltså först konstatera om din produkt klassificeras som medicinteknik.
 
 **Läs mer:**  [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
 
-## Krav i MDR
+### Krav i MDR
 Medicintekniska förordningen MDR (engelska: _Medical Device Regulation_) ställer ett antal krav på medicintekniska produkters användarvänlighet:
 
 * De ska vara lämpliga för sitt avsedda ändamål (artikel 5 samt bilaga 1 stycke 1).
@@ -45,10 +45,10 @@ Medicintekniska förordningen MDR (engelska: _Medical Device Regulation_) ställ
 
 Genom att följa IEC 62366-1 kan du demonstrera att du uppfyller dessa krav.
 
-## IEC 62366-1 förbättrar din produkt
+### IEC 62366-1 förbättrar din produkt
 Kraven i MDR finns där av en anledning. Genom att ha en metod för att säkerställa din produkts användarvänlighet ökar du chansen att produkten används på rätt sätt. Den blir därmed säkrare och effektivare. Företaget behöver lägga mindre resurser på att göra rättningar i efterhand och hantera klagomål och minskar samtidigt risken för säkerhetsincidenter.
 
-# Hur använder jag IEC 62366-1?
+## Hur använder jag IEC 62366-1?
 Själva processen för att förbättra användarvänlighet framgår i kapitel 5 i standarden. Den beskriver nio steg:
 
 1. Beskriv hur produkten ska användas inklusive den medicinska indikationen, patientgruppen, vilken (om någon) kroppsdel som produkten interagerar med, användarprofilen, användarmiljön och principer för användning.
@@ -61,10 +61,10 @@ Själva processen för att förbättra användarvänlighet framgår i kapitel 5 
 8. Skapa användargränssnittet och gör en formativ utvärdering.
 9. Gör en summativ bedömning av användargränssnittet.
 
-## Formativ och summativ utvärdering
+### Formativ och summativ utvärdering
 Formativa utvärderingar görs oftast upprepat under pågående utveckling av produkten för att vägleda fortsatt utveckling av användargränssnittet. En summativ utvärdering görs efter att utvecklingen är klar för att få bevis på att användargränssnittet kan användas på ett säkert sätt.
 
-# Slutsats
+## Slutsats
 Genom att se till att din produkt är utformad på ett användarvänligt sätt och att faktiskt bekräfta detta genom testning kan du spara dig många problem på sikt. Genom att dokumentera förfarandet enligt IEC 62366-1 visar du dessutom att du uppfyller lagkrav som ställs på medicintekniska produkter.
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_

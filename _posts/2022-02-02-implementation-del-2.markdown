@@ -28,22 +28,22 @@ Rekommendationerna bygger på en [översiktsartikel](https://implementationscien
 
 {% include toc.md %}
 
-# Lösningens ursprung
+## Lösningens ursprung
 Vilken trovärdighet har leverantören? Betraktas lösningen som ett svar på faktiska behov inom sjukvården? Kommer den “inifrån” den egna organisationen eller “utifrån”? Har representanter för verksamheten varit delaktiga i att utveckla den?
 
-# Kvalitet och styrka på bevis för lösningen
+## Kvalitet och styrka på bevis för lösningen
 För att en verksamhet alls ska vara intresserade av att föra in en eHälsolösning lär de vilja se bevis för att lösningen faktiskt fungerar och skapar fördelar jämfört med hur verksamheten fungerar idag. Bevis för detta kan sträcka sig från andra användares utsago till rigorösa vetenskapliga prövningar. Ju större risk en lösning innebär, desto högre beviskrav ställs.
 
 För mer handfast vägledning kring olika typer av bevis rekommenderas [NICE-riktlinjer för evidens för digitala hälsolösningar](/2022/01/06/nice-riktlinjer.html).
 
-# Anpassningsbarhet och prövbarhet
+## Anpassningsbarhet och prövbarhet
 Hur kan lösningen anpassas till det lokala sammanhanget? Om lösningar kan modifieras utifrån nya behov som uppkommer underlättar det upptaget. För att underlätta anpassningar kan man inkludera slutanvändare i produktens utveckling.
 
 Ett begrepp som relaterar till anpassningsbarhet är _interoperabilitet_ med existerande datasystem. För att underlätta upptaget av en lösning hjälper det om lösningen kan utbyta information med de andra system som användarna behöver arbetar med.
 
 Prövbarhet innebär att användaren eller kunden kan testa lösningen innan den börjar användas i större skala. Det ger användaren möjlighet att vänja sig vid och ge återkoppling på lösningen och samtidigt anpassa planerna för hur den ska införas i verksamheten.
 
-# Komplexitet
+## Komplexitet
 Faktorer som bidrar till att lösningen upplevs mer komplex och därmed blir svårare att införa:
 
 * Långsam prestanda
@@ -55,7 +55,7 @@ Faktorer som bidrar till att lösningen upplevs mer komplex och därmed blir sv�
 
 Utvecklaren bör försöka utforma produkten så att den minimerar ovanstående, gärna genom att involvera slutanvändare i utvecklingen.
 
-# Kostnad
+## Kostnad
 Kostnaden anses ofta vara det största hindret för implementation av eHälsolösningar. Faktorer som relaterar till kostnader är
 
 * uppstartskostnader såsom inköp och installation

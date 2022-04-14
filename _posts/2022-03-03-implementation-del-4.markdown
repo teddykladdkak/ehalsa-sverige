@@ -28,7 +28,7 @@ Rekommendationerna bygger på en [översiktsartikel](https://implementationscien
 
 {% include toc.md %}
 
-# Planering
+## Planering
 Det kan låta självklart, men att ha en plan är grundläggande för att framgångsrikt implementera en eHälsolösning. En plan bör identifiera
 
 * roller och ansvarsområden
@@ -41,7 +41,7 @@ Det kan låta självklart, men att ha en plan är grundläggande för att framg�
 
 Representanter för de olika grupper som berörs av implementationen får gärna bidra till planen, och man bör bestämma hur man ska kommunicera planen till dessa olika aktörer. Gradvis förändring är ofta mer framgångsrikt än att försöka genomdriva stora förändringar på en gång, och man får räkna med att ens plan kommer att behöva uppdateras allteftersom omständigheter förändras.
 
-# Engagemang
+## Engagemang
 Att identifiera eldsjälar (engelska: _champions_) kan betyda mycket för att driva igenom förändring. Eldsjälarna bidrar till att uppmuntra sina medarbetare och brukar vara de första som använder eHälsolösningen.
 
 Vidare är det viktigt att engagera andra nyckelintressenter, exempelvis
@@ -52,15 +52,15 @@ Vidare är det viktigt att engagera andra nyckelintressenter, exempelvis
 * vårdpersonal, inklusive fack- och intresseföreningar
 * patienter.
 
-# Reflektion och utvärdering
+## Reflektion och utvärdering
 Att utvärdera eHälsosystem är viktigt för att konstatera om lösningen har gett de resultat man förväntade sig. Det kan i sin tur vara viktigt för användarnas acceptans av lösningen och att motivera fortsatta satsningar på den.
 
-# Tid
+## Tid
 _Tid_ har i forskning om implementation lyfts fram som en faktor som påverkar alla andra delar av implementationen. Projektledarna behöver ha tid för att planera implementationen och genomföra implementationsaktiviteter. De som ska använda lösningen behöver ha tid för att utbildas och för att testa verktyget i det dagliga arbetet. Man behöver räkna med att avsätta tid för att utvärdera hur implementationen går och om ens plan behöver uppdateras. 
 
 Konflikter riskerar att uppstå om beslutsfattare inte säkerställer att slutanvändarna och organisationen har tid nog för att genomföra införandet. När saker görs förhastat kan det saknas förutsättningar för att förstå lösningen och de nya arbetssätt och processer som det innebär.
 
-# Slutsatser
+## Slutsatser
 Att implementera en ny eHälsolösning i en organisation är ett omfattande och resurskrävande arbete med många inblandade aktörer. Oavsett hur bra produkten är kan implementationen vara avgörande för att den ska användas rätt - det kan vara svårt att skilja brister i produkten från brister i införandet.
 
 Vi hoppas att den här artikelserien har gett praktisk vägledning för hur du kan implementera eHälsolösningar i din organisation eller hos dina kunder. Här är alla delarna:

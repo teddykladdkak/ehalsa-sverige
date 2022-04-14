@@ -26,7 +26,7 @@ IEC 62304 (_Elektrisk utrustning för medicinskt bruk - Livscykelprocesser för 
 
 {% include toc.md %}
 
-# Varför ska man följa IEC 62304?
+## Varför ska man följa IEC 62304?
 EU:s medicintekniska direktiv (_MDR_) ställer krav enligt följande i sina första bilaga:
 
 
@@ -35,9 +35,9 @@ EU:s medicintekniska direktiv (_MDR_) ställer krav enligt följande i sina för
 IEC 62304 kan vara ett sätt att uppfylla MDR:s krav. Samtidigt kan det underlätta för en att säkerställa kvaliteten på ens produkt.
 
 **Läs mer:** [Är min eHälsoprodukt en medicinteknisk produkt?](/2021/08/20/medicinteknik.html)
-# Hur följer man IEC 62304?
+## Hur följer man IEC 62304?
 Ett första steg är att bedöma vilken säkerhetsklass som ens produkt faller in under. Produktens säkerhetsklass avgör sedan vilka krav i standarden som man behöver uppfylla.
-## Säkerhetsklassificering
+### Säkerhetsklassificering
 Omfattningen på kraven i standarden beror på vilken säkerhetsklass som produkten faller in under:
 
 * Klass A om mjukvaran 
@@ -53,7 +53,7 @@ För att avgöra vilken säkerhetsklass ens produkt tillhör kan man använda f�
 
 ![Säkerhetsklassificering enligt IEC 62304](/assets/images/post-assets/sakerhetsklassificering.svg "Säkerhetsklassificering enligt IEC 62304")
 
-## Process för mjukvaruutveckling
+### Process för mjukvaruutveckling
 I alla efterföljande krav i standarden framgår vilka säkerhetsklasser som kravet gäller för. Överlag har produkter i klass A minst krav och sådana i klass C flest.
 
 Övergripande är kraven som tas upp:
@@ -85,7 +85,7 @@ I alla efterföljande krav i standarden framgår vilka säkerhetsklasser som kra
 * process för problemhantering
 
 
-# Slutsatser
+## Slutsatser
 Stegen som beskrivs i IEC 62304 ses ofta som förnuftiga och i linje med vanligt förekommande arbetssätt för mjukvaruutveckling. Att efterfölja standarden kan bidra till att kvalitetssäkra ens arbetsprocesser för att skapa bättre och säkrare mjukvara och samtidigt kunna betrygga myndigheter att man arbetar på ett säkert sätt.
 
 
