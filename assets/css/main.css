@@ -348,16 +348,22 @@ footer svg {
 #contact-form textarea, #contact-form input {
     font-size: 1rem;
     display: block;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
 }
-#contact-form textarea {
+#contact-form textarea, #contact-form input[type=email] {
     opacity: .9;
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
     width: 80%;
     max-width: 400px;
+}
+#contact-form textarea {
     min-height: 200px;
+}
+#contact-form #contactButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .event, .light-bg {
     background-color: #{{ site.color.light }};

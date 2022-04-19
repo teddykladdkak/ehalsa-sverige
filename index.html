@@ -56,7 +56,9 @@ footer: '<script src="/assets/js/event.js" defer></script><script src="/assets/j
     <div id="contact-form">
       <label for="formMessage" class="min">Meddelande:</label>
       <textarea id="formMessage"></textarea>
-      <input type="button" value="Skicka" id="contactButton" onclick="post(this, 'formMessage');">
+      <label for="formAdress" class="min">E-post:</label>
+      <input type="email" id="formAdress" style="opacity: .9;border-radius: 10px;padding: 10px;box-sizing: border-box;width: 80%;max-width: 400px;">
+      <input type="button" value="Skicka" id="contactButton" onclick="post(this, 'formMessage', 'formAdress');">
     </div>
   </div>
   <div class="event col-2-in">
