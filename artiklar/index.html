@@ -2,6 +2,7 @@
 layout: default
 title: Artiklar
 backgrounds: "artiklar"
+backgrounds_index: "kategori-index"
 sitemap:
   lastmod: 2021-07-27
   priority: 0.8
@@ -10,11 +11,16 @@ sitemap:
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Sök...">
 </div>
-<h1>Artiklar</h1>
+<!--<h1>Artiklar</h1>-->
 <div class="post-list" id="results-container">
 
 </div>
 <div id="main-container">
+  <div class="kategorier-lista">
+    {% for tag in site.tags %}
+        <a href="/kategori/{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase}}.html" class="{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }}">{{ tag[0] | replace: "_"," " }}</a>
+    {% endfor %}
+  </div>
   {%- if site.posts.size > 0 -%}
     <div class="post-list">
       {% for post in paginator.posts %}

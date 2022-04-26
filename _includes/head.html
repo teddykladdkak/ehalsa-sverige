@@ -189,7 +189,8 @@
                     }
             {%- endfor -%}
         </style>
-    {% elsif page.backgrounds == "kategori-index" %}
+    {% endif %}
+    {% if page.backgrounds_index == "kategori-index" %}
         <style>
             {% for tag in site.tags %}
                 .webp .{{ tag[0] | replace: "å","a" | replace: "ä","a" | replace: "ö","o" | replace: "Å","A" | replace: "Ä","A" | replace: "Ö","O" | downcase | slugify: "latin" }} {
