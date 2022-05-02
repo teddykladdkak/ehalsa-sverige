@@ -40,7 +40,7 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Region Kalmar län|Cosmic|Cosmic|-|
 |Region Kronoberg|Cosmic|Cosmic|-|
 |Region Norrbotten|VAS|VAS|Cosmic|
-|Region Skåne|PMO|Melior|Millenium|
+|Region Skåne|PMO|Melior|Millennium|
 |Region Stockholm|TakeCare|TakeCare|-|
 |Region Sörmland|NCS Cross|NCS Cross|Cosmic|
 |Region Uppsala|Cosmic|Cosmic|-|
@@ -50,12 +50,12 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Region Västmanland|Cosmic|Cosmic|-|
 |Region Örebro län|NCS Cross|NCS Cross|Cosmic|
 |Region Östergötland|Cosmic|Cosmic|-|
-|Västra Götalandsregionen|AsynjaVisph|Melior|Millenium|
+|Västra Götalandsregionen|AsynjaVisph|Melior|Millennium|
 
 ![Karta över journalsystem](/assets/images/post-assets/journalsystem.svg "Karta över journalsystem")
 
 ## Så ritas kartan om {#ny-karta}
-Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millenium. Stockholm och Gotland har ännu inte beslutat sig.
+Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millennium. Stockholm och Gotland har ännu inte beslutat sig.
 
 ![Karta över planerade journalsystem](/assets/images/post-assets/planerade_journalsystem.svg "Karta över planerade journalsystem")
 
@@ -76,12 +76,12 @@ Modulbaserat journalsystem, där de olika modulerna kan installeras oberoende av
 **Används i:** Gävleborg, Skåne, Västra Götaland
 
 Infördes på 90-talet med Siemens som leverantör. 2015 köptes Siemens Health Services upp av Cerner, som har fortsatt att förvalta lösningen.
-### Millenium {#millenium}
+### Millennium {#millennium}
 **Leverantör:** Cerner\
 **Vårdnivå:** Primärvård/sjukhus\
 **Används i:** Planerat att införas i Skåne och Västra Götalandsregionen
 
-Amerikanska Millenium introducerades 1997. Det är planerat att systemet ska bli en gemensam lösning för primär- och sjukhusvård i Region Skåne och Västra Götalandsregionen.
+Amerikanska Millennium introducerades 1997. Det är planerat att systemet ska bli en gemensam lösning för primär- och sjukhusvård i Region Skåne och Västra Götalandsregionen.
 ### NCS Cross {#ncs}
 **Leverantör:** Evry\
 **Vårdnivå:** Primärvård/sjukhus\
