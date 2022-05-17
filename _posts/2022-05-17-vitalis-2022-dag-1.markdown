@@ -8,7 +8,7 @@ author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
 image:
-  path: "/assets/images/post-head/500/vitalis-2022-01.jpg"
+  path: "/assets/images/post-head/500/vitalis-2022-1.jpg"
 video: false
 sitemap:
   lastmod: 2022-05-17
@@ -101,6 +101,7 @@ MFD Fick ett regeringsuppdrag 2020 att stödja kommuner om hur välfärdsteknik 
 * Efterfrågar en ökad tydlighet och samordning mellan nationella aktörer.
 * Ser behov av nationellt stöd inom flera områden som de anser påverkar effektiv användning av välfärdsteknik.
 * Det behövs metoder för att kunna beskriva nyttoeffekter av användning av välfärdsteknik.
+
 ## Hur är det med informationssäkerheten i din kommun?
 SKR Kompetenscenter välfärdsteknik, Socialstyrelsen och Övertorneå kommun berättade om informationssäkerhetsarbete. De presenterade olika stöd för att informationssäkerhet ska vara en naturlig del av införande och användning av välfärdsteknik.
 
