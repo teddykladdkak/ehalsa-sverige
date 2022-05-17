@@ -1,0 +1,125 @@
+---
+layout: post
+title:  "Vitalis 2022: dag 1"
+description: "Höjdpunkter från dag 1 av Vitalis 2022"
+date:   2022-05-17 20:00:00 +0200
+tags: Evenemang
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/vitalis-2022-01.jpg"
+video: false
+sitemap:
+  lastmod: 2022-05-12
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+
+17 maj 2022 började årets upplaga av Nordens största eHälsokongress, [Vitalis](https://vitalis.nu/). eHälsa Sverige var på plats i Göteborg, och här är ett urval av föreläsningarna som eHälsa Sverige bevakade.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Aktuella rättsfrågor inom e-hälsa
+Seminariet tog upp vad som händer inom regeringsuppdrag och i EU som kan påverka juridiken kring eHälsa i Sverige.
+
+Enligt proposition 2021/22:177 kommer en lag träda i kraft om sammanhållen vård- och omsorgsdokumentation. Regler från Patientdatalagen förs över till nya lagen för att Hälso- och sjukvårdslagen och omsorg ska kombineras. Detta innebär fortsatt krav på sammanhållen journalföring, som patient och omsorgssamordnare ska kunna neka detta.
+
+Utredningen SOU 2021:102 har undersökt vad som krävs för att e-recept och patientöversikter ska kunna delas över landsgränser inom EES. Detta träder i kraft 1 maj 2023. Det har varit tillåtet med patientöversikter mellan organisationer sedan 2008, men man har inte kunna garantera att uppgifterna är kompletta. EU lägger nu också stor vikt på e-recept och patientöversikter över landsgränserna. Detta har blivit mer angeläget efter COVID-pandemin.
+
+Det presenterades vilka regeringsuppdrag som har getts till E-hälsomyndigheten:
+
+![Regeringsuppdrag till E-hälsomyndigheten](/assets/images/post-assets/vitalis-2022-1-1.png "Regeringsuppdrag till E-hälsomyndigheten")
+
+Behandling av personuppgifter diskuterades. Enligt GDPR är det personuppgiftsansvariga som ansvarar för att informationen behandlas på rätt sätt. För att kontrollera detta ska man kunna göra branschöverenskommelser, som sedan kontrollerar det mot datainspektionen.
+
+Myndigheten för digital förvaltning (DIGG) fick ett regeringsuppdrag att utreda och identifiera rättsliga hinder för digitaliseringen i Sverige, som underlag till framtida lagändringar. Beskrivningarna ska vara på så hög nivå att steget till lag är så kort som möjligt.
+
+## Kunskap och kompetens - konkreta tips och stöd till kommunerna i arbetet med välfärdsteknik
+Socialstyrelsen, Myndigheten för delaktighet, E-hälsomyndigheten, Post- och telestyrelsen och SKR är centrala nationella aktörer inom välfärdsteknik. I detta seminarium berättade aktörerna om deras uppdrag och roller samt stödet de erbjuder inom välfärdsteknik.
+
+### E-hälsomyndigheten
+Ett kunskapsstöd är ett stöd som bidrar till värdeskapande aktiviteter. Kunskapen ska vara bearbetad så att den går att använda i verksamheten. Dokument, checklistor, filmer, utbildningar eller vägledningar är exempel på kunskapsstöd.
+
+![E-hälsomyndigheten har nu samlat 144 kunskapsstöd](/assets/images/post-assets/vitalis-2022-1-2.png "E-hälsomyndigheten har nu samlat 144 kunskapsstöd")
+
+Resultat från en rapport om kunskapsstöd från E-hälsomyndigheten:
+
+* Många kunskapsstöd är generella och omfattar både socialtjänst samt hela hälso- och sjukvårdsområden.
+* Kunskapsstöden är framtagna av olika nationella aktörer och spridda över respektive webbplatser.
+* Flera aktörer har kunskapsstöd inom samma område med överlappande information.
+* Få kunskapsstöd riktar sig specifikt mot socialtjänsten.
+
+Slutsatser:
+
+* E-hälsomyndigheten är en aktör med samordnande ansvar för kunskapsstöd.
+* E-hälsomyndigheten ska ge en gemensam ingång.
+* Identifiera syfte, målgrupp och verksamhetsområde tidigt i framtagandet av kunskapsstöd, alltså göra en intressentanalys.
+* Anpassa specifikt till socialtjänstens och hälso- och sjukvårdens verksamheter.
+
+### Socialstyrelsen
+Socialstyrelsen stödjer tillämpning av digitalisering och välfärdsteknik i hälso- och sjukvård och socialtjänst. Deras fokus är på att tillgängliggöra vård och göra den individanpassad.
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-1-3.png "Socialstyrelsen presenterar")
+
+De har också utarbetat utbildningar för “[E-hälsa och välfärdsteknik i socialtjänsten](https://utbildning.socialstyrelsen.se/learn)”. SoS har arbetat med etiska stöd och uppföljningar, bland annat rapporten [e-Hälsa och välfärdsteknik i kommunerna 2022](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2022-5-7897.pdf). Vidare förvaltas [Kunskapsguiden.se](https://kunskapsguiden.se/) av SoS.
+
+### SKR
+SKR framhöll att vi ofta pratar om teknik och saker när vi pratar om digitaliseringen, men att vi även behöver diskutera vilka nyttor som kan uppstå eller människorna i förändringen.
+
+SKR har upprättat en utbildning som instruerar hur man ska förhålla sig i förändringsledning. Ämnen den tar upp:
+
+* Skillnaden mot förbättring i och med att det blir oklart hur resultatet blir.
+* Inte göra både på det gamla och det bra sättet utan våga släppa det gamla.
+
+SKR kommer även att erbjuda en utbildning: [Förändringsledning välfärdsteknik - hur gör man?](https://skr.se/skr/tjanster/evenemang/hittaevenemang/kalenderhandelser/forandringsledningvalfardsteknikhurgorman.58074.html).
+
+### Post- och telestyrelsen
+Myndigheten har fokus på bredband, post m.m. Ett särskilt uppdrag är att minska det digitala utanförskapet. Under pandemin blev äldre en mer specifik målgrupp.
+
+Ett exempel på ett initiativ är Digitalhjälpen underslagordet "Tillsammans hjälper vi fler till en lättare vardag". Det skapades utifrån uppdragsgrunden och resulterade i följande:
+
+* De tog fram webbplats med tips: [https://pts.se/digitalhjalpen](https://pts.se/digitalhjalpen)
+* En nybörjarguide för att använda digitala tjänster: [https://pts.se/digitalstart](https://pts.se/digitalstart)
+* Stödmaterial för personer som stöttar äldre
+* Samarbeten och informationsinsatser (nätverk): [https://pts.se/brytisoleringen](https://pts.se/brytisoleringen)
+
+![Post- och telestyrelsen presenterar](/assets/images/post-assets/vitalis-2022-1-4.png "Post- och telestyrelsen presenterar")
+
+### Myndigheten för delaktiget (MFD)
+MFD framhöll att det är viktigt att inkludera slutanvändaren tidigt i processen för att undvika situationer där man i utvecklingen missar individens behov.
+
+MFD Fick ett regeringsuppdrag 2020 att stödja kommuner om hur välfärdsteknik ska bidra till ökad självständighet och delaktighet. Resultat från uppdraget:
+
+* Efterfrågar en ökad tydlighet och samordning mellan nationella aktörer.
+* Ser behov av nationellt stöd inom flera områden som de anser påverkar effektiv användning av välfärdsteknik.
+* Det behövs metoder för att kunna beskriva nyttoeffekter av användning av välfärdsteknik.
+## Hur är det med informationssäkerheten i din kommun?
+SKR Kompetenscenter välfärdsteknik, Socialstyrelsen och Övertorneå kommun berättade om informationssäkerhetsarbete. De presenterade olika stöd för att informationssäkerhet ska vara en naturlig del av införande och användning av välfärdsteknik.
+
+Följande säkerhetsaspekter togs upp:
+
+* Säkerställa och skydda information
+* Informationen ska hamna rätt; behöriga ska få den; och den ska vara lättillgänglig när den behövs
+* Informationen ska vara korrekt, fullständig, pålitlig och spårbar
+* Ska inte förstöras eller förvanskas
+* Får inte ses som ett hinder eller begränsa
+* Tekniska och fysiska skyddsåtgärder
+
+I en enkätundersökning fann man bland annat att bara 14 % av kommuner har ett sätt för patienter att kommunicera digitalt med personalen. 81 % av kommuner kunde kommunicera med regional sjukvårdspersonal digitalt.
+
+## Framtidens elevhälsa
+Lomma kommun i Skåne diskuterade hur digitalisering kan bidra till att förbättra elevhälsan. Problem som framhölls var hög frånvaro och ohälsa med skolstress. Ett viktigt mål är också att få eleverna att ta sig till skolan.
+
+Föreläsarna menade att Sverige ligger efter när det gäller elevhälsa, och att det finns särskilt mycket preventivt arbete att göra. Man framhöll vikten av att inte bara inkludera barnet utan även vårdnadshavare, pedagoger, rektorer m.fl.
+
+![Lomma kommun presenterar](/assets/images/post-assets/vitalis-2022-1-4.png "Lomma kommun presenterar")
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
