@@ -11,7 +11,7 @@ image:
   path: "/assets/images/post-head/500/vitalis-2022-01.jpg"
 video: false
 sitemap:
-  lastmod: 2022-05-12
+  lastmod: 2022-05-17
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
