@@ -1,0 +1,207 @@
+---
+layout: post
+title:  "Vitalis 2022: dag 2"
+description: "Höjdpunkter från dag 2 av Vitalis 2022"
+date:   2022-05-18 22:00:00 +0200
+tags: Evenemang
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/vitalis-2022-2.jpg"
+video: false
+sitemap:
+  lastmod: 2022-05-18
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+
+18 maj 2022 var dag 2 av Nordens största eHälsokongress, [Vitalis](https://vitalis.nu/). eHälsa Sverige var på plats i Göteborg, och här är ett urval av föreläsningarna som eHälsa Sverige bevakade.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Den digitala utvecklingen i kommunerna 2022
+Socialstyrelsen höll i detta seminarium om digitalisering inom Sveriges kommuner. Det baserade sig på årets rapport om eHälsa och välfärdsteknik inom kommunerna.
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-2-1.png "Socialstyrelsen presenterar")
+
+Automatiseringen ökar, främst inom socialtjänsten. De större kommunerna har kommit längre inom styrning, kvalitetsledning och 
+informationssäkerhet. De utmärker sig även inom automatisering och e-tjänster.
+
+Statistiken visar att större kommuner ligger före i digitaliseringen, men gällande informationssäkerhet är sambandet mindre tydligt. I synnerhet är säker kommunikation mellan vårdpersonal och patienter ett område där informationssäkerhet kan brista.
+
+![Skillnader i kommunstorlek](/assets/images/post-assets/vitalis-2022-2-2.png "Skillnader i kommunstorlek")
+
+Utvärderingar av digitaliseringens effekter görs i 31% av socialtjänsten och 24% av hälso- och sjukvården. Detta innefattar exempelvis:
+* Kostnadseffektanalys, som är vanligare i de större kommunerna.
+* Utvärdering av effekter för enskilda.
+* Utvärdering av effekter för personal eller organisation.
+
+Utvecklingen av välfärdsteknik är ojämn men i allmänhet uppåtgående. Övergripande tendenser som ses:
+* Antalet personer med digital tillsyn, gps-larm och läkemedelsfördelare ökar
+* Ökat antal digitala lås
+* Videostöd för samordnad individuell planering (SIP) vid utskrivning från slutenvård ökar.
+* Digital kommunikation mellan enskilda och personal eller närstående minskar
+
+## Effektivisera vården med mer administration, inte mindre
+Företrädare för en privat ortopedklinik i Stockholm utmanade tankesättet att mindre administrativt arbete och mer patienttid för vårdpersonal skulle förbättra för patienter. Kliniken har istället satsat på mer uppföljning, men samtidigt automatisering av administrativt arbete. I resten av samhället betraktas administration som service. Patienter vill alltså ofta ha mer administration.
+
+Kliniken arbetar under devisen "digitalt när det går, analogt där det behövs". De uppger ökad trygghet och nöjdhet bland patienter och ökad effektivitet.
+
+En engagerad och informerad patient leder till:
+* Färre om- och avbokningar
+* Färre som inte dyker upp på sina besök
+* Tryggare och mindre oroliga
+* Bättre på att beskriva sina symtom
+* Bättre förberedd för t.ex. infor labtest eller operation
+* Nöjdare
+
+![Elit Ortopedi presenterar](/assets/images/post-assets/vitalis-2022-2-3.png "Elit Ortopedi presenterar")
+
+## Hemsjukhuset 3.0
+Hemsjukhuset 3.0 är ett nytt projekt som fokuserar på nya arbetssätt och en sakernas internet-plattform för att knyta ihop patient, kommun och region. Lösningen kommer att implementeras och utvärderas i Borgholms kommun 2022 till 2023.
+
+Projektets centrala syfte var att garantera patienterna trygghet i hemmet genom att  kunna erbjuda besök av vårdpersonal samma dag. Läkare hade en timme avsatt varje dag för akutbesök. Det bygger vidare på Hemsjukhuset 2.0, där de 20 mest sjuka hjärtsviktpatienterna bevakades med egenmonitorering i hemmet. Deltagarna behövde inte längre akutsjukvård, utan vården kunde bedrivas i hemmet.
+
+Hemsjukhuset 3.0 utökar till att digitalisera hela hemsjukvården, innefattande 300 patienter i kommunala sjukvården och 200 på boenden. Det inkluderar trepartskommunikation mellan hemsjukvårdssjuksköterska, vårdcentralsläkare och patientansvarig läkare vid behov. Senior läkare finns även i beredskap.
+
+![Borgholms kommun presenterar](/assets/images/post-assets/vitalis-2022-2-4.png "Borgholms kommun presenterar")
+
+Projektet finansieras av Vinnova och planeras för uppstart 2022.
+
+## Nationella informationsstrukturer och nationella informationsmängder, för semantisk interoperabilitet
+Socialstyrelsen höll i detta seminarium om sitt arbete med nationella informationsstruktur och informationsstrukturer, som skapar förutsättningar för semantisk interoperabilitet inom vård och omsorg.
+
+Nationella informationsstrukturen är:
+En nationell, neutral grundstruktur  för att informera och beskriva behov kring patienter och brukare.
+Sammanhängande modeller som används som ett analysverktyg för kravställning/utformning av informationsstöd
+
+NI utgår från tre perspektiv:
+Dokumentationskrav enligt författning
+Statistikuppföljning
+Verksamhetens gemensamma behov
+
+Man satte uttryckliga dokumentationskrav kring vad som måste dokumenteras om en brukare och omsatte detta sedan till modeller. Socialstyrelsen identifierar även lokala behov och inför dem i den nationella modellen.
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-2-5.png "Socialstyrelsen presenterar")
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-2-6.png "Socialstyrelsen presenterar")
+
+Syftet med nationella informationsmängder:
+* Vara en gemensam referens för att säkerställa att informationen ska kunna dokumenteras på ett enhetligt sätt i ett informationssystem
+* Möjliggöra att information kan dokumenteras på ett strukturerat och entydigt sätt, oberoende av i vilken del av vård och omsorg den dokumenteras.
+* Möjliggöra olika kommuniktionsformat för att utbyta information med bibehållen innebörd.
+
+Exempel på nationella informationsmängder är Socialstyrelsens termbank och SNOMED CT.
+
+Utgår ifrån standarden ISO/IEC/IEEE DIS 42010 om informationsarkitektur som säkerställer att informationmängderna är lösningsneutrala.
+* Initiering
+* Behovsanalys
+* Utredning
+* Utveckling
+* Resultat
+
+Informationsmängder innehåller då:
+* NIM
+* Kodverk
+* Nationella riktlinjer
+* Underlag för registrering
+* Termbank
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-2-7.png "Socialstyrelsen presenterar")
+
+## Att mäta digital kunskap vid förändring
+
+Bakgrund:
+* Att mäta digital mognad på individnivå
+* Jämförande data mellan olika sektorer samt nationellt
+* Nollpunktsmätning och uppföljande mätning
+* Uppföljning med olika insatser, t.ex. utbildning eller en implementering av tjänst eller produkt.
+
+Nivån av digital mognad kan uttryckas som
+(kunskap om organisationen + kunskap om teknik) x (motivation att transformera)
+
+En organisations digitala mognad är ytterst individberoende och kan mätas som summan av alla dess anställdas mognad.
+
+![Mälardalens högskola presenterar](/assets/images/post-assets/vitalis-2022-2-8.png "Mälardalens högskola presenterar")
+
+Preliminäranalys från Norge och Sverige
+* Totalt 214 svar (41 från Sverige och 173 från Norge)
+* Sjukvårdspersonal svarade enligt följande:
+
+![Mälardalens högskola presenterar](/assets/images/post-assets/vitalis-2022-2-9.png "Mälardalens högskola presenterar")
+
+## Ny gemensam målbild för 1177 Vårdguiden
+1177 vårdguiden har fått stort genomslag. För att framtidssäkra tjänsten har en arbetsgrupp tagit fram en ny målbild för 1177 vårdguiden. Målbilden definierar vad regioner och kommuner ska erbjuda via 1177 vårdguiden och hur verksamheten ska styras.
+
+![Inera presenterar](/assets/images/post-assets/vitalis-2022-2-10.png "Inera presenterar")
+
+Målområden är ”Rätt vårdnivå direkt” och ”Enkel kommunikation”.
+
+Region Skåne gjorde sin egen målbild över hur 1177 ska användas i regionen.
+
+![Region Skåne presenterar](/assets/images/post-assets/vitalis-2022-2-11.png "Region Skåne presenterar")
+
+![Region Skåne presenterar](/assets/images/post-assets/vitalis-2022-2-12.png "Region Skåne presenterar")
+
+## Nytt om identitets- och behörighetshantering över organisationsgränser inom vård och omsorg
+Senast 1 maj 2023 ska alla vård- och apoteksaktörer vara anslutna till Nationella läkemedelslistan. Detta gör att det blir ett krav att alla aktörer ska använda E-hälsomyndighetens säkerhetslösning. Föreläsarna berättade om behörighetshantering över organisationsgränser.
+
+### eHälsomyndigheten
+E-hälsomyndigheten arbetar med att samordna regeringens satsningar på eHälsa genom att undanröja hinder av olika slag. Den skapar strukturer för att lösa problem i sektorn.
+
+![eHälsomyndigheten presenterar](/assets/images/post-assets/vitalis-2022-2-13.png "eHälsomyndigheten presenterar")
+
+### DIGG
+Detta gör DIGG:
+* Godkänner e-legitimationer
+* Tillhandahåller identitetsfederationen Sweden Connect som gör att man kan använda digital autentisering utomlands.
+* Tillhandahåller e-legitimeringsavtal.
+* Tillitsgodkänner IdP-leverantörer.
+
+### Internetstiftelsen
+Förvaltar toppdomänen .se, och överskottet ska gå till att göra bra saker för Sverige.
+
+Driftar federationen Sambi. Syftet med federationen:
+* Tillit över organisationsgränser
+* Teknisk interoperabilitet
+
+## Internationaliseringen inom e-hälsa – vad händer och hur påverkas Sverige?
+E-hälsomyndigheten är engagerad i internationella projekt, initiativ, partnerskap och erfarenhetsutbyten.  Exempelvis arbetar myndigheten med Frankrike och Tyskland i innovationssamarbeten och hur vi representerar Sverige i det globala digitala hälsopartnerskapet (GDHP). Föreläsarna berättade om E-hälsomyndighetens internationella arbete och hur kan de påverka Sverige.
+
+E-hälsomyndigheten ansvarar för:
+* Lagrar och förmedlar de elektroniska recepten i Sverige
+* Samordnar regeringens satsningar på eHälsa
+* Erbjuder ett antal ehälsotjänster
+* Ansvarar för den nationella läkemedelsstatistiken
+* Nationell kontaktpunkt för eHälsa
+
+![E-hälsomyndigheten presenterar](/assets/images/post-assets/vitalis-2022-2-14.png "E-hälsomyndigheten presenterar")
+
+EHDS1 etableras nu genom Mina hälsa @ EU. Målet att främja och stärka den fria rörligheten inom EU. Dela strukturerad hälsodata över landsgränser, oberoende av landets språk.
+
+Läkemedelslistan är bara början. Arbete kommer framöver inkludera andra informationsmängder.
+
+## Stöd till samverkan mellan kommuner och regioner
+För att stödja informationsutbytet i samband med utskrivning från slutenvård har Socialstyrelsen tagit fram exempel på information för den sortens samverkan, baserat på Socialstyrelsens hälsorelaterade klassifikationer (ICF, KVÅ, KSI och ICD-10). Under våren 2022 kommer Socialstyrelsen tillhandahålla urvalet för frivillig användning i planeringsverktygen som används för dokumentation vid utskrivning från slutenvård.
+
+Vårdövergångar är ett känt riskområde och behov. De kräver korrekt information och förståelse för den information som utbyts.
+
+Man stärker sitt informationsutbyte genom att använda sig av klassifikationer.
+Exempel på klassifikationer som SoS tillhandahåller:
+* ICD-10-SE
+* ICF
+* KVÅ
+* KSI (Klassifikation av socialtjänsten insatser och aktiviteter
+* WHO:s huvudklassifikationer
+
+![Socialstyrelsen presenterar](/assets/images/post-assets/vitalis-2022-2-15.png "Socialstyrelsen presenterar")
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
