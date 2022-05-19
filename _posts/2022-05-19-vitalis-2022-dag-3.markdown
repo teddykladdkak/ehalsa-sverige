@@ -1,0 +1,151 @@
+---
+layout: post
+title:  "Vitalis 2022: dag 3"
+description: "Höjdpunkter från dag 3 av Vitalis 2022"
+date:   2022-05-19 18:00:00 +0200
+tags: Evenemang
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/vitalis-2022-3.jpg"
+video: false
+sitemap:
+  lastmod: 2022-05-19
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+19 maj 2022 var sista dagen av Nordens största eHälsokongress, [Vitalis](https://vitalis.nu/). eHälsa Sverige var på plats i Göteborg, och här är ett urval av föreläsningarna som eHälsa Sverige bevakade.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Reducing Clinician Burden ur norsk aspekt
+Svenska och norska representanter berättade om nordiska samarbeten kring eHälsostandarder för ökad innovation och affärsutveckling. Exempel som togs upp var “International Patient Summary” och “Reducing Clinician Burden”.
+
+Norge skapade sin eHälsogruppering kring standardisering 2019, med ett nordiskt perspektiv. En grundtanke har varit att det är en styrka att dela informationen vi sitter på.
+
+![Direktoratet for e-helse](/assets/images/post-assets/vitalis-2022-3-1.png "Direktoratet for e-helse")
+
+Standarder är viktiga hjälpmedel för att minska bördan för vårdpersonal. ISO/AWI TR 4419 (Health informatics reducing clinicians burden) är under utveckling för att skapa en överskådlig standard.
+
+## Nordiskt standardiseringssamarbete
+
+![Informatiker i VGR](/assets/images/post-assets/vitalis-2022-3-2.png "Informatiker i VGR")
+
+Standarder utvecklas genom att en stor grupp experter specificerar regler för hur något ska kunna göras. Till skillnad från en vetenskaplig publikation så är standarder mer kontrollerat innan det blir etablerat med hundratals reviewers.
+
+Enligt svensk lag ska system som upphandlas möta vissa krav enligt etablerade standarder.
+
+Problemet är att det är väldigt få inom professionerna som arbetar med standarderna. Man är väldigt långt ifrån denna världen. I upphandlingar hittar man därför ofta egna lösningar och uppfinner hjulet på nytt.
+
+Olika exempel på standarder som är relevanta för eHälsa:
+* SS (Del av SIS)
+* EN
+* IS
+* HL7
+* IEEE
+* IEC, CENELEC
+* DICOM
+* IHE international
+* OpenEHR
+* UN Edifact
+
+**Läs mer:** [Standarder inom eHälsa](/2021/07/31/standarder.html)
+
+## De kallar sig informatiker
+Vilka är informatiker, vad har de för bakgrund, och hur lockar vi fler? Detta är frågor som berördes i ett samtal mellan informatiker från flera offentliga verksamheter.
+
+Informatiker har blandade bakgrunder. Exempel bland talarna:
+* Intresserad av digitaliseringen som sker i samhället.
+* Kliniker som inkluderades i utvecklingen av digitala system.
+* Finns en utbildning för medicinska informatiker. Intresse för medicin och IT.
+* Halkade in i informatikfrågor. Drabbades av informationsmodellerna.
+
+Vilken bakgrund har informatiker? Vilka är framtida kollegor? Vilka andra skulle kunna bidra?
+* Medicinska rådgivare (kliniker), programmerare, systemvetare. Blandade, vilket är den troliga nyckeln. Fler med många hattar.
+* Strategiska nivån måste göras gemensamt. Operativa frågor är där det händer. Kravanalytiker, programmerare m.m. inte en anställd informatiker.
+
+## "Same same but different" - resultat i arbetsmiljön av tre olika e-hälsolösningar
+Varför kan samma lösning få olika effekter i verksamheten? Det kan bero på hur implementeringen genomförs.
+
+![Lunds universitet](/assets/images/post-assets/vitalis-2022-3-3.png "Lunds universitet")
+
+Digitalisering skapar förändrade arbetssätt. Det skapar även förändrade förutsättningar, som inte alltid är positiva:
+* (+) Ökad känsla av närhet till patienten (över tid och rum)
+* (+) Ökad förståelse för patienten genom egengenererad data.
+* (+) Ökad autonomi på grund av asynkron kommunikation.
+* (-) Fortfarande kvarvarande maktrelationer. Oavsett om man t.ex. ökar delaktigheten så har man fortfarande samma öppettider.
+* (-) Brist på icke-verbala ledtrådar
+* (-) Parallella rutiner (mellan digitalt stöd och befintliga rutiner.
+* (-) Minskad kontroll på grund av skripten i de tekniska lösningarna.
+
+Samma lösning kan ge olika upplevelser beroende på:
+* Implementering och förutsättningar i verksamheten
+* Förändringsprocessen - hur det nya digitala arbetet integreras i det befintliga arbetet
+
+Faktorer som påverkar implementationen:
+* Personalen är delaktig i införandet
+* Att systemen är lätta att förstå och använda
+* Stödjer nuvarande arbetsprocesser
+* Finns schemalagd tid och utrymme under arbetsdagen för användning av det digitala systemet
+* Känslan av att patienterna ”vinner” på användningen av det digitala systemet.
+
+**Läs mer:** [Implementation av eHälsolösningar](/2022/01/20/implementation-del-1.html)
+
+## Vilken nytta kan skapas redan idag om kommunerna går all-in och nyttjar befintliga digitala tjänster fullt ut?
+Inera höll föredrag om vilken nytta som kan uppstå om kommuner använder alla deras tjänster.
+
+När man pratar med verksamheterna får man ofta svaret att man vill ha morgondagens lösning. Men hur långt kan man komma redan idag?
+
+![Inera](/assets/images/post-assets/vitalis-2022-3-4.png "Inera")
+
+Vården skiftar mot att bedrivas mer i hemmet. För att detta ska vara en möjlighet behövs informationsdelning. 
+Kommunerna förväntas inte arbeta i regionens tjänster utan är då beroende av tjänster som bryggar kommunens tjänster med regionens.
+
+Alla arbetar inte i samma system, vilket i nuläget skapar glapp. Bilden visar en tidslinje för en persons livstid och vilka  journalsystem informationen kan lagras i:
+
+![Journaler över livslinje](/assets/images/post-assets/vitalis-2022-3-5.png "Journaler över livslinje")
+
+Centrala insikter från införandet:
+* Vad är det de nationella tjänsterna kan göra - man visste inte tidigare vad som fanns.
+* Elevhälsan är fortfarande pappersberoende.
+* Möjligheten att skicka e-remiss är mycket central.
+* Personalen är lite skeptiska mot att dela information i NPÖ.
+* Fanns stort behov av att som vårdpersonal kunna ta del av elevernas ordinerade läkemedel.
+
+Nyttor som skapas:
+* Sömlös hälso- och sjukvård
+* Bättre nytta för invånaren
+* Lättare att planera sin verksamhet
+
+Det är lätt att prata om vad morgondagens system ska kunna åstadkomma, men vi behöver se över vad vi har möjlighet att göra redan idag.
+
+## Kommuner kan äntligen testa 1177 Vårdguidens e-tjänster
+Inera har startat ett pilotprojekt med fyra kommuner för att testa 1177 vårdguiden och flera andra digitala tjänster. Utvärderingen kommer att utmynna i ett erbjudande nästa år om att använda 1177 vårdguiden inom kommuner.
+
+Tre kommuner testar nu alla 1177-tjänster: Örebro, Uddevalla och Kungsbacka. Följande tjänster planeras för kommunerna:
+* Förnya recept
+* Boka/Av/Omboka tid
+* Kontakta mig
+* Rådgivning
+
+Kommande tjänster:
+* Säkra videomöten
+* Säker digital kommunikation
+
+![Journaler över livslinje](/assets/images/post-assets/vitalis-2022-3-6.png "Journaler över livslinje")
+
+Piloternas fokus är hur mycket nytta de kan få ut. Inera planerar sedan att ta ett helhetsgrepp för att kunna sammanställa den överskådliga nyttan.
+
+I slutet av 2022 kommer Inera göra en utvärdering med kommunerna men även medborgarna.
+
+Målsättningen är att ge ett likvärdigt erbjudande till kommunerna som även ges till regionerna idag.
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
