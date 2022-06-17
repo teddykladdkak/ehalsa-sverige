@@ -3,7 +3,7 @@ layout: post
 title:  "Upphandlingar av journalsystem"
 description: "Hur regioner har samverkat i upphandlingar av journalsystem"
 date:   2022-06-16 08:00:00 +0200
-tags: Företag Journalsystem
+tags: Journalsystem Företag
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -29,7 +29,7 @@ Vissa svenska regioner samarbetar vid upphandling av journalsystem. Både region
 ## Hur har journalsystemen i Sverige upphandlats?
 Ungefär hälften av Sveriges regioner har upphandlat sina journalsystem oberoende, medan resten har gjort det inom ramen för samarbeten mellan regioner. De huvudsakliga samarbetena är Sussa samverkan och - tidigare - 3R. Det sista samarbetet har dock upplösts, och enbart Region Skåne och Västra Götalandsregionen upphandlade till slut samma journalsystem, dock oberoende av varandra.
 
-![Samarbeten kring upphandlingar av journalsystem](/assets/images/post-assets/samarbeten-upphandlingar.png "Samarbeten kring upphandlingar av journalsystem")
+![Samarbeten kring upphandlingar av journalsystem](/assets/images/post-assets/samarbeten-upphandlingar.svg "Samarbeten kring upphandlingar av journalsystem")
 _Samarbeten kring upphandlingar av journalsystem._
 
 ## Sussa samverkan
@@ -39,7 +39,7 @@ Sussa-gruppen bestod ursprungligen av regionerna Blekinge, Sörmland, Västernor
 
 Cambio vann upphandlingen med sitt journalsystem Cosmic, som håller på att införas i Sussa-regionerna. Cosmic har sedan tidigare upphandlats i flera regioner, vilket kommer att ge det en dominerande ställning inom svensk sjukvård.
 
-**Läs mer:** Journalsystem i Sverige
+**Läs mer:** [Journalsystem i Sverige](/2021/07/30/journalsystem.html)
 
 ## 3R - Skåne, Stockholm och Västra Götaland
 2015 utlyste regionerna Skåne, Stockholm och Västra Götaland ett samarbete under banderollen 3R FVM (Framtidens vårdmiljö) för att gemensamt upphandla ett nytt journalsystem. Gotland skulle också delta i Stockholms upphandling.
