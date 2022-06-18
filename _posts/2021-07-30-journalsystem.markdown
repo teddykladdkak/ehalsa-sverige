@@ -13,7 +13,7 @@ video:
   src: "644964040?h=5700d5b07d"
   title: "Journalsystem i Sverige"
 sitemap:
-  lastmod: 2022-03-16
+  lastmod: 2022-06-19
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -53,6 +53,8 @@ Idag används sex journalsystem i den regionalt styrda vården. 18 regioner anv�
 |Västra Götalandsregionen|AsynjaVisph|Melior|Millennium|
 
 ![Karta över journalsystem](/assets/images/post-assets/journalsystem.svg "Karta över journalsystem")
+
+Vissa privata vårdgivare använder journalsystem som skiljer sig från den offentligt styrda vården i respektive region. Exempelvis använder Sankt Görans sjukhus i Stockholm Cosmic snarare än TakeCare, som används av den offentliga vården.
 
 ## Så ritas kartan om {#ny-karta}
 Ett flertal regioner planerar att byta ut sina journalsystem. Inom några år kommer flertalet regioner att använda Cambio Cosmic, men storregionerna Skåne och Västra Götaland har valt Cerner Millennium. Stockholm och Gotland har ännu inte beslutat sig.
