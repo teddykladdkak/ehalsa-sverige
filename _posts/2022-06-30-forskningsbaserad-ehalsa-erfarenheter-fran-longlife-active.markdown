@@ -67,6 +67,6 @@ För att utveckla en forskningsbaserad eHälsoprodukt rekommenderar LongLife Act
 * Samtala och samarbeta med relevanta och engagerande samhällsaktörer för att gemensamt bidra till en kraftfull insats för folkhälsan och samhället.
 * Följ upp nationella och internationella rekommendationer inom hälsa och välfärd för att arbeta i linje med välgrundade riktlinjer och bidra till ett hållbart samhälle. Exempelvis Socialstyrelsens [nationella riktlinjer för prevention och behandling vid ohälsosamma levnadsvanor](https://www.socialstyrelsen.se/kunskapsstod-och-regler/regler-och-riktlinjer/nationella-riktlinjer/riktlinjer-och-utvarderingar/levnadsvanor/) och Världshälsoorganisationens [globala hållbarhetsmål](https://www.globalamalen.se/) i Agenda 2030.
 
-Läs mer om LongLife Active på deras hemsida.
+Läs mer om LongLife Active på [deras hemsida](https://media1.longlifeactive.se/).
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
