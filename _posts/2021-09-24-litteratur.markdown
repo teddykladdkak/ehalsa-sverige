@@ -12,6 +12,7 @@ image:
 video:
   src: "644964125?h=52bc95e2db"
   title: "Litteratur om eH&amp;auml;lsa"
+  source: "lumen"
 sitemap:
   lastmod: 2021-09-24
   priority: 0.7

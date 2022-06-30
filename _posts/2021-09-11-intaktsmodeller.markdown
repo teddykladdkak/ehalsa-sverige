@@ -12,6 +12,7 @@ image:
 video:
   src: "644963966?h=97a12ebc35"
   title: "Int&amp;auml;ktsmodeller"
+  source: "lumen"
 sitemap:
   lastmod: 2021-09-11
   priority: 0.7

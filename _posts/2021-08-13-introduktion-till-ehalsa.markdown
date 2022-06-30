@@ -12,6 +12,7 @@ image:
 video:
   src: "644963995?h=8c5c4f9f9e"
   title: "Introduktion till eH&amp;auml;lsa"
+  source: "lumen"
 sitemap:
   lastmod: 2021-08-13
   priority: 0.7

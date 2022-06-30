@@ -9,7 +9,7 @@ author:
   description: "Intern grupp som arbetar med webplatsen."
 image:
   path: "/assets/images/post-head/500/user_journey.jpg"
-video: true
+video: false
 sitemap:
   lastmod: 2022-06-30
   priority: 0.7

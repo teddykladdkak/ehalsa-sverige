@@ -12,6 +12,7 @@ image:
 video:
   src: "644964225?h=f21becbd63"
   title: "Vad &amp;auml;r en medicinteknisk produkt?"
+  source: "lumen"
 sitemap:
   lastmod: 2021-08-20
   priority: 0.7

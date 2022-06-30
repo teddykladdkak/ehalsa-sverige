@@ -12,6 +12,7 @@ image:
 video:
   src: "644964040?h=5700d5b07d"
   title: "Journalsystem i Sverige"
+  source: "lumen"
 sitemap:
   lastmod: 2022-06-19
   priority: 0.7

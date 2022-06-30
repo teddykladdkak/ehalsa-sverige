@@ -12,6 +12,7 @@ image:
 video:
   src: "644964163?h=f832ad0cf4"
   title: "Grunder i offentlig upphandling"
+  source: "lumen"
 sitemap:
   lastmod: 2021-09-30
   priority: 0.7

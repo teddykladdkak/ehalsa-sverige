@@ -12,6 +12,7 @@ image:
 video:
   src: "644964363?h=c33925f383"
   title: "Standarder att ha koll p&amp;aring;"
+  source: "lumen"
 sitemap:
   lastmod: 2021-07-31
   priority: 0.7

@@ -12,6 +12,7 @@ image:
 video:
   src: "644964471?h=cc4dc20eea"
   title: "Utbildningar i eH&amp;auml;lsa"
+  source: "lumen"
 sitemap:
   lastmod: 2022-01-25
   priority: 0.7
