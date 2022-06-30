@@ -31,7 +31,7 @@ LongLife Active är ett svenskt livsvetenskapsbolag som arbetar för att föreby
 
 – Det finns god evidens att våra levnadsvanor påverkar vår fysiska och psykiska hälsa, men idag det är få som når upp till nationella rekommendationer om fysisk aktivitet och matvanor, vilket ökar risken för att drabbas av ohälsa och sjukdom. Att skapa och bibehålla hälsosamma levnadsvanor innebär en beteendeförändring, och idag saknas verktyg och arenor som stöttar individen att skapa en mer hälsosam livsstil. Målet med vår tjänst är att hjälpa användaren att skapa levnadsvanor som skänker ett ökat välbefinnande och bidrar till fler friska levnadsår, säger Julia Bergevi, kvalitetsansvarig på LongLife Active.
 
-{% include video.html src="[https://media1.longlifeactive.se/2022/02/LongLife-Active-film.mov]" %}
+{% include video.html src="https://media1.longlifeactive.se/2022/02/LongLife-Active-film.mov" %}
 
 ## Forskning i tre steg
 Forskningssamarbetet LongLife Active grundades 2020 och och består av 13 forskare med olika bakgrunder från Sophiahemmet Högskola, Karolinska institutet, Stockholms universitet, Kungliga tekniska högskolan, Gymnastik- och idrottshögskolan, Research Institutes of Sweden AB (RISE), Södertörns högskola och Linnéuniversitetet. Forskningsgruppen är oberoende, utan ekonomisk ersättning, och syftar till att främja folkhälsan.
