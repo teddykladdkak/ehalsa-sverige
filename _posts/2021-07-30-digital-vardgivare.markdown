@@ -4,6 +4,7 @@ title:  "Privata digitala vårdgivare i Sverige"
 description: "Förteckning över vårdgivare online"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital_vård
+tags_extra: Nätläkare
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
