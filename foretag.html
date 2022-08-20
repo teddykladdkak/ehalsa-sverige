@@ -2,7 +2,7 @@
 layout: default
 title: Företag inom eHälsa
 tags: eHälsa jobb karriär arbete företag
-description: "Här samlar vi företag inom eHälsa"
+description: "Den mest kompletta listan med företag inom eHälsa"
 sitemap:
   exclude: 'yes'
 header: ''
@@ -45,6 +45,11 @@ footer: ''
 	<table class="rwd-table" id="foretag_table">
 		<thead>
 			<tr>
+				<th colspan="2" style="text-align: right;display: table-cell;padding: 2px!important;">
+					<input type="text" placeholder="Filter..." onkeyup="filterTable(this);" style="opacity: .9;border-radius: 10px;padding: 10px;box-sizing: border-box;width: 80%;max-width: 400px;">
+				</th>
+			</tr>
+			<tr>
 				<th onclick="sortTable(0);">Företag</th>
 				<th onclick="sortTable(1);">Område</th>
 			</tr>
@@ -55,6 +60,20 @@ footer: ''
 	</table>	
 </section>
 <script>
+	function filterTable(el){
+		var allLines = document.getElementById('foretag_wrapper').getElementsByTagName('tr');
+		if(el.value == '' || !el){
+			addToTable(baseForetag);
+		}else{
+			var filterForetag = [];
+			for (let i = 0; i < baseForetag.length; i++) {
+				if(baseForetag[i].namn.includes(el.value) || baseForetag[i].omrade.includes(el.value)){
+					filterForetag.push(baseForetag[i]);
+				};
+			};
+			addToTable(filterForetag);
+		};
+	};
 	function sortTable(n) {
 		var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
 			table = document.getElementById("foretag_table");
@@ -91,7 +110,7 @@ footer: ''
 			};
 		};
 	};
-	var foretag = [{
+	var baseForetag = [{
 		"namn": "9Solutions",
 		"omrade": "Kommunikationstjänster",
 		"url": "https://9solutions.com/"
@@ -460,20 +479,31 @@ footer: ''
 		"omrade": "Schemaläggning",
 		"url": "https://zymego.se/"
 	}];
-	var wrapper = document.getElementById('foretag_wrapper');
-	for( var i=0,t = foretag.length ; i < t ; ++i ){
-		var tr = document.createElement('tr');
-			tr.setAttribute('onclick', 'window.open("' + foretag[i].url + '", "_blank");');
-			tr.setAttribute('tabindex', '0');
-			tr.setAttribute('onkeypress', 'handleEnter(this, event);');
-			var namn = document.createElement('td');
-				var namnT = document.createTextNode(foretag[i].namn);
-				namn.appendChild(namnT);
-			tr.appendChild(namn);
-			var omr = document.createElement('td');
-				var omrT = document.createTextNode(foretag[i].omrade);
-				omr.appendChild(omrT);
-			tr.appendChild(omr);
-		wrapper.appendChild(tr);
+	function addToTable(foretag){
+		var wrapper = document.getElementById('foretag_wrapper');
+			wrapper.innerHTML = '';
+		if(foretag.length == 0){foretag.push({"namn": "Inga företag stämmer på filter", "omrade": "hide", "url": false});};
+		for( var i=0,t = foretag.length ; i < t ; ++i ){
+			var tr = document.createElement('tr');
+				tr.setAttribute('onclick', 'window.open("' + foretag[i].url + '", "_blank");');
+				tr.setAttribute('tabindex', '0');
+				tr.setAttribute('onkeypress', 'handleEnter(this, event);');
+				var namn = document.createElement('td');
+				if(foretag[i].omrade == 'hide'){
+					namn.setAttribute('colspan', '2');
+					namn.setAttribute('style', 'text-align: center;');
+				};
+					var namnT = document.createTextNode(foretag[i].namn);
+					namn.appendChild(namnT);
+				tr.appendChild(namn);
+				if(foretag[i].omrade == 'hide'){}else{
+					var omr = document.createElement('td');
+						var omrT = document.createTextNode(foretag[i].omrade);
+						omr.appendChild(omrT);
+					tr.appendChild(omr);
+				};
+			wrapper.appendChild(tr);
+		};
 	};
+	addToTable(baseForetag);
 </script>
