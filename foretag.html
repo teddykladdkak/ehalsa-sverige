@@ -67,7 +67,7 @@ footer: ''
 		}else{
 			var filterForetag = [];
 			for (let i = 0; i < baseForetag.length; i++) {
-				if(baseForetag[i].namn.includes(el.value) || baseForetag[i].omrade.includes(el.value)){
+				if(baseForetag[i].namn.toLowerCase().includes(el.value.toLowerCase()) || baseForetag[i].omrade.toLowerCase().includes(el.value.toLowerCase())){
 					filterForetag.push(baseForetag[i]);
 				};
 			};
@@ -76,13 +76,13 @@ footer: ''
 	};
 	function sortTable(n) {
 		var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-			table = document.getElementById("foretag_table");
+			table = document.getElementById("foretag_wrapper");
 		switching = true;
 		dir = "asc";
 		while (switching) {
 			switching = false;
 			rows = table.rows;
-			for (i = 1; i < (rows.length - 1); i++) {
+			for (i = 0; i < (rows.length - 1); i++) {
 				shouldSwitch = false;
 				x = rows[i].getElementsByTagName("TD")[n];
 				y = rows[i + 1].getElementsByTagName("TD")[n];
