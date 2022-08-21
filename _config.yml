@@ -41,6 +41,9 @@ microserver:
   kontakt:
     live: "https://ehalsasverige.se/kontakt/post"
     local: "http://localhost:9008"
+  foretag:
+    live: "https://ehalsasverige.se/foretag/data.json"
+    local: "http://localhost:9009"
   live: "https://ehalsa-sverige-microserver.vercel.app"
   local: "http://localhost:3000"
 
