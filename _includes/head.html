@@ -56,7 +56,7 @@
 
     <meta property="og:type" content="website">
     {%- if page.tags -%}
-        <meta name="keywords" content="{{ page.tags | join: ', ' | replace: '_', ' ' }}{%- if page.tags_extra -%}, {{ page.tags_extra | join: ', ' | replace: '_', ' ' }}{%- endif -%}">
+        <meta name="keywords" content="{{ page.tags | join: ', ' | replace: '_', ' ' }}{%- if page.tags_extra -%}, {{ page.tags_extra  | split: ' ' | join: ', ' | replace: '_', ' ' }}{%- endif -%}">
     {%- endif -%}
 
     {%- if page.image.path -%}
