@@ -4,6 +4,7 @@ title:  "Molntjänster inom eHälsa"
 description: "Hur säkra är molntjänster för eHälsa?"
 date:   2022-03-17 08:00:00 +0200
 tags: Forskning Lagar
+tags_extra: GDPR CLOUD_act
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

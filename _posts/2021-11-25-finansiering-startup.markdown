@@ -4,6 +4,7 @@ title:  "Finansiering för startup-företag inom eHälsa"
 description: "Sätt att få in kapital för att få ditt företag att växa"
 date:   2021-11-25 08:00:00 +0200
 tags: Företag
+tags_extra: investeringar lån anslag crowdfunding
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

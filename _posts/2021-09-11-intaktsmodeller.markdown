@@ -4,6 +4,7 @@ title:  "Intäktsmodeller för eHälsoföretag"
 description: "Sätt som ditt eHälsoföretag kan tjäna pengar"
 date:   2021-09-11 08:00:00 +0200
 tags: Företag
+tags_extra: intäkter startup
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

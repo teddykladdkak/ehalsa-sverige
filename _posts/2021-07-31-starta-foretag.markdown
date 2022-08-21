@@ -4,6 +4,7 @@ title:  "Starta företag inom eHälsa"
 description: "Viktiga aspekter att tänka på när du startar företag inom eHälsa"
 date:   2021-07-31 08:00:00 +0200
 tags: Medicinteknik Företag
+tags_extra: startup
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

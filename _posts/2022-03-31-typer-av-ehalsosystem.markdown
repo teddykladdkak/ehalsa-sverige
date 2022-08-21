@@ -3,7 +3,8 @@ layout: post
 title:  "Typer av eHälsosystem"
 description: "Kategorier och exempel på eHälsosystem"
 date:   2022-03-31 08:00:00 +0200
-tags: Digital_vård Företag Medicinteknik
+tags: Digital_vård Företag Journalsystem Medicinteknik
+tags_extra: beslutsstöd kommunikation
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

@@ -4,6 +4,7 @@ title:  "Är min eHälsoprodukt en medicinteknisk produkt?"
 description: "Introduktion till regelverket för medicinteknik"
 date:   2021-08-20 08:00:00 +0200
 tags: Lagar Medicinteknik
+tags_extra: MDR MDD riskklass
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

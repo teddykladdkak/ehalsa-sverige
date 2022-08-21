@@ -4,6 +4,7 @@ title:  "Principer för maskininlärning och artificiell intelligens i medicinte
 description: "Vägledning kring hur maskininlärning och AI kan användas för medicinteknik, inklusive eHälsa"
 date:   2022-04-14 08:00:00 +0200
 tags: Forskning Lagar Medicinteknik
+tags_extra: regulatoriskt juridik
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

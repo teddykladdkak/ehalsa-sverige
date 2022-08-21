@@ -4,6 +4,7 @@ title:  "NICE-riktlinjer för evidens för digitala hälsolösningar"
 description: "Överblick av NICE:s riktlinje för evidens för digitala hälsolösningar"
 date:   2022-01-06 08:00:00 +0200
 tags: Företag Medicinteknik Standarder
+tags_extra: vetenskap utvärdering
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

@@ -4,6 +4,7 @@ title:  "Riskkapitalbolag inom eHälsa 2021"
 description: "Investerare som satsar på eHälsa"
 date:   2021-09-16 08:00:00 +0200
 tags: Företag
+tags_extra: investering aktier
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

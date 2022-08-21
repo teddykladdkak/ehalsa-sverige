@@ -4,6 +4,7 @@ title:  "Ordlista"
 description: "Förklaringar av begrepp som används inom eHälsa"
 date:   2021-08-16 08:00:00 +0200
 tags: Utbildning Medicinteknik
+tags_extra: terminologi
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

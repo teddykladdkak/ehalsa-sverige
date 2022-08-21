@@ -4,6 +4,7 @@ title:  "Vitalis 2022: dag 3"
 description: "Höjdpunkter från dag 3 av Vitalis 2022"
 date:   2022-05-19 18:00:00 +0200
 tags: Evenemang
+tags_extra: HL7 1177
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

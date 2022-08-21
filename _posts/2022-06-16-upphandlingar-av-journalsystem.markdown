@@ -4,6 +4,7 @@ title:  "Upphandlingar av journalsystem"
 description: "Hur regioner har samverkat i upphandlingar av journalsystem"
 date:   2022-06-16 08:00:00 +0200
 tags: Journalsystem Företag
+tags_extra: Sussa Cosmic Millennium
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

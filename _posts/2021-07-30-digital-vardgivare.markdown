@@ -4,7 +4,7 @@ title:  "Privata digitala vårdgivare i Sverige"
 description: "Förteckning över vårdgivare online"
 date:   2021-07-30 08:00:00 +0200
 tags: Digital_vård
-tags_extra: Nätläkare
+tags_extra: Nätläkare Kry Min_doktor Doktor.se Doktor24
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

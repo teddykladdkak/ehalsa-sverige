@@ -4,6 +4,7 @@ title:  "Ineras tjänster"
 description: "Urval av Ineras tjänster"
 date:   2022-06-02 08:00:00 +0200
 tags: Företag Medicinteknik
+tags_extra: Inera 1177 HSA NPÖ SITHS Vårdhandboken WEbcert
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

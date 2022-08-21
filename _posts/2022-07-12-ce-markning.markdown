@@ -3,7 +3,8 @@ layout: post
 title: "Vad innebär CE-märkning av medicintekniska produkter?"
 description: "Tillverkarens ansvar kring CE-märkning av medicintekniska produkter i EU"
 date: 2022-07-12 08:00:00 +0200
-tags: Forskning Företag Medicinteknik
+tags: Forskning Företag Lagar Medicinteknik
+tags_extra: regulatoriskt juridik
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."

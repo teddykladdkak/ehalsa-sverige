@@ -4,6 +4,7 @@ title:  "Individuella patientöversikter"
 description: "Vad är individuella patientöversikter och vilka fördelar har de?"
 date:   2022-04-28 08:00:00 +0200
 tags: Digital_vård Journalsystem
+tags_extra: IPÖ
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
