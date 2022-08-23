@@ -11,7 +11,7 @@ author:
 image:
   path: "/assets/images/post-head/500/code.jpg"
 sitemap:
-  lastmod: 2021-08-23
+  lastmod: 2022-08-23
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -25,7 +25,7 @@ cc: false
 <!--more-->
 {% include toc.md %}
 
-# Vad innebär Datalagen?
+## Vad innebär Datalagen?
 Lagen ska främja att offentliga sektorn tillgängliggör digital data för vidareutnyttjande. Det förutsätter dock att krav på informationssäkerhet och skydd av personuppgifter upprätthålls och att datan inte innebär någon risk för Sveriges säkerhet. Datalagen ersätter lag (2010:566) om vidareutnyttjande av handlingar från den offentliga förvaltningen.
 
 Lagen tillämpas i tre situationer (1 kap. 5 § datalagen):
@@ -40,7 +40,7 @@ Datalagen kräver att offentliga aktörer ska ha en central förteckning över d
 
 Offentliga aktörer får som huvudregel inte ge _exklusiv_ rätt till någon att vidareutnyttja data. Vidare får eventuella avgifter som tas ut för ge tillgång till datan inte vara högre än att de täcker kostnaderna för att tillgängliggöra datan.
 
-# Vilka berör Datalagen?
+## Vilka berör Datalagen?
 Datalagen är tillämplig på offentliga aktörer på statlig, regional och kommunal nivå. Kulturinstitutioner (frånsett bibliotek, muséer och arkiv), huvudmän enligt skollagen eller radio- eller tv-företag som finansieras med public service-avgift är dock undantagna. För högskolor och universitet under statligt huvudmannaskap gäller lagen enbart forskningsdata.
 
 Även om privata vårdgivare inte direkt omfattas av Datalagen kan det innebära bättre möjligheter för integration med den offentliga vården. Indirekt berörs även tillverkare av eHälsoprodukter genom att offentliga aktörer kan ställa högre krav på interoperabilitet i upphandlingar.
