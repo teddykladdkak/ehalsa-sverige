@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad är IEC 62304 för mjukvara i medicinteknik?"
+title: "Vad är IEC 62304 för mjukvara i medicinteknik?"
 description: "Överblick av medicintekniska standarden IEC 62304 för mjukvara"
-date:   2021-12-23 08:00:00 +0200
+date: 2021-12-23 08:00:00 +0200
 tags: Medicinteknik Standarder
 tags_extra: mjukvara utveckling
 author:

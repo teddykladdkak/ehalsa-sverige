@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad är ISO 27001?"
+title: "Vad är ISO 27001?"
 description: "Introduktion till informationssäkerhetsstandarden ISO 27001"
-date:   2021-11-04 08:00:00 +0200
+date: 2021-11-04 08:00:00 +0200
 tags: Standarder
 tags_extra: IT-säkerhet
 author:

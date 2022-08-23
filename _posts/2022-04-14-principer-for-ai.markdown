@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Principer för maskininlärning och artificiell intelligens i medicinteknik"
+title: "Principer för maskininlärning och artificiell intelligens i medicinteknik"
 description: "Vägledning kring hur maskininlärning och AI kan användas för medicinteknik, inklusive eHälsa"
-date:   2022-04-14 08:00:00 +0200
+date: 2022-04-14 08:00:00 +0200
 tags: Forskning Lagar Medicinteknik
 tags_extra: regulatoriskt juridik
 author:

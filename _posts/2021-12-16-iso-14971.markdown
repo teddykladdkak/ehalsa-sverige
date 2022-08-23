@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad är ISO 14971 för riskhantering?"
+title: "Vad är ISO 14971 för riskhantering?"
 description: "Överblick av medicintekniska standarden ISO 14971 för riskhantering"
-date:   2021-12-16 08:00:00 +0200
+date: 2021-12-16 08:00:00 +0200
 tags: Medicinteknik Standarder
 tags_extra: riskkontroll
 author:

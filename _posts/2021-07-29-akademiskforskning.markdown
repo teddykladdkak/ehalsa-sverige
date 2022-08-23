@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Akademisk forskning om eHälsa"
+title: "Akademisk forskning om eHälsa"
 description: "Här samlar vi forskning om eHälsa vid svenska lärosäten"
-date:   2021-07-29 08:00:00 +0200
+date: 2021-07-29 08:00:00 +0200
 tags: Forskning
 tags_extra: högskola universitet vetenskap studie
 author:

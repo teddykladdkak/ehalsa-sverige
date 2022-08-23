@@ -45,9 +45,8 @@ Datalagen är tillämplig på offentliga aktörer på statlig, regional och komm
 
 Även om privata vårdgivare inte direkt omfattas av Datalagen kan det innebära bättre möjligheter för integration med den offentliga vården. Indirekt berörs även tillverkare av eHälsoprodukter genom att offentliga aktörer kan ställa högre krav på interoperabilitet i upphandlingar.
 
-Källor:
+**Källor:**
+* [Myndigheten för digital förvaltning: Om den nya datalagen](https://www.digg.se/datalagen)
+* [Regeringens proposition 2021/22:225 Den offentliga sektorns tillgängliggörande av data](https://www.regeringen.se/499a3b/contentassets/c477c2ea0fd64f02afdc0c22150a7cd4/den-offentliga-sektorns-tillgangliggorande-av-data-prop.-202122225)
 
-[Myndigheten för digital förvaltning: Om den nya datalagen](https://www.digg.se/datalagen)
-[Regeringens proposition 2021/22:225 Den offentliga sektorns tillgängliggörande av data](https://www.regeringen.se/499a3b/contentassets/c477c2ea0fd64f02afdc0c22150a7cd4/den-offentliga-sektorns-tillgangliggorande-av-data-prop.-202122225)
-
-*Hittat fel i artikeln eller har du någon annan kommentar?? [Kontakta oss!](/index.html#form-message)*
+*Hittat fel i artikeln eller har du någon annan kommentar? [Kontakta oss!](/index.html#form-message)*

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad händer på Vitalis 2022?"
+title: "Vad händer på Vitalis 2022?"
 description: "Överblick av programmet på Vitalis 2022"
-date:   2022-05-12 08:00:00 +0200
+date: 2022-05-12 08:00:00 +0200
 tags: Evenemang
 author:
   name: "Redaktionen"

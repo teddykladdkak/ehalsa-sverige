@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Introduktion till eHälsa"
+title: "Introduktion till eHälsa"
 description: "Börja här om du vill lära dig om eHälsa"
-date:   2021-08-13 08:00:00 +0200
+date: 2021-08-13 08:00:00 +0200
 tags: Utbildning
 author:
   name: "Redaktionen"

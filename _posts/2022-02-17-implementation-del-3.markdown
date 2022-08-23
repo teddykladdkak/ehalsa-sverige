@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Implementation av eHälsolösningar del 3: miljö- och individfaktorer"
+title: "Implementation av eHälsolösningar del 3: miljö- och individfaktorer"
 description: "Hur miljön som eHälsolösningar ska implementeras i kan påverka implementationens framgång"
-date:   2022-02-17 08:00:00 +0200
+date: 2022-02-17 08:00:00 +0200
 tags: Forskning Företag Utbildning 
 author:
   name: "Redaktionen"

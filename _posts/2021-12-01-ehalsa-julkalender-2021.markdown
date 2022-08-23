@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "eHälsans julkalender 2021"
+title: "eHälsans julkalender 2021"
 description: "Årets julkalender med temat eHälsa är fullpackad med citat och insikter. Ny lucka varje dag under december!"
-date:   2021-12-01 08:00:00 +0200
+date: 2021-12-01 08:00:00 +0200
 tags: Digital_vård Forskning Utbildning
 author:
   name: "Redaktionen"

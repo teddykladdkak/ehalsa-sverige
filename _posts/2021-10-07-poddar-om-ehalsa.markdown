@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Poddar om eHälsa"
+title: "Poddar om eHälsa"
 description: "Poddar för den som vill lära sig om eHälsa"
-date:   2021-10-07 08:00:00 +0200
+date: 2021-10-07 08:00:00 +0200
 tags: Digital_vård Forskning Sociala_media Utbildning
 tags_extra: podcast
 author:

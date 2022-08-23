@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Litteratur om eHälsa"
+title: "Litteratur om eHälsa"
 description: "Böcker för den som vill fördjupa sig inom eHälsa"
-date:   2021-09-24 08:00:00 +0200
+date: 2021-09-24 08:00:00 +0200
 tags: Forskning Utbildning
 author:
   name: "Redaktionen"

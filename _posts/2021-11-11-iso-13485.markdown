@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad är ISO 13485?"
+title: "Vad är ISO 13485?"
 description: "Introduktion till medicintekniska kvalitetsstandarden ISO 13485"
-date:   2021-11-11 08:00:00 +0200
+date: 2021-11-11 08:00:00 +0200
 tags: Medicinteknik Standarder
 tags_extra: kvalitetsledning
 author:

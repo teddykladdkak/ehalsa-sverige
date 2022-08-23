@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Kritik mot eHälsa"
+title: "Kritik mot eHälsa"
 description: "Problem som ibland framförs mot eHälsa och hur man kan lösa dem"
-date:   2021-10-21 08:00:00 +0200
+date: 2021-10-21 08:00:00 +0200
 tags: Forskning
 tags_extra: problem
 author:

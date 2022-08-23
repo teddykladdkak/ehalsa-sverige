@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Digitala opinionsledare"
+title: "Digitala opinionsledare"
 description: "Hur digitala opinionsledare (influencers) kan hjälpa din organisation"
-date:   2021-11-18 08:00:00 +0200
+date: 2021-11-18 08:00:00 +0200
 tags: Sociala_media
 author:
   name: "Redaktionen"

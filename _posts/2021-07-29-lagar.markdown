@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lagar som påverkar eHälsa"
+title: "Lagar som påverkar eHälsa"
 description: "Lagar som kan påverka eHälsoprodukter"
-date:   2021-07-29 08:00:00 +0200
+date: 2021-07-29 08:00:00 +0200
 tags: Lagar Medicinteknik
 tags_extra: CLOUD_act MDR HSL OSL Patientlagen Patientdatalagen
 author:

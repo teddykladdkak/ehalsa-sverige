@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Forskningsbaserad eHälsa: erfarenheter från LongLife Active"
+title: "Forskningsbaserad eHälsa: erfarenheter från LongLife Active"
 description: "Hur ett svenskt företag tagit fram en forskningsbaserad eHälsoprodukt"
-date:   2022-06-30 08:00:00 +0200
+date: 2022-06-30 08:00:00 +0200
 tags: Forskning Företag Medicinteknik
 tags_extra: samarbete studie vetenskap
 author:

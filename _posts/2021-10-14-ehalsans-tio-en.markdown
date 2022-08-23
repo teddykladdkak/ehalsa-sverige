@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "eHälsans tio e:n"
+title: "eHälsans tio e:n"
 description: "En välkänd eHälsoforskares syn på vad eHälsa innebär"
-date:   2021-10-14 08:00:00 +0200
+date: 2021-10-14 08:00:00 +0200
 tags: Forskning
 tags_extra: Eysenbach
 author:

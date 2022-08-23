@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Privat digital tandvård"
+title: "Privat digital tandvård"
 description: "Förteckning över tandläkare online"
-date:   2021-07-29 08:00:00 +0200
+date: 2021-07-29 08:00:00 +0200
 tags: Digital_vård
 tags_extra: Nätläkare
 author:

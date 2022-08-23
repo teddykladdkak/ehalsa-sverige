@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Journalsystem i Sverige 2022"
+title: "Journalsystem i Sverige 2022"
 description: "Förteckning över journalsystem i primär- och sjukhusvård"
-date:   2021-07-30 08:00:00 +0200
+date: 2021-07-30 08:00:00 +0200
 tags: Digital_vård Journalsystem
 tags_extra: Cambio Cosmic Cerner Millennium TakeCare Melior NCS_Cross
 author:

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Standarder inom eHälsa"
+title: "Standarder inom eHälsa"
 description: "Standarder som kan vara bra att följa inom eHälsa"
-date:   2021-07-31 08:00:00 +0200
+date: 2021-07-31 08:00:00 +0200
 tags: Standarder Medicinteknik
 tags_extra: ATC FHIR ICD IEC ISO NPU SNOMED
 author:

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vad är ISO 9001?"
+title: "Vad är ISO 9001?"
 description: "Introduktion till kvalitetsstandarden ISO 9001"
-date:   2021-10-28 08:00:00 +0200
+date: 2021-10-28 08:00:00 +0200
 tags: Standarder
 tags_extra: kvalitetssystem
 author:

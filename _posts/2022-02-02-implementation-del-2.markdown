@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Implementation av eHälsolösningar del 2: egenskaper hos lösningen"
+title: "Implementation av eHälsolösningar del 2: egenskaper hos lösningen"
 description: "Hur eHälsolösningars egenskaper kan påverka hur det går att implementera dem i vården"
-date:   2022-02-02 08:00:00 +0200
+date: 2022-02-02 08:00:00 +0200
 tags: Forskning Företag Utbildning 
 author:
   name: "Redaktionen"

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Inkubatorer för eHälsa"
+title: "Inkubatorer för eHälsa"
 description: "Inkubatorer för småföretagare inom eHälsa"
-date:   2021-08-26 08:00:00 +0200
+date: 2021-08-26 08:00:00 +0200
 tags: Företag
 tags_extra: startup
 author:

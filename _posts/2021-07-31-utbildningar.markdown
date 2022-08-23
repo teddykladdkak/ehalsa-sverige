@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Utbildningar i eHälsa 2022"
+title: "Utbildningar i eHälsa 2022"
 description: "Möjligheter för dig att utbilda dig i eHälsa"
-date:   2021-07-31 08:00:00 +0200
+date: 2021-07-31 08:00:00 +0200
 tags: Utbildning Medicinteknik
 tags_extra: universitet högskola kurs master program
 author:

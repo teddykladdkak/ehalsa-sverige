@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Implementation av eHälsolösningar del 1: översikt"
+title: "Implementation av eHälsolösningar del 1: översikt"
 description: "Att föra in en eHälsolösning i sjukvården är ett omfattande arbete med många steg och inblandade intressenter"
-date:   2022-01-20 08:00:00 +0200
+date: 2022-01-20 08:00:00 +0200
 tags: Forskning Företag Utbildning 
 author:
   name: "Redaktionen"

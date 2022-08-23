@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vetenskapliga tidskrifter inom eHälsa"
+title: "Vetenskapliga tidskrifter inom eHälsa"
 description: "Lista med tidskrifter där du kan läsa om eller publicera forskning om eHälsa"
-date:   2021-09-02 08:00:00 +0200
+date: 2021-09-02 08:00:00 +0200
 tags: Forskning
 author:
   name: "Redaktionen"
