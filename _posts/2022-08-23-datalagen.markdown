@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Datalagen - vad betyder den för eHälsa?"
+title: "Datalagen - vad betyder den för eHälsa?"
 description: "Hur den nya datalagen kan påverka dig som arbetar med eHälsa"
-date:   2022-08-23 08:00:00 +0200
+date: 2022-08-23 08:00:00 +0200
 tags: Lagar
 tags_extra: juridik IT-säkerhet informationssäkerhet
 author:
