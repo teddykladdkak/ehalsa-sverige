@@ -2,7 +2,7 @@
 layout: post
 title: "Höjdpunkter från eHealth@LU 2022 - dag 2"
 description: "Rapportering från symposium vid Lunds universitet"
-date: 2022-09-06 09:00:00 +0200
+date: 2022-09-07 08:00:00 +0200
 tags: Evenemang Forskning
 tags_extra: Lunds_universitet
 author:
@@ -12,7 +12,7 @@ image:
   path: "/assets/images/post-head/500/LU2.jpg"
 video: false
 sitemap:
-  lastmod: 2022-09-06
+  lastmod: 2022-09-07
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
