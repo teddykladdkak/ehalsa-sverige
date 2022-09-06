@@ -502,6 +502,14 @@ a.cal-ev .cal-ev-col {
         -ms-hyphens: auto;
             hyphens: auto;
 }
+.postbody .twitter-tweet-rendered, .postbody .fb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postbody .fb{
+    max-width: 100%;
+}
 .postbody img {
     display: block;
     width: 80%;

@@ -21,7 +21,8 @@ chart: false
 cc: false
 ---
 
-Lunds universitet höll 25 till 26 augusti 2022 ett symposium om “e-hälsa de senaste och kommande 5 åren”. eHälsa Sverige var på plats för att rapportera om höjdpunkterna.
+<style>.twitter-tweet-rendered, .fb {display: block;margin-left: auto;margin-right: auto;}.fb{max-width: 100%;}</style>
+Lunds universitet höll 25 till 26 augusti 2022 ett symposium om “<span style="white-space: nowrap;">e-hälsa</span> de senaste och kommande 5 åren”. eHälsa Sverige var på plats för att rapportera om höjdpunkterna.
 
 <!--more-->
 

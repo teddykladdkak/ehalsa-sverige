@@ -21,11 +21,13 @@ chart: false
 cc: false
 ---
 
-Lunds universitet höll 25 till 26 augusti 2022 ett symposium om “e-hälsa de senaste och kommande 5 åren”. eHälsa Sverige var på plats för att rapportera om höjdpunkterna. Här skriver vi om evenemangets andra dag. Läs om dag 1 av programmet [här](/2022/09/06/ehealthatlu-dag-1.html).
+<style>.twitter-tweet-rendered, .fb {display: block;margin-left: auto;margin-right: auto;}.fb{max-width: 100%;}</style>
+Lunds universitet höll 25 till 26 augusti 2022 ett symposium om “<span style="white-space: nowrap;">e-hälsa</span> de senaste och kommande 5 åren”. eHälsa Sverige var på plats för att rapportera om höjdpunkterna. Här skriver vi om evenemangets andra dag. Läs om dag 1 av programmet [här](/2022/09/06/ehealthatlu-dag-1.html).
 
 <!--more-->
 
 {% include toc.md %}
+
 ## Att ersätta digitala besök hos äldre med en etisk situationsmedvetenhet
 Peter Abdelmassih Waller från [Axis Communications](https://www.axis.com/) berättade om hur teknik utöver kamror, såsom radar och sensorer, kan öka kvaliteten på digitala vårdbesök hos äldre. Samtidigt kan etiska problem uppstå – brukare kan känna sig övervakade och den stora mängd information om dennes vardag kan hamna i fel händer eller på annat sätt missbrukas.
 
@@ -36,9 +38,8 @@ Amazon och Microsoft har nu gett upp sina satsningar mot eHälsa. Apple och Goog
 
 > “I utveckling är det bra att börja med människan och ta tekniken senare.” – Mathias Levin
 
-Även bra lösningar kan misslyckas om det inte finns tillräckligt välfungerade stödsystem. Ett exempel på detta är hur Teams sprang om Slack under covid-19-pandemin. Detta berodde inte på att Teams är bättre än Slack, utan för det var enklare för IT-organisationer att installera på alla datorer och administrera konton i sina verksamheter.
+Även bra lösningar kan misslyckas om det inte finns tillräckligt välfungerade stödsystem. Ett exempel på detta är hur Teams sprang om Slack under covid-19-pandemin. Detta berodde inte på att Teams är bättre än Slack, utan för det var enklare för <span style="white-space: nowrap;">IT-organisationer</span> att installera på alla datorer och administrera konton i sina verksamheter.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lessons from Teams Beating Slack on Product Growth <a href="https://t.co/AfSSffPskB">https://t.co/AfSSffPskB</a></p>&mdash; Aakash Gupta 🚀 Product Growth Guy (@aakashg0) <a href="https://twitter.com/aakashg0/status/1561007428099051525?ref_src=twsrc%5Etfw">August 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ## Homomorfisk kryptering som integritetsskydd vid delning av hälsodata
 Helena Linge och Rickard Brännvall från [RISE](https://www.ri.se/sv) berättade om RISE:s bidrag i en innovationstävling från Vinnova. Projektet handlade om delning av data.
 
@@ -62,7 +63,7 @@ Projektgruppen beräknade att det skulle kosta 22 kr/år/användare att driva tj
 
 “Walk the Ward” var en app med fokus på att aktivera inneliggande patienter och få dem att tänka på något annat än sin sjukdom. I spelet kunde patienterna skanna QR-koder på vårdavdelningen som tog fram en fråga eller ett uppdrag. Projektet visade att man inte ska underskatta förmågan hos patienter utan istället arbeta med att tillmötesgå dem med teknik.
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F308458102672219%2Fphotos%2Fa.312418245609538%2F341688622682500%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" style="max-width: 100%;"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F308458102672219%2Fphotos%2Fa.312418245609538%2F341688622682500%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="375" class="fb" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 “iRemember” var ett system för att få brukare att äta på regelbundna tider. I lösningen skickar en huvudenhet ett meddelande om att maten var klar eller liknande till surfplattor i varje brukares rum. Resultatet från studien var att fler brukare kunde komma i tid för att äta utan assistans. Det togs emot positivt av personal och brukare och ökade upplevelsen av glädje och självständighet.
 
