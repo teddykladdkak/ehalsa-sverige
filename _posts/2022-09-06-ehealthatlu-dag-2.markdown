@@ -62,7 +62,7 @@ Projektgruppen beräknade att det skulle kosta 22 kr/år/användare att driva tj
 
 “Walk the Ward” var en app med fokus på att aktivera inneliggande patienter och få dem att tänka på något annat än sin sjukdom. I spelet kunde patienterna skanna QR-koder på vårdavdelningen som tog fram en fråga eller ett uppdrag. Projektet visade att man inte ska underskatta förmågan hos patienter utan istället arbeta med att tillmötesgå dem med teknik.
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F308458102672219%2Fphotos%2Fa.312418245609538%2F341688622682500%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F308458102672219%2Fphotos%2Fa.312418245609538%2F341688622682500%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" style="max-width: 100%;"></iframe>
 
 “iRemember” var ett system för att få brukare att äta på regelbundna tider. I lösningen skickar en huvudenhet ett meddelande om att maten var klar eller liknande till surfplattor i varje brukares rum. Resultatet från studien var att fler brukare kunde komma i tid för att äta utan assistans. Det togs emot positivt av personal och brukare och ökade upplevelsen av glädje och självständighet.
 
