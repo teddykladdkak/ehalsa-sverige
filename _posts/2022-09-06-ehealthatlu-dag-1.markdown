@@ -85,7 +85,7 @@ Helsingborg har arbetat aktivt med att driva innovation,bland annat genom idéba
 
 I dagens läge kan anmärkningar på vården gå tre vägar: IVO, Patientnämnden eller direkt till vårdgivaren. Det kommer in över 5000 ärenden till Patientnämnden årligen, vilket snabbt skapar ett överflöd av information och gör det svårt att överskåda, lära sig eller se trender utifrån ett helhetsperspektiv. Därför planerar nämnden nu att börja analysera handläggarnas anteckningar kring ärenden. Informationsdelningen är ett av de största hindren för textbehandling idag då det kräver att en organisation delar data med tredje part. Patientnämnden använder till att börja med enbart sina egna handläggarens anteckningar, där informationen avidentifieras. De har ännu inte fått resultat över om satsningen möter behovet, utan det kommer ske under hösten.
 
-Läs om dag 2 av programmet [här](/2022/09/06/ehealthatlu-dag-2.html).
+Läs om dag 2 av programmet [här](/2022/09/07/ehealthatlu-dag-2.html).
 
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
