@@ -4,7 +4,7 @@ title: "WHO Europas plan för digital hälsa"
 description: "Vad innebär WHO Europas plan för digital hälsa?"
 date: 2022-10-04 08:00:00 +0200
 tags: Digital_vård Företag
-tags_extra: Världshälsoorganisationen internationell
+tags_extra: Världshälsoorganisationen internationell who
 author:
   name: "Redaktionen"
   description: "Intern grupp som arbetar med webplatsen."
@@ -20,9 +20,11 @@ karta: false
 chart: false
 cc: false
 ---
+
 I september 2022 antog Världshälsoorganisationen (WHO) Europa [en plan för digital hälsa](https://www.who.int/europe/news/item/13-09-2022-countries-in-the-european-region-adopt-first-ever-digital-health-action-plan). Vad innebär det för eHälsa i Sverige och Europa?
 
 <!--more-->
+
 {% include toc.md %}
 
 ## Del av större WHO-program
@@ -53,4 +55,4 @@ WHO:s plan ger Europas länder stöd för sitt digitaliseringsarbete. Organisati
 
 
 
-*Hittat fel i artikeln eller har vi missat någon aktör? [Kontakta oss!](/index.html#form-message)*
+*Hittat fel i artikeln eller har vi missat något? [Kontakta oss!](/index.html#form-message)*
