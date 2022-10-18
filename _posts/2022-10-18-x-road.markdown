@@ -1,0 +1,51 @@
+---
+layout: post
+title: "X-Road - ryggraden i e-Estland"
+description: "Vad är nyckeln till Estlands digitalisering?"
+date: 2022-10-18 08:00:00 +0200
+tags: Digital_vård Företag
+tags_extra: Estland interoperabilitet
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/tallinn.jpg"
+video: false
+sitemap:
+  lastmod: 2022-10-18
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+Estland har länge legat i framkant när det gäller digitalisering av inte bara vården, utan av samhället i stort. Grunden till digitaliseringen är ett interoperabilitetssystem som heter X-Road. Vad kan vi i Sverige lära oss av det?
+
+<!--more-->
+
+{% include toc.md %}
+
+## Vad är X-Road?
+X-Road kallas för “e-Estlands ryggrad”. Det låter offentliga och privata aktörer kopplas ihop och fungera harmoniskt. Utgående data signeras och krypteras, medan ingående data autentiseras och loggas. 52 000 organisationer använder sig indirekt av X-Road, och tjänsten genomför 1,5 miljarder transaktioner om året.
+
+Lösningen sammankopplar skilda informationssystem. Varje organisation skapar och förvaltar sina egna data, men andra organisationer kan hämta ut datan för att undvika att data dupliceras. Datan förblir oförändrad och krypterad medan den är i rörelse.
+
+Numera kan X-Road skriva till flera informationssystem, överföra stora dataset och göra sökningar i flera informationssystem samtidigt. Det har skapats för att vara skalbart, så att det ska gå att utöka skalan på mjukvaran i takt med att nya tjänster ansluts.
+
+X-Road används numera även i Finland, Island, Färöarna och flera utomnordiska länder. Det går också att koppla samman X-Road-implementationer mellan länder. Sedan 2018 har Estland och Finland kopplat samman sina X-Road-implementationer för att kunna utbyta data över landsgränserna.
+
+X-Road lanserades 2001 och sedan dess har systemet löpt utan uppehåll. Numera erbjuds X-Road som öppen källkod.
+
+### Exempel på användning
+När ett barn föds i Estland skickas data om barnet från sjukhuset till befolkningsregistret. Därifrån skickas datan automatiskt till sjukvårdssystemet för att barnet ska få sjukvårdsförsäkring och en husläkare. Några år senare vet skolsystemet när barnet ska börja i skolan.
+
+## Slutsatser
+Estland är i många avseenden ett föregångsland för digitalisering. Genom att automatisera dataflöde mellan olika organisationer minskas pappersarbete. Det kostar mindre och går snabbare än en manuell hantering av varje ärende. För medborgarna ökas nivån på samhällsservicen. Estland uppskattar att deras välintegrerade digitaliseringstjänster varje sekund sparar ungefär en arbetstimme för Estlands befolkning.
+
+För att ett land ska digitaliseras effektivt krävs det att data kan utbytas mellan offentliga och privata aktörer på ett säkert sätt. X-Road möjliggör en sådan integration, och även om det inte införs i Sverige direkt utgör det en god förebild för hur digitalisering kan ske.
+
+**Läs mer:** [X-Road - e-Estonia](https://e-estonia.com/solutions/interoperability-services/x-road/)
+
+*Hittat fel i artikeln eller har vi missat något? [Kontakta oss!](/index.html#form-message)*
