@@ -51,5 +51,5 @@ Dataläckage från sjukvården är ett ökande problem. Större delen av datalä
 
 ## Slutsatser
 eHälsa skapar väldiga möjligheter för vården och patienter, men det bär också med sig nya risker. Tillverkare, beslutsfattare och användare bör ha dessa risker i åtanke så att man inför och använder eHälsolösningar på ett patientsäkert sätt, där risker vägs mot nytta.
-
+ 
 *Hittat fel i artikeln eller har vi missat något? [Kontakta oss!](/index.html#form-message)*
