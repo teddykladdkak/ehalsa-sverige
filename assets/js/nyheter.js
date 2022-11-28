@@ -32,7 +32,7 @@ function buildNewsTable(){
                         date.appendChild(datet);
                     line.appendChild(date);
                     var title = document.createElement('td');
-                        var titleT = document.createTextNode(newsData[i].title);
+                        var titleT = document.createTextNode(newsData[i].title.replace('&#160;', ' '));
                         title.appendChild(titleT);
                     line.appendChild(title);
                     var utgivare = document.createElement('td');
