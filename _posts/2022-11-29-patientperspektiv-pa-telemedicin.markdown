@@ -40,13 +40,13 @@ Intervjuer genomfördes med 26 patienter runtom i landet som använt digitala v�
 
 ### Registerstudie
 
-10 400 personer i Region Jönköpings län hade genomfört 15 211 digitala vårdmöten med läkare under perioden som studerades. Ytterligare 2090 digitala kontakter hade genomförts med andra vårdprofessioner. Efter läkare var psykolog och fysioterapeut de vanligaste professionerna. Motsvarande 2,9 % av Region Jönköpings läns befolkning hade genomfört digitala vårdbesök under perioden.
+10 400 personer i Region Jönköpings län hade genomfört 15 211 digitala vårdmöten med läkare under perioden som studerades. Ytterligare 2090 digitala kontakter hade genomförts med andra vårdprofessioner. Efter läkare var psykolog och fysioterapeut de vanligaste professionerna. Motsvarande 2,9% av Region Jönköpings läns befolkning hade genomfört digitala vårdbesök under perioden.
 
-Akut övre luftvägsinfektion var den vanligaste diagnosen, som tillsammans med diagnoserna “hosta” och “Akut övre luftvägsinfektion med multipel icke-specificerad lokalisation” stod för 8,2 % av vårdbesöken.
+Akut övre luftvägsinfektion var den vanligaste diagnosen, som tillsammans med diagnoserna “hosta” och “Akut övre luftvägsinfektion med multipel icke-specificerad lokalisation” stod för 8,2% av vårdbesöken.
 
-Totalt stod kvinnor för 60 % av besöken. Upp till 12 års ålder var det dock jämt fördelat mellan könen, medan bland patienter äldre än så var 65 % kvinnor.
+Totalt stod kvinnor för 60% av besöken. Upp till 12 års ålder var det dock jämt fördelat mellan könen, medan bland patienter äldre än så var 65% kvinnor.
 
-90 % av patienter hade enbart digital kontakt med läkare. 1,5 % hade kontakt med 1177 inom 1 dygn före och 4 % besökte vårdcentral upp till 7 dygn före den digitala kontakten. 1 % besökte akutmottagning inom 1 dygn från sitt digitala läkarbesök och 3,6 % besökte primärvården inom 7 dygn.
+90% av patienter hade enbart digital kontakt med läkare. 1,5% hade kontakt med 1177 inom 1 dygn före och 4% besökte vårdcentral upp till 7 dygn före den digitala kontakten. 1% besökte akutmottagning inom 1 dygn från sitt digitala läkarbesök och 3,6% besökte primärvården inom 7 dygn.
 
 ### Intervjustudie
 I analyserna av intervjutexterna identifierades fem teman om patienters drivkrafter till att söka digital vård samt deras upplevelser av tjänsterna:
@@ -58,7 +58,7 @@ I analyserna av intervjutexterna identifierades fem teman om patienters drivkraf
 5. Andra digitala stöd inom vården
 
 ## Slutsatser
-Sammanlagt använde sig 90 % av patienterna i studien enbart av digitala vårdtjänster utan kontakt med den traditionella vården. Deltagarna i intervjuerna uppgav att de hade goda erfarenheter av att använda 1177:s telefontjänster, men att de sökte digital vård när de inte trodde att 1177 skulle kunna lösa deras problem. Sammantaget ger studien en bild av att digital vård fungerar som ett komplement till traditionell vård.
+Sammanlagt använde sig 90% av patienterna i studien enbart av digitala vårdtjänster utan kontakt med den traditionella vården. Deltagarna i intervjuerna uppgav att de hade goda erfarenheter av att använda 1177:s telefontjänster, men att de sökte digital vård när de inte trodde att 1177 skulle kunna lösa deras problem. Sammantaget ger studien en bild av att digital vård fungerar som ett komplement till traditionell vård.
 
 Begränsningar i studien är att kvaliteten på vården som gavs inte bedömdes annat än indirekt genom hur många som behövde kontakt med fysiska vårdinrättningar efter den digitala kontakten. Vidare kritiseras digital vård för att orsaka besök som egentligen inte hade behövt uppmärksammas av vården, och detta fångas inte upp av studien.
 
