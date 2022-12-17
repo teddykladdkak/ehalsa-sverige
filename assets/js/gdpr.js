@@ -7,6 +7,17 @@ function hojtar(h,o,t,j,a,r){
     r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
     a.appendChild(r);
 };
+var sc_project=12828040; 
+var sc_invisible=1; 
+var sc_security="c4a98e68"; 
+function addStatCounter(){
+    var h = document.getElementsByTagName('head')[0];
+        var s = document.createElement('script');
+            s.setAttribute('async', 'text/javascript');
+            s.setAttribute('src', 'https://www.statcounter.com/counter/counter.js');
+            s.setAttribute('type', '');
+        h.appendChild(s);
+};
 function laddaMixpanel(){
     console.log('Mixpanel laddas.');
     var kampanj = getParameterByName('k');
@@ -14,6 +25,7 @@ function laddaMixpanel(){
     var titel = document.getElementsByTagName('title')[0].innerText;
     if(!kampanj || kampanj == ''){window.mixpanel.track(titel);}else{window.mixpanel.track(titel, {'source': kampanj,});};
     hojtar(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    addStatCounter();
 };
 function visaGDPR(){
     if (typeof localStorage !== 'undefined') {
