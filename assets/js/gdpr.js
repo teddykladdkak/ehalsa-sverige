@@ -12,16 +12,16 @@ var sc_invisible=1;
 var sc_security="c4a98e68";
 var _statcounter = _statcounter || [];
 function addStatCounter(){
+    var kampanj = getParameterByName('k');
+    if(!kampanj || kampanj == ''){
+        _statcounter.push({"tags": {"campaign": kampanj}});
+    };
     var h = document.getElementsByTagName('head')[0];
         var s = document.createElement('script');
             s.setAttribute('type', 'text/javascript');
             s.setAttribute('src', 'https://www.statcounter.com/counter/counter.js');
             s.setAttribute('async', '');
         h.appendChild(s);
-    var kampanj = getParameterByName('k');
-    if(!kampanj || kampanj == ''){
-        _statcounter.push({"tags": {"campaign": kampanj}});
-    };
 };
 function laddaMixpanel(){
     console.log('Mixpanel laddas.');
