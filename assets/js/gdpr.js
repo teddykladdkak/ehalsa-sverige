@@ -13,9 +13,9 @@ var sc_security="c4a98e68";
 function addStatCounter(){
     var h = document.getElementsByTagName('head')[0];
         var s = document.createElement('script');
-            s.setAttribute('async', 'text/javascript');
+            s.setAttribute('type', 'text/javascript');
             s.setAttribute('src', 'https://www.statcounter.com/counter/counter.js');
-            s.setAttribute('type', '');
+            s.setAttribute('async', '');
         h.appendChild(s);
 };
 function laddaMixpanel(){
