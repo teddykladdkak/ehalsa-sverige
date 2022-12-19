@@ -13,7 +13,7 @@ var sc_security="c4a98e68";
 var _statcounter = _statcounter || [];
 function addStatCounter(){
     var kampanj = getParameterByName('k');
-    if(!kampanj || kampanj == ''){
+    if(!kampanj || kampanj == ''){}else{
         _statcounter.push({"tags": {"campaign": kampanj}});
     };
     var h = document.getElementsByTagName('head')[0];
