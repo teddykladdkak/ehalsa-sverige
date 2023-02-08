@@ -12,7 +12,7 @@ image:
   path: "/assets/images/post-head/500/digital_vard.jpg"
 video: false
 sitemap:
-  lastmod: 2021-07-30
+  lastmod: 2023-02-08
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -82,6 +82,13 @@ Utöver de privata vårdgivarna erbjuder vissa regioner sina egna digitala vård
 **Har fysiska mottagningar:** Nej\
 **Kontakttyp:** Video\
 **Teknisk lösning:** Webbläsare eller app (Android och iOS)
+
+### Hälsa Hemma vårdcentral {#halsahemma}
+**Hemsida:** [https://halsahemma.se/](https://halsahemma.se/)\
+**Tjänster:** Primärvård, BVC, psykolog\
+**Har fysiska mottagningar:** Ja (Göteborg och Stockholm)\
+**Kontakttyp:** Chat, videomöte och hembesök\
+**Teknisk lösning:** App (Android och iOS)
 
 ### Joint Academy {#joint-academy}
 **Hemsida:** [https://www.jointacademy.com/](https://www.jointacademy.com/)\
