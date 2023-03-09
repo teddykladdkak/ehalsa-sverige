@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Standarden HL7"
+description: "Ramverket HL7 (Health Level Seven) för standarder är utvecklad av “Health Level Seven International”. HL7 har visionen är att skapa en värld där alla säkert kan komma åt och använda rätt hälsodata när och var de behöver dem."
+date: 2023-03-09 20:00:00 +0200
+tags: Digital_vård Standarder
+tags_extra: hl7 health level seven
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/structure.jpg"
+video: false
+sitemap:
+  lastmod: 2023-03-09
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+Ramverket HL7 (Health Level Seven) för standarder är utvecklad av “Health Level Seven International”. HL7 har visionen är att skapa en värld där alla säkert kan komma åt och använda rätt hälsodata när och var de behöver dem. HL7 är en gruppering av internationella standarder för utbyte, integrering, gemensam användning och lagring av elektronisk hälsoinformation. Med andra ord kan det kallas för en interoperabilitetsstandard. Den används av hälso- och sjukvårdsorganisationer över hela världen för att tillåta olika system och program att kommunicera och dela information med varandra på ett strukturerat och säkert sätt.
+
+<!--more-->
+
+Standarden definierar ett ramverk för att hantera information som rör patienter, hälso- och sjukvård och annat relaterat till hälsoinformation. Den består av en mängd olika protokoll och format, inklusive HL7 version 2, HL7 version 3 och HL7 FHIR (Fast Healthcare Interoperability Resources). Protokollen och formaten används för att strukturera informationen på ett enhetligt sätt, vilket gör det möjligt för olika system att läsa, skicka och förstå informationen på ett korrekt sätt. Det innebär att viktig hälsoinformation kan delas och användas av olika vårdgivare och organisationer utan risk för fel eller förlust av information. Detta kan bidra till att förbättra vårdens effektivitet och kvalitet genom att vårdgivare får tillgång till relevant och uppdaterad information om patienter.
+
+Exempel på ett HL7-meddelande (kontaktuppgifter till en partient):
+<blockquote style="-ms-word-break: break-all;word-break: break-all;word-break: break-word;-webkit-hyphens: none;-moz-hyphens: none;-ms-hyphens: none;hyphens: none;"><strong>MSH</strong>|^~\&|EPIC|EPICADT|SMS|SMSADT|199912271408|CHARRIS|ADT^A04|1817457|D|2.5|<br>
+<strong>PID</strong>||0493575^^^2^ID 1|454721||DOE^JOHN^^^^|DOE^JOHN^^^^|19480203|M||B|254 MYSTREET AVE^^MYTOWN^OH^44123^USA||(216)123-4567|||M|NON|400003403~1129086|<br>
+<strong>NK1</strong>||ROE^MARIE^^^^|SPO||(216)123-4567||EC|||||||||||||||||||||||||||<br>
+<strong>PV1</strong>||O|168 ~219~C~PMA^^^^^^^^^||||277^ALLEN MYLASTNAME^BONNIE^^^^|||||||||| ||2688684|||||||||||||||||||||||||199912271408||||||002376853</blockquote>
+
+<span>I ovan exempel delas segmenten in mellan “|”-tecknen.</span>
+
+![Bild som illustrerar människa-datorinteraktion](/assets/images/post-assets/throwing_papers.png)
+*Bild skapad av DALL·E; "Two people throwing papers between eachother abstract".*
+
+## MSH
+Första segmentraden “**MSH**” innebär meddelanderubrik (Message Header) och innehåller information om meddelandet i sig. Exempel på information som inkluderas i meddelanderubriken är avsändare och mottagare av meddelandet samt vilken typ av meddelande informationen är och datum det skickades.
+
+| Segment-Fält | Fält Förklaring | Värde |
+| ------------------ | ------------------- | -------- |
+| MSH-1 | Fältavskiljare  | MSH |
+| MSH-2 | Kodning av tecken | ^~\& |
+| MSH-3 | Sändande Applikation | EPIC |
+| MSH-4 | Sändnings Anläggning | EPICADT |
+| MSH-5 | Mottagande applikation | SMS |
+| MSH-6 | Mottagande anläggning | SMSADT |
+| MSH-7 | Datum & Tid för meddelande | 199912271408 |
+| MSH-8 | Säkerhet | CHARRIS |
+| MSH-9 | Meddelande typ | ADT^A04 |
+| MSH-10 | Meddelande kontroll ID | 1817457 |
+| MSH-11 | Bearbetar ID | D |
+| MSH-12 | Versions ID | 2.5 |
+| MSH-13 | Sekvensnummer | |
+
+<p>Tabellen ovan visar att mellan varje tecken “|” i en linje motsvarar en rad i tabellen ovan. Ifall likt “MSH-13” en kolumn inte innehåller något värde, finns ingen information mellan dessa “|”-tecknen.</p>
+
+Segmentraden “**PID**” innebär att raden innehåller patientinformation (Patient Information), vilket inkluderar demografiska uppgifter som namn, patient ID och adress. Segmentraden “**NK1**” innebär enligt HL7 närmast anhörig (Next of Kin) och innehåller då information om patientens närmaste anhörig. Start segmentet “**PV1**” innehåller information om patientens nuvarande sjukhusbesök (Patient visit), med information som plats och remitterande läkare.
+
+* Mer ingående förklaring av HL- strukturen: [HL7 Message Structure
+](https://www.interfaceware.com/hl7-message-structure)
+* Om du önskar omvandla HL7-meddelanden kan du testa: [Free Interactive HL7 Parser](https://www.parsehog.com/hl7_parser)
+
+Ovan exempel visar hur HL7-standarden definierar på vilket sätt information skickas mellan olika system och att de tolkas på samma sätt, vilket skapar strukturerad och enhetlig information. Det gör det också möjligt att analysera och samla in data på ett systematiskt sätt, vilket kan användas för att förbättra vården och ta beslut om hur vården ska ges. Genom att använda standarder för att systemen ska kommunicera på samma sätt minskas murarna mellan organisationer med olika journalsystem och främjar interoperabilitet.
