@@ -15,7 +15,7 @@ video:
   title: "Journalsystem i Sverige"
   source: "lumen"
 sitemap:
-  lastmod: 2022-06-19
+  lastmod: 2023-04-02
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -74,36 +74,107 @@ Se TakeCare.
 **Används i:** Jämtland Härjedalen, Jönköpings län, Kalmar län, Kronoberg, Uppsala, Värmland, Västmanland, Östergötland
 
 Modulbaserat journalsystem, där de olika modulerna kan installeras oberoende av varandra. Kommer att införas i ytterligare nio regioner.
+
 ### Melior {#melior}
-**Leverantör:** Cerner\
+**Leverantör:** Oracle Cerner\
 **Vårdnivå:** Sjukhus\
 **Används i:** Gävleborg, Skåne, Västra Götaland
 
 Infördes på 90-talet med Siemens som leverantör. 2015 köptes Siemens Health Services upp av Cerner, som har fortsatt att förvalta lösningen.
+
 ### Millennium {#millennium}
-**Leverantör:** Cerner\
+**Leverantör:** Oracle Cerner\
 **Vårdnivå:** Primärvård/sjukhus\
 **Används i:** Planerat att införas i Skåne och Västra Götalandsregionen
 
 Amerikanska Millennium introducerades 1997. Det är planerat att systemet ska bli en gemensam lösning för primär- och sjukhusvård i Region Skåne och Västra Götalandsregionen.
+
 ### NCS Cross {#ncs}
 **Leverantör:** Evry\
 **Vårdnivå:** Primärvård/sjukhus\
 **Används i:** Blekinge, Sörmland, Västerbotten, Västernorrland, Örebro län
 
 NCS Cross (tidigare SysTeamCross) utvecklades ursprungligen av IBM och Landstinget Sörmland. Sussa samverkan (strategisk utveckling av sjukvårdsstödjande applikationer) är ett samarbete mellan fem regioner som började 1990-talet, bland annat för att förvalta NCS Cross.
+
 ### Profdoc Medical Office (PMO) {#pmo}
 **Leverantör:** CompuGroup Medical\
 **Vårdnivå:** Primärvård\
 **Används i:** Gävleborg, Skåne
+
 ### TakeCare/AsynjaVisph {#tc}
 **Leverantör:** CompuGroup Medical\
 **Vårdnivå:** Primärvård/sjukhus (i VGR bara i primärvård)\
 **Används i:** Dalarna, Gotland, Stockholm, Västra Götaland
+
 ### VårdAdministrativt System (VAS) {#vas}
 **Leverantör:** Region Norrbotten och Region Halland\
 **Används i:** Halland, Norrbotten
 
 VAS utvecklades under 80-talet av Norrbottens Läns Landsting.
 
-*Hittat fel i artikeln? [Kontakta oss!](/index.html#form-message)*
+## Övriga journalsystem
+Utöver de större upphandlade systemet används även andra journalsystem inom specialistvård, kommunal vård och privat vård.
+
+### amPHI
+**Leverantör:** Dedalus\
+**Vårdnivå:** Primärvård/sjukhus (Ambulans)
+
+Består av ambulansjournal, beslutsstöd och säker autentisering, EKG/monitorering. 
+
+### Infomedix
+**Leverantör:** Tieto\
+**Vårdnivå:** Primärvård/sjukhus
+
+### Journalia
+**Leverantör:** Journalia AB\
+**Vårdnivå:** Primärvård/sjukhus (Specialistvård)
+
+System anpassade för diabetesvården, hjärtvården, waranmottagningar och cytostatikabehandlingens vårdkedja.
+
+### LifeCare
+**Leverantör:** Tietoevry\
+**Vårdnivå:** Kommunal
+
+Ett komplett verksamhetssystem för kommunal äldreomsorg och hemsjukvård. Med ett stort utbud av tjänstemoduler finns lösningar för ansökan, handläggning, utförare, planering, mobil omsorg, särskilt boende, avgifter/ersättning/statistik och välfärdsteknologi.
+
+### Obstetrix
+**Leverantör:** Oracle Cerner\
+**Vårdnivå:** Primärvård/sjukhus (Mödrahälsovården)
+
+Journalsystem som används för att dokumentera utförd och planerad vård inom prevention, mödravård och obstetrik.
+
+### Paratus
+**Leverantör:** CSAM\
+**Vårdnivå:** Sjukhus (Akutvård)
+
+Används främst av ambulanssjukvården, akutmottagningarna, TIB och särkild sjukvårdsledning.
+
+### Procapita
+**Leverantör:** Tieto\
+**Vårdnivå:** Kommunal
+
+Se Lifecare.
+
+### Prorenata
+**Leverantör:** Prorenata AB\
+**Vårdnivå:** Kommunal
+
+Webbaserad dokumentationsplattform som är utvecklad för att passa behoven för olika typer av verksamheter som behöver föra journal, till exempel elevhälsan.
+
+### T4
+**Leverantör:** Carestream Dental AB\
+**Vårdnivå:** Tandvården
+
+Används i nuläget av 12 regioner och 4 tandvårdshögskolor samt ett par privata aktörer inom svensk tandvård.
+
+### Treserva hälsoärende
+**Leverantör:** CGI\
+**Vårdnivå:** Kommunal
+
+Ett gemensamt system för hela socialtjänsten, inklusive kommunal hälso- och sjukvård.
+
+## Vidare läsning
+**Läs mer**: [2021-10-13 Nästan två av tre regioner ska få nya journalsystem (Dagensmedicin)](https://www.dagensmedicin.se/vardens-styrning/digitalisering/nastan-tva-av-tre-regioner-ska-fa-nya-journalsystem/)\
+**Läs mer**: [2023-01-25 Nästa år byter halva Sverige journalsystem (Läkartidningen)](https://lakartidningen.se/aktuellt/nyheter/2023/01/nasta-ar-byter-halva-sverige-journalsystem/)
+
+*Hittat fel i artikeln eller saknas något journalsystem? [Kontakta oss!](/index.html#form-message)*
