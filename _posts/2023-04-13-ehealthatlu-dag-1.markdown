@@ -55,6 +55,7 @@ Men det har visat sig vara en stor utmaning att bygga upp en verksamhet från gr
 Många nya företag inom branschen har olika påståenden om vad deras produkter eller tjänster kan åstadkomma. Men det är viktigt att ha bevis för att faktiskt kunna styrka påståendena.
 Ett exempel på en vetenskaplig tjänst inom branschen är TINC ([www.thinc.healthcare](www.thinc.healthcare)). Deras verksamhet bygger på att erbjuda vetenskaplig expertis och teknologi till företag inom hälsobranschen för att hjälpa dem att utveckla nya produkter och tjänster baserade på den senaste forskningen.
 
-<!--Läs om dag 2 av programmet [här](/2022/09/07/ehealthatlu-dag-2.html).-->
+
+Läs om dag 2 av programmet [här](/2023/04/15/ehealthatlu-dag-2.html).
 
 _Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
