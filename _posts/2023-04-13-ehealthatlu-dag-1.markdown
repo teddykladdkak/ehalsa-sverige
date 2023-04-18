@@ -53,7 +53,7 @@ För att möta dessa problem måste man skapa en lösning som löser ett verklig
 **Jaap Trappenburg** (Docent, The Healthcare Innovation Center, Utrecht University, Nederländerna) och **Gerdi Janssen** (Senior affärsutvecklare, The Healthcare Innovation Center, Utrecht University, Nederländerna) presenterade att digital Hälsa är en växande bransch och bland annat ökar nettovärdet stadigt för varje år. När akademikerna är klara med utvärderingar och pilotprojekt är nästa steg att kommersialisera.
 Men det har visat sig vara en stor utmaning att bygga upp en verksamhet från grunden baserat på den kunskap som skapats. För att främja entreprenörskap och se till att företaget börjar växa tidigare i processen, har Nederländerna valt att tidigarelägga privatiseringen i utvärderingsstegen som sker inom akademin.
 Många nya företag inom branschen har olika påståenden om vad deras produkter eller tjänster kan åstadkomma. Men det är viktigt att ha bevis för att faktiskt kunna styrka påståendena.
-Ett exempel på en vetenskaplig tjänst inom branschen är TINC ([www.thinc.healthcare](www.thinc.healthcare)). Deras verksamhet bygger på att erbjuda vetenskaplig expertis och teknologi till företag inom hälsobranschen för att hjälpa dem att utveckla nya produkter och tjänster baserade på den senaste forskningen.
+Ett exempel på en vetenskaplig tjänst inom branschen är TINC ([https://thinc.healthcare](https://thinc.healthcare)). Deras verksamhet bygger på att erbjuda vetenskaplig expertis och teknologi till företag inom hälsobranschen för att hjälpa dem att utveckla nya produkter och tjänster baserade på den senaste forskningen.
 
 
 Läs om dag 2 av programmet [här](/2023/04/15/ehealthatlu-dag-2.html).
