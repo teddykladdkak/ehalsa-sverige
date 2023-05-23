@@ -1,0 +1,124 @@
+---
+layout: post
+title: "Vitalis 2023: dag 1"
+description: "Höjdpunkter från dag 1 av Vitalis 2023"
+date: 2023-05-23 22:00:00 +0200
+tags: Evenemang
+tags_extra: SKR Vitalis AstraZeneca AI
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/vitalis-2022-1.jpg"
+video: false
+sitemap:
+  lastmod: 2023-05-23
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+23 maj 2023 började årets upplaga av Nordens största eHälsokongress, [Vitalis](https://vitalis.nu/). eHälsa Sverige var på plats i Göteborg, och här är ett urval av föreläsningarna som eHälsa Sverige bevakade.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Användningen av artificiell intelligens i mental hälsa för att stödja beslutsfattande
+**Hassan Auf**
+
+Digital transformation kan ses i två dimensioner: utforskning och exploatering. Inom mental hälsa ställer användningen av artificiell intelligens (AI) upp utmaningar. Beslut som fattas av AI inom mental hälsa kan påverka vårdpersonalens och patienternas roller och skapa en "svart box" där transparensen i beslutsprocessen försvinner. Dessutom finns det en brist på koppling mellan hälso- och sjukvårdssystemet och egenvård inom mental hälsa, och det finns få studier om implementering samtidigt som utvecklingen på området fortfarande pågår.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-1.jpeg "Bild från föreläsningen")
+
+Behandling av mental hälsa tar lång tid, både inom och utanför vården, vilket betonar vikten av en bättre integration mellan professionell vård och självhantering. Dessutom är det otillräckligt fokus på personcentrerad vård och delat beslutsfattande. Vårdpersonalen har oro kring ansvar, tillförlitlighet, bristande kvalitet på data, kognitiv överbelastning och ökande efterfrågan.
+
+För att hantera externa förutsägelser och prognoser inom mental hälsa är det viktigt att ha tydliga strategier och noggrant utvärdera deras tillförlitlighet och relevans för att fatta välgrundade beslut.
+
+## Hajstudien - en reflekterande plats för att förstå omställningen Nära Vård
+**Annelie Rosfjäll, Jonas Boström, Malin Heimer**
+
+Representanter från Region Västernorrland, Kommunförbundet Västernorrland och Mittuniversitetet presenterade sitt projekt "Hajstudien". Projektet handlar om nära vård och syftar till att synliggöra hinder, kunskapsluckor, samverkansbehov och möjliga interventioner inom området.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-2.jpeg "Bild från föreläsningen")
+
+Inom ramen för Hälsoarenan Västernorrland möts olika aktörer för att diskutera nära vård. Nätverket nära vård var positivt inställda till detta projekt och engagerade sig i det.
+
+Hajstudien använder havsmetaforen för att beskriva nära vård. Målet är att förstå varför det uppstår hinder och varför vissa delar av systemet inte fungerar som de borde. Man vill även undersöka hur man kan förbättra samverkan och få till stånd förändringar.
+
+Det här är ett actionsforskningsprojekt där insamlad data är levande och kontinuerligt används för lärande. Istället för att bara ha respondenter betraktas alla deltagare som medforskare. Alla deltagare har tillgång till en applikation, "Me Analytics", som används för att registrera reflektioner och andra tankar. Applikationen fungerar som en vetenskaplig social medieplattform och möjliggör ett kollektivt lärande. Genom att reflektera över nära vård utifrån vad det är, vad det borde vara och vad det kan vara, skapas nya insikter och kunskap.
+
+Hittills har studien identifierat intressekonflikter och betonat vikten av att bygga relationer över organisationsgränser. Att förstå varandras behov och bli kollegor utan att ha samma arbetsgivare är avgörande för att kunna utveckla nära vården.
+
+Det här projektet innebär att man behöver navigera mellan teoretiska idealbilder och praktisk verklighet. Det är värt att notera att nära vård inte inkluderar vårdpersonalen eller patienterna i studien, vilket skulle ha gett en annan dimension till projektet. Istället fokuserar man på andra deltagare, som kallas "medforskarna".
+
+Bland dessa medforskare finns det befintliga grupper och aktörer på mesonivån mellan verksamhet och ledning. Det handlar om samordnare, förvaltare och andra nyckelpersoner. Totalt deltar 25 personer i studien som "hajar".
+
+## Uppsala kommun - efter priset för årets e-hälsokommun 2022
+**Kerstin Stålnäbb, Marianne Pira, Åsa Engblom**
+
+Uppsala kommun är den fjärde största staden och kommunen i Sverige med 240 000 invånare på en yta av 2 182 km2. För att förbättra verksamheten och IT-samarbetet behövs en ökad dialog och stärkta IT-kunskaper över hela organisationen. För närvarande är man mer reaktiv än proaktiv sett ur verksamhetsperspektivet, och för att möta detta behövs kompetenshöjning.
+
+Det är viktigt att Uppsala kommun ökar takten för att implementera välfärdsteknik. Trots att många uppmanar till att "öka takten" är det snarare modiga beslut som behövs från verksamheten. För att kunna gå vidare och lösa komplexa problem måste man vara medveten om att det inte går att förutsäga alla konsekvenser.
+
+Chefer på alla nivåer måste fatta strategiska beslut för att driva digitaliseringen framåt. Det är viktigt att inte bryta mot lagen, men samtidigt våga ta beslut där resultatet är okänt. Ibland är man ovillig att stå för sina beslut när osäkerheten är för stor, men alla måste ta ansvar gemensamt.
+
+Det finns en allmän enighet om att det är dags att agera. Alla behöver sitta i samma båt och dra åt samma håll. För några år sedan funderade man på att implementera ett kärnsystem som skulle fungera för många ändamål. Det handlar inte bara om att införa nya system utan också om att förändra arbetssätt och sluta göra vissa saker.
+
+> "Det är omöjligt att lösa komplexa problem med krångliga system."
+
+## Jakten på äldreomsorgens digitalisering
+**Michael Ländin**
+
+Kalmar är årets eHälso-kommun och vi vill gratulera dem till den utmärkelsen. Med en befolkning på 70 000 invånare och 1300 medarbetare inom äldreomsorgen har de visat på tydliga mål och resultat. För att bygga en bra äldreomsorg har de identifierat flera viktiga byggstenar, inklusive ekonomi, strategi, mål, förutsättningar för medarbetare, kvalitet, nära vård och förebyggande åtgärder samt det där lilla extra som ger guldkant i vardagen. I denna kontext fungerar eHälsa som murbruket mellan dessa byggstenar.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-3.jpeg "Bild från föreläsningen")
+
+Kalmar har även utvecklat framgångsrika samarbeten med leverantörer och sätter fokus på att skapa goda relationer med dem. Detta har bidragit till deras framgång. De har uppnått tydliga mål och resultat, som exempelvis att 95 procent av deras anställda är utbildade undersköterskor och att färre än 10 procent av personalen är timvikarier. Dessutom har de haft ett överskott i budgeten mellan 2015 och 2022.
+
+Under presentationen framförde Michael att äldreomsorgen skulle gynnas av statliga satsningar på AI, VR och AR, och att en investering på 1,5 miljarder skulle ge flera fördelar. Bland dessa fördelar nämndes effektiviseringar, minskad administrativ börda för vårdpersonalen, förbättrad kvalitet, bättre arbetsmiljö, minskade kostnader för rehabilitering och fysioterapi, effektivare utbildningsmöjligheter, förbättrad livskvalitet, sänkta kostnader inom äldreomsorgen och bättre utnyttjande av befintliga resurser.
+
+Sammanfattningsvis betonades vikten av en tydlig målsättning och grundläggande strategi. Det krävs även en avsättning av resurser utan önsketänkande. Pilotprojekt, planering och breddinförande är viktiga steg att ta. Kompetensutveckling och ständigt lärande är också avgörande. Slutligen betonades att det är viktigt att vara beredd på införandet av AI, VR och AR i äldreomsorgen.
+
+## Människocentrerad artificiell intelligens
+**Michelle van Velthoven**
+
+AstraZeneca fokuserar på att optimera fas 2 och 3 kliniska studier för att säkerställa effektiva läkemedel. Michelle ser potentialen att transformera dessa processer genom användning av artificiell intelligens (AI). I framtidens hälso- och sjukvård är målet att vara människocentrerad, vilket kräver förbättrad förebyggande vård och tidigare diagnoser. AstraZeneca strävar efter att optimera kliniska studier, förbättra patientupplevelsen och öka patienternas resultat och välbefinnande.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-4.jpeg "Bild från föreläsningen")
+
+För att uppnå effektivitet i kliniska studier och utveckling av nya läkemedel har AstraZeneca implementerat strukturerade studiedesigner, optimerat olika aspekter inom studierna och främjat samarbete i en dynamisk miljö. Dessa insatser har lett till hållbarhetsförbättringar, ökad mångfald i kliniska prövningar, acceleration av studiegenomförande och minskade kostnader. Genom att fortsätta optimera och effektivisera kliniska studier strävar AstraZeneca efter att förbättra både patienternas upplevelse och resultaten inom hälso- och sjukvården.
+
+## What does AI think about the advancement of AI in health care
+**"ANDI"**
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-5.jpeg "Bild från föreläsningen")
+
+ANDI tar oss igenom utvecklingen av artificiell intelligens (AI) från dåtid till förutspådd framtid. Det diskuteras även olika tjänster som implementerats inom hälso- och sjukvården idag, till exempel Deep Patient som analyserar journalsystemet för att identifiera sjukdomsrisker, samt Nadia Project som erbjuder emotionellt stöd för personer med autism. Dessutom utforskar ANDI möjliga framtida teknologier baserade på AI samt Science Fiction-inspirerade idéer. För mer information om ANDI kan du besöka webbsidan: [https://andibot.weebly.com](https://andibot.weebly.com).
+
+## Lyckas med välfärdsteknik – vad krävs?
+**Eva Sahlén, Lena Dahlberg, Li Langemark**
+
+Sveriges Kommuner och Regioner (SKR) har utsett 10 kommuner som modellkommuner för att utveckla välfärdsteknik. Denna satsning avslutades 2023, men har beviljats ekonomiska resurser för att fortsätta driva utvecklingen av välfärdsteknik ett år till. En viktig del av denna utveckling handlar om att coacha medarbetare i kommunerna.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-6.jpeg "Bild från föreläsningen")
+
+Hittills har kommunerna haft en stark betoning på produkter och tekniska lösningar när det gäller välfärdsteknik. Men det är viktigt att förstå att framgång i detta område handlar inte bara om själva tekniken, utan om att se över hela processen för implementering och förändring inom verksamheten. Den tekniska aspekten är endast en del av helheten.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-7.jpeg "Bild från föreläsningen")
+
+För att lyckas med välfärdsteknik är det viktigt att uppmärksamma följande framgångsfaktorer: en tydlig digital inriktning som prioriteras av ledningen och genom hela organisationen, att våga välja några få tekniker att implementera istället för att sprida resurserna för tunt, att välja tekniker som kan nå ut till många individer och skapa stora fördelar, att samverka och dela kunskap med andra aktörer, samt att kommunicera och engagera medarbetare och invånare i införandet av välfärdsteknik.
+
+För att få insikter om framstegen inom välfärdsteknik i andra kommuner och regioner kan man besöka webbplatsen [https://deladigitalt.se/loggain](https://deladigitalt.se/loggain).
+
+Det är också viktigt att komma ihåg att olika kommuner har olika förutsättningar när det gäller implementeringen av välfärdsteknik. För att uppnå framgång följer man vanligtvis fem steg: förberedelse, planering, upphandling, implementering och förvaltning. Det är dock viktigt att notera att 80% av arbetet handlar om förändringsarbete och endast 20% handlar om tekniken i sig. Att ändra en kultur tar tid och kräver engagemang från omsorgspersonal och andra berörda parter.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-8.jpeg "Bild från föreläsningen")
+
+SKR kommer att stödja ytterligare 30 kommuner i deras förändringsarbete genom att implementera digitala lösningar baserat på den kunskap som har samlats in genom "Kompetenscenter välfärdsteknik SKR". SKR erbjuder också stöd under året för att hjälpa kommuner med deras förändringsarbete, inklusive att skapa en försörjningsstrategi.
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
