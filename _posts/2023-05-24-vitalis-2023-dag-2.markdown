@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vitalis 2023: dag 2"
-description: "Höjdpunkter från dag 1 av Vitalis 2023"
+description: "Höjdpunkter från dag 2 av Vitalis 2023"
 date: 2023-05-24 18:00:00 +0200
 tags: Evenemang
 tags_extra: Vitalis AI Plattform24 Doctrin
