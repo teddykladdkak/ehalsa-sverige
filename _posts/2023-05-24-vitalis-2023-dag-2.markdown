@@ -36,7 +36,7 @@ Implementering av AI inom vården har visat sig vara bristfälligt undersökt, m
 
 För att dra lärdom av tidigare erfarenheter är det viktigt att samla kunskap om både misslyckanden och framgångar i samband med implementeringar. Målet är att skapa stöd för vårdpersonal och att identifiera effektiva strategier för implementering av AI. Förberedelser för implementering innefattar olika aspekter som strategi, samarbete, resursallokering, juridiska, reglerande och etiska diskussioner, förändringsledning, processer och strukturer samt utvärdering och övervakning.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-2.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-2.jpeg "Bild från föreläsningen")
 
 En central faktor för framgångsrik implementering är förändringsledning, eftersom människor utgör en nyckelbarriär. Värde upplevs när implementeringen gynnar flera intressenter, ger tydliga och högkvalitativa resultat, ökar medvetenheten om riktlinjer och ger mer tid för att ägna sig åt kvalitetsskapande arbete.
 
@@ -47,7 +47,7 @@ För att möjliggöra implementeringen av AI krävs strategier som inkluderar ma
 
 Digitaliseringsstrateg i sjukhusen väster och representant från [Visiba Care](https://www.visibacare.com/sv/) berättade om deras arbete och insikter efter att det genomfört digitaliseringen på en avdelning, vilka problem som uppstod därefter.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-3.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-3.jpeg "Bild från föreläsningen")
 
 De fokuserade initialt på att förbättra en allmän psykiatriverksamhet som hade problem med ökade köer och stress. Väntetiden var tidigare två år och medarbetarenkäten visade på röda siffror. För att lösa dessa problem genomförde de en omfattande digitaliseringsinsats, vilket minskade väntetiden till 3-4 månader och förbättrade medarbetarenkäten till gröna siffror. Digitaliseringen var en betydande faktor, även om det inte var den enda förändringen.
 
@@ -64,7 +64,7 @@ Sylvia Mårtensson
 
 Östersunds kommun är känd för sin varierade geografi och har samiska grupper som har rätt att kommunicera med vården på samiska. Enhetschefen för enheten för infrastruktur heter Sylvia. Inom vård- och omsorgsförvaltningen finns det cirka 2800 tillsvidareanställda. Kommunens fokus är att främja individens självständighet och trygghet, vilket inkluderar att låta medborgarna bo kvar i sina hem längre. De testar innovativa lösningar som matleverans med drönare.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-4.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-4.jpeg "Bild från föreläsningen")
 
 Kommunen erbjuder olika hjälpmedel och tjänster för att underlätta för medborgarna, till exempel larmtjänst, fjärrstyrd webbkamera och GPS-larm för säkra promenader. Vid behov av städhjälp kan medborgaren få det eller använda en robotdammsugare.
 
@@ -79,7 +79,7 @@ Det betonas att marknadens produkter inte ersätter bistånd, och samverkan, nyt
 
 KVÅ-koderna används för insamling och registrering av information inom kommunal hälso- och sjukvård. Registret etablerades 2007 och innehåller data om insatser från kommunen, men inte diagnoser eller medicinska åtgärder utförda av läkare. Från 2019 inkluderas dock vårdåtgärder utförda av legitimerad vårdpersonal. Registret omfattar endast data från kommuner och kan inte jämföras med statistik från andra huvudmän som regioner.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-5.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-5.jpeg "Bild från föreläsningen")
 
 Socialstyrelsen använder olika hälsorelaterade klassifikationer för att beskriva kommunal hälso- och sjukvård:
 
@@ -90,7 +90,7 @@ Statistiken visar att det utförs många åtgärder inom förflyttning och perso
 
 Slutsatserna från den nationella sammanställningen ger en bra översikt över vilka vårdåtgärder som erbjuds inom kommunal hälso- och sjukvård och vilka som saknas. Detta är det första året då denna statistik blir officiell.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-6.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-6.jpeg "Bild från föreläsningen")
 
 Kommunal hälso- och sjukvård utförd av legitimerad personal fokuserar framför allt på kroppsfunktioner, förflyttning, personlig vård, omgivning och läkemedel. Inriktningen kan dock variera mellan olika kommuner.
 
@@ -101,13 +101,13 @@ Socialstyrelsens sammanställning används för uppföljning och kvalitetsarbete
 
 Bengtsfors och Mellerud, två små kommuner med cirka 9 000 invånare vardera, har bildat en gemensam organisation för att samarbeta och erbjuda bättre tjänster. Samarbetet innefattar delade specialisttjänster och har lett till att de har blivit mellanstora kommuner istället för små.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-7.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-7.jpeg "Bild från föreläsningen")
 
 Anledningen till samarbetet är att de små kommunerna är sårbara och beroende av enskilda personer. De har ofta högre skattetryck men sämre service och lägre kvalitet. Genom att ingå ett avtal om samverkan kan de dra nytta av varandras resurser.
 
 En socialchef delas mellan kommunerna. De har en rad gemensamma verksamheter, inklusive bistånd för personer med funktionsnedsättning och äldreomsorg, en enhet för missbruk och socialpsykiatri, ekonomisk rådgivning, färdtjänst samt tillståndshantering för alkohol och tobak.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-8.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-8.jpeg "Bild från föreläsningen")
 
 Arbetet med samarbetet påbörjades 2020 och under 2021 byggdes organisationen upp. Sedan 2022 är den i full drift, och under 2023 kommer barn- och familjeomsorg samt socialtjänst att inkluderas. Alla chefer i den gemensam organisation, arbetar för båda kommunerna. Det finns även ett politiskt samråd för att hantera det gemensamma arbetet.
 
@@ -124,21 +124,21 @@ Viktiga lärdomar från samarbetet är betydelsen av politisk förankring, hante
 
 Man är oftast motvillig att förändras. Det påpekas att framtiden redan pågår sedan 2012 och framåt. Välfärdsteknik ses som ett komplement till människor och kan aldrig ersätta dem. Det reflekteras över om vi är redo för förändring och vilka möjligheter, produkter, interoperabilitet, data och organisation som behövs för att bli redo.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-9.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-9.jpeg "Bild från föreläsningen")
 
 Det nämns att det finns en överdriven dokumentation men bristande kunskap om hyresgästerna. För att veta vart vi är på väg måste vi förstå var vi befinner oss idag.
 
 Det diskuteras om vi har tillräckligt med tid eller om tiden är knapp. Tre stiftelser har samlat in data från 70 boenden och valt ut 22 hyresgäster. Ibland finns det fler insatser än personal, medan det ibland finns personal utan tillräckligt med insatser. Besöksmönster visar att även om vårdpersonalen börjar kl. 7 går de inte in till brukarna förrän efter kl. 8.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-10.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-10.jpeg "Bild från föreläsningen")
 
 Tanken är att det behövs en inventering av vilken data som finns och vilken data som är användbar för att få en översikt över hur verksamheten fungerar. Det betonas att vi behöver utgå ifrån människors behov snarare än specifika klockslag. Det föreslås att data måste presenteras på ett sätt som organisationen kan förstå, kanske i form av tydliga instruktioner till personalen.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-11.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-11.jpeg "Bild från föreläsningen")
 
 Det ifrågasätts varför vi diskuterar 30 minuters individuell tid per brukare om vi statistiskt sett har 3 timmar individuell tid per dygn.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-12.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-12.jpeg "Bild från föreläsningen")
 
 En presentation från Kalmar kommun beskriver deras omställning från att bara införa välfärdsteknik till att realisera verklig nytta. De nämner problem med att införa teknik baserat på intuition, att system infördes för att lösa problem utan att ta hänsyn till konsekvenserna och att man inte följde upp nyttan av tekniken utan bara kontrollerade att den hade införts. De eftersträvar nu kunskapsbaserade beslut, strukturerad införande baserat på behov och tydligt ägarskap och prioriteringar från ledningen.
 
@@ -147,7 +147,7 @@ En presentation från Kalmar kommun beskriver deras omställning från att bara 
 
 Kalmar kommun har genomgått en omställning när det gäller införandet av välfärdsteknik. Tidigare fokuserade de främst på att implementera tekniken baserat på intuition och lösa problem, men de stötte på oväntade konsekvenser som de inte hade förberett sig för. De märkte också att de inte följde upp nyttan av tekniken utan bara markerade att den hade införts. Dessutom var det utmanande att samarbeta med andra aktörer för att bli bra på hela flödet.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-13.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-13.jpeg "Bild från föreläsningen")
 
 För att uppnå önskat läge vill de nu fatta beslut baserade på kunskap och införa tekniken strukturerat utifrån behov. De vill ha tydligt ägarskap från ledningen när det gäller val och prioriteringar, samt kunna beräkna de negativa händelserna som kan uppstå. De vill också ha en tydlig koppling mellan strategi och prioriteringar.
 
@@ -165,7 +165,7 @@ Nästa steg för Kalmar är att fokusera mer på det de vill förändra iställe
 
 Under mötet deltog följande företag: Alfa eCare, Cambio, CGI, Pulsen Omsorg och TietoEvry. Diskussionen handlade om verksamhetssystem för socialtjänsten och målsättningen var att skapa ett ekosystem i Sverige där flera aktörer kan verka för att maximera nyttan. Det fanns en samsyn och vilja att bidra till detta.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-14.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-14.jpeg "Bild från föreläsningen")
 
 Sveriges Kommuner och Regioner (SKR) och Inera arbetar för att stödja kommunerna i att standardisera upphandlingen av verksamhetssystem för socialtjänsten. Marie Johansson från Karlstads kommun presenterade hur de använde detta ramverk i sin upphandling. Hon påpekade att inte allt behöver standardiseras, men att det är fördelaktigt att gradvis öka standardiseringsarbetet. Kommunen står inför utmaningar när det gäller standardisering.
 
@@ -180,15 +180,15 @@ Hälften av Sveriges kommuner har uttryckt sitt intresse av att införa en stand
 
 Digital kompetens handlar om individens förmåga att kritiskt förstå och framgångsrikt använda digitala hjälpmedel för att lösa arbetsuppgifter i en organisation. För att stödja individens arbete i organisationen behöver digitala verktyg finnas tillgängliga och kulturen behöver främja deras användning. Organisationen bör också erbjuda styrning av de digitala verktygen, support och möjligheter till kompetensutveckling. Det är också viktigt att individen är motiverad att använda organisationens digitala verktyg.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-15.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-15.jpeg "Bild från föreläsningen")
 
 För att arbeta med en förändring i en organisation kring digital kompetens behövs följande åtgärder: Utredning om självuppskattning av digital kompetens, design av verktyg, testning av verktyg, presentation av resultat, feedback på verktyg, anpassning och utveckling av verktyg samt forskning och kunskapsöverföring.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-16.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-16.jpeg "Bild från föreläsningen")
 
 En metod för självuppskattning av digital kompetens är enkätverktyget Dikios, som omfattar områden som teknik och infrastruktur, kultur och kompetens, interaktion, motivation och formell struktur. Enkäten innehåller totalt 18 påståenden som resulterar i ett värde som indikerar nivån av digital kompetens.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-17.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-17.jpeg "Bild från föreläsningen")
 
 Ett test av Dikios i Sundsvalls kommun gav följande resultat: Att mäta är inte slutet, det är början på en diskussion. Det är i samtalet som förändringen sker. För de personer som har lägst digital kompetens bör aktiviteter och utbildningar tas fram för att stärka deras kompetens.
 
@@ -199,7 +199,7 @@ Företaget Dimatech AB ansvarar för förvaltning och underhåll av Dikios. Lice
 
 Sveriges Kommuner och Regioner (SKR) och Linköpings kommun har arbetat tillsammans för att utforska användningen av artificiell intelligens (AI) för att förbättra verksamheten. Många kommuner har uttryckt intresse och frågat SKR om hur de kan dra nytta av AI, och SKR har skapat ett nätverk för att undersöka hur AI kan frigöra resurser.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-18.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-18.jpeg "Bild från föreläsningen")
 
 Det finns olika utmaningar med att samverka kring AI. En av dem är att tolka och hantera juridiska aspekter och frågor kring dataskydd. Etiska frågeställningar är också en viktig faktor att beakta. Dessutom är datakvaliteten avgörande, och det kan vara en utmaning att hämta ut relevant data från befintliga system.
 
@@ -212,7 +212,7 @@ Projektet är fokuserat på informationsdriven verksamhet. Kommunen har tillgån
 
 Det finns flera faktorer som driver behovet av förändring inom vården. En av dessa är patientens ökade förväntningar på att kunna delta aktivt i sin egen vård. Idag förväntar sig patienter att ha en mer aktiv roll och vara delaktiga i beslutsfattandet kring sin hälsa. En annan faktor är den förändrade omvärlden, där digitala verktyg och teknik har blivit en integrerad del av människors vardag. Detta har skapat en önskan om att kunna få tillgång till vården på ett enklare och smidigare sätt.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-19.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-19.jpeg "Bild från föreläsningen")
 
 I nuläget upplever många patienter att det kan vara överväldigande och svårt att navigera på 1177, vilket är den digitala plattformen för vården. Enklare uppgifter kan snabbt kännas problematiska. För att möta dessa utmaningar behövs en mer proaktiv och hälsifrämjande vård. Målet är att ge patienten möjlighet att ta del av sin vård på det sätt som passar dem bäst, både digitalt och fysiskt.
 
@@ -222,7 +222,7 @@ Idag finns det redan appar som är specifikt utformade för vissa patientgrupper
 
 Det är dock viktigt att notera att en enda lösning inte kan lösa alla utmaningar inom vården. Det behövs sömlösa övergångar där externa tjänster kan användas, samtidigt som patienten har en sammanhängande och enhetlig ingång.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-20.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-20.jpeg "Bild från föreläsningen")
 
 Implementeringen av personcentrerad vård sker stegvis. Först och främst behöver en patientapp utvecklas som är högt tillgänglig och enkel att använda. Därefter är målet att integrera appen sömlöst i vårdens ekosystem. Slutligen strävar man efter att kunna erbjuda avancerad personalisering för att möta varje individuells specifika behov och önskemål.
 
@@ -232,7 +232,7 @@ Implementeringen av personcentrerad vård sker stegvis. Först och främst behö
 
 [Capio](https://capio.se/), [Doctrin](https://doctrin.se/) och [Linnéuniversitetet](https://lnu.se/) är tre aktörer som är relevanta för diskussionen om digitalisering inom vården och äldreomsorgen. Ålder betraktas ofta som det avgörande problemet när det gäller att digitalisera för äldre, men faktum är att det egentliga problemet handlar om individens behov och förutsättningar. Ålder i sig är alltså inte det avgörande.
 
-![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-1-21.jpeg "Bild från föreläsningen")
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-2-21.jpeg "Bild från föreläsningen")
 
 Det är viktigt att sluta betrakta äldre som en homogen grupp och istället fokusera på deras individuella behov. Individen bör vara i centrum för utvecklingen av digitala lösningar.
 
