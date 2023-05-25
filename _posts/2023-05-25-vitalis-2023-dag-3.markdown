@@ -97,6 +97,8 @@ Sammanfattningsvis visar det sig att digitalisering är möjlig inom hälso- och
 
 Paneldebatten började med att visa trailern till filmen "LEVA TILLS JAG DÖR". Filmen förmedlar ett viktigt budskap: "Vi ska leva tills vi dör, inte förvaras tills vi dör." Detta påminner oss om att vi bör leva våra liv fullt ut och inte bara passivt existera tills vi når vår död. Budskapet betonar vikten av att aktivt delta i livet och ta vara på varje möjlighet.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iJnu8z6q8Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;max-width: 560px;margin-right: auto;margin-left: auto;display: block;"></iframe>
+
 I början sågs digitaliseringen som ett hot mot jobben inom äldreomsorgen. Många fruktade att arbetsuppgifter skulle automatiseras och ersättas av teknik. Men det är viktigt att kommunicera att digitaliseringen inte i sig är en risk. Istället kan den ses som en möjlighet att förbättra och effektivisera arbetsprocesser inom äldreomsorgen.
 
 För att lyckas med digitaliseringen är det avgörande att vi kommunicerar och samarbetar med olika intressenter. Det handlar om att involvera verksamheten, IT-avdelningen och brukarna i utvecklingen och implementeringen av digitala lösningar. Genom att samarbeta och lyssna på varandras perspektiv kan vi skapa lösningar som verkligen möter behoven och förbättrar äldreomsorgen.
