@@ -1,0 +1,108 @@
+---
+layout: post
+title: "Vitalis 2023: dag 3"
+description: "Höjdpunkter från dag 3 av Vitalis 2023"
+date: 2023-05-25 16:00:00 +0200
+tags: Evenemang
+tags_extra: Inera HTO Vitalis Attendo 
+author:
+  name: "Redaktionen"
+  description: "Intern grupp som arbetar med webplatsen."
+image:
+  path: "/assets/images/post-head/500/vitalis-2022-3.jpg"
+video: false
+sitemap:
+  lastmod: 2023-05-25
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+23 maj 2023 började årets upplaga av Nordens största eHälsokongress, [Vitalis](https://vitalis.nu/). eHälsa Sverige var på plats i Göteborg, och här är ett urval av föreläsningarna som eHälsa Sverige bevakade.
+
+<!--more-->
+
+{% include toc.md %}
+
+## Den digitala arbetmiljön inom hälso och sjukvården - hur ser den ut idag och hur kan vi jobba för att det ska bli bättre imorgon?
+**Åsa Cajander**
+
+Presentationen handlade om människa-datorinteraktion och arbetsmiljö. Åsa som är professor i människa och datorinteraktion bloggar på [https://hto.blog.uu.se](https://hto.blog.uu.se) och diskuterar olika aspekter av arbetsmiljö. Arbetsmiljö är ett begrepp som existerar i norden, men har inga direkta motsvarigheter utanför. Det finns olika typer av arbetsmiljö som kan vara både kognitiv, fysisk, psykosocial, organisatoriskt och digital. Post-it-lappar betraktas som ett tecken på misslyckade system och troligtvis dålig arbetsmiljö.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-3-1.jpeg "Bild från föreläsningen")
+
+Diskussion om arbetsmiljön och dess utmaningar genomfördes bland åhörarna där utfallet visade på att alla på något sätt har problem med sin digitala arbetsmiljö, vilket framgick av att diskussionen startade omedelbart och den höga ljudnivån.
+
+Utmaningarna inkluderar överdriven dokumentation och behovet av att hålla ordning på olika system för samma ändamål. Användbarheten är ofta en utmaning då det är svårt att veta hur man ska använda systemet även efter flera års erfarenhet, på grund av överflöd av funktionalitet.
+
+Det är generellt svårt att utveckla framgångsrika IT-system, med upp till 70% av IT-projekten som misslyckas helt eller delvis. Storleken på projektet ökar risken för misslyckande. Statistiken har inte förbättrats sedan CHAOS-rapporten började samla in data 1994. Endast 2% till 4% av stora projekt inom vården lyckas.
+
+Utmaningarna med dagens IT-utvecklingsmetoder inkluderar svårigheten att arbeta agilt inom vården. Däremot finns det möjligheter med dagens metoder, där agila metoder anses vara bättre än tidigare metoder och branschen överlag är mer mogen idag.
+
+För de 2% av stora projekt inom vården som lyckas finns det några kännetecken:
+* De fokuserar på användarnas behov.
+* De använder teknik som utvecklarna är bekanta med och där beprövade tekniker fungerar bäst.
+* De arbetar agilt.
+
+För att arbeta utifrån användarnas behov krävs nya metoder. Exempel på sådana metoder är visionsseminarier där man planerar framåt, kontextuella personas som tar hänsyn till helheten av system och platser som användaren kan behöva använda samt kontextuell "think aloud" där användare reflekterar högt när de använder olika system
+
+## Framtidens omsorg
+**Ulrika Eriksson**
+
+Föreläsningen handlade om omsorgssektorn och utmaningarna för framtiden. [Attendo](https://www.attendo.se/) är ett företag som verkar inom omsorg och deras vision är att erbjuda bättre omsorg till fler människor. De har verksamheter i Sverige, Finland och Danmark.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-3-2.jpeg "Bild från föreläsningen")
+
+Några av de iakttagelser som presenterades var att efterfrågan på omsorg förväntas öka, med en ökning av antalet äldre personer och kommuner som kämpar med bostadsbrist. Det konstateras att det behövs nya arbetssätt för att kunna ta hand om människor på ett bra och värdigt sätt, eftersom det inte kommer finnas tillräckligt med personal för att möta behoven. Det nämns även att vårdinnehållet inom omsorgen kommer att öka och att samverkan kring äldre patienter i regel brister.
+
+En annan utmaning som lyfts fram är den ekonomiska situationen för kommunerna, där en betydande andel förväntas gå med underskott. Rekryteringsbehovet inom omsorgen framhålls också som en stor utmaning och det betonas att det är viktigt att arbeta mer effektivt istället för att bara öka antalet anställda.
+
+För att möta dessa utmaningar föreslås flera åtgärder. Det nämns att privata aktörer spelar en viktig roll i äldreomsorgen och att ökad mångfald kan bidra till nya idéer och utveckling. Framgångsfaktorer från tidigare omregleringar, som apoteksmarknaden, tas upp som viktiga att ta lärdom av vid digitaliseringen av omsorgen. Det handlar om att skapa tydliga förutsättningar för nya aktörer, gemensamma krav och spelregler. Skapa en likvärdig plattform för alla aktörer.
+
+Danska omsorgssystemet nämns också som en framgång, med inslag som likvärdig ersättning för privata aktörer, möjlighet för medborgarna att välja plats och regler som är enklare att följa. Slutligen framhålls behovet av hållbara och förutsägbara villkor, anpassad juridik och likvärdiga spelregler för alla aktörer.
+
+> "Det handlar inte bara om att ha någonstans att bo, utan det är att ha tillräckligt med kvalité i vardagen."
+
+## Kan man digitalisera hemsjukvården
+**Karin Bengtsson, Maria Ehrndal**
+
+Inera arbetar med att effektivisera och förbättra hälso- och sjukvården genom att erbjuda olika informationsförsörjningstjänster. Ett viktigt tips från Inera är att inte vänta på att alla andra ska agera, utan istället börja göra förändringar själva.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-3-3.jpeg "Bild från föreläsningen")
+
+Inom hälso- och sjukvården finns det många tidstjuvar som kan försvåra arbetet. Ett exempel är när en sjuksköterska i kommunen behöver lägga 1,5 timmar på att söka efter vilka läkemedel som är ordinerade för en patient, eftersom slutenvården har missat att skicka med den informationen vid utskrivning.
+
+I rapporten "Optimerat läge" har man kommit fram till följande slutsatser:
+* Det finns en brist på kännedom och kunskap om de lösningar som redan finns tillgängliga.
+* Det är svårt att få en överblick över kostnaderna och hur de relaterar till nyttan.
+* Det är en hög komplexitet att etablera informationsutbyte mellan olika aktörer.
+
+Inera erbjuder redan idag flera tjänster inom informationsförsörjning, till exempel:
+* **Kunskapsstöd**, som hjälper vårdpersonal att få tillgång till aktuell och evidensbaserad information.
+* **Beslutstöd**, som ger stöd vid medicinska beslut och kan hjälpa till att öka patientsäkerheten.
+* **Nationell översikt**, som ger vårdpersonal tillgång till relevant patientinformation från olika vårdgivare.
+
+![Bild från föreläsningen](/assets/images/post-assets/vitalis-2023-3-4.jpeg "Bild från föreläsningen")
+
+Genom att använda Ineras tjänster och implementera dem i elevhälsan, beräknas det att man kan spara 2 timmar per vecka. Det finns alltså en tydlig nyttokalkyl som visar hur det kan löna sig för kommunerna att ansluta sig till Ineras informationsförsörjningstjänster.
+
+Sammanfattningsvis visar det sig att digitalisering är möjlig inom hälso- och sjukvården, och att det är en utvecklingsresa som måste genomföras tillsammans. Genom att ta till vara på de lösningar som redan finns tillgängliga och samarbeta kring implementeringen av dessa kan man effektivisera och förbättra vården för patienterna.
+
+## Paneldebatt kring Filmen "LEVA TILLS JAG DÖR" om hur vi tillsammans vill förbättra framtidens äldreomsorg
+**Moderator: Monica Berglund**
+**Paneldeltagare: Jesper Andersson, Malin Sölsnaes, Mikael Geitner, Petra von Heideken Wågert**
+
+Paneldebatten började med att visa trailern till filmen "LEVA TILLS JAG DÖR". Filmen förmedlar ett viktigt budskap: "Vi ska leva tills vi dör, inte förvaras tills vi dör." Detta påminner oss om att vi bör leva våra liv fullt ut och inte bara passivt existera tills vi når vår död. Budskapet betonar vikten av att aktivt delta i livet och ta vara på varje möjlighet.
+
+I början sågs digitaliseringen som ett hot mot jobben inom äldreomsorgen. Många fruktade att arbetsuppgifter skulle automatiseras och ersättas av teknik. Men det är viktigt att kommunicera att digitaliseringen inte i sig är en risk. Istället kan den ses som en möjlighet att förbättra och effektivisera arbetsprocesser inom äldreomsorgen.
+
+För att lyckas med digitaliseringen är det avgörande att vi kommunicerar och samarbetar med olika intressenter. Det handlar om att involvera verksamheten, IT-avdelningen och brukarna i utvecklingen och implementeringen av digitala lösningar. Genom att samarbeta och lyssna på varandras perspektiv kan vi skapa lösningar som verkligen möter behoven och förbättrar äldreomsorgen.
+
+Det ultimata målet med all digitalisering inom äldreomsorgen bör vara att frigöra tid för omvårdnadspersonalen att ägna sig åt det personliga mötet med de äldre. Genom att automatisera rutinmässiga och administrativa uppgifter kan personalen frigöras från tidstyngda uppgifter och istället ägna sig åt att bygga meningsfulla och personliga relationer med de äldre. Detta är en viktig aspekt för att skapa en högkvalitativ och omsorgsfull äldreomsorg.
+
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
