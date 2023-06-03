@@ -173,6 +173,12 @@ Används i nuläget av 12 regioner och 4 tandvårdshögskolor samt ett par priva
 
 Ett gemensamt system för hela socialtjänsten, inklusive kommunal hälso- och sjukvård.
 
+### Webdoc
+**Leverantör:** Carasent Sverige AB\
+**Vårdnivå:** Primärvård/sjukhus (Specialistvård)
+
+System som används på över 600 privata vårdmottagningar inom både primärvård och specialistvård. Svensktillverkat journalsystem som säljs som SaaS-lösning.
+
 ## Vidare läsning
 **Läs mer**: [2021-10-13 Nästan två av tre regioner ska få nya journalsystem (Dagensmedicin)](https://www.dagensmedicin.se/vardens-styrning/digitalisering/nastan-tva-av-tre-regioner-ska-fa-nya-journalsystem/)\
 **Läs mer**: [2023-01-25 Nästa år byter halva Sverige journalsystem (Läkartidningen)](https://lakartidningen.se/aktuellt/nyheter/2023/01/nasta-ar-byter-halva-sverige-journalsystem/)
