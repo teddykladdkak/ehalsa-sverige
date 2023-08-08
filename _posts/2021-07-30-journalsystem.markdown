@@ -15,7 +15,7 @@ video:
   title: "Journalsystem i Sverige"
   source: "lumen"
 sitemap:
-  lastmod: 2023-04-02
+  lastmod: 2023-08-08
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -97,12 +97,12 @@ Amerikanska Millennium introducerades 1997. Det är planerat att systemet ska bl
 NCS Cross (tidigare SysTeamCross) utvecklades ursprungligen av IBM och Landstinget Sörmland. Sussa samverkan (strategisk utveckling av sjukvårdsstödjande applikationer) är ett samarbete mellan fem regioner som började 1990-talet, bland annat för att förvalta NCS Cross.
 
 ### Profdoc Medical Office (PMO) {#pmo}
-**Leverantör:** CompuGroup Medical\
-**Vårdnivå:** Primärvård\
+**Leverantör:** CompuGroup Medical (CGM)\
+**Vårdnivå:** Primärvård, Kommunal\
 **Används i:** Gävleborg, Skåne
 
 ### TakeCare/AsynjaVisph {#tc}
-**Leverantör:** CompuGroup Medical\
+**Leverantör:** CompuGroup Medical (CGM)\
 **Vårdnivå:** Primärvård/sjukhus (i VGR bara i primärvård)\
 **Används i:** Dalarna, Gotland, Stockholm, Västra Götaland
 
@@ -120,6 +120,10 @@ Utöver de större upphandlade systemet används även andra journalsystem inom 
 **Vårdnivå:** Primärvård/sjukhus (Ambulans)
 
 Består av ambulansjournal, beslutsstöd och säker autentisering, EKG/monitorering. 
+
+### CGM J4
+**Leverantör:** CompuGroup Medical (CGM)\
+**Vårdnivå:** Företagshälsovård, primärvård & specialistvård
 
 ### Infomedix
 **Leverantör:** Tieto\
