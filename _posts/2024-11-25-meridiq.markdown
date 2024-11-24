@@ -1,0 +1,69 @@
+---
+layout: post
+title: "Skärpta journalföringskrav i skönhetsbranschen - IVO rapporterar om brister"
+description: "År 2021 tog skönhetsbranschen ett kliv in i vårdsektorn när injektionskliniker klassificerades som vårdgivare enligt lagen om estetiska kirurgiska ingrepp och injektionsbehandlingar"
+date: 2024-11-25 08:00:00 +0200
+tags: Lagar Medicinteknik Journalsystem
+tags_extra: PDL IVO Journal estetisk skönhet Meridiq lag botox injektioner
+author:
+  name: "Redaktionen & Meridiq"
+  description: "Obetald gästartikel i samarbete med redaktionen."
+image:
+  path: "/assets/images/post-head/500/meridiq.jpg"
+video: false
+sitemap:
+  lastmod: 2024-11-25
+  priority: 0.7
+  changefreq: 'weekly'
+excerpt_separator: <!--more-->
+karta: false
+chart: false
+cc: false
+---
+
+År 2021 tog skönhetsbranschen ett kliv in i vårdsektorn när injektionskliniker klassificerades som vårdgivare enligt [lagen om estetiska kirurgiska ingrepp och injektionsbehandlingar](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2021363-om-estetiska-kirurgiska-ingrepp-och_sfs-2021-363/) – en förändring som kom att ställa nya krav på verksamheterna. Med denna förändring omfattas klinikerna nu av [Patientdatalagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/), vilket innebär att de måste uppfylla samma krav på journalföring och dokumentation som gäller inom hälso- och sjukvården. Men vad innebär detta i praktiken, och hur kan kliniker hantera de nya utmaningarna?
+
+<!--more-->
+
+{% include toc.md %}
+
+## Journalföringskrav enligt Patientdatalagen
+Patientdatalagen ställer tydliga krav på vårdgivare att föra patientjournaler som uppfyller specifika kriterier. Målet är att säkerställa en god och säker vård för patienterna. Enligt lagen ska varje journal innehålla uppgifter om patientens hälsotillstånd, genomförda behandlingar samt den information som ligger till grund för vårdbeslut. Detta gäller även skönhetskliniker som utför medicinska behandlingar, såsom botoxinjektioner och fillers.
+
+Formuleringen om att en journal ska innehålla "de uppgifter som behövs för en god och säker vård av patienten" kan dock upplevas som vag. För att underlätta för vårdgivare har lagen konkretiserat kraven i sex specifika punkter som tydligt anger vad som ska inkluderas i journalföringen:
+1. Uppgifter om patientens identitet, till exempel personnummer.
+2. Väsentliga uppgifter om bakgrund till att patienten söker vård.
+3. Information om ställd diagnos samt motivering till mer omfattande åtgärder.
+4. Planerade och vidtagna åtgärder, som beskriver vilka behandlingar som har utförts och planeras framöver.
+5. Uppgifter om information som lämnats tillpatienten/vårdnadshavare och deras ställningstaganden, inklusive behandlingsalternativ och möjligheten till en ny medicinsk bedömning.
+6. Uppgifter om avstående av vård, som beslut från patienten att avstå från viss behandling.
+
+Dessa punkter ger vårdgivare tydligare riktlinjer för journalföring och hjälper dem att följa lagens krav. Genom att säkerställa korrekt och detaljerad dokumentation bidrar kliniker till att förbättra både patientsäkerheten och kvaliteten i vården.
+
+## IVO:s senaste rapport belyser omfattande brister inom skönhetsbranschen
+Inspektionen för vård och omsorg (IVO) har sedan 2022 genomfört omfattande [tillsyn av skönhetskliniker](https://www.ivo.se/aktuellt/publikationer/rapporter/ivo-har-upptackt-omfattande-brister-i-verksamheter-som-utfor-skonhetsingrepp/) och nyligen publicerat en rapport som avslöjar allvarliga brister i många verksamheter. Av de 86 granskade klinikerna har cirka 40 lett till åtalsanmälningar och 180 tillsynsbeslut med krav på åtgärder. IVO identifierade brister inom journalföring, avsaknad av rutiner för hantering av komplikationer samt otillräckliga ledningssystem för kvalitetsarbete.
+
+Rapporten lyfter också fram att många verksamheter saknar tillräcklig kompetens för att möta de krav som ställs på vårdgivare enligt Patientdatalagen. Exempelvis har kliniker misslyckats med att dokumentera patienters hälsotillstånd och behandlingsbeslut, vilket inte bara utgör ett juridiskt problem utan även kan äventyra patientsäkerheten.
+
+För de kliniker som ännu inte har infört tillräckliga rutiner eller system för journalföring bör rapportens resultat ses som en tydlig uppmaning att agera. Genom att vidta åtgärder omedelbart kan kliniker undvika sanktioner, förbättra sina arbetsprocesser och höja kvaliteten och säkerheten på den vård de erbjuder.
+
+## Vanliga utmaningar för skönhetskliniker
+För många kliniker innebär de skärpta kraven stora utmaningar. De vanligaste problemen inkluderar:
+* **Otillräcklig dokumentation:** Många kliniker saknar rutiner för att dokumentera behandlingar på ett korrekt och juridiskt bindande sätt.
+* **Bristande ledningssystem:** För att uppfylla lagkraven krävs även att kliniken har ett fungerande ledningssystem för systematiskt kvalitetsarbete, något som ofta saknas.
+* **Tekniska hinder:** Många kliniker har inte implementerat digitala journalsystem som underlättar dokumentationen och säkerställer att journalerna hanteras korrekt.
+
+## Digitala journalsystem anpassade för kliniker
+Ett steg mot förbättring är att implementera digitala journalsystem som är anpassade för skönhetsbranschen. [Meridiq](https://meridiq.com/sv/) är ett exempel på en plattform som erbjuder lösningar för journalföring och ledningssystem. Genom att digitalisera processerna kan kliniker säkerställa att de följer lagkraven och samtidigt förbättra sin patientsäkerhet.
+
+![Bild på Meridiq journalsytem](/assets/images/post-assets/meridiq.png "Bild på Meridiq journalsytem")
+
+Tillsammans med partnern [Nerality](https://nerality.ai/) erbjuder [Meridiq](https://meridiq.com/sv/) också stöd för att utveckla rutiner och systematiskt kvalitetsarbete. Detta inkluderar utbildning och praktisk hjälp för att möta de krav som ställs av Patientdatalagen och IVO.
+
+<br><br>
+**Läs mer:** [Lagar som påverkar eHälsa](/2021/07/29/lagar.html)<br>
+**Läs mer:** [Typer av eHälsosystem](/2022/03/31/typer-av-ehalsosystem.html)<br>
+**Läs mer:** [Journalsystem i Sverige 2022](/2021/07/30/journalsystem.html)
+
+
+_Hittat något fel eller vill du dela några tankar? [Kontakta oss!](/index.html#form-message)_
