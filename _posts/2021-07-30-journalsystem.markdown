@@ -15,7 +15,7 @@ video:
   title: "Journalsystem i Sverige"
   source: "lumen"
 sitemap:
-  lastmod: 2023-08-08
+  lastmod: 2024-11-20
   priority: 0.7
   changefreq: 'weekly'
 excerpt_separator: <!--more-->
@@ -140,6 +140,12 @@ System anpassade för diabetesvården, hjärtvården, waranmottagningar och cyto
 **Vårdnivå:** Kommunal
 
 Ett komplett verksamhetssystem för kommunal äldreomsorg och hemsjukvård. Med ett stort utbud av tjänstemoduler finns lösningar för ansökan, handläggning, utförare, planering, mobil omsorg, särskilt boende, avgifter/ersättning/statistik och välfärdsteknologi.
+
+### Meridiq
+**Leverantör:** Meridiq & Nerality\
+**Vårdnivå:** Kliniker inom hälsa & skönhet
+
+Webbaserat journalsystem som är särskilt utvecklat för kliniker inom hälsa och skönhet.
 
 ### Obstetrix
 **Leverantör:** Oracle Cerner\
